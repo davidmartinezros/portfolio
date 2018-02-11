@@ -2,20 +2,20 @@
 	<form [formGroup]="rForm" (ngSubmit)="addMessage(rForm.value)">
 		<div class="form-row">
 			<div class="form-group col-sm-6">
-				<input type="email" class="form-control" id="form-email" placeholder="Email" formControlName="email">
-				<div class="alert alert-danger" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">Poprawny format: example@gmail.com</div>
+				<input type="email" class="form-control" id="form-email" placeholder="E-mail" formControlName="email">
+				<div class="alert alert-danger" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">El formato correcto es: example@gmail.com</div>
 			</div>
 			<div class="form-group col-sm-6">
-				<input type="text" class="form-control" id="phone" placeholder="Nr telefonu" formControlName="phone">
-				<div class="alert alert-danger" *ngIf="!rForm.controls['phone'].valid && rForm.controls['phone'].touched">Poprawny format: 600700800</div>
+				<input type="text" class="form-control" id="phone" placeholder="Número de teléfono" formControlName="phone">
+				<div class="alert alert-danger" *ngIf="!rForm.controls['phone'].valid && rForm.controls['phone'].touched">El formato correcto es 600700800</div>
 			</div>
 		</div>
 		<div class="form-group">
-			<textarea class="form-control" id="text" rows="8" placeholder="Treść wiadomości" formControlName="text"></textarea>
-			<div class="alert alert-danger" *ngIf="!rForm.controls['text'].valid && rForm.controls['text'].touched">Wymagana ilość znaków pom. 10-500</div>
+			<textarea class="form-control" id="text" rows="8" placeholder="Contenido del mensaje" formControlName="text"></textarea>
+			<div class="alert alert-danger" *ngIf="!rForm.controls['text'].valid && rForm.controls['text'].touched">Número requerido de letras 10-500</div>
 		</div>
 		<div class="text-right">
-			<button type="submit" class="btn btn-primary btn-footer" [disabled]="!rForm.valid">Wyślij</button>
+			<button type="submit" class="btn btn-primary btn-footer" [disabled]="!rForm.valid">Enviar</button>
 		</div>
 	</form>
 </div>

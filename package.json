@@ -25,6 +25,8 @@
     "@angular/platform-browser-dynamic": "4.4.4",
     "@angular/router": "4.4.4",
     "@types/jasmine": "2.6.0",
+    "@ngx-translate/core": "8.0.0",
+    "@ngx-translate/http-loader": "2.0.0",
     "angularfire2": "4.0.0-rc0",
     "bootstrap": "4.0.0-beta",
     "codelyzer": "3.2.1",

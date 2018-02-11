@@ -45,39 +45,39 @@
     border-bottom: 3px solid transparent;
 }
 
-.ribbon-orange span {
-    color: var(--black-text-color);
-    background: var(--second-color);
+.ribbon-ionic span {
+    color: white;
+    background: #498aff;
 }
 
-.ribbon-orange span::before {
-    border-left: 3px solid #b47500;
-    border-top: 3px solid #b47500;
+.ribbon-ionic span::before {
+    border-left: 3px solid #498aff;
+    border-top: 3px solid #498aff;
 }
 
-.ribbon-orange span::after {
-    border-right: 3px solid #b47500;
-    border-top: 3px solid #b47500;
+.ribbon-ionic span::after {
+    border-right: 3px solid #498aff;
+    border-top: 3px solid #498aff;
 }
 
-.ribbon-blue span {
-    color: var(--black-text-color);
-    background: var(--my-blue);
+.ribbon-java span {
+    color: #f8971d;
+    background: #58839f;
 }
 
-.ribbon-blue span::before {
-    border-left: 3px solid #2aabd298;
-    border-top: 3px solid #2aabd298;
+.ribbon-java span::before {
+    border-left: 3px solid #58839f;
+    border-top: 3px solid #58839f;
 }
 
-.ribbon-blue span::after {
-    border-right: 3px solid #2aabd298;
-    border-top: 3px solid #2aabd298;
+.ribbon-java span::after {
+    border-right: 3px solid #58839f;
+    border-top: 3px solid #58839f;
 }
 
 .ribbon-black span {
-    color: var(--white-text-color);
-    background: var(--gray);
+    color: white;
+    background: black;
 }
 
 .ribbon-black span::before {
@@ -88,4 +88,47 @@
 .ribbon-black span::after {
     border-right: 3px solid rgb(45, 45, 45);
     border-top: 3px solid rgb(45, 45, 45);
+}
+.ribbon-angular span {
+    color: white;
+    background: #e62a39;
+}
+
+.ribbon-angular span::before {
+    border-left: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}
+
+.ribbon-angular span::after {
+    border-right: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}
+.ribbon-unity span {
+    color: black;
+    background: white;
+}
+
+.ribbon-unity span::before {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.ribbon-unity span::after {
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.ribbon-googletrends span {
+    color: #fbbc05;
+    background: #34a853;
+}
+
+.ribbon-googletrends span::before {
+    border-left: 3px solid #ea4335;
+    border-top: 3px solid #ea4335;
+}
+
+.ribbon-googletrends span::after {
+    border-right: 3px solid #4285f4;
+    border-top: 3px solid #4285f4;
 }

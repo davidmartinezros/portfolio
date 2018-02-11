@@ -23,6 +23,7 @@ import { DashboardComponent } from '../dashboard/dashboard.component';
 import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
 import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
 import { ExperienceComponent } from '../experience/experience.component';
+import { ProjectService } from '../projects/project.service';
 
 const appRoutes: Routes = [
   {
@@ -86,7 +87,7 @@ const appRoutes: Routes = [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
   ],
-  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent],
+  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

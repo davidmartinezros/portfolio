@@ -1,0 +1,476 @@
+{
+    "TitleIndex": "Angular, Ionic, Java和Unity网站项目| 大卫, 一个完整的堆栈开发者",
+    "TagAuthorIndex": "David Martinez Ros",
+    "TagKeywordsIndex": "巴塞罗那, 加泰罗尼亚, 西班牙, 我的工作, 工程师, 工程, 技术, Angular, Ionic, Java, Unity, 马达, Node.js, Bootstrap, Spring, 程序设计, JavaScript, C Sharp, C#",
+    "TagDescriptionIndex": "作者: David Martinez Ros; 地方: 巴塞罗那, 加泰罗尼亚, 西班牙; 我的工作: 工程师, 工程; 技术: Angular, Ionic, Java, Unity; 马达: Node.js, Boostrap, Spring; 程序设计: JavaScript, C Sharp, C#.",
+    "ShareText": "与你的朋友分享",
+    "ShareWithFacebook": "https://www.facebook.com/sharer.php?u=https://davidmartinezros.com",
+    "ShareWithTwitter": "https://twitter.com/intent/tweet?text=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!&url=https%3A%2F%2Fdavidmartinezros.com%2F&via=davidnezan",
+    "ShareWithGoogle": "https://plus.google.com/share?url=https%3A%2F%2Fdavidmartinezros.com&text=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!",
+    "ShareWithLinkedIn": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//davidmartinezros.com&title=对于Angular，Ionic，Java和Unity感兴趣的完整堆栈开发者的组合&summary=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!&source=",
+    "ShareWithEmail": "mailto:?&subject=对于Angular，Ionic, Java和Unity感兴趣的完整堆栈开发者的组合&body=我发现这个壮观的网站davidmartinezros.com，我想你可能会感兴趣. 一探究竟!",
+    "ShareWithWhatsapp": "whatsapp://send?text=我发现这个壮观的网站davidmartinezros.com%20@davidnezan,%20我认为这可能会让你感兴趣.%20一探究竟!",
+    "Introduction1": "嗨，我是<a href='https://www.google.com/maps/place/Barcelona' target='_blank'>巴塞罗那</a> <strong>大卫</strong>和<a href ='https://www.google.com/maps/place/Catalonia' target ='_blank'>加泰罗尼亚</a>以及<a href ='https://www.google.com/maps/place/Spain' target ='_blank'>西班牙</a>以及<a href='https://www.google.com/maps/place/Europe' target='_blank'>欧洲</a>.<br/>",
+    "Introduction2": "我是一个<strong>全堆栈开发者</strong>，<strong>Angular</strong>，<strong>Ionic</strong>，<strong>Java</strong>和<strong>Unity</strong>活动.",
+    "Introduction3": "我在我的<a href='https://github.com/davidmartinezros' target='_blank'>git存储库</a>中发布我的所有作品.",
+    "IntroductionAlert": "这只是一个笑话，但谢谢你的尝试.",
+    "IntroductionAlertMessage": "尝试它，并享受快乐!",
+    "Title1": "我目前的工作是:",
+    "Subtitle1.1": "角度分量:",
+    "Description1.1.1": "<a href='https://davidmartinezros.com/Angular2/components-animations-project/' target='_blank'>动画</a>，<a href ='https://davidmartinezros.com/Angular2/component-tree-project/' target ='_blank'>一颗树</a>和<a href='https://davidmartinezros.com/Angular2/component-divs-project/' target='_blank'>组件可拖动</a>.",
+    "Subtitle1.2": "有角度的项目:",
+    "Description1.2.1": "<a href='https://davidmartinezros.com/Angular2/climate-project/' target='_blank'>天气预报</a>和<a href ='https://davidmartinezros.com/Angular2/TheSnakeGame/ 'target ='_blank'>3d蛇游戏</a>.",
+    "Subtitle1.3": "Angular和Java项目:",
+    "Description1.3.1": "人工智能学习",
+    "Description1.3.2": "后端",
+    "Description1.3.3": "前端",
+    "Subtitle1.4": "Ionic和Java项目:",
+    "Description1.4.1": "哪个纪念碑",
+    "Subtitle1.5": "团结游戏:",
+    "Description1.5.1": "寻找合作者重新使用新技术的新",
+    "Description1.5.2": "ghost'n goblins",
+    "Description1.5.3": "利用新技术",
+    "Description1.5.4": "参考",
+    "Subtitle1.6": "Google趋势比较:",
+    "Description1.6.1": "我已经做了一些调查:<a href='https://davidmartinezros.com/web/comparative_Angular2.html' target='_blank'>哪里有角度?</a>, <a href ='http：//davidmartinezros.com/web/comparative_Unity.html' target ='_ blank'>哪里是单位?</a>和<a href='https://davidmartinezros.com/web/comparative_IA.html' target='_blank'>AI有什么概念?</a>",
+    "Description1.6.2": "我正在做一些研究:<a href='https://davidmartinezros.com/web/comparative_GoogleSearches.html' target='_blank'>有兴趣的人</a>.",
+    "Title2": "任何技术问题: <a href='https://davidlearns.blogspot.com' target='_blank'>davidlearns.blogspot.com</a>.",
+    "Title3": "活动图例",
+    "Subtitle3.1": "例子",
+    "Description3.1.1": "想出一个好主意，首先你要做很多的测试.",
+    "Subtitle3.2": "组件",
+    "Description3.2.1": "角度2中的可重用组件使程序员的生活更轻松.",
+    "Subtitle3.3": "项目",
+    "Description3.3.1": "当前或未来的项目.",
+    "Subtitle3.4": "对比",
+    "Description3.4.1": "Google趋势全球Google搜索调查.",
+    "Menu1": "仪表板视图",
+    "Menu2": "活动清单",
+    "Menu3": "以下",
+    "FindInProjectsTitle": "在活动中找到",
+    "FindInProjectsDescription": "你在找什么?",
+    "TitleGroupAngular2": "Angular2活动",
+    "DescriptionGroupAngular2": "Angular是一个基于JavaScript的开源前端Web应用程序框架",
+    "TitleGroupUnity": "Unity活动",
+    "DescriptionGroupUnity": "Unity是由Unity Technologies开发的跨平台游戏引擎",
+    "TitleGroupGoogleTrends": "Google趋势比较",
+    "DescriptionGroupGoogleTrends": "Google趋势是一个公开的网站设施，显示特定搜索字词输入的频率",
+    "TitleGroupJava": "Java活动",
+    "DescriptionGroupJava": "Java是一种通用的计算机编程语言，它是并发的，基于类的，面向对象的",
+    "TitleGroupIonic": "Ionic活动",
+    "DescriptionGroupIonic": "Ionic是用于混合移动应用开发的完整开源SDK",
+    "SubtitleFollowing": "以下项目",
+    "TitleTable": "标题",
+    "ThemeTable": "主题",
+    "TypeTable": "类型",
+    "DataTable": "数据",
+    "StateTable": "州",
+    "ResultsFound1": "",
+    "ResultsFound2": "结果已经被发现",
+    "ProjectLinkText": "演示",
+    "StateText": "州:",
+    "SourceText1": "源代码在",
+    "SourceText2": "存储库项目",
+    "Back": "背部",
+    "carousel":
+    [
+        {
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project/",
+        "style": "background:url('../../assets/carousel/projecte1.png')",
+        "text": "Html动画组件项目"
+        },
+        {
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "style": "background:url('../../assets/carousel/projecte2.png')",
+        "text": "我的下一个场景示例"
+        },
+        {
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "style": "background:url('../../assets/carousel/projecte3.png')",
+        "text": "3D蛇游戏"
+        },
+        {
+        "link": "https://davidmartinezros.com/Angular2/climate-project/",
+        "style": "background:url('../../assets/carousel/projecte4.png')",
+        "text": "天气预报"
+        },
+        {
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "style": "background:url('../../assets/carousel/projecte5.png')",
+        "text": "组件树项目"
+        },
+        {
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
+        "style": "background:url('../../assets/carousel/projecte6.png')",
+        "text": "一个地形与水的例子"
+        },
+        {
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "style": "background:url('../../assets/carousel/projecte7.png')",
+        "text": "与Angular-cli和CRUD的英雄之旅"
+        },
+        {
+        "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
+        "style": "background:url('../../assets/carousel/projecte8.png')",
+        "text": "Ghost'n Goblins的重制"
+        },
+        {
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "style": "background:url('../../assets/carousel/projecte9.png')",
+        "text": "组件可拖动Divs项目"
+        },
+        {
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
+        "style": "background:url('../../assets/carousel/projecte10.png')",
+        "text": "我的第一个Fisic例子"
+        },
+        {
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "style": "background:url('../../assets/carousel/projecte11.png')",
+        "text": "AngularJS与Angular对比2"
+        }
+    ],
+    "projects":
+    [
+        {
+        "id": 1, "titol": "我的第一个你好世界",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "10/07/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/HelloWorld/",
+        "html": "我的第一个Angular2组件，打印一些东西到屏幕(<b>'你好，世界'</ b>).",
+        "repositori": "https://github.com/davidmartinezros/HolaAngular2"
+        },
+        {
+        "id": 2, "titol": "英雄之旅示例",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "10/17/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroes/",
+        "html": "这个例子包括下面的对象:<br/> - 使用<a href ='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#event-binding' target ='_blank'>事件绑定</a>.<br/> - 使用<a href ='https：//angular.io/docs/ts/latest/guide/forms.html#!#ngModel' target='_blank'>form和ngModel</a>(指令双向绑定). - 使用css样式和html模板.<br/> - 英雄列表（可以是任何东西的列表). > - 使用像<a href='https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngFor' target='_blank'> nFor </a>这样的打字机句子. <br/> - 一个英雄的细节(或你需要的任何实体). - 具有ID和名称的英雄版本.<br/> - 服务实现比从模拟数据获得列表和英雄的细节 来源(浏览器上没有任何数据库和所有数据). - 使用路由器参数化的类导航.<br/>可以在下一个<a href='https://angular.io/docs/ts/latest/tutorial/' target='_ blank'>教程</a>.",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me"
+        },
+        {
+        "id": 3, "titol": "英雄与角色之旅",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCli/",
+        "html": "此示例与<a href='/detail/2?lang=zh'>2相同.英雄之旅(17/10/2016)</a>.<br/>不同之处在于使用<a href ='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>，用于生成项目，组件和构建.<br/><a href ='https://github.com/angular/angular- cli/blob/master/README.md' target='_blank'>Angular-Cli</a>目前是第17个测试版，但感觉很有趣.<br/><br/>与Angular-Cli您可以: - 使用Cli项目结构生成您的项目. - 生成您的Web元素(组件，模块，服务，类等). - 构建项目和<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>仅生成必要的文件，用于识别环境模式(dev，prod等).该构建压缩了项目，并且您不需要依赖关系的node_modules地毯.<br/>可以在下一个教程中使用angular-cli指令.",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
+        },
+        {
+        "id": 4, "titol": "与Angular-cli和CRUD的英雄之旅",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "html": "此示例与<a href='/detail/3?lang=zh'>3相同.与Angular-Cli(18/10/2016)的英雄之旅</a>.<br/>这是实施版本，删除和搜索英雄(或任何你需要的实体). >你可以: - 在英雄的细节中编辑一个英雄. - 删除英雄列表中的英雄.<br/> - 在信息中心搜索一个英雄.<br/><br/>你可以在下面的<a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>教程中做这个例子</a>.",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
+        },
+        {
+        "id": 5, "titol": "我的网页",
+        "tema": "Angular2",
+        "tipus": "Project",
+        "data": "10/19/2016",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com",
+        "html": "我使用<b>angular/Cli</b>使用<b>角度4</b>开发我的网页.是使用<b>引导3</b>的响应网页.<br/>这些项目是通过<a href='https://angular.io' target='_blank'>angular</a>完成的，<a href ='https://unity3d.com' target ='_blank'>Unity</a>或<a href='https://www.java.com/' target='_blank'>java</a>.<br/><b>新目标</b>: <a href='/detail/301?lang=zh'>人工智能学习</a>，<a href='/detail/14?lang=zh'>重新制作蛇游戏</a>，<a href ='/detail/109?lang=zh'>重制Ghost'n Goblins</a>和<a href='/detail/401?lang=zh'>移动应用程序完成离子:哪个纪念碑</a>.",
+        "repositori": "https://github.com/davidmartinezros/MiWeb"
+        },
+        {
+        "id": 6, "titol": "将json数组绑定到html表",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "10/27/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
+        "html": "此示例是使用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>进行开发的.<br/><br/>是一个简单的例子，将<b>将JSON文件加载到具有Angular-Cli服务的html表</b>中.<br/>在<a href ='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a>，您可以看到 例子，你可以学会做到这一点.",
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
+        },
+        {
+        "id": 7, "titol": "Html动画组件项目",
+        "tema": "Angular2",
+        "tipus": "Component",
+        "data": "10/30/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>在html组件中显示一些<b>动画</b>，您可以在Angular2 Web中使用.<br/><br/>您必须扩展您想要的组件效果并实现html模板 和</b>，<b>淡入淡出</b>，<b>滚动</b>，<b>滚动</b>，<b>旋转</b>，<b>缩放</b>和<b>其他</b>.<br/><br/>源代码启发我的项目是<a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        },
+        {
+        "id": 8, "titol": "组件树项目",
+        "tema": "Angular2",
+        "tipus": "Component",
+        "data": "11/06/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>显示一个从具有祖先和孩子结构的json文件数据加载的树组件</b>.<br/>这棵树是使用<b>app-tree-node</b>组件，它自己调用.<br/><br/>当应用程序树节点被加载时，祖先被递归地加载和下一个孩子.<br/><br/>你 <b>可以加载您想要的json文件</b>，树将显示您选择的文件.<br/><br/>该项目灵感来自于我在java中使用xsl读取xml文件的树组件 几年前.<br/><br/>我想:<b>我可以尝试在Angular2吗?</b>",
+        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        },
+        {
+        "id": 9, "titol": "组件可拖动Divs项目",
+        "tema": "Angular2",
+        "tipus": "Component",
+        "data": "12/08/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "html": "该项目是通过<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>开发的.<br/><br/>显示从标题，内容和样式的json文件数据中加载的一些<b>div组件</b>.<br/>这些div是<b>draggable</b>和<b>droppable</b>，您可以将它们与<b>app-div-node</b>组件一起使用.<br/>这个组件是在<b>app-layout</b>组件具有使div之间的事件的回调函数.",
+        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        },
+        {
+        "id": 10, "titol": "天气预报",
+        "tema": "Angular2",
+        "tipus": "Project",
+        "data": "01/26/2017",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/climate-project/",
+        "html": "该项目显示了接下来四天内任何西班牙直辖市的天气预报.<br/><br/>使用由<a href ='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/>您可以搜索自治市，然后点击按钮“搜索”. 该应用程序将找到市政府，并要求AEMET了解未来4天的天气预报以及可配置的更多详细信息.<br/>如果您在本项目中感兴趣，<a href ='mailto：davidnezan@gmail.com'>与我联系</a>，以改进产品，使其成为商业!",
+        "repositori": "https://github.com/davidmartinezros/climate-project"
+        },
+        {
+        "id": 11, "titol": "我的3D世界示例1",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "03/09/2017",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld/",
+        "html": "此示例显示一个3D场景，其中包含一些可以挑选它们的多维数据集，并且它们会更改颜色并移动相机.<br/>该示例需要<a href ='http://glmatrix.net/' target ='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>运行库",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 12, "titol": "我的3D世界示例2",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "03/19/2017",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld2/",
+        "html": "此示例显示具有大立方体和一些多维数据集的3D场景，您可以挑选它们，并更改颜色.<br/>可以旋转场景中鼠标拖动的相机.<br/><br/>此示例需要<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href ='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>运行库.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 13, "titol": "我的3D世界示例3",
+        "tema": "Angular2",
+        "tipus": "Example",
+        "data": "03/29/2017",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
+        "html": "此示例显示一个3D场景，其中包含一些可以挑选它们的多维数据集，并且它们会更改颜色，并移动相机.<br/>这些多维数据集位于X轴中，当您选择其中一个时， 在Z轴上传播，并且在斧头X中挑选时发生相同的方式.因此立方体在三个轴X，Y和Z上传播. 示例需要<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>库进行运行.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 14, "titol": "3D蛇游戏",
+        "tema": "Angular2",
+        "tipus": "Project",
+        "data": "04/04/2017",
+        "estat": "规划",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "html": "该项目是Snake Game<b>的</b>重制，在90年代的决赛中，诺基亚和其他手机变得非常有名.<br/>在这个版本中，您可以在三维场景中移动Snake ，具有X，Y和Z轴的立方体，您必须捕获单独的多维数据集才能使Snake成长.<br/>该项目需要<a href ='http://glmatrix.net/' target ='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>库 为了运行.<br/><br/><b>使用它!</b>",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
+        },
+        {
+        "id": 15, "titol": "Myyme",
+        "tema": "Angular2",
+        "tipus": "Project",
+        "data": "07/02/2017",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/myyme",
+        "html": "这个项目是<b>人造智能项目的Angular2 Web</b>.<br/><br/>它将显示机器人与机器人的统一知识的关系，你可以管理它们: 增加，删除，列出和修改.<br/><br/>它还具有包含机器人概念并尝试靠近智能人造网络用户的精辟表现.",
+        "repositori": "https://github.com/davidmartinezros/myyme"
+        },
+        {
+        "id": 101, "titol": "我的第一个例子",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/10/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/MyFirstScene/",
+        "html": "相机跟随地形中的角色.<br/><br/><a href='https://unity3d.com' target='_blank'>Unity</a>做所有的工作!",
+        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
+        },
+        {
+        "id": 102, "titol": "我的下一个场景示例",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/11/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "html": "有三个月亮的灯光和新的物体，如树木和房子都有纹理和阴影.",
+        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
+        },
+        {
+        "id": 103, "titol": "我的第一个Fisic例子",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/12/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
+        "html": "在这个例子中，您可以移动摄像机拖动鼠标，并且按键行可以抛出与多维数据集冲突的球，并且动作会更改两个对象的素材.",
+        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
+        },
+        {
+        "id": 104, "titol": "3D平台游戏场景",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/13/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/PersonMovement/",
+        "html": "在这个例子中，你可以看到播放器，只能在平台上移动他.<br/><br/>相机跟随玩家(以下可以做得更好). 玩家可以步行，跑步和跳跃. 它想要模仿一个平台游戏(至少最初).",
+        "repositori": "https://github.com/davidmartinezros/PersonMovement"
+        },
+        {
+        "id": 105, "titol": "纹理着色器示例",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/17/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/MiFirstShader/",
+        "html": "此示例显示三个立方体.<br/>一个具有纹理，另一个具有另一个纹理，中间具有着色纹理，第一个纹理的50％和第二个纹理的50%.",
+        "repositori": "https://github.com/davidmartinezros/ShadersProject"
+        },
+        {
+        "id": 106, "titol": "一个两个相机的例子",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
+        "html": "这个例子显示了分为中间的屏幕.<br/>在左边，有一个透视相机，跟随玩家总是在他身后.<br/><br/>在右边，有一个 多用途透视摄像头跟随玩家恢复他身后的位置.",
+        "repositori": "https://github.com/davidmartinezros/CameraProject"
+        },
+        {
+        "id": 107, "titol": "从搅拌机进口",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/29/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
+        "html": "此示例显示在Blender 3D建模计算机程序中生成的Dragon从<a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>获取.<br/><br/>这个龙在Blender中创建的动画，我在一个关键事件中使用了这个动画.<br/><br/>加载一个默认动画，开始时加载.<br/><br/>如果按箭头键箭头走龙.",
+        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        },
+        {
+        "id": 108, "titol": "一个地形与水的例子",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/30/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
+        "html": "这个例子显示了一个具有纹理和水的地形。<br/>这是我第一个用水的例子，所以很容易.",
+        "repositori": "https://github.com/davidmartinezros/WaterProject"
+        },
+        {
+        "id": 109, "titol": "Ghost'n Goblins的重制",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "还没",
+        "link": "https://github.com/davidmartinezros/RemakeGhostnGoblins",
+        "html": "这个项目是使用新技术的Ghost'n Goblins游戏的改编.<br/><br/>我的协作者将是<a href ='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>即将推出!</b>",
+        "repositori": "https://github.com/davidmartinezros/RemakeGhostnGoblins"
+        },
+        {
+        "id": 201, "titol": "AngularJS与Angular对比2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "html": "这是AngularJS和Angular2与Google应用程序<a href='https://www.google.com/trends' target='_blank'>趋势</a>的比较.<br/><br/><b>·2016年10月的结论</b><br/><br/> - Angular2从一年前开始，但相关性并未达到AngularJS相关性的25%.<br/>·Angular2和AngularJS是 大部分在印度使用.<br/> - Angular2只到达印度，加拿大，美国，日本和欧洲. 世界其他地方不知道.<br/><br/><b>·在2017年4月的结论</b><br/><br/>现在，AngularJS的声望达到30%.“ - Angular2和AngularJS主要用于印度.” - Angular2在欧洲(德国，法国波兰和西班牙)正在增长.",
+        "repositori": null
+        },
+        {
+        "id": 202, "titol": "Unity与其他游戏引擎的比较",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/web/comparative_Unity.html",
+        "html": "这是<a href='https://unity3d.com' target='_blank'>Unity</a>与使用Google应用程序的其他游戏引擎<a href ='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><b>·2016年10月的结论</b><br/><br/>使用游戏引擎. - PlayStation4和Xbox 360与Unity相比更为重要.<br/> - Nvidia与Unity相当.在中国，人们对生产游戏的兴趣比在玩游戏更感兴趣.<br/> - PlayStation4是美国，加拿大，澳大利亚和欧洲最常用的.<br/> - XBox 360最常用于南美洲和墨西哥.<br/> - Nvidia最常用于Rusia.<br/><br/><b>·在2017年4月的结论</b><br/><br/>·这种情况没有变化，或多或少是相同的. 游戏的目标人和他们的兴趣. - 在12月份，这个主题的狂飙呈指数级增长.",
+        "repositori": null
+        },
+        {
+        "id": 203, "titol": "比较Sketchup和其他3D建模计算机程序",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/web/comparative_Sketchup.html",
+        "html": "这是<a href='https://www.sketchup.com/download' target='_blank'>Sketchup</a>和其他使用Google应用程序的3D建模计算机程序的比较<a href ='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年10月的结论</b><br/><br/> - Skechtup和Blender是去年最相关的3D建模计算机程序. - Sketchup主要用于南美洲和澳大利亚以及美国和欧洲的Blender. - 3D Studio Max和Maya主要用于亚洲和印度.“ - 研究演变，我们可以看到3D Studio Max和Maya在十年前在美国和欧洲更为重要.<br/> - 在过去五年中， Sketchup和Blender具有更多的相关性，因为这些最后一个是免费的.<br/> - 考虑到美国和欧洲是未来，Sketchtup和Blender是未来的3D建模计算机程序.我们在<a href='/web/comparative_Unity.html' target='_blank'>游戏引擎</a>，XBox主要用于大多数使用Sketchup.而PlayStation4主要用于大多数使用的搅拌机.<br/><br/><b>·结论在2017年4月</b><br/><br/>这个情况没有改变，或多或少是相同的.主题呈指数下降.也许与游戏趋势主题的指数增长有关.",
+        "repositori": null
+        },
+        {
+        "id": 204, "titol": "VR(虚拟现实)与PlayStation4和XBox 360游戏机之间的比较",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/15/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/web/comparative_VR.html",
+        "html": "这是<a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR(虚拟现实)</a>和<a href='https://www.playstation.com' target='_blank'>PlayStation4</a>和<a href='https://www.xbox.com/' target='_blank'>XBox 360</a> GameConsoles与Google应用程序 <a href='https://www.google.com/trends' target='_blank'>趋势</a>.<br/><br/><b>·在2016年12月的结论</b><br/><br/> - 去年，VR在世界各地越来越多.<br/> - PlayStation4和Xbox 360比VR更为相关.<br/> - PlayStation4和XBox 360的增长受到影响 _VR在欧洲，北美，加拿大和澳大利亚更相关.<br/><br/><b>·在2017年4月的结论</b><br/><br/> - 情况正在倾向.“ - Playstation 4的倾向越来越大.” - Xbox 360和虚拟现实的倾向正在减弱. 也许，虚拟现实是一个暂时的趋势，XBox 360必须改变他们的游戏引擎.",
+        "repositori": null
+        },
+        {
+        "id": 205, "titol": "比较Google搜索",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/23/2016",
+        "estat": "完",
+        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
+        "html": "目标:<br/>这个项目旨在调查并找出世界感兴趣的哪些科目? - 由于世界的利益非常广泛，将搜索集中在具有相似性的地区 兴趣(我从西班牙开始).<br/> - 随着兴趣随着时间的推移而变化，我将专注于现在.<br/> - 搜索使用<a href='https://www.google.com/trends/explore' target='_blank'>Google趋势引擎</a>.",
+        "repositori": null
+        },
+        {
+        "id": 206, "titol": "IA(人工智能)中的比较",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "html": "这是<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA(人工智能)</a>的不同概念之间的比较.<br/><br/><b>·在2017年10月的结论</b><br/><br/>- 自动学习在过去几个月里不断增长.<br/> - 人造智能在比较中是不相关的<br/>- 深度学习和自动学习在西安和日本更为重要.<br/>-欧洲在西安和日本的概念有五个重要意义.<br/>- 人造智能概念不 既不在西安既不到，也不在欧洲发现.<br/><br/> - 搜索使用<a href='https://www.google.com/trends/explore' target='_blank'>Google趋势引擎</a>.",
+        "repositori": null
+        },
+        {
+        "id": 301, "titol": "人工智能学习",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com:8443/how-do-you-learn-3.3.1-SNAPSHOT/health",
+        "html": "该项目由<b>Java 8</b>与<b>Spring Boot 1.5</b>和<b>Angular 4</b>与<b>Bootstrap 3</b>. <br/><br/>我正在定义架构，思考和设计这些概念.<br/><br/>目前为止，我已经做了:<br/><br/>服务状态状态<a href ='https://davidmartinezros.com:8443/how-do-you-learn-3.3.1-SNAPSHOT/mappings' target='_blank'>休息服务Unity知识映射</a>与Spring Boot保存在一个<b><ul><li>创建机器人</li><li>删除机器人</li><li>删除标签</li><li>删除单位</li><li>创建关系</li><li>删除关系</li><li>机器人列表</li></ul><b>工作吧!</ b>",
+        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
+        },
+        {
+        "id": 302, "titol": "致电互联网",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "04/17/2017",
+        "estat": "完",
+        "link": "https://davidmartinezros.com:8443/calling-to-internet-1.2.0-SNAPSHOT/health",
+        "html": "这个项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>完成的.<br/><br/>是一个休息服务，调用一个网址到互联网，并回应 网址.<br/><br/>您可以使用以下内容来呼叫: <a href='https://davidmartinezros.com:8443/calling-to-internet-1.2.0-SNAPSHOT/mappings 'target='_blank'>映射</a><br/><br/>可以使用<a href='https://www.getpostman.com/' target='_blank'>邮递员应用</a>.",
+        "repositori": "https://github.com/davidmartinezros/calling-to-internet"
+        },
+        {
+        "id": 303, "titol": "文件生成器",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "11/13/2017",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com:8443/file-generator-1.1.0-SNAPSHOT/health",
+        "html": "这个项目是在<b>Java 8</b>中使用<b>Spring Boot 1.5</b>完成的.<br/><br/>是在主题服务器文件中生成短语的休息服务.<br/><br/>您可以使用以下内容来呼叫: <a href='https://davidmartinezros.com:8443/file-generator-1.1.0-SNAPSHOT/mappings' target='_blank'>映射</a><br/><br/>可以使用<a href='https://www.getpostman.com/' target='_blank'>邮递员应用</a>.",
+        "repositori": "https://github.com/davidmartinezros/file-generator"
+        },
+        {
+        "id": 401, "titol": "哪个纪念碑",
+        "tema": "Ionic",
+        "tipus": "Project",
+        "data": "09/14/2017",
+        "estat": "还没",
+        "link": "https://github.com/davidmartinezros/which-image-is",
+        "html": "该项目将使用<a href='https://ionicframework.com/'>Ionic</a>，<b>Java 8</b>与<b>Spring Boot 1.5</b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>张量流</a>.<br/>目标是手机拍摄纪念碑和 应用程式会显示其说明.<br/><br/><b>即将推出!</b>",
+        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        }
+    ]
+}
