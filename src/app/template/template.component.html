@@ -26,14 +26,16 @@
 					<a class="nav-link hide-on-click" href="#section5">CONTACTO</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.user | async">
-					<a class="nav-link" routerLink="blog" routerLinkActive="active">BLOG</a>
-				</li>
-				<li class="nav-item" *ngIf="authService.user | async">
 					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
-						ZARZĄDZAJ
+						ADMIN
 					</a>
 				</li>
-				<li class="nav-item dropdown">
+				<li class="nav-item idioma">
+					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
+						<option *ngFor="let l of languages" [value]="l.value">{{l.text}}</option>
+					</select>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
 					</a>

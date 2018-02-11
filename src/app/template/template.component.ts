@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-template',
@@ -8,5 +9,52 @@ import { AuthService } from '../firebase-auth/auth.service';
 })
 
 export class TemplateComponent {
-    constructor(public authService: AuthService) { }
+
+    languages = [
+        {value: 'es', text: 'Español'},
+        {value: 'en', text: 'Inglés'},
+        {value: 'zh', text: 'Chino'}
+    ];
+    
+    private language;
+
+    constructor(public authService: AuthService,
+        private translate: TranslateService,
+        private route: ActivatedRoute) {
+        var userLang = "";
+        this.route.queryParams.subscribe(params => {
+            if(!params['lang'] || params['lang'] == "") {
+            userLang = this.language;
+            } else {
+            userLang = params['lang'];
+            }
+            console.log("queryParams:" + userLang);
+
+            if(!userLang || userLang == "") {
+            userLang = navigator.language;
+            if(userLang.startsWith("zh")) {
+                userLang = "zh";
+            }
+            }
+            if(userLang == "es" || userLang == "en" || userLang == "zh") {
+                this.changeLanguage(userLang);
+            } else {
+                this.changeLanguage("en");
+            }
+        });
+    }
+
+    public changeLanguage(language) {
+
+        console.log(language);
+    
+        // this language will be used as a fallback when a translation isn't found in the current language
+        this.translate.setDefaultLang(language);
+        
+        // the lang to use, if the lang isn't available, it will use the current loader to get them
+        this.translate.use(language);
+    
+        this.language = language;
+
+      }
 }

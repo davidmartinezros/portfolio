@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { Headers, Http, Response } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
@@ -8,28 +9,23 @@ import { Project } from './project';
 @Injectable()
 export class ProjectService {
     
-    private projectsUrl = './assets/i18n/es.json';  // URL to web api
+    //private projectsUrl = './assets/i18n/es.json';  // URL to web api
     private headers = new Headers({'Content-Type': 'application/json'});
 
     constructor(
-        private http: Http) { }
+        private http: Http,
+        private translate: TranslateService) { }
 
     getProjects(): Promise<Project[]> {
-        /*
         return this.translate.get("projects")
             .toPromise()
             .catch(this.handleError);
-        */
+        /*
         return this.http.get(this.projectsUrl)
             .toPromise()
             .then(this.extractData)
             .catch(this.handleError);
-    }
-
-    private extractData(res: Response) {
-        let body = res.json().projects;
-        console.log(body)
-        return body || {};
+        */
     }
 
     getTypeProjects(tipus: string): Promise<Project[]> {
