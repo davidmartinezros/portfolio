@@ -23,7 +23,7 @@
 }
 
 .idioma select {
-  background-color: black;
+  background-color: var(--navbar-hover-color) !important;
   border: 1px solid var(--second-color);
   color: white;
 }
