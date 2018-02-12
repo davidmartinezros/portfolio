@@ -1,8 +1,16 @@
 {
-    "TitleIndex": "Página Web de Proyectos Angular, Ionic, Java y Unity | David, un Full Stack Developer",
+    "TitleIndex": "Portfolio sobre Angular, Ionic, Java y Unity | David, un Full Stack Developer",
     "TagAuthorIndex": "David Martinez Ros",
     "TagKeywordsIndex": "Barcelona, Cataluña, España, Trabajo, Ingeniero, Ingeniería, Tecnología, Angular, Ionic, Java, Unity, Motor, Node.js, Bootstrap, Spring, Programación, JavaScript, C Sharp, C#",
     "TagDescriptionIndex": "Author: David Martinez Ros; Lugar: Barcelona, Catalonia, Spain; Trabajo: Ingeniero, Ingeniería; Tecnología: Angular, Ionic, Java, Unity; Motor: Node.js, Boostrap, Spring; Programación: JavaScript, C Sharp, C#.",
+    "Section1Text1": "Soy David, un Full Stack Developer con amplia experiencia en la ingeniería de software a todos los niveles.",
+    "Section1Text2": "Cuento con más de 14 años de experiencia profesional y 6 años de formación universitaria, donde he cursado ingeniería informática e ingeniería multimedia.",
+    "Section1Text3": "He participado en grandes proyectos de empresas líderes en Barcelona, como son: la Universidad Pompeu Fabra, la Generalitat de Catalunya, la Diputación de Barcelona, el Banco de Sabadell y Grifols, entre muchos otros.",
+    "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>¿Necesitas ayuda para tu proyecto?</a>",
+    "Section1Text5": "Si buscamos la definición de creatividad en la wiki, veremos que <i>\" ... es la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ... \"</i>.",
+    "Section1Text6": "<u>Ofrezco una idea</u> : \"usar la ingeniería para encontrar la solución original\".",
+    "Section1Text7": "Toda mi experiencia y mis altos niveles de creatividad me hacen ser una persona versátil, proactiva, original y resolutiva. No temo los retos complejos, todo lo contrario, me apasiona resolver acertijos.",
+    "Section1Text8": "Publico todos mis trabajos en mi <a href='https://github.com/davidmartinezros' target='_blank'>repositorio git</a>.",
     "projects":
     [
         {
@@ -22,7 +30,7 @@
         "tipus": "Project",
         "data": "10/19/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com",
+        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
         "imatge": "../../assets/images/projecte12.png",
         "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
@@ -57,7 +65,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "imatge": "../../assets/images/projecte5.png",
-        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra un <b>componente árbol cargado desde un fichero json con una estructura de antepasados e hijos</b>.",
+        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
@@ -68,7 +76,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "imatge": "../../assets/images/projecte9.png",
-        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunos <b>componentes divs cargados desde un fichero json con título, contenido y estilos</b>.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.",
+        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {

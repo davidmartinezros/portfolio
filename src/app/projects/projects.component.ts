@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Project } from './project';
 import { ProjectService } from './project.service';
+import { Subject }    from 'rxjs/Subject';
 
 @Component({
     selector: 'app-projects',
@@ -11,8 +12,14 @@ import { ProjectService } from './project.service';
 
     projects: Project[];
 
+    public static updateStuff: Subject<any> = new Subject();
+
     constructor(
         private projectService: ProjectService) {
+            ProjectsComponent.updateStuff.subscribe(res => {
+                // here fire functions that fetch the data from the api
+                this.getProjects();
+            });
     }
       
     ngOnInit(): void {

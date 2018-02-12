@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
+import { ProjectsComponent } from '../projects/projects.component';
 
 @Component({
     selector: 'app-template',
@@ -11,9 +12,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class TemplateComponent {
 
     languages = [
-        {value: 'es', text: 'Español'},
-        {value: 'en', text: 'Inglés'},
-        {value: 'zh', text: 'Chino'}
+        {value: 'es', text: 'ESPAÑOL'},
+        {value: 'en', text: 'INGLÉS'},
+        {value: 'zh', text: 'CHINO'}
     ];
     
     private language;
@@ -55,6 +56,8 @@ export class TemplateComponent {
         this.translate.use(language);
     
         this.language = language;
+
+        ProjectsComponent.updateStuff.next(false);
 
       }
 }
