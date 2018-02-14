@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
+import { ExperienceComponent } from '../experience/experience.component';
 
 @Component({
     selector: 'app-template',
@@ -58,6 +59,7 @@ export class TemplateComponent {
         this.language = language;
 
         ProjectsComponent.updateStuff.next(false);
+        ExperienceComponent.updateStuff.next(false);
 
-      }
+    }
 }

@@ -27,6 +27,8 @@ import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
 import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
 import { ExperienceComponent } from '../experience/experience.component';
 import { ProjectService } from '../projects/project.service';
+import { ExperienceService } from '../experience/experience.service';
+import { PipesModule } from '../pipes/pipes.module';
 
 const appRoutes: Routes = [
   {
@@ -90,6 +92,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
+    PipesModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -98,7 +101,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService],
+  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

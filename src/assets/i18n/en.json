@@ -11,6 +11,110 @@
     "Section1Text6": "<u>I offer an idea:</u> \"use engineering to find the original solution \".",
     "Section1Text7": "All my experience and my high levels of creativity make me a versatile, proactive, original and decisive person. I do not fear complex challenges, on the contrary, I am passionate about solving riddles.",
     "Section1Text8": "I publish all my works in my <a href='https://github.com/davidmartinezros' target='_blank'>git repository</a>.",
+    "Section2Text1": "Back-end",
+	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
+	"Section2Text3": "Front-end",
+	"Section2Text4": "Angular, Ionic, JSP, Servlet, Bootstrap, HTML, CSS, Javascript",
+	"Section2Text5": "Databases",
+	"Section2Text6": "Oracle, SQL, MongoDB",
+	"Section2Text7": "Servers",
+	"Section2Text8": "Tomcat, Weblogic, Apache",
+	"Section2Text9": "Operating systems",
+	"Section2Text10": "Windows, Linux, Android",
+	"Section2Text11": "Graphics",
+	"Section2Text12": "Adobe Photoshop, Gimp, Unity",
+	"Section2Text13": "Utilities",
+    "Section2Text14": "Maven, Git, npm, ng, Postman, Soap-UI",
+    "experiences":
+    [
+        {
+            "dates": "10.2015 - actualmente en Barcelona",
+            "title": "<span class='job-highlight'>Full Stack Developer</span> en Universidad Pompeu Fabra",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Formo parte del equipo de Administración Electrónica de la Universidad Pompeu Fabra, donde resuelvo las incidencias del día a día del departamento y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de proyecto de digitalización electrónica con Angular 4 y Spring-Boot 1.5. Consiste en diseño y documentación de la aplicación, subida de documento, visualización de documento pdf, firma y validación con Java Web Start (sin applets) y, finalmente, descarga de documento resultante firmado."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de proyecto de Certificados Académicos Personales con Angular 4 y Spring-Boot 1.5. Consiste en Autenticación con VALid, selección de certificado a descargar, pago con TPV y enviamiento por email del certificado."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Diseño y desarrollo de herramientas de firma con certificado de Sello de Órgano (a través de Digital Signature Service - DSS), validación y completación de firma electrónica (a través del consorcio AOC) en formatos XAdES y CAdES Detached y PAdES Enveloped."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Desarrollo de WebService SOAP de Registro de Entrada de Facturas y Registro de Evidencias en Elogs con Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 en Java 1.8 (posiblemente, en el futuro implemetaré el Registro de Salidas de Facturas)."
+                }
+            ]
+        },
+        {
+            "dates": "07.2015 - 10.2015 en Barcelona",
+            "title": "<span class='job-highlight'>Analista Programador</span> en Diputació de Barcelona",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de desarrollos e incidencias con las tecnologías Java, Spring, PL/SQL y Web Services."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Creación de cliente Web Service Soap."
+                }
+            ]
+        },
+        {
+            "dates": "04.2015 - 07.2015 en Parets del Vallès",
+            "title": "<span class='job-highlight'>Consultor Informático</span> en Grifols",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funciona, demás, con una nueva máquina."
+                }
+            ]
+        },
+        {
+            "dates": "12.2013 - 08.2014 en Barcelona",
+            "title": "<span class='job-highlight'>Analista Programador</span> en Mc-Mutual",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de proyecto de consultas dinámicas en Java y extracción en diferentes salidas en aplicación hecha en Spring, con el objetivo de explotar la base de datos de contratos de Mc Mutual."
+                }
+            ]
+        },
+        {
+            "dates": "06.2006 - 12.2013 en Barcelona",
+            "title": "<span class='job-highlight'>Analista Programador</span> en Generaltat de Catalunya",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Desarrollo como Analista Programador especializado en Java, PL/SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de generación de árbol a partir de un XML con un patrón XSL."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Realización de aplicación web para maquetar niveles de Registros Sanitarios."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Creación de motor de consultas dinámico con Spring."
+                }
+            ]
+        },
+        {
+            "dates": "2005 - 2006 en Sabadell",
+            "title": "<span class='job-highlight'>Coordinador de departamento</span> en Banco Sabadell",
+            "description":
+            [
+                {
+                    "value": "<i class='fa fa-circle'></i> Coordinador del departamento EIFEL, que soluciona los errores de la plataforma que desarrolla la facturación electrónica de los clientes (4 personas a cargo)."
+                },
+                {
+                    "value": "<i class='fa fa-circle'></i> Desarrollo de herramienta de gestión interna para los dos departamentos de facturación electrónica."
+                }
+            ]
+        }
+    ],
     "projects":
     [
         {
@@ -21,7 +125,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "imatge": "../../assets/images/projecte7.png",
-        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href = 'https: //angular.io/docs/ts/latest/tutorial/toh-pt6.html' target = '_ blank '> tutorial </a>.",
+        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href = 'https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target = '_blank'> tutorial </a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -32,7 +136,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
         "imatge": "../../assets/images/projecte12.png",
-        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'> angular </a>, <a href = 'https: //unity3d.com 'target =' _ blank '> unity </a>, <a href='https://www.java.com/' target='_blank'> java </a> or <a href =' https: // ionicframework.com 'target =' _ blank '> ionic </a>.",
+        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'> angular </a>, <a href = 'https://unity3d.com' target ='_blank '> unity </a>, <a href='https://www.java.com/' target='_blank'> java </a> or <a href ='https://ionicframework.com' target ='_blank'> ionic </a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -43,7 +147,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
         "imatge": "../../assets/images/projecte13.png",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> It's an example that <b> loads a JSON file into an html table </b> with an Angular-Cli Service. <br/> <br/> Here at <a href = 'https: // davidlearns .blogspot.com.es / 2016/10 / bind-json-data-to-html-table-with.html 'target =' _ blank '> davidlearns.blogspot.com </a> You can see the explanation of the example and you can learn to do it.",
+        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> It's an example that <b> loads a JSON file into an html table </b> with an Angular-Cli Service. <br/> <br/> Here at <a href = 'https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html 'target ='_blank '> davidlearns.blogspot.com </a> You can see the explanation of the example and you can learn to do it.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
@@ -54,7 +158,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "imatge": "../../assets/images/projecte1.png",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </ b> that you can use in Angular2 web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in Angular2 web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -87,7 +191,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/climate-project/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "This project shows the weather forecasts of any municipality in Spain in the next four days. <br/> <br/> Use a configurable widget made by <a href = 'http: //www.aemet.es/es/portada' target = '_ blank'> AEMET </a>. <br/> <br/> If <b> you're interested </ b> in this project, <a href='mailto:davidnezan@gmail.com'> contact with me </a> to improve the product and make it commercial!",
+        "html": "This project shows the weather forecasts of any municipality in Spain in the next four days. <br/> <br/> Use a configurable widget made by <a href = 'http://www.aemet.es/es/portada' target = '_blank'> AEMET </a>. <br/> <br/> If <b> you're interested </b> in this project, <a href='mailto:davidnezan@gmail.com'> contact with me </a> to improve the product and make it commercial!",
         "repositori": "https://github.com/davidmartinezros/climate-project"
         },
         {
@@ -109,7 +213,7 @@
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "imatge": "../../assets/images/projecte3.png",
-        "html": "This project is a <b> remake of the Snake game </ b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> This project needs the libraries <a href = 'http: //glmatrix.net/' target = '_ blank'> gl-matrix.js </a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a> to run . <br/> <br/> <b> Working on it! </ b>",
+        "html": "This project is a <b> remake of the Snake game </ b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> This project needs the libraries <a href = 'http://glmatrix.net/' target = '_blank'> gl-matrix.js </a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a> to run . <br/> <br/> <b> Working on it! </ b>",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
@@ -142,7 +246,7 @@
         "estat": "PlANNING",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
         "imatge": "../../assets/images/projecte15.png",
-        "html": "This project is a 'remake' of the game Ghost'n Goblins taking advantage of the new technologies. <br/> <br/> My collaborators will be <a href = 'https: //twitter.com/JordiViaVia' target = ' _blank '> Jordi Via </a> and <a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a>. <br/> <br/> <b> Soon it will be here! </ b>",
+        "html": "This project is a 'remake' of the game Ghost'n Goblins taking advantage of the new technologies. <br/> <br/> My collaborators will be <a href = 'https://twitter.com/JordiViaVia' target = '_blank'> Jordi Via </a> and <a href='mailto:xavi.warrior.peace@gmail.com' target='_blank'> Xavi Guerrero </a>. <br/> <br/> <b> Soon it will be here! </ b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
         {
@@ -197,7 +301,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
         "imatge": "../../assets/images/projecte19.png",
-        "html": "This is a comparison between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'> VR (Virtual Reality) </a> and Video Consoles <a href = 'https: / /www.playstation.com 'target =' _ blank '> PlayStation4 </a> and <a href='https://www.xbox.com/' target='_blank'> XBox 360 </a>.",
+        "html": "This is a comparison between <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'> VR (Virtual Reality) </a> and Video Consoles <a href = 'https://www.playstation.com' target ='_blank'> PlayStation4 </a> and <a href='https://www.xbox.com/' target='_blank'> XBox 360 </a>.",
         "repositori": null
         },
         {
@@ -230,7 +334,7 @@
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "imatge": "../../assets/images/projecte17.png",
-        "html": "This project is done in <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <b> Angular 4 </b> with <b> Bootstrap 3 </b>. <br/> <br/> It consists of 5 parts: <br/> <ul> <li> <a href='https://github.com/davidmartinezros/calling-to-internet' target='_blank'> Calling the Internet </a> </li> <li> <a href='https://github.com/davidmartinezros/file-generator' target='_blank'> File Generator </a> </li> <li> <a href = 'https://github.com/davidmartinezros/how-do-you-learn' target = '_blank'> User and knowledge management </a> </li> <li> <a href = 'https://github.com/davidmartinezros/myyme 'target ='_blank'> Myyme Website </a> </li> <li> <a href =' https://github.com/davidmartinezros/deeplearning-machine' target = '_blank'> Learning Deep Learning </a> </li> </ul> <b> Working on it! </b>",
+        "html": "This project is done in <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <b> Angular 4 </b> with <b> Bootstrap 3 </b>. <br/> <br/> It consists of 5 parts: <br/> <ul> <li> <a href='https://github.com/davidmartinezros/calling-to-internet' target='_blank'> Calling the Internet </a> </li> <li> <a href='https://github.com/davidmartinezros/file-generator' target='_blank'> File Generator </a> </li> <li> <a href = 'https://github.com/davidmartinezros/how-do-you-learn' target = '_blank'> User and knowledge management </a> </li> <li> <a href = 'https://github.com/davidmartinezros/myyme' target ='_blank'> Myyme Website </a> </li> <li> <a href ='https://github.com/davidmartinezros/deeplearning-machine' target ='_blank'> Learning Deep Learning </a> </li> </ul> <b> Working on it! </b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -240,7 +344,7 @@
         "data": "09/14/2017",
         "estat": "PLANNING",
         "link": "https://github.com/davidmartinezros/which-image-is",
-        "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https: //www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
+        "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         }
     ]
