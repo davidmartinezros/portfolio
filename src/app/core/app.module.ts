@@ -10,12 +10,12 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 import { RouterModule, Routes } from '@angular/router';
 // Firebase
-import { AngularFireModule } from 'angularfire2';
-import { environment } from '../../environments/environment';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AuthService } from '../firebase-auth/auth.service';
-import { FirebaseAuthComponent } from '../firebase-auth/firebase-auth.component';
+//import { AngularFireModule } from 'angularfire2';
+//import { environment } from '../../environments/environment';
+//import { AngularFireDatabase } from 'angularfire2/database';
+//import { AngularFireAuthModule } from 'angularfire2/auth';
+//import { AuthService } from '../firebase-auth/auth.service';
+//import { FirebaseAuthComponent } from '../firebase-auth/firebase-auth.component';
 // My Components
 import { TemplateComponent } from '../template/template.component';
 import { MainComponent } from '../main/main.component';
@@ -72,7 +72,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    FirebaseAuthComponent,
+    /*FirebaseAuthComponent,*/
     MainComponent,
     BlogComponent,
     TemplateComponent,
@@ -90,8 +90,8 @@ const appRoutes: Routes = [
     HttpModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAuthModule,
+    /*AngularFireModule.initializeApp(environment.firebase),*/
+    /*AngularFireAuthModule,*/
     PipesModule,
     TranslateModule.forRoot({
       loader: {
@@ -101,7 +101,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService],
+  providers: [/*AuthService,*/ /*AngularFireDatabase,*/ BlogComponent, DashboardContactComponent, ProjectService, ExperienceService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
+  /*
   firebase: {
     apiKey: 'AIzaSyAtZN0af5Xuf3vDLvav7cyjSrH0yuCyLzY',
     authDomain: 'twistezo-portfolio.firebaseapp.com',
@@ -13,4 +14,5 @@ export const environment = {
     storageBucket: 'twistezo-portfolio.appspot.com',
     messagingSenderId: '905549320087'
   }
+  */
 };
