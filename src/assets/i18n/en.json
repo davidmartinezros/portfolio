@@ -63,10 +63,10 @@
             "categoria": "Full Stack Developer",
             "description":
             [
-                "I am part of the Electronic Administration team of the Pompeu Fabra University, where I solve the incidents of the day to day of the department and I do developments related to Documentum, Electronic Signature and Electronic Administration.",
-                "Realization of electronic digitalization project with Angular 4 and Spring-Boot 1.5. It consists of application design and documentation, document upload, pdf document visualization, signature and validation with Java Web Start (without applets) and, finally, download of signed document.",
-                "Realization of project of Personal Academic Certificates with Angular 4 and Spring-Boot 1.5. It consists of Authentication with VALID, selection of certificate to download, payment with POS and sending by email of the certificate.",
-                "Design and development of signature tools with organ seal certification (through Digital Signature Service - DSS), validation and completion of electronic signature (through the AOC consortium) in XAdES and CAdES Detached and PAdES Enveloped formats.",
+                "I am part of the Electronic Administration team, where I resolve incidents and make developments related to Documentum, Electronic Signature and Electronic Administration.",
+                "Execution of electronic document scanning project with Angular 4 and Spring-Boot 1.5.",
+                "Realization of project of Personal Academic Certificates for students with Angular 4 and Spring-Boot 1.5.",
+                "Design and development of signature tools with organ seal certification, validation and completion of electronic signature in XAdES, CAdES and PAdES Detached and Attached Enveloped formats.",
                 "Development of SOAP WebService of Invoice Entry Record and Record of Evidence in Elogs with Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 in Java 1.8 (possibly, in the future I will implement the Outputs Registry of Invoices)."
             ]
         },

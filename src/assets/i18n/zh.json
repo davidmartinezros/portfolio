@@ -63,11 +63,11 @@
             "categoria": "全栈开发者",
             "description":
             [
-                "我是Pompeu Fabra大学电子管理团队的一员，负责解决部门的日常事件，并开展与Documentum，电子签名和电子管理相关的开发工作。",
-                "使用Angular 4和Spring-Boot 1.5实现电子数字化项目。 它由应用程序设计和文档，文档上传，pdf文档可视化，使用Java Web Start（无小程序）进行签名和验证以及最终下载签名文档组成。",
-                "使用Angular 4和Spring-Boot 1.5实现个人学历证书项目 它由VALID身份验证，下载证书的选择，POS支付和通过电子邮件发送证书组成。",
-                "通过数字签名服务（DSS）设计和开发具有风琴密封认证的签名工具，通过XAdES和CAdES Detached和PAdES Enveloped格式验证和完成电子签名（通过AOC联盟）。",
-                "使用Spring 4.3.3，Hibernate 5.2.2，CXF 3.1.10，Java 1.8中的Quartz 2.2.1开发发票录入记录的SOAP WebService和Elog中的证据记录（可能将来我将实现输出注册表 的发票）。"
+                "我是電子行政團隊的一員，負責解決與Documentum，電子簽名和電子管理相關的事件並進行開發。",
+                "使用Angular 4和Spring-Boot 1.5執行電子文檔掃描項目。",
+                "實施Angular 4和Spring-Boot 1.5學生個人學術證書項目。",
+                "使用XAdES，CAdES和PAdES Detached and Attached Enveloped格式設計和開發具有風琴密封認證的簽名工具，驗證和完成電子簽名。",
+                "在Java 1.8中使用Spring 4.3.3，CXF 3.1.10和Quartz 2.2.1開發發票錄入記錄的SOAP WebService和Elog中的證據記錄。"
             ]
         },
         {
