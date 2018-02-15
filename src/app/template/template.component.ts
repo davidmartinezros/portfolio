@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
 import { ExperienceComponent } from '../experience/experience.component';
+import { Pipe } from '@angular/core';
 
 @Component({
     selector: 'app-template',
@@ -64,4 +65,5 @@ export class TemplateComponent {
         ExperienceComponent.updateStuff.next(false);
 
     }
+    
 }
