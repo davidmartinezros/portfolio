@@ -1,6 +1,9 @@
 export class Experience {
+
   dates: string;
-  title: string;
-  description: Array<string>;
+  lloc: string;
+  categoria: string;
+  client: string;
+  description:Array<string>;
   
 }

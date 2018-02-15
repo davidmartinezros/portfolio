@@ -1,8 +1,28 @@
 {
+    "languages": [
+        {
+            "value": "es",
+            "text": "SPANISH"
+        },
+        {
+            "value": "en",
+            "text": "ENGLISH"
+        },
+        {
+            "value": "zh",
+            "text": "CHINESE"
+        }
+    ],
     "TitleIndex": "Portfolio about Angular, Ionic, Java and Unity | David, a Full Stack Developer",
     "TagAuthorIndex": "David Martinez Ros",
     "TagKeywordsIndex": "Barcelona, Catalonia, Spain, Job, Engineer, Engineering, Technology, Angular, Ionic, Java, Unity, Engine, Node.js, Bootstrap, Spring, Programming, JavaScript, C Sharp, C#",
     "TagDescriptionIndex": "Author: David Martinez Ros; Location: Barcelona, Catalonia, Spain; Job: Engineer, Engineering; Technology: Angular, Ionic, Java, Unity; Engine: Node.js, Boostrap, Spring; Programming: JavaScript, C Sharp, C#.",
+    "TitleSection1": "ABOUT ME",
+    "TitleSection2": "HABILITIES",
+    "TitleSection3": "EXPERIENCE",
+    "TitleSection4": "PROJECTS",
+    "TitleSection5": "CONTACT",
+    "TitleSection6": "ADMIN",
     "Section1Text1": "I'm David, a Full Stack Developer with extensive experience in software engineering at all levels.",
     "Section1Text2": "I have more than 14 years of professional experience and 6 years of university training, where I have studied computer engineering and multimedia engineering.",
     "Section1Text3": "I have participated in large projects of leading companies in Barcelona, such as the Pompeu Fabra University, the Generalitat de Catalunya, the Diputación de Barcelona, the Banco de Sabadell and Grifols, among many others.",
@@ -25,105 +45,84 @@
 	"Section2Text12": "Adobe Photoshop, Gimp, Unity",
 	"Section2Text13": "Utilities",
     "Section2Text14": "Maven, Git, npm, ng, Postman, Soap-UI",
+    "CookiesBottomTitle": "This site uses cookies and similar technologies, which are included for statistical purposes.",
+    "CookiesBottomButton": "It is understood",
+    "FormField1": "E-mail",
+    "FormFieldDesc1": "The correct format is: example@gmail.com",
+    "FormField2": "Phone number",
+    "FormFieldDesc2": "The correct format is 600700800",
+    "FormField3": "Content of the message",
+    "FormFieldDesc3": "Required number of letters 10-500",
+    "FormButton": "Send",
     "experiences":
     [
         {
-            "dates": "AAA 10.2015 - actualmente",
+            "dates": "10.2015 - currently",
             "lloc": "Barcelona",
-            "client": "Universidad Pompeu Fabra",
+            "client": "Pompeu Fabra University",
             "categoria": "Full Stack Developer",
             "description":
             [
-                {
-                    "value": "Formo parte del equipo de Administración Electrónica de la Universidad Pompeu Fabra, donde resuelvo las incidencias del día a día del departamento y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica."
-                },
-                {
-                    "value": "Realización de proyecto de digitalización electrónica con Angular 4 y Spring-Boot 1.5. Consiste en diseño y documentación de la aplicación, subida de documento, visualización de documento pdf, firma y validación con Java Web Start (sin applets) y, finalmente, descarga de documento resultante firmado."
-                },
-                {
-                    "value": "Realización de proyecto de Certificados Académicos Personales con Angular 4 y Spring-Boot 1.5. Consiste en Autenticación con VALid, selección de certificado a descargar, pago con TPV y enviamiento por email del certificado."
-                },
-                {
-                    "value": "Diseño y desarrollo de herramientas de firma con certificado de Sello de Órgano (a través de Digital Signature Service - DSS), validación y completación de firma electrónica (a través del consorcio AOC) en formatos XAdES y CAdES Detached y PAdES Enveloped."
-                },
-                {
-                    "value": "Desarrollo de WebService SOAP de Registro de Entrada de Facturas y Registro de Evidencias en Elogs con Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 en Java 1.8 (posiblemente, en el futuro implemetaré el Registro de Salidas de Facturas)."
-                }
+                "I am part of the Electronic Administration team of the Pompeu Fabra University, where I solve the incidents of the day to day of the department and I do developments related to Documentum, Electronic Signature and Electronic Administration.",
+                "Realization of electronic digitalization project with Angular 4 and Spring-Boot 1.5. It consists of application design and documentation, document upload, pdf document visualization, signature and validation with Java Web Start (without applets) and, finally, download of signed document.",
+                "Realization of project of Personal Academic Certificates with Angular 4 and Spring-Boot 1.5. It consists of Authentication with VALID, selection of certificate to download, payment with POS and sending by email of the certificate.",
+                "Design and development of signature tools with organ seal certification (through Digital Signature Service - DSS), validation and completion of electronic signature (through the AOC consortium) in XAdES and CAdES Detached and PAdES Enveloped formats.",
+                "Development of SOAP WebService of Invoice Entry Record and Record of Evidence in Elogs with Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 in Java 1.8 (possibly, in the future I will implement the Outputs Registry of Invoices)."
             ]
         },
         {
             "dates": "07.2015 - 10.2015",
             "lloc": "Barcelona",
             "client": "Diputació de Barcelona",
-            "categoria": "Analista Programador",
+            "categoria": "Programmer analyst",
             "description":
             [
-                {
-                    "value": "Realización de desarrollos e incidencias con las tecnologías Java, Spring, PL/SQL y Web Services."
-                },
-                {
-                    "value": "Creación de cliente Web Service Soap."
-                }
+                "Realization of developments and incidents with Java, Spring, PL / SQL and Web Services technologies.",
+                "Creation of Web Service Soap client."
             ]
         },
         {
             "dates": "04.2015 - 07.2015",
             "lloc": "Parets del Vallès",
             "client": "Grifols",
-            "categoria": "Consultor Informático",
+            "categoria": "IT Consultant",
             "description":
             [
-                {
-                    "value": "Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funciona, demás, con una nueva máquina."
-                }
+                "Changes in the software architecture of a pipetting machine and sampling of blood tests, to work, other, with a new machine."
             ]
         },
         {
             "dates": "12.2013 - 08.2014",
             "lloc": "Barcelona",
             "client": "Mc-Mutual",
-            "categoria": "Analista Programador",
+            "categoria": "Programmer analyst",
             "description":
             [
-                {
-                    "value": "Realización de proyecto de consultas dinámicas en Java y extracción en diferentes salidas en aplicación hecha en Spring, con el objetivo de explotar la base de datos de contratos de Mc Mutual."
-                }
+                "Realization of project of dynamic consultations in Java and extraction in different outputs in application made in Spring, with the objective of exploiting the database of Mc Mutual contracts."
             ]
         },
         {
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
             "client": "Generaltat de Catalunya",
-            "categoria": "Analista Programador",
+            "categoria": "Programmer analyst",
             "description":
             [
-                {
-                    "value": "Desarrollo como Analista Programador especializado en Java, PL/SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start."
-                },
-                {
-                    "value": "Realización de generación de árbol a partir de un XML con un patrón XSL."
-                },
-                {
-                    "value": "Realización de aplicación web para maquetar niveles de Registros Sanitarios."
-                },
-                {
-                    "value": "Creación de motor de consultas dinámico con Spring."
-                }
+                "Development as a Programmer Analyst specialized in Java, PL / SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start.",
+                "Realization of tree generation from an XML with an XSL pattern.",
+                "Realization of web application to design levels of Sanitary Records.",
+                "Creation of dynamic query engine with Spring."
             ]
         },
         {
             "dates": "2005 - 2006",
             "lloc": "Sabadell",
             "client": "Banco Sabadell",
-            "categoria": "Coordinador de departamento",
+            "categoria": "Department Coordinator",
             "description":
             [
-                {
-                    "value": "Coordinador del departamento EIFEL, que soluciona los errores de la plataforma que desarrolla la facturación electrónica de los clientes (4 personas a cargo)."
-                },
-                {
-                    "value": "Desarrollo de herramienta de gestión interna para los dos departamentos de facturación electrónica."
-                }
+                "Coordinator of the EIFEL department, which solves the errors of the platform that develops the electronic invoicing of the clients (4 people in charge).",
+                "Development of an internal management tool for the two departments of electronic invoicing."
             ]
         }
     ],

@@ -1,8 +1,28 @@
 {
+    "languages": [
+        {
+            "value": "es",
+            "text": "西班牙"
+        },
+        {
+            "value": "en",
+            "text": "英语"
+        },
+        {
+            "value": "zh",
+            "text": "中文"
+        }
+    ],
     "TitleIndex": "有關Angular，Ionic，Java和Unity的投資組合, 一个完整的堆栈开发者",
     "TagAuthorIndex": "David Martinez Ros",
     "TagKeywordsIndex": "巴塞罗那, 加泰罗尼亚, 西班牙, 我的工作, 工程师, 工程, 技术, Angular, Ionic, Java, Unity, 马达, Node.js, Bootstrap, Spring, 程序设计, JavaScript, C Sharp, C#",
     "TagDescriptionIndex": "作者: David Martinez Ros; 地方: 巴塞罗那, 加泰罗尼亚, 西班牙; 我的工作: 工程师, 工程; 技术: Angular, Ionic, Java, Unity; 马达: Node.js, Boostrap, Spring; 程序设计: JavaScript, C Sharp, C#.",
+    "TitleSection1": "关于我",
+    "TitleSection2": "技能",
+    "TitleSection3": "经验",
+    "TitleSection4": "项目",
+    "TitleSection5": "接触",
+    "TitleSection6": "ADMIN",
     "Section1Text1": "我是David，一位在各級軟件工程方面擁有豐富經驗的全棧開發人員。",
     "Section1Text2": "我有14年以上的專業經驗和6年的大學培訓經歷，曾經學習計算機工程和多媒體工程。",
     "Section1Text3": "我參加了在巴塞羅那的龐培法布拉大學，加泰羅尼亞大學，巴塞羅那Diputación，薩瓦德爾銀行和Grifols等大公司的大型項目。",
@@ -24,7 +44,88 @@
 	"Section2Text11": "圖像",
 	"Section2Text12": "Adobe Photoshop, Gimp, Unity",
 	"Section2Text13": "公用事業",
-	"Section2Text14": "Maven, Git, npm, ng, Postman, Soap-UI",
+    "Section2Text14": "Maven, Git, npm, ng, Postman, Soap-UI",
+    "CookiesBottomTitle": "本网站使用cookies和类似技术，这些技术包含在统计用途中。",
+    "CookiesBottomButton": "了解",
+    "FormField1": "电子邮件",
+    "FormFieldDesc1": "正确的格式是：example@gmail.com",
+    "FormField2": "电话号码",
+    "FormFieldDesc2": "正确的格式是600700800",
+    "FormField3": "消息的内容",
+    "FormFieldDesc3": "所需字母数量为10-500",
+    "FormButton": "发送",
+    "experiences":
+    [
+        {
+            "dates": "10.2015 - 现在",
+            "lloc": "Barcelona",
+            "client": "Pompeu Fabra 大学",
+            "categoria": "全栈开发者",
+            "description":
+            [
+                "我是Pompeu Fabra大学电子管理团队的一员，负责解决部门的日常事件，并开展与Documentum，电子签名和电子管理相关的开发工作。",
+                "使用Angular 4和Spring-Boot 1.5实现电子数字化项目。 它由应用程序设计和文档，文档上传，pdf文档可视化，使用Java Web Start（无小程序）进行签名和验证以及最终下载签名文档组成。",
+                "使用Angular 4和Spring-Boot 1.5实现个人学历证书项目 它由VALID身份验证，下载证书的选择，POS支付和通过电子邮件发送证书组成。",
+                "通过数字签名服务（DSS）设计和开发具有风琴密封认证的签名工具，通过XAdES和CAdES Detached和PAdES Enveloped格式验证和完成电子签名（通过AOC联盟）。",
+                "使用Spring 4.3.3，Hibernate 5.2.2，CXF 3.1.10，Java 1.8中的Quartz 2.2.1开发发票录入记录的SOAP WebService和Elog中的证据记录（可能将来我将实现输出注册表 的发票）。"
+            ]
+        },
+        {
+            "dates": "07.2015 - 10.2015",
+            "lloc": "Barcelona",
+            "client": "Diputació de Barcelona",
+            "categoria": "程序员分析师",
+            "description":
+            [
+                "用Java，Spring，PL / SQL和Web Services技术实现开发和事件。",
+                "创建Web服务Soap客户端。"
+            ]
+        },
+        {
+            "dates": "04.2015 - 07.2015",
+            "lloc": "Parets del Vallès",
+            "client": "Grifols",
+            "categoria": "IT顾问",
+            "description":
+            [
+                "移液机的软件架构和血液检测采样的变化，以及其他新机器的工作。"
+            ]
+        },
+        {
+            "dates": "12.2013 - 08.2014",
+            "lloc": "Barcelona",
+            "client": "Mc-Mutual",
+            "categoria": "程序员分析师",
+            "description":
+            [
+                "旨在利用Java互动合约数据库实现Java中的动态磋商项目和Spring中的不同输出提取应用程序。"
+            ]
+        },
+        {
+            "dates": "06.2006 - 12.2013",
+            "lloc": "Barcelona",
+            "client": "Generaltat de Catalunya",
+            "categoria": "程序员分析师",
+            "description":
+            [
+                "作为程序员开发专业分析师，专门从事Java，PL / SQL，Ajax，HTML，CSS，Java EE，Spring，MVC，Swing和Java Web Start。",
+                "从具有XSL模式的XML实现树生成。",
+                "实现Web应用程序来设计卫生记录的级别。",
+                "用Spring创建动态查询引擎。"
+            ]
+        },
+        {
+            "dates": "2005 - 2006",
+            "lloc": "Sabadell",
+            "client": "Banco Sabadell",
+            "categoria": "部门协调员",
+            "description":
+            [
+                "EIFEL部门的协调员，解决开发客户电子发票的平台的错误（4人负责）。",
+                "为两个电子发票部门开发内部管理工具。"
+            ]
+        }
+    ],
     "projects":
     [
         {

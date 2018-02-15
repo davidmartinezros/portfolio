@@ -12,11 +12,13 @@ import { ExperienceComponent } from '../experience/experience.component';
 
 export class TemplateComponent {
 
+    /*
     languages = [
         {value: 'es', text: 'ESPAÑOL'},
         {value: 'en', text: 'INGLÉS'},
         {value: 'zh', text: 'CHINO'}
     ];
+    */
     
     private language;
 

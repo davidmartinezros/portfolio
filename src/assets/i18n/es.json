@@ -1,4 +1,18 @@
 {
+    "languages": [
+        {
+            "value": "es",
+            "text": "ESPAÑOL"
+        },
+        {
+            "value": "en",
+            "text": "INGLÉS"
+        },
+        {
+            "value": "zh",
+            "text": "CHINO"
+        }
+    ],
     "TitleIndex": "Portfolio sobre Angular, Ionic, Java y Unity | David, un Full Stack Developer",
     "TagAuthorIndex": "David Martinez Ros",
     "TagKeywordsIndex": "Barcelona, Cataluña, España, Trabajo, Ingeniero, Ingeniería, Tecnología, Angular, Ionic, Java, Unity, Motor, Node.js, Bootstrap, Spring, Programación, JavaScript, C Sharp, C#",
@@ -8,6 +22,7 @@
     "TitleSection3": "EXPERIENCIA",
     "TitleSection4": "PROYECTOS",
     "TitleSection5": "CONTACTO",
+    "TitleSection6": "ADMIN",
     "Section1Text1": "Soy David, un Full Stack Developer con amplia experiencia en la ingeniería de software a todos los niveles.",
     "Section1Text2": "Cuento con más de 14 años de experiencia profesional y 6 años de formación universitaria, donde he cursado ingeniería informática e ingeniería multimedia.",
     "Section1Text3": "He participado en grandes proyectos de empresas líderes en Barcelona, como son: la Universidad Pompeu Fabra, la Generalitat de Catalunya, la Diputación de Barcelona, el Banco de Sabadell y Grifols, entre muchos otros.",
@@ -30,6 +45,15 @@
 	"Section2Text12": "Adobe Photoshop, Gimp, Unity",
 	"Section2Text13": "Utilidades",
     "Section2Text14": "Maven, Git, npm, ng, Postman, Soap-UI",
+    "CookiesBottomTitle": "Este sitio utiliza cookies y tecnologías similares, que incluyen para fines estadísticos.",
+    "CookiesBottomButton": "Entendido",
+    "FormField1": "E-mail",
+    "FormFieldDesc1": "El formato correcto es: example@gmail.com",
+    "FormField2": "Número de teléfono",
+    "FormFieldDesc2": "El formato correcto es 600700800",
+    "FormField3": "Contenido del mensaje",
+    "FormFieldDesc3": "Número requerido de letras 10-500",
+    "FormButton": "Enviar",
     "experiences":
     [
         {
@@ -39,21 +63,11 @@
             "categoria": "Full Stack Developer",
             "description":
             [
-                {
-                    "value": "Formo parte del equipo de Administración Electrónica de la Universidad Pompeu Fabra, donde resuelvo las incidencias del día a día del departamento y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica."
-                },
-                {
-                    "value": "Realización de proyecto de digitalización electrónica con Angular 4 y Spring-Boot 1.5. Consiste en diseño y documentación de la aplicación, subida de documento, visualización de documento pdf, firma y validación con Java Web Start (sin applets) y, finalmente, descarga de documento resultante firmado."
-                },
-                {
-                    "value": "Realización de proyecto de Certificados Académicos Personales con Angular 4 y Spring-Boot 1.5. Consiste en Autenticación con VALid, selección de certificado a descargar, pago con TPV y enviamiento por email del certificado."
-                },
-                {
-                    "value": "Diseño y desarrollo de herramientas de firma con certificado de Sello de Órgano (a través de Digital Signature Service - DSS), validación y completación de firma electrónica (a través del consorcio AOC) en formatos XAdES y CAdES Detached y PAdES Enveloped."
-                },
-                {
-                    "value": "Desarrollo de WebService SOAP de Registro de Entrada de Facturas y Registro de Evidencias en Elogs con Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 en Java 1.8 (posiblemente, en el futuro implemetaré el Registro de Salidas de Facturas)."
-                }
+                "Formo parte del equipo de Administración Electrónica de la Universidad Pompeu Fabra, donde resuelvo las incidencias del día a día del departamento y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
+                "Realización de proyecto de digitalización electrónica con Angular 4 y Spring-Boot 1.5. Consiste en diseño y documentación de la aplicación, subida de documento, visualización de documento pdf, firma y validación con Java Web Start (sin applets) y, finalmente, descarga de documento resultante firmado.",
+                "Realización de proyecto de Certificados Académicos Personales con Angular 4 y Spring-Boot 1.5. Consiste en Autenticación con VALid, selección de certificado a descargar, pago con TPV y enviamiento por email del certificado.",
+                "Diseño y desarrollo de herramientas de firma con certificado de Sello de Órgano (a través de Digital Signature Service - DSS), validación y completación de firma electrónica (a través del consorcio AOC) en formatos XAdES y CAdES Detached y PAdES Enveloped.",
+                "Desarrollo de WebService SOAP de Registro de Entrada de Facturas y Registro de Evidencias en Elogs con Spring 4.3.3, Hibernate 5.2.2, CXF 3.1.10, Quartz 2.2.1 en Java 1.8 (posiblemente, en el futuro implemetaré el Registro de Salidas de Facturas)."
             ]
         },
         {
@@ -63,12 +77,8 @@
             "categoria": "Analista Programador",
             "description":
             [
-                {
-                    "value": "Realización de desarrollos e incidencias con las tecnologías Java, Spring, PL/SQL y Web Services."
-                },
-                {
-                    "value": "Creación de cliente Web Service Soap."
-                }
+                "Realización de desarrollos e incidencias con las tecnologías Java, Spring, PL/SQL y Web Services.",
+                "Creación de cliente Web Service Soap."
             ]
         },
         {
@@ -78,9 +88,7 @@
             "categoria": "Consultor Informático",
             "description":
             [
-                {
-                    "value": "Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funciona, demás, con una nueva máquina."
-                }
+                "Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funciona, demás, con una nueva máquina."
             ]
         },
         {
@@ -90,9 +98,7 @@
             "categoria": "Analista Programador",
             "description":
             [
-                {
-                    "value": "Realización de proyecto de consultas dinámicas en Java y extracción en diferentes salidas en aplicación hecha en Spring, con el objetivo de explotar la base de datos de contratos de Mc Mutual."
-                }
+                "Realización de proyecto de consultas dinámicas en Java y extracción en diferentes salidas en aplicación hecha en Spring, con el objetivo de explotar la base de datos de contratos de Mc Mutual."
             ]
         },
         {
@@ -102,18 +108,10 @@
             "categoria": "Analista Programador",
             "description":
             [
-                {
-                    "value": "Desarrollo como Analista Programador especializado en Java, PL/SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start."
-                },
-                {
-                    "value": "Realización de generación de árbol a partir de un XML con un patrón XSL."
-                },
-                {
-                    "value": "Realización de aplicación web para maquetar niveles de Registros Sanitarios."
-                },
-                {
-                    "value": "Creación de motor de consultas dinámico con Spring."
-                }
+                "Desarrollo como Analista Programador especializado en Java, PL/SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start.",
+                "Realización de generación de árbol a partir de un XML con un patrón XSL.",
+                "Realización de aplicación web para maquetar niveles de Registros Sanitarios.",
+                "Creación de motor de consultas dinámico con Spring."
             ]
         },
         {
@@ -123,12 +121,8 @@
             "categoria": "Coordinador de departamento",
             "description":
             [
-                {
-                    "value": "Coordinador del departamento EIFEL, que soluciona los errores de la plataforma que desarrolla la facturación electrónica de los clientes (4 personas a cargo)."
-                },
-                {
-                    "value": "Desarrollo de herramienta de gestión interna para los dos departamentos de facturación electrónica."
-                }
+                "Coordinador del departamento EIFEL, que soluciona los errores de la plataforma que desarrolla la facturación electrónica de los clientes (4 personas a cargo).",
+                "Desarrollo de herramienta de gestión interna para los dos departamentos de facturación electrónica."
             ]
         }
     ],
