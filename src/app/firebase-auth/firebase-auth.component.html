@@ -1,5 +1,5 @@
 <div class="container-fluid pt-3">
-  <div *ngIf="!(authService.user | async)">
+  <div *ngIf="!(authService.authenticated)">
     <form [formGroup]="authForm" (ngSubmit)="login(authForm.value)">
       <div class="form-group row">
         <input type="email" class="form-control" id="fb-auth-email" placeholder="E-mail" formControlName="email">
@@ -17,9 +17,12 @@
       </div>
     </form>
   </div>
-  <div *ngIf="(authService.user | async)">
+  <div *ngIf="authService.authenticated">
+    <div class="form-group row float-none">
+        <span style="color:white">email: {{currentEmail}}</span>
+    </div>
     <div class="form-group row justify-content-center">
-      <button (click)="logout()" *ngIf="authService.user | async" class="btn btn-danger ">Salir</button>
+      <button (click)="logout()" class="btn btn-danger ">Salir</button>
     </div>
   </div>
 </div>

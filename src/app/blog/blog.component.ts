@@ -30,7 +30,7 @@ export class BlogComponent implements OnInit {
     ): void {
         this.posts$.push({
             id: 0,
-            author: this.authService.getUserName(),
+            author: this.authService.currentUser,
             date: new Date().toLocaleDateString(),
             title: title,
             body: body,
