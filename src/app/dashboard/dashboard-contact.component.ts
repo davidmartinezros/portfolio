@@ -8,9 +8,11 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 })
 
 export class DashboardContactComponent {
+
     messages$: FirebaseListObservable<any[]>;
 
     constructor(private af: AngularFireDatabase) {
+        
         this.messages$ = this.af.list('messages', {
             query: {
                 limitToFirst: 100

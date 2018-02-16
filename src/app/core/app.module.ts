@@ -19,12 +19,12 @@ import { FirebaseAuthComponent } from '../firebase-auth/firebase-auth.component'
 // My Components
 import { TemplateComponent } from '../template/template.component';
 import { MainComponent } from '../main/main.component';
-//import { BlogComponent } from '../blog/blog.component';
+import { BlogComponent } from '../blog/blog.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { FormComponent } from '../form/form.component';
-//import { DashboardComponent } from '../dashboard/dashboard.component';
-//import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
-//import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
+import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
+import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
 import { ExperienceComponent } from '../experience/experience.component';
 import { ProjectService } from '../projects/project.service';
 import { ExperienceService } from '../experience/experience.service';
@@ -36,11 +36,11 @@ const appRoutes: Routes = [
     path: 'main',
     component: MainComponent
   },
-  /*{
+  {
     path: 'blog',
     component: BlogComponent
-  },*/
-  /*{
+  },
+  {
     path: 'dashboard',
     component: DashboardComponent,
     children: [
@@ -58,7 +58,7 @@ const appRoutes: Routes = [
         component: DashboardContactComponent
       }
     ]
-  },*/
+  },
   {
     path: '',
     redirectTo: '/main',
@@ -75,13 +75,13 @@ const appRoutes: Routes = [
   declarations: [
     FirebaseAuthComponent,
     MainComponent,
-    //BlogComponent,
+    BlogComponent,
     TemplateComponent,
     ProjectsComponent,
     FormComponent,
-    //DashboardComponent,
-    //DashboardBlogComponent,
-    //DashboardContactComponent,
+    DashboardComponent,
+    DashboardBlogComponent,
+    DashboardContactComponent,
     ExperienceComponent,
   ],
   imports: [
@@ -102,11 +102,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-<<<<<<< HEAD
-  providers: [/*AuthService,*/ /*AngularFireDatabase,*/ /*BlogComponent, DashboardContactComponent, */ProjectService, ExperienceService, LanguageService],
-=======
-  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService],
->>>>>>> parent of 9c34457... skip firedatabase for developer in next version
+  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService, LanguageService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

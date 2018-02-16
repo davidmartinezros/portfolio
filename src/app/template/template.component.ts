@@ -74,5 +74,4 @@ export class TemplateComponent {
             { this.languages = languages }
         );
     }
-    
 }

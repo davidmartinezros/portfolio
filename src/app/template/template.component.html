@@ -30,12 +30,7 @@
 						{{ 'TitleSection6' | translate }}
 					</a>
 				</li>
-<<<<<<< HEAD
-			-->
 				<li class="nav-item idioma" *ngIf="languages">
-=======
-				<li class="nav-item idioma">
->>>>>>> parent of 9c34457... skip firedatabase for developer in next version
 					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages" [value]="l.value">{{l.text}}</option>
 					</select>

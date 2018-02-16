@@ -1,0 +1,15 @@
+<div class="container-fluid pt-5">
+    <h4 class="pb-5">Mensajes <span class="badge badge-warning">{{ (messages$ | async)?.length }}</span></h4>
+    <div class="col-sm-10">
+        <div class="blog-post" *ngFor="let m of (messages$ | async)">
+            <p>
+                <span class="job-highlight">E-mail:</span> {{ m.email }}
+                <span class="job-highlight">Teléfono:</span> {{ m.phone}}
+            </p>
+            <p>
+                <span class="job-highlight">Contenido:</span> {{ m.text }}
+            </p>
+            <hr class="style-two">
+        </div>
+    </div>
+</div>
