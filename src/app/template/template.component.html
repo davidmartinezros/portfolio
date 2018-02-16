@@ -25,7 +25,7 @@
 				<li class="nav-item">
 					<a class="nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
 				</li>
-				<li class="nav-item" *ngIf="authService.user | async">
+				<li class="nav-item" *ngIf="authService.authenticated">
 					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
 						{{ 'TitleSection6' | translate }}
 					</a>
