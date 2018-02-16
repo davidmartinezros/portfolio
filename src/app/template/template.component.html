@@ -25,19 +25,21 @@
 				<li class="nav-item">
 					<a class="nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
 				</li>
-				<!--
 				<li class="nav-item" *ngIf="authService.user | async">
 					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
 						{{ 'TitleSection6' | translate }}
 					</a>
 				</li>
+<<<<<<< HEAD
 			-->
 				<li class="nav-item idioma" *ngIf="languages">
+=======
+				<li class="nav-item idioma">
+>>>>>>> parent of 9c34457... skip firedatabase for developer in next version
 					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages" [value]="l.value">{{l.text}}</option>
 					</select>
 				</li>
-				<!--
 				<li class="nav-item">
 					<a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
@@ -48,7 +50,6 @@
 						</div>
 					</div>
 				</li>
-				-->
 			</ul>
 		</div>
 	</div>

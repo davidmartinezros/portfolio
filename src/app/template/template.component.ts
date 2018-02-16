@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-//import { AuthService } from '../firebase-auth/auth.service';
+import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
 import { ExperienceComponent } from '../experience/experience.component';
@@ -15,19 +15,11 @@ import { Language } from './language';
 
 export class TemplateComponent {
 
-    /*
-    languages = [
-        {value: 'es', text: 'ESPAÑOL'},
-        {value: 'en', text: 'INGLÉS'},
-        {value: 'zh', text: 'CHINO'}
-    ];
-    */
-    
     languages: Language[];
 
     language;
 
-    constructor(/*public authService: AuthService,*/
+    constructor(public authService: AuthService,
         private translate: TranslateService,
         private route: ActivatedRoute,
         private languageService: LanguageService) {
