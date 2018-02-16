@@ -32,9 +32,9 @@
 					</a>
 				</li>
 			-->
-				<li class="nav-item idioma">
+				<li class="nav-item idioma" *ngIf="languages">
 					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
-						<option *ngFor="let l of 'languages' | translate | convertToArray" [value]="l.value">{{l.text}}</option>
+						<option *ngFor="let l of languages" [value]="l.value">{{l.text}}</option>
 					</select>
 				</li>
 				<!--

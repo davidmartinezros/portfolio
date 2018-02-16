@@ -4,7 +4,9 @@ import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
 import { ExperienceComponent } from '../experience/experience.component';
+import { LanguageService } from './language.service';
 import { Pipe } from '@angular/core';
+import { Language } from './language';
 
 @Component({
     selector: 'app-template',
@@ -21,11 +23,14 @@ export class TemplateComponent {
     ];
     */
     
+    languages: Language[];
+
     language;
 
     constructor(/*public authService: AuthService,*/
         private translate: TranslateService,
-        private route: ActivatedRoute) {
+        private route: ActivatedRoute,
+        private languageService: LanguageService) {
         var userLang = "";
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -49,6 +54,10 @@ export class TemplateComponent {
         });
     }
 
+    ngOnInit() {
+        this.getLanguanges();
+    }
+
     public changeLanguage(language) {
 
         console.log(language);
@@ -63,7 +72,15 @@ export class TemplateComponent {
 
         ProjectsComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
+        this.getLanguanges();
+        
+    }
 
+    getLanguanges(): void {
+        this.languageService.getLanguages()
+            .then(languages => 
+            { this.languages = languages }
+        );
     }
     
 }

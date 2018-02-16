@@ -29,6 +29,7 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { ProjectService } from '../projects/project.service';
 import { ExperienceService } from '../experience/experience.service';
 import { PipesModule } from '../pipes/pipes.module';
+import { LanguageService } from '../template/language.service';
 
 const appRoutes: Routes = [
   {
@@ -101,7 +102,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-  providers: [/*AuthService,*/ /*AngularFireDatabase,*/ /*BlogComponent, DashboardContactComponent, */ProjectService, ExperienceService],
+  providers: [/*AuthService,*/ /*AngularFireDatabase,*/ /*BlogComponent, DashboardContactComponent, */ProjectService, ExperienceService, LanguageService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 
