@@ -64,10 +64,9 @@
             "description":
             [
                 "Formo parte del equipo de Administración Electrónica, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
-                "Realización de proyecto de digitalización electrónica de documentos con Angular 4 y Spring-Boot 1.5.",
-                "Realización de proyecto de Certificados Académicos Personales para los estudiantes con Angular 4 y Spring-Boot 1.5.",
-                "Diseño y desarrollo de herramientas de firma con certificado de Sello de Órgano, validación y completación de firma electrónica en formatos XAdES, CAdES y PAdES Detached y Attached Enveloped.",
-                "Development of SOAP WebService of Invoice Entry Record and Record of Evidence in Elogs with Spring 4.3.3, CXF 3.1.10 and Quartz 2.2.1 in Java 1.8."
+                "Realización de proyecto de digitalización electrónica de documentos y certificados académicos personales para estudiantes con Angular 4 y Spring-Boot 1.5.",
+                "Diseño y desarrollo de herramientas de firma, validación y completación de firma electrónica en formatos XAdES, CAdES y PAdES Detached y Attached Enveloped.",
+                "Desarrollo de SOAP WebService de Registro de Entrada y Registro de Evidencias en Elogs con Spring 4.3.3, CXF 3.1.10 y Quartz 2.2.1 en Java 1.8."
             ]
         },
         {

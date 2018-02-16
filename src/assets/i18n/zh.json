@@ -64,9 +64,8 @@
             "description":
             [
                 "我是電子行政團隊的一員，負責解決與Documentum，電子簽名和電子管理相關的事件並進行開發。",
-                "使用Angular 4和Spring-Boot 1.5執行電子文檔掃描項目。",
-                "實施Angular 4和Spring-Boot 1.5學生個人學術證書項目。",
-                "使用XAdES，CAdES和PAdES Detached and Attached Enveloped格式設計和開發具有風琴密封認證的簽名工具，驗證和完成電子簽名。",
+                "实现Angular 4和Spring-Boot 1.5学生的文件和个人学术证书电子数字化项目。",
+                "XAdES，CAdES和PAdES Detached和Attached Enveloped格式的电子签名签名，验证和完成工具的设计和开发。",
                 "在Java 1.8中使用Spring 4.3.3，CXF 3.1.10和Quartz 2.2.1開發發票錄入記錄的SOAP WebService和Elog中的證據記錄。"
             ]
         },
