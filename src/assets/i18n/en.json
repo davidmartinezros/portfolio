@@ -30,7 +30,7 @@
     "Section1Text5": "If we look for the definition of creativity in the wiki, we will see that <i>\"... is the ability to generate new ideas or concepts, new associations between ideas and known concepts, which usually produce original solutions ... \"</i>.",
     "Section1Text6": "<u>I offer an idea:</u> \"use engineering to find the original solution \".",
     "Section1Text7": "All my experience and my high levels of creativity make me a versatile, proactive, original and decisive person. I do not fear complex challenges, on the contrary, I am passionate about solving riddles.",
-    "Section1Text8": "I publish all my works in my <a href='https://github.com/davidmartinezros' target='_blank'>git repository</a>.",
+    "Section1Text8": "Check out <a href='https://github.com/davidmartinezros' target='_blank'>my works</a>.",
     "Section2Text1": "Back-end",
 	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
 	"Section2Text3": "Front-end",
@@ -63,10 +63,10 @@
             "categoria": "Full Stack Developer",
             "description":
             [
-                "I am part of the Electronic Administration team, where I resolve incidents and make developments related to Documentum, Electronic Signature and Electronic Administration.",
-                "Realization of project of electronic digitalization of documents and personal academic certificates for students with Angular 4 and Spring-Boot 1.5.",
-                "Design and development of signature, validation and completion tools for electronic signature in XAdES, CAdES and PAdES Detached and Attached Enveloped formats.",
-                "Development of SOAP WebService of Invoice Entry Record and Record of Evidence in Elogs with Spring 4.3.3, CXF 3.1.10 and Quartz 2.2.1 in Java 1.8."
+                "I am part of the AERI team, where I resolve incidents and make developments related to Documentum, Electronic Signature and Electronic Administration.",
+                "Realization of projects of electronic digitalization of documents and personal academic certificates for students with Angular and Spring-Boot.",
+                "Realization of REST services of signature, validation and completion of electronic signature in XAdES, CAdES and PAdES formats.",
+                "Development of SOAP services for Registration of Entry and Record of Evidence in Elogs with Spring, CXF and Quartz."
             ]
         },
         {
