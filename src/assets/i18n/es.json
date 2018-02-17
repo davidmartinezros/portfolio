@@ -30,7 +30,6 @@
     "Section1Text5": "Si buscamos la definición de creatividad en la wiki, veremos que \" <i class='job-highlight'>... es la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ...</i> \".",
     "Section1Text6": "<b><u>Ofrezco una idea</u></b> : \" <b class='job-highlight'>usar la ingeniería para encontrar la solución original</b> \".",
     "Section1Text7": "Toda mi experiencia y mis altos niveles de creatividad me hacen ser una persona versátil, proactiva, original y resolutiva. No temo los retos complejos, todo lo contrario, me apasiona resolver acertijos.",
-    "Section1Text8": "Échale un vistazo a <a href='https://github.com/davidmartinezros' target='_blank'>mis trabajos</a>.",
     "Section2Text1": "Back-end",
 	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
 	"Section2Text3": "Front-end",
@@ -88,7 +87,7 @@
             "categoria": "Consultor Informático",
             "description":
             [
-                "Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funciona, demás, con una nueva máquina."
+                "Cambios en la arquitectura del sofware de una máquina de pipetado y muestreo de pruebas de sangre, para funcionar, además, con una nueva máquina."
             ]
         },
         {

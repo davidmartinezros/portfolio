@@ -35,17 +35,18 @@
 }
 
 .navbar-brand {
+  height: auto;
   cursor: pointer;
 }
 
 .navbar-toggler {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
 }
 
 .blinker {
   animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
   color: var(--white-text-color);
+  font-size: 15px;
 }
 
 @keyframes blinker {
@@ -56,6 +57,7 @@
 
 .text {
   color: var(--second-color);
+  font-size: 15px;
 }
 
 .dropdown-menu {

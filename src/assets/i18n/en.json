@@ -30,7 +30,6 @@
     "Section1Text5": "If we look for the definition of creativity in the wiki, we will see that \" <i class='job-highlight'>... is the ability to generate new ideas or concepts, new associations between ideas and known concepts, which usually produce original solutions ...</i> \".",
     "Section1Text6": "<b><u>I offer an idea</u></b> : \" <b class='job-highlight'>use engineering to find the original solution</b> \".",
     "Section1Text7": "All my experience and my high levels of creativity make me a versatile, proactive, original and decisive person. I do not fear complex challenges, on the contrary, I am passionate about solving riddles.",
-    "Section1Text8": "Check out <a href='https://github.com/davidmartinezros' target='_blank'>my works</a>.",
     "Section2Text1": "Back-end",
 	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
 	"Section2Text3": "Front-end",
@@ -88,7 +87,7 @@
             "categoria": "IT Consultant",
             "description":
             [
-                "Changes in the software architecture of a pipetting machine and sampling of blood tests, to work, other, with a new machine."
+                "Changes in the software architecture of a pipetting machine and sampling of blood tests, to work with a new machine also."
             ]
         },
         {
