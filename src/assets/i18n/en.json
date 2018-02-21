@@ -64,9 +64,9 @@
             "description":
             [
                 "I am part of the AERI team, where I resolve incidents and make developments related to Documentum, Electronic Signature and Electronic Administration.",
-                "Realization of digitalization projects of documents and academic certificates for students with Angular and Spring-Boot.",
-                "Realization of REST services of signature, validation and completion of electronic signature in XAdES, CAdES and PAdES formats.",
-                "Development of SOAP services for Registration of Entry and Record of Evidence in Elogs with Spring, CXF and Quartz."
+                "Digitalization projects of documents and academic certificates for students with Angular and Spring-Boot.",
+                "REST services of signature, validation and completion of electronic signature in XAdES, CAdES and PAdES formats.",
+                "SOAP Services for Entry Registration and Evidence Registration with Spring, CXF and Quartz."
             ]
         },
         {
@@ -76,7 +76,7 @@
             "categoria": "Programmer analyst",
             "description":
             [
-                "Realization of developments and incidents with Java, Spring, PL / SQL and Web Services technologies.",
+                "Developments and incidents with Java, Spring, PL / SQL and Web Services technologies.",
                 "Creation of Web Service Soap client."
             ]
         },
@@ -97,7 +97,7 @@
             "categoria": "Programmer analyst",
             "description":
             [
-                "Realization of project of dynamic consultations in Java and extraction in different outputs in application made in Spring, with the objective of exploiting the database of Mc Mutual contracts."
+                "Project of dynamic queries in Java and extraction in different outputs in application made in Spring, with the objective of exploiting the database of Mc Mutual contracts."
             ]
         },
         {
@@ -108,8 +108,8 @@
             "description":
             [
                 "Development as a Programmer Analyst specialized in Java, PL / SQL, Ajax, HTML, CSS, Java EE, Spring, MVC, Swing, Java Web Start.",
-                "Realization of tree generation from an XML with an XSL pattern.",
-                "Realization of web application to design levels of Sanitary Records.",
+                "Generation of a tree from an XML with an XSL pattern.",
+                "Web application to design levels of Sanitary Registries.",
                 "Creation of dynamic query engine with Spring."
             ]
         },

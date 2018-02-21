@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
@@ -7,6 +7,7 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { LanguageService } from './language.service';
 import { Pipe } from '@angular/core';
 import { Language } from './language';
+import { Howl } from 'howler';
 
 @Component({
     selector: 'app-template',
@@ -15,9 +16,15 @@ import { Language } from './language';
 
 export class TemplateComponent {
 
+    @ViewChild('audioOption') audioPlayerRef: ElementRef;
+
     languages: Language[];
 
     language;
+
+    playing: boolean = false;
+
+    sound: Howl;
 
     constructor(public authService: AuthService,
         private translate: TranslateService,
@@ -44,10 +51,31 @@ export class TemplateComponent {
                 this.changeLanguage("en");
             }
         });
+
+        //this.musicService.play("../assets/music/Talky_Beat.mp3");
+        //this.audioPlayerRef.nativeElement.play();
+
+        this.sound = new Howl({
+            src: ['./assets/audio/Rhodesia_MkII.mp3'],
+            html5 :true
+          });
+    
+        this.sound.play();
+        this.playing = true;
     }
 
     ngOnInit() {
         this.getLanguanges();
+    }
+
+    playTrack() {
+        this.sound.play();
+        this.playing = true;
+    }
+
+    pauseTrack() {
+        this.sound.pause();
+        this.playing = false;
     }
 
     public changeLanguage(language) {

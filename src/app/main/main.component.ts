@@ -13,4 +13,7 @@ export class MainComponent {
     constructor(public authService: AuthService,
         private dashboardContactComponent: DashboardContactComponent) { }
     
+        ngOnInit() {
+
+        }
 }

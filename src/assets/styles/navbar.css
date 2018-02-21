@@ -34,6 +34,16 @@
   padding-bottom: 0;
 }
 
+.music {
+  margin: auto;
+}
+
+.music button {
+  border: 1px solid var(--second-color);
+  background: var(--navbar-hover-color);
+  color: var(--first-color);
+}
+
 .navbar-brand {
   height: auto;
   cursor: pointer;

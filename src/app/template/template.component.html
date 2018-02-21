@@ -45,6 +45,12 @@
 						</div>
 					</div>
 				</li>
+				<li class="music" *ngIf="!playing">
+					<button (click)="playTrack()">PLAY</button>
+				</li>
+				<li class="music" *ngIf="playing">
+					<button (click)="pauseTrack()">PAUSE</button>
+				</li>
 			</ul>
 		</div>
 	</div>

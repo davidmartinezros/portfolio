@@ -64,9 +64,9 @@
             "description":
             [
                 "我是AERI团队的一员，负责解决与Documentum，电子签名和电子管理相关的事件并进行开发。",
-                "为Angular和Spring-Boot的学生实现文档和学术证书的数字化项目。",
-                "在XAdES，CAdES和PAdES格式中实现电子签名的签名，验证和完成REST服务。",
-                "使用Spring，CXF和Quartz开发注册入口和证据记录的SOAP服务。"
+                "针对Angular和Spring-Boot学生的文档和学术证书的数字化项目。",
+                "XAdES，CAdES和PAdES格式的电子签名的签名，验证和完成的REST服务。",
+                "用Spring入门注册和证据注册的SOAP服务，CXF和Quartz。"
             ]
         },
         {
@@ -76,7 +76,7 @@
             "categoria": "程序员分析师",
             "description":
             [
-                "用Java，Spring，PL / SQL和Web Services技术实现开发和事件。",
+                "Java，Spring，PL / SQL和Web Services技术的发展和事件。",
                 "创建Web服务Soap客户端。"
             ]
         },
@@ -97,7 +97,7 @@
             "categoria": "程序员分析师",
             "description":
             [
-                "旨在利用Java互动合约数据库实现Java中的动态磋商项目和Spring中的不同输出提取应用程序。"
+                "目的是利用Java中的动态查询项目和Spring中的应用程序中的不同输出提取应用程序，目的是利用Mc Mutual契约的数据库。"
             ]
         },
         {
@@ -108,8 +108,8 @@
             "description":
             [
                 "作为程序员开发专业分析师，专门从事Java，PL / SQL，Ajax，HTML，CSS，Java EE，Spring，MVC，Swing和Java Web Start。",
-                "从具有XSL模式的XML实现树生成。",
-                "实现Web应用程序来设计卫生记录的级别。",
+                "使用XSL模式从XML生成树。",
+                "用于设计卫生注册级别的Web应用程序。",
                 "用Spring创建动态查询引擎。"
             ]
         },
