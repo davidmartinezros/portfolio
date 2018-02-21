@@ -168,7 +168,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "imatge": "../../assets/images/projecte1.png",
-        "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -179,30 +179,30 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "imatge": "../../assets/images/projecte5.png",
-        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.",
+        "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
-        "id": 9, "titol": "Componente: Divs arrastrables",
+        "id": 9, "titol": "Editor: Divs arrastrables",
         "tema": "Angular",
         "tipus": "Component",
         "data": "12/08/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "imatge": "../../assets/images/projecte9.png",
-        "html": "Este proyecto está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.",
+        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
-        "id": 10, "titol": "Predicción meteorológica",
+        "id": 10, "titol": "Editor:  mallas 3D",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "01/26/2017",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/climate-project/",
+        "data": "02/21/2018",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "Este proyecto muestra las predicciones meteorológicas de cualquier municipio de España en los próximos cuatro días.<br/><br/>Usa un widget configurable hecho por <a href='http://www.aemet.es/es/portada' target='_blank'>AEMET</a>.<br/><br/>Si <b>estás interesado</b> en este proyecto, ¡<a href='mailto:davidnezan@gmail.com'>contacta conmigo</a> para mejorar el producto y hacerlo comercial!",
-        "repositori": "https://github.com/davidmartinezros/climate-project"
+        "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
         "id": 13, "titol": "Entra en el mundo 3D",

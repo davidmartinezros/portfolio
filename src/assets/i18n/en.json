@@ -194,15 +194,15 @@
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
-        "id": 10, "titol": "Weather forecast",
+        "id": 10, "titol": "Editor: 3D mesh",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "01/26/2017",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/climate-project/",
+        "data": "02/21/2018",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "This project shows the weather forecasts of any municipality in Spain in the next four days. <br/> <br/> Use a configurable widget made by <a href = 'http://www.aemet.es/es/portada' target = '_blank'> AEMET </a>. <br/> <br/> If <b> you're interested </b> in this project, <a href='mailto:davidnezan@gmail.com'> contact with me </a> to improve the product and make it commercial!",
-        "repositori": "https://github.com/davidmartinezros/climate-project"
+        "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
         "id": 13, "titol": "Enter the 3D world",
