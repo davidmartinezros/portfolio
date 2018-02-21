@@ -52,14 +52,15 @@ export class TemplateComponent {
             }
         });
 
-        //this.musicService.play("../assets/music/Talky_Beat.mp3");
-        //this.audioPlayerRef.nativeElement.play();
-
         this.sound = new Howl({
-            src: ['./assets/audio/Rhodesia_MkII.mp3'],
-            html5 :true
-          });
-    
+            src: ['./assets/audio/Rhodesia_MkII.mp3', './assets/audio/Talky_Beat.mp3'],
+            autoplay: true,
+            loop: true,
+            volume: 0.5,
+            html5 :true,
+            mobileAutoEnable:true
+        });
+
         this.sound.play();
         this.playing = true;
     }
