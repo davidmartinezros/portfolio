@@ -194,15 +194,15 @@
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
-        "id": 10, "titol": "天氣預報",
+        "id": 10, "titol": "编辑器：3D网格",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "01/26/2017",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/climate-project/",
+        "data": "02/21/2018",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "該項目顯示了未來四天西班牙任何一個城市的天氣預報。<br/> <br/>使用<a href ='http：//www.aemet.es/es/portada' <br/> <br/>如果<b>你對這個項目感興趣</b>，<a href='mailto:davidnezan@gmail.com'> contact 與我</a>來改善產品，使其成為商業！",
-        "repositori": "https://github.com/davidmartinezros/climate-project"
+        "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
         "id": 13, "titol": "進入3D世界",
