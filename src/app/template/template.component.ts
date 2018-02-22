@@ -65,7 +65,7 @@ export class TemplateComponent {
             template.playTrack();
             template.loaded = true;
         });
-        
+
     }
 
     ngOnInit() {

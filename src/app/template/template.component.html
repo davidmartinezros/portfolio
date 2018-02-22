@@ -1,32 +1,14 @@
 <nav id="nav-spy" class="navbar navbar-dark navbar-expand-md fixed-top mr-auto">
 	<div class="container">
-		<div class="row">
-			<div class="col-xs-8">
-				<span class="navbar-brand" href="#" routerLink="main">
-					<span class="blinker">_</span>
-					<span class="text"></span>
-				</span>
-			</div>
-			<div class="col-xs-4">
-				<div class="row">
-					<div class="col-xs-6">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-						aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</div>
-					<div class="col-xs-6 music" *ngIf="loaded">
-						<div *ngIf="!playing">
-							<button (click)="playTrack()">PLAY</button>
-						</div>
-						<div *ngIf="playing">
-							<button (click)="pauseTrack()">PAUSE</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
+		<span class="navbar-brand" href="#" routerLink="main">
+			<span class="blinker">_</span>
+			<span class="text"></span>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse nav-inline" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
@@ -64,6 +46,14 @@
 					</div>
 				</li>
 			</ul>
+		</div>
+		<div class="nav-inline" *ngIf="loaded">
+			<div class="music" *ngIf="!playing">
+				<button (click)="playTrack()">PLAY</button>
+			</div>
+			<div class="music" *ngIf="playing">
+				<button (click)="pauseTrack()">PAUSE</button>
+			</div>
 		</div>
 	</div>
 </nav>
