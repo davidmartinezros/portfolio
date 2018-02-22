@@ -22,6 +22,8 @@ export class TemplateComponent {
 
     language;
 
+    loaded: boolean = false;
+
     playing: boolean = false;
 
     sound: Howl;
@@ -54,15 +56,19 @@ export class TemplateComponent {
 
         this.sound = new Howl({
             src: ['./assets/audio/Rhodesia_MkII.mp3', './assets/audio/Talky_Beat.mp3'],
-            autoplay: true,
             loop: true,
-            volume: 0.5,
+            volume: 0.3,
             html5 :true,
-            mobileAutoEnable:true
         });
 
-        this.sound.play();
-        this.playing = true;
+        let template = this;
+        // Clear listener after first call.
+        this.sound.once('load', function(){
+            this.play();
+            template.playing = true;
+            template.loaded = true;
+        });
+
     }
 
     ngOnInit() {

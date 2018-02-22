@@ -1,13 +1,31 @@
 <nav id="nav-spy" class="navbar navbar-dark navbar-expand-md fixed-top mr-auto">
 	<div class="container">
-		<span class="navbar-brand" href="#" routerLink="main">
-			<span class="blinker">_</span>
-			<span class="text"></span>
-		</span>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-		 aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<div class="row">
+			<div class="col-xs-8">
+				<span class="navbar-brand" href="#" routerLink="main">
+					<span class="blinker">_</span>
+					<span class="text"></span>
+				</span>
+			</div>
+			<div class="col-xs-4">
+				<div class="row">
+					<div class="col-xs-6">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+						aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+					<div class="col-xs-6 music" *ngIf="loaded">
+						<div *ngIf="!playing">
+							<button (click)="playTrack()">PLAY</button>
+						</div>
+						<div *ngIf="playing">
+							<button (click)="pauseTrack()">PAUSE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
@@ -45,12 +63,6 @@
 						</div>
 					</div>
 				</li>
-				<li class="music" *ngIf="!playing">
-					<button (click)="playTrack()">PLAY</button>
-				</li>
-				<li class="music" *ngIf="playing">
-					<button (click)="pauseTrack()">PAUSE</button>
-				</li>
 			</ul>
 		</div>
 	</div>
@@ -78,7 +90,7 @@
 	</div>
 	<div class="pt-3">
 		<a href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
-		<a href="https://www.linkedin.com/in/david-mart%C3%ADnez-ros-912862131/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
+		<a href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
 		<a href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
 	</div>
 </footer>
