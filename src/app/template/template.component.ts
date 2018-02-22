@@ -16,8 +16,6 @@ import { Howl } from 'howler';
 
 export class TemplateComponent {
 
-    @ViewChild('audioOption') audioPlayerRef: ElementRef;
-
     languages: Language[];
 
     language;
@@ -55,7 +53,7 @@ export class TemplateComponent {
         });
 
         this.sound = new Howl({
-            src: ['./assets/audio/Rhodesia_MkII.mp3', './assets/audio/Talky_Beat.mp3'],
+            src: ['./assets/audio/Rhodesia_MkII.mp3'],
             loop: true,
             volume: 0.3,
             html5 :true,
@@ -64,11 +62,10 @@ export class TemplateComponent {
         let template = this;
         // Clear listener after first call.
         this.sound.once('load', function(){
-            this.play();
-            template.playing = true;
+            template.playTrack();
             template.loaded = true;
         });
-
+        
     }
 
     ngOnInit() {
@@ -76,13 +73,17 @@ export class TemplateComponent {
     }
 
     playTrack() {
-        this.sound.play();
-        this.playing = true;
+        if(this.sound) {
+            this.sound.play();
+            this.playing = true;
+        }
     }
 
     pauseTrack() {
-        this.sound.pause();
-        this.playing = false;
+        if(this.sound) {
+            this.sound.pause();
+            this.playing = false;
+        }
     }
 
     public changeLanguage(language) {
