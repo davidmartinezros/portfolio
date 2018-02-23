@@ -33,37 +33,49 @@ export class TemplateComponent {
         var userLang = "";
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
-            userLang = this.language;
+                userLang = this.language;
             } else {
-            userLang = params['lang'];
+                userLang = params['lang'];
             }
-            console.log("queryParams:" + userLang);
+
+            //console.log("queryParams:" + userLang);
 
             if(!userLang || userLang == "") {
-            userLang = navigator.language;
-            if(userLang.startsWith("zh")) {
-                userLang = "zh";
+                userLang = navigator.language;
+                if(userLang.startsWith("zh")) {
+                    userLang = "zh";
+                }
             }
+
+            if(userLang) {
+                userLang = userLang.toLowerCase();
             }
+
+            if(userLang && userLang.length > 2) {
+                userLang = userLang.substring(0,2);
+            }
+
             if(userLang == "es" || userLang == "en" || userLang == "zh") {
                 this.changeLanguage(userLang);
             } else {
                 this.changeLanguage("en");
             }
-        });
 
-        this.sound = new Howl({
-            src: ['./assets/audio/Rhodesia_MkII.mp3'],
-            loop: true,
-            volume: 0.3,
-            html5 :true,
         });
 
         let template = this;
-        // Clear listener after first call.
-        this.sound.once('load', function(){
-            template.playTrack();
-            template.loaded = true;
+        this.sound = new Howl({
+            src: ['./assets/audio/Rhodesia_MkII.mp3'],
+            autoplay: false,
+            loop: true,
+            volume: 0.3,
+            html5 :true,
+            onload: function() {
+                //console.log('play!');
+                this.play();
+                template.playing = true;
+                template.loaded = true;
+            }
         });
 
     }

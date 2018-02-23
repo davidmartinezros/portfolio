@@ -63,7 +63,7 @@
             "categoria": "Full Stack Developer",
             "description":
             [
-                "Formo parte del equipo de AERI, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
+                "Formo parte del equipo AERI, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
                 "Proyectos de digitalización de documentos y certificados académicos para estudiantes con Angular y Spring-Boot.",
                 "Servicios REST de firma, validación y completación de firma electrónica en formatos XAdES, CAdES y PAdES.",
                 "Servicios SOAP de Registro de Entrada y Registro de Evidencias con Spring, CXF y Quartz."
@@ -103,7 +103,7 @@
         {
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
-            "client": "Generaltat de Catalunya",
+            "client": "Generalitat de Catalunya",
             "categoria": "Analista Programador",
             "description":
             [
@@ -157,7 +157,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
         "imatge": "../../assets/images/projecte13.png",
-        "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Es un ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
+        "html": "Ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
