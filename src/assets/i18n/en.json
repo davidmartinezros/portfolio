@@ -27,9 +27,11 @@
     "Section1Text2": "I have more than 14 years of professional experience and 6 years of university training, where I have studied computer engineering and multimedia engineering.",
     "Section1Text3": "I have participated in large projects of leading companies in Barcelona, such as the <a href='https://www.upf.edu/' target='_blank'>Pompeu Fabra University</a>, the <a href='https://web.gencat.cat/ca/inici' target='_blank'>Generalitat de Catalunya</a>, the <a href='http://www.diba.cat/es' target='_blank'>Diputació de Barcelona</a>, the <a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banco de Sabadell</a> and <a href='http://www.grifols.es/es/web/spain/our_company' target='_blank'>Grifols</a>, among many others.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>Do you need help for your project?</a>",
-    "Section1Text5": "If we look for the definition of creativity in the wiki, we will see that \" <i class='job-highlight'>... is the ability to generate new ideas or concepts, new associations between ideas and known concepts, which usually produce original solutions ...</i> \".",
-    "Section1Text6": "<b><u>I offer an idea</u></b> : \" <b class='job-highlight'>use engineering to find the original solution</b> \".",
-    "Section1Text7": "All my experience and my high levels of creativity make me a versatile, proactive, original and decisive person. I do not fear complex challenges, on the contrary, I am passionate about solving riddles.",
+    "Section1Text5": "If we look for the definition of creativity in the wiki, we will see that is",
+    "Section1Text6": "\" <i class='job-highlight'>... the ability to generate new ideas or concepts, new associations between ideas and known concepts, which usually produce original solutions ...</i> \"",
+    "Section1Text7.1": "Idea",
+    "Section1Text7.2": "use engineering to find the original solution",
+    "Section1Text8": "All my experience and my high levels of creativity make me a versatile, proactive, original and decisive person. I do not fear complex challenges, on the contrary, I am passionate about solving riddles.",
     "Section2Text1": "Back-end",
 	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
 	"Section2Text3": "Front-end",
@@ -103,7 +105,7 @@
         {
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
-            "client": "Generaltat de Catalunya",
+            "client": "Generalitat de Catalunya",
             "categoria": "Programmer analyst",
             "description":
             [

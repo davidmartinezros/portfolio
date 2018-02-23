@@ -1,14 +1,14 @@
-<nav id="nav-spy" class="navbar navbar-dark navbar-expand-md fixed-top mr-auto">
+<nav id="nav-spy" class="navbar navbar-dark navbar-expand-md fixed-top ml-auto">
 	<div class="container">
 		<span class="navbar-brand" href="#" routerLink="main">
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
 			aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse nav-inline" id="navbarCollapse">
+		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
@@ -49,10 +49,10 @@
 		</div>
 		<div class="nav-inline" *ngIf="loaded">
 			<div class="music" *ngIf="!playing">
-				<button (click)="playTrack()">PLAY</button>
+				<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
 			</div>
 			<div class="music" *ngIf="playing">
-				<button (click)="pauseTrack()">PAUSE</button>
+				<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
 			</div>
 		</div>
 	</div>

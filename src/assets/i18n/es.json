@@ -27,9 +27,11 @@
     "Section1Text2": "Cuento con más de 14 años de experiencia profesional y 6 años de formación universitaria, donde he cursado ingeniería informática e ingeniería multimedia.",
     "Section1Text3": "He participado en grandes proyectos de empresas líderes en Barcelona, como son: la <a href='https://www.upf.edu/' target='_blank'>Universidad Pompeu Fabra</a>, la <a href='https://web.gencat.cat/ca/inici' target='_blank'>Generalitat de Catalunya</a>, la <a href='http://www.diba.cat/es' target='_blank'>Diputació de Barcelona</a>, el <a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banco de Sabadell</a> y <a href='http://www.grifols.es/es/web/spain/our_company' target='_blank'>Grifols</a>, entre muchos otros.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>¿Necesitas ayuda para tu proyecto?</a>",
-    "Section1Text5": "Si buscamos la definición de creatividad en la wiki, veremos que \" <i class='job-highlight'>... es la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ...</i> \".",
-    "Section1Text6": "<b><u>Ofrezco una idea</u></b> : \" <b class='job-highlight'>usar la ingeniería para encontrar la solución original</b> \".",
-    "Section1Text7": "Toda mi experiencia y mis altos niveles de creatividad me hacen ser una persona versátil, proactiva, original y resolutiva. No temo los retos complejos, todo lo contrario, me apasiona resolver acertijos.",
+    "Section1Text5": "Si buscamos la definición de <b class='job-highlight'>creatividad</b> en la wiki, veremos que es",
+    "Section1Text6": "\" <i class='job-highlight'>... la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ...</i> \"",
+    "Section1Text7.1": "Idea",
+    "Section1Text7.2": "usar la ingeniería para encontrar la solución original",
+    "Section1Text8": "Toda mi experiencia y mis altos niveles de creatividad me hacen ser una persona versátil, proactiva, original y resolutiva. No temo los retos complejos, todo lo contrario, me apasiona resolver acertijos.",
     "Section2Text1": "Back-end",
 	"Section2Text2": "Java, Spring, Spring-Boot, Hibernate",
 	"Section2Text3": "Front-end",
@@ -63,7 +65,7 @@
             "categoria": "Full Stack Developer",
             "description":
             [
-                "Formo parte del equipo de AERI, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
+                "Formo parte del equipo AERI, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
                 "Proyectos de digitalización de documentos y certificados académicos para estudiantes con Angular y Spring-Boot.",
                 "Servicios REST de firma, validación y completación de firma electrónica en formatos XAdES, CAdES y PAdES.",
                 "Servicios SOAP de Registro de Entrada y Registro de Evidencias con Spring, CXF y Quartz."
@@ -103,7 +105,7 @@
         {
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
-            "client": "Generaltat de Catalunya",
+            "client": "Generalitat de Catalunya",
             "categoria": "Analista Programador",
             "description":
             [
@@ -157,7 +159,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/bind-json-array-to-html-table",
         "imatge": "../../assets/images/projecte13.png",
-        "html": "Este ejemplo está desarrollado con <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'>Angular-Cli</a>.<br/><br/>Es un ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
+        "html": "Ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
