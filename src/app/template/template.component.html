@@ -4,15 +4,15 @@
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
-		<div class="navbar-toggler" *ngIf="loaded">
-			<div class="music" *ngIf="!playing">
-				<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
+		<div class="navbar-toggler" *ngIf="isLoadedTrack()">
+			<div class="music" *ngIf="!isPlayingTrack()">
+				<button class="nav-link hide-on-click" (click)="playTrack(this)">PLAY <i class="fa fa-music"></i></button>
 			</div>
-			<div class="music" *ngIf="playing">
-				<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
+			<div class="music" *ngIf="isPlayingTrack()">
+				<button class="nav-link hide-on-click" (click)="pauseTrack(this)">PAUSE <i class="fa fa-music"></i></button>
 			</div>
 		</div>
-		<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
@@ -52,12 +52,12 @@
 						</div>
 					</div>
 				</li>
-				<li class="nav-item margin-auto hidden-xs" *ngIf="loaded">
-					<div class="music" *ngIf="!playing">
-						<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
+				<li class="nav-item margin-auto hidden-xs" *ngIf="isLoadedTrack()">
+					<div class="music" *ngIf="!isPlayingTrack()">
+						<button class="nav-link hide-on-click" (click)="playTrack(this)">PLAY <i class="fa fa-music"></i></button>
 					</div>
-					<div class="music" *ngIf="playing">
-						<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
+					<div class="music" *ngIf="isPlayingTrack()">
+						<button class="nav-link hide-on-click" (click)="pauseTrack(this)">PAUSE <i class="fa fa-music"></i></button>	
 					</div>
 				</li>
 			</ul>

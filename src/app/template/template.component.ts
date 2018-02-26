@@ -70,14 +70,17 @@ export class TemplateComponent {
             loop: true,
             volume: 0.3,
             html5 :true,
-            onload: function() {
-                template.loaded = true;
-            },
-            onplay: function() {
-                template.playing = true;
-            }
+            mobileAutoEnable: true
         });
 
+    }
+
+    isLoadedTrack() {
+        return this.sound.state() == 'loaded';
+    }
+
+    isPlayingTrack() {
+        return this.sound.playing();
     }
 
     ngOnInit() {
@@ -87,14 +90,14 @@ export class TemplateComponent {
     playTrack() {
         if(this.sound) {
             this.sound.play();
-            this.playing = true;
+            this.sound.isplaying = true;
         }
     }
 
     pauseTrack() {
         if(this.sound) {
             this.sound.pause();
-            this.playing = false;
+            this.sound.isplaying = false;
         }
     }
 
