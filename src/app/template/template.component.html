@@ -1,35 +1,43 @@
-<nav class="navbar navbar-dark bg-primary">
-	<div class="container-fluid">
+<nav class="nav navbar navbar-dark navbar-expand-md ml-auto fixed-top">
+	<div class="container">
 		<span class="navbar-brand" href="#" routerLink="main">
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
-		<button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+		<div class="navbar-toggler" *ngIf="loaded">
+			<div class="music" *ngIf="!playing">
+				<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
+			</div>
+			<div class="music" *ngIf="playing">
+				<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
+			</div>
+		</div>
+		<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-toggleable-sm" id="collapsingNavbar2">
-			<ul class="nav navbar-nav">
+		<div class="collapse navbar-collapse" id="collapsingNavbar2">
+			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection2' | translate }}</a>
+					<a class="nav-link hide-on-click" href="#section2">{{ 'TitleSection2' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection3' | translate }}</a>
+					<a class="nav-link hide-on-click" href="#section3">{{ 'TitleSection3' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection4' | translate }}</a>
+					<a class="nav-link hide-on-click" href="#section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection5' | translate }}</a>
+					<a class="nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.authenticated">
 					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
 						{{ 'TitleSection6' | translate }}
 					</a>
 				</li>
-				<li class="nav-item idioma" *ngIf="languages">
+				<li class="nav-item margin-auto" *ngIf="languages">
 					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages" [value]="l.value">{{l.text}}</option>
 					</select>
@@ -44,21 +52,19 @@
 						</div>
 					</div>
 				</li>
+				<li class="nav-item margin-auto hidden-xs" *ngIf="loaded">
+					<div class="music" *ngIf="!playing">
+						<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
+					</div>
+					<div class="music" *ngIf="playing">
+						<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
+					</div>
+				</li>
 			</ul>
-			<ul class="nav navbar-nav pull-xs-right">
-				<li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-			</ul>
-		</div>
-		<div class="nav-inline" *ngIf="loaded">
-			<div class="music" *ngIf="!playing">
-				<button class="nav-link hide-on-click" (click)="playTrack()">PLAY</button>
-			</div>
-			<div class="music" *ngIf="playing">
-				<button class="nav-link hide-on-click" (click)="pauseTrack()">PAUSE</button>
-			</div>
 		</div>
 	</div>
 </nav>
+
 <!--
 <nav id="nav-spy" class="navbar navbar-dark navbar-expand-md fixed-top ml-auto">
 	<div class="container">
