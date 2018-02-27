@@ -170,6 +170,10 @@ hr.style-two {
   z-index: -999;
 }
 
-.icon-light {
+.porposal-text {
   color: var(--my-blue);
+}
+
+.icon-light {
+  color: var(--second-color);
 }
