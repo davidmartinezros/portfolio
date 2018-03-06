@@ -304,7 +304,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "imatge": "../../assets/images/projecte11.png",
-        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de Google <a href='https://www.google.com/trends' target='_blank'>Trends</a>.",
+        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
         {
@@ -315,7 +315,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
         "imatge": "../../assets/images/projecte19.png",
-        "html": "Esta es una comparativa entre <a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'>VR (Realidad Virtual)</a> y las VideoConsolas <a href='https://www.playstation.com' target='_blank'>PlayStation4</a> y <a href='https://www.xbox.com/' target='_blank'>XBox 360</a>.",
+        "html": "Esta es una comparativa entre <b>VR (Realidad Virtual)</b> y las VideoConsolas <b>PlayStation4</b> y <b>XBox 360</b>.",
         "repositori": null
         },
         {

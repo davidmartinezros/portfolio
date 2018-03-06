@@ -304,7 +304,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "imatge": "../../assets/images/projecte11.png",
-        "html": "這是AngularJS和Angular2之間的對比，Google應用程序<a href='https://www.google.com/trends' target='_blank'>趨勢</a>。",
+        "html": "這是AngularJS和Angular2之間的對比，随着<a href='https://www.google.com/trends' target='_blank'> Google Trends</a>的应用。",
         "repositori": null
         },
         {
@@ -315,7 +315,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/web/comparative_VR.html",
         "imatge": "../../assets/images/projecte19.png",
-        "html": "這是一個比較<a href='https://en.wikipedia.org/wiki/Virtual_reality' target='_blank'> VR（虛擬現實）</a>和視頻控制台<a href='https://www.playstation.com' target='_blank'> PlayStation4 </a>和<a href='https://www.xbox.com/' target='_blank'> XBox 360 </a>。",
+        "html": "這是一個比較<b>VR（虛擬現實）</b>和視頻控制台<b>PlayStation4</b>和<b>XBox 360</b>。",
         "repositori": null
         },
         {
