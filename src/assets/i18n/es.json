@@ -139,7 +139,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "imatge": "../../assets/images/projecte7.png",
-        "html": "En este ejemplo podrás aprender paso a paso a programar tu primera página web.<br/><br/>Los pasos están muy bien definidos y es sencillo de seguir.<br/><br/>En un par de días podrás tener tu proyecto preparado.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target='_blank'>tutorial</a>.",
+        "html": "En este ejemplo podrás aprender paso a paso a programar tu primera página web.<br/><br/>Los pasos están muy bien definidos y es sencillo de seguir.<br/><br/>En un par de días podrás tener tu proyecto preparado.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -150,7 +150,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
         "imatge": "../../assets/images/projecte12.png",
-        "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
+        "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos que se muestran están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -183,7 +183,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "imatge": "../../assets/images/projecte5.png",
-        "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.",
+        "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.<br/><br/>Puedes cargar cualquier estructura de árbol.<br/<br/>Solo tienes que descargar el fichero json de ejemplo, modificarlo y volver a cargarlo.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
@@ -194,7 +194,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "imatge": "../../assets/images/projecte9.png",
-        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b>.",
+        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones Angular2.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -205,7 +205,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes clicar en los elementos de la malla y verás como se desplazan.<br/><br/>También puedes mover, rotar y desplazar con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
@@ -216,7 +216,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
         "imatge": "../../assets/images/projecte14.png",
-        "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Este ejemplo necesita las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.",
+        "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -227,7 +227,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "imatge": "../../assets/images/projecte3.png",
-        "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Este proyecto necesita las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a> para ejecutarse.<br/><br/><b>¡Trabajando en ello!</b>",
+        "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
@@ -293,7 +293,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
         "imatge": "../../assets/images/projecte6.png",
-        "html": "Este ejemplo muestra un terreno con texturas abrupto y dentro un pequeño lago.",
+        "html": "Este ejemplo muestra un terreno abrupto con texturas y dentro un pequeño lago.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
         {
@@ -348,7 +348,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "imatge": "../../assets/images/projecte17.png",
-        "html": "Este proyecto está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>Consta de 5 partes:<br/><ul><li><a href='https://github.com/davidmartinezros/calling-to-internet' target='_blank'>Llamando a Internet</a></li><li><a href='https://github.com/davidmartinezros/file-generator' target='_blank'>Generador de ficheros</a></li><li><a href='https://github.com/davidmartinezros/how-do-you-learn' target='_blank'>Gestión de usuarios y conocimientos</a></li><li><a href='https://github.com/davidmartinezros/myyme' target='_blank'>Página Web Myyme</a></li><li><a href='https://github.com/davidmartinezros/deeplearning-machine' target='_blank'>Aprendizaje Deep Learning</a></li></ul><b>¡Trabajando en ello!</b>",
+        "html": "El objetivo del proyecto es poder interactuar con una máquina mediante <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/> Está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>En el siguiente enlace están explicadas las partes del proyecto y cómo se comunican <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>¡Trabajando en ello!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -358,6 +358,7 @@
         "data": "09/14/2017",
         "estat": "PLANIFICANDO",
         "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
         "html": "Este proyecto estará desarrollado con <a href='https://ionicframework.com/'>Ionic</a>, <b>Java 8</b> con <b>Spring Boot 1.5</b> y <a href='https://www.tensorflow.org/install/install_java' target='_blank'>Tensor Flow</a>.<br/><br/>El objetivo es que el móbil haga una fotografía de un monumento y la Aplicación muestra una descripción de la fotografía.<br/><br/><b>¡Próximamente!</b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         }

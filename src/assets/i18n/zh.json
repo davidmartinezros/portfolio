@@ -139,7 +139,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "imatge": "../../assets/images/projecte7.png",
-        "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https：//angular.io/docs/ts/latest/tutorial/toh-pt6.html'target ='_ blank '>教程</a>。",
+        "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https://angular.io/docs/ts/latest/tutorial' target='_blank'>教程</a>。",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -150,7 +150,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
         "imatge": "../../assets/images/projecte12.png",
-        "html": "我使用<b> angular / Cli </b>開發了<b> angular 4 </b>的網站。<br/> <br/> <b> bootstrap 3 </ b>是一個響應式網站。 <br/> <br/>項目用<a href='https://angular.io' target='_blank'>角度</a>，<a href ='https://unity3d.com 'target ='_blank'> unity </a>，<a href='https://www.java.com/' target='_blank'> java </a>或<a href ='https://ionicframework.com'target ='_blank'> ionic </a>。",
+        "html": "我使用<b> Angular / Cli </b>開發了<b> angular 4 </b>的網站。<br/> <br/> <b> bootstrap 3 </ b>是一個響應式網站。 <br/> <br/>項目用<a href='https://angular.io' target='_blank'>角度</a>，<a href ='https://unity3d.com' target ='_blank'>unity</a>，<a href='https://www.java.com/' target='_blank'>java</a>或<a href ='https://ionicframework.com' target ='_blank'> ionic </a>。",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -183,7 +183,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "imatge": "../../assets/images/projecte5.png",
-        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</b>。",
+        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
@@ -194,7 +194,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "imatge": "../../assets/images/projecte9.png",
-        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用。",
+        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中Angular2。",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -205,7 +205,7 @@
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。",
+        "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。<br/> <br/>你可以点击网格的元素，你会看到它们的移动方式。<br/> <br/>你也可以移动，旋转和移动电脑鼠标，或触摸移动或平板电脑屏幕。",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
@@ -216,7 +216,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
         "imatge": "../../assets/images/projecte14.png",
-        "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>這個例子需要庫<a href='http://glmatrix.net/' target='_blank'> gl-matrix。 js </a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a>運行。",
+        "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -227,7 +227,7 @@
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "imatge": "../../assets/images/projecte3.png",
-        "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>該項目需要庫<a href ='http://glmatrix.net/' target ='_blank'> gl-matrix.js </a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a>運行 <br/> <br/> <b>處理它！</b>",
+        "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>運行。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
@@ -293,7 +293,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
         "imatge": "../../assets/images/projecte6.png",
-        "html": "這個例子顯示了一個突然紋理的地形，在一個小湖里面。",
+        "html": "这个例子显示了一个具有纹理的突然地形，并且在一个小湖中。",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
         {
@@ -348,7 +348,7 @@
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "imatge": "../../assets/images/projecte17.png",
-        "html": "這個項目在<b> Java 8 </b>中用<b> Spring Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成。<br/> <br/> <br/>它由5部分組成：<ul> <li> <a href='https://github.com/davidmartinezros/calling-to-internet' target='_blank'>撥打互聯網< / a> </li> <li> <a href='https://github.com/davidmartinezros/file-generator' target='_blank'>文件生成器</a> </li> <li> <a href ='https://github.com/davidmartinezros/how-do-you-learn' target ='_blank'>用戶和知識管理</a> </li> <li> <a href ='https://github.com/davidmartinezros/myyme' target ='_blank'> Myyme網站</a> </li> <li> <a href ='https://github.com/davidmartinezros/deeplearning-machine' target ='_blank'>學習深度學習</a> </li> </ul> <b>處理它！</b>",
+        "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>。<br/> <br/> <b>处理它！</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -358,6 +358,7 @@
         "data": "09/14/2017",
         "estat": "規劃",
         "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
         "html": "這個項目將用<a href='https://ionicframework.com/' target='_blank'> Ionic </a>，<b> Java 8 </ b>和<b> Spring Boot 1.5 </b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>流量張量</a> <br/> <br/>目的是讓移動設備拍攝紀念碑的照片， <br/>應用程序顯示照片的描述。<br/> <br/> <b>即將推出！</ b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         }

@@ -139,7 +139,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "imatge": "../../assets/images/projecte7.png",
-        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href = 'https://angular.io/docs/ts/latest/tutorial/toh-pt6.html' target = '_blank'> tutorial </a>.",
+        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
@@ -150,7 +150,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
         "imatge": "../../assets/images/projecte12.png",
-        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'> angular </a>, <a href = 'https://unity3d.com' target ='_blank '> unity </a>, <a href='https://www.java.com/' target='_blank'> java </a> or <a href ='https://ionicframework.com' target ='_blank'> ionic </a>.",
+        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target ='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> or <a href ='https://ionicframework.com' target ='_blank'>ionic</a>.",
         "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
@@ -183,7 +183,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "imatge": "../../assets/images/projecte5.png",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show a <b> tree component </b> loaded from a json file with an ancestor and children structure.",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show a <b> tree component </b> loaded from a json file with an ancestor and children structure.<br/> <br/> You can load any tree structure. <br/> <br/> You only have to download the sample json file, modify it and reload it.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
@@ -194,7 +194,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "imatge": "../../assets/images/projecte9.png",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component.",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications Angular2.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -205,7 +205,7 @@
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "imatge": "../../assets/images/projecte4.png",
-        "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.",
+        "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.<br/> <br/> You can click on the elements of the mesh and you will see how they move. <br/> <br/> You can also move, rotate and move with the computer mouse or tactilely on mobile or tablet screens.",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
@@ -216,7 +216,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
         "imatge": "../../assets/images/projecte14.png",
-        "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/> This example needs the libraries <a href='http://glmatrix.net/' target='_blank'> gl-matrix. js </a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a> to run.",
+        "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/>Use the libraries <a href='http://glmatrix.net/' target='_blank'>gl-matrix. js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
@@ -224,10 +224,10 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "04/04/2017",
-        "estat": "WORKING",
+        "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "imatge": "../../assets/images/projecte3.png",
-        "html": "This project is a <b> remake of the Snake game </ b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> This project needs the libraries <a href = 'http://glmatrix.net/' target = '_blank'> gl-matrix.js </a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'> litegl.js </a> to run . <br/> <br/> <b> Working on it! </ b>",
+        "html": "This project is a <b> remake of the Snake game </b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> Use the libraries <a href = 'http://glmatrix.net/' target = '_blank'>gl-matrix.js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
@@ -293,7 +293,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
         "imatge": "../../assets/images/projecte6.png",
-        "html": "This example shows a terrain with abrupt textures and inside a small lake.",
+        "html": "This example shows an abrupt terrain with textures and inside a small lake.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
         {
@@ -348,7 +348,7 @@
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "imatge": "../../assets/images/projecte17.png",
-        "html": "This project is done in <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <b> Angular 4 </b> with <b> Bootstrap 3 </b>. <br/> <br/> It consists of 5 parts: <br/> <ul> <li> <a href='https://github.com/davidmartinezros/calling-to-internet' target='_blank'> Calling the Internet </a> </li> <li> <a href='https://github.com/davidmartinezros/file-generator' target='_blank'> File Generator </a> </li> <li> <a href = 'https://github.com/davidmartinezros/how-do-you-learn' target = '_blank'> User and knowledge management </a> </li> <li> <a href = 'https://github.com/davidmartinezros/myyme' target ='_blank'> Myyme Website </a> </li> <li> <a href ='https://github.com/davidmartinezros/deeplearning-machine' target ='_blank'> Learning Deep Learning </a> </li> </ul> <b> Working on it! </b>",
+        "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>Working on it!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -358,6 +358,7 @@
         "data": "09/14/2017",
         "estat": "PLANNING",
         "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
         "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         }
