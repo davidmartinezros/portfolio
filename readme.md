@@ -1,11 +1,10 @@
 ## Portfolio
-[![Build Status](https://travis-ci.org/twistezo/portfolio.svg?branch=master)](https://travis-ci.org/twistezo/portfolio)
 
 ### Description
-My personal portfolio with management dashboard and blog (both are hidden for unregistered users)
+My Web Portfolio shows an introduction, my habilities, my projectes, a contact form and an admin area. You can browse the portfolio while the music plays and try to click to the background and gets surprise! ;)
 
 ### Tools
-Angular 4 (JS + TypeScript), Bootstrap 4, Firebase
+Angular 4 (JS + TypeScript), Bootstrap 4, Firebase, Howler.js
 
 ### Requirements
 npm, angular-cli
