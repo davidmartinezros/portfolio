@@ -23,7 +23,7 @@ export class TemplateComponent {
 
     playing: boolean = false;
 
-    sound: HTMLAudioElement;
+    sound: any;
 
     constructor(public authService: AuthService,
         private translate: TranslateService,
@@ -73,15 +73,30 @@ export class TemplateComponent {
         });
         */
         this.sound = new Audio();
+        this.sound.autoplay = false;
+        this.sound.preload = 'auto';
+        this.sound.autobuffer = true;
+
         let parent = this;
 
         this.sound.addEventListener('loadeddata', function() {
+            console.log("music loaded");
             parent.loaded = true;
             parent.playTrack();
         }, false);
+
+        this.sound.addEventListener('play', function() {
+            console.log("music play");
+            parent.playing = true;
+        }, false);
+
+        this.sound.addEventListener('pause', function() {
+            console.log("music pause");
+            parent.playing = false;
+        }, false);
         
         this.sound.src = './assets/audio/Rhodesia_MkII.mp3';
-
+        this.sound.load();
     }
 
     ngOnInit() {
@@ -99,14 +114,12 @@ export class TemplateComponent {
     playTrack() {
         if(this.sound) {
             this.sound.play();
-            this.playing = true;
         }
     }
 
     pauseTrack() {
         if(this.sound) {
             this.sound.pause();
-            this.playing = false;
         }
     }
 
