@@ -7,7 +7,6 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { LanguageService } from './language.service';
 import { Pipe } from '@angular/core';
 import { Language } from './language';
-import { Howl } from 'howler';
 
 @Component({
     selector: 'app-template',
@@ -24,7 +23,7 @@ export class TemplateComponent {
 
     playing: boolean = false;
 
-    sound: Howl;
+    sound: HTMLAudioElement;
 
     constructor(public authService: AuthService,
         private translate: TranslateService,
@@ -62,7 +61,7 @@ export class TemplateComponent {
             }
 
         });
-
+        /*
         let template = this;
         this.sound = new Howl({
             src: ['./assets/audio/Rhodesia_MkII.mp3'],
@@ -72,32 +71,42 @@ export class TemplateComponent {
             html5 :true,
             mobileAutoEnable: true
         });
+        */
+        this.sound = new Audio();
+        let parent = this;
 
-    }
+        this.sound.addEventListener('loadeddata', function() {
+            parent.loaded = true;
+            parent.playTrack();
+        }, false);
+        
+        this.sound.src = './assets/audio/Rhodesia_MkII.mp3';
 
-    isLoadedTrack() {
-        return this.sound.state() == 'loaded';
-    }
-
-    isPlayingTrack() {
-        return this.sound.playing();
     }
 
     ngOnInit() {
         this.getLanguanges();
     }
 
+    isLoadedTrack() {
+        return this.loaded;
+    }
+
+    isPlayingTrack() {
+        return this.playing;
+    }
+
     playTrack() {
         if(this.sound) {
             this.sound.play();
-            this.sound.isplaying = true;
+            this.playing = true;
         }
     }
 
     pauseTrack() {
         if(this.sound) {
             this.sound.pause();
-            this.sound.isplaying = false;
+            this.playing = false;
         }
     }
 
