@@ -15,8 +15,11 @@ build:
 npm install
 npm install -g @angular/cli@1.4.4
 
-build for prod.:
-ng build --prod
+build for dev:
+run the file run_ng_dev.bat
+
+build for prod:
+run the file run_ng_prod.bat
 
 run:
 ng serve
