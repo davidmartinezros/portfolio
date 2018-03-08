@@ -30,3 +30,6 @@ firebase deploy
 
 ### Latest version
 https://github.com/davidmartinezros/portfolio
+
+### Published version
+https://davidmartinezros.com
