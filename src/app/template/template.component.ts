@@ -80,18 +80,14 @@ export class TemplateComponent {
         let parent = this;
 
         this.sound.addEventListener('loadeddata', function() {
-            console.log("music loaded");
             parent.loaded = true;
-            parent.playTrack();
         }, false);
 
         this.sound.addEventListener('play', function() {
-            console.log("music play");
             parent.playing = true;
         }, false);
 
         this.sound.addEventListener('pause', function() {
-            console.log("music pause");
             parent.playing = false;
         }, false);
         
