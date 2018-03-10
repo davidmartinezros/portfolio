@@ -33,6 +33,10 @@
   padding-bottom: 0;
 }
 
+.musicDiv {
+  border: 0px;
+}
+
 .music button {
   border: 1px solid var(--second-color);
   background: var(--navbar-hover-color);

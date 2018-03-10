@@ -4,12 +4,12 @@
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
-		<div class="navbar-toggler" *ngIf="isLoadedTrack()">
+		<div class="navbar-toggler musicDiv" *ngIf="isLoadedTrack()">
 			<div class="music" *ngIf="!isPlayingTrack()">
-				<button class="nav-link hide-on-click" (click)="playTrack(this)"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
+				<button class="nav-link hide-on-click" (click)="playTrack()"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
 			</div>
 			<div class="music" *ngIf="isPlayingTrack()">
-				<button class="nav-link hide-on-click" (click)="pauseTrack(this)"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>
+				<button class="nav-link hide-on-click" (click)="pauseTrack()"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>
 			</div>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
@@ -54,10 +54,10 @@
 				</li>
 				<li class="nav-item margin-auto hidden-xs" *ngIf="isLoadedTrack()">
 					<div class="music" *ngIf="!isPlayingTrack()">
-						<button title="PLAY" class="nav-link hide-on-click" (click)="playTrack(this)"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
+						<button title="PLAY" class="nav-link hide-on-click" (click)="playTrack()"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
 					</div>
 					<div class="music" *ngIf="isPlayingTrack()">
-						<button title="PAUSE" class="nav-link hide-on-click" (click)="pauseTrack(this)"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>	
+						<button title="PAUSE" class="nav-link hide-on-click" (click)="pauseTrack()"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>	
 					</div>
 				</li>
 			</ul>
@@ -70,7 +70,7 @@
 	<div class="cookie-warning hidden">
 		<div class="cookie-warning-text text-justify">
 			{{ 'CookiesBottomTitle' | translate }}
-			<a href="https://www.cuatro.com/noticias/tecnologia/Cookies-Internet-Ciberseguridad_2_2069580031.html" target="_blank" rel="noopener">{{ 'CookiesToottomLink' | translate }}</a>
+			<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
 			<div class="row mx-auto justify-content-center pt-3">
 				<button class="btn btn-primary btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
 			</div>
