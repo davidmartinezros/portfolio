@@ -59,6 +59,8 @@
     "FormField3": "Content of the message",
     "FormFieldDesc3": "Required number of letters 10-500",
     "FormButton": "Send",
+    "in": "in",
+    "at": "at",
     "experiences":
     [
         {
