@@ -135,26 +135,169 @@
     "projects":
     [
         {
-        "id": 4, "titol": "¿Cómo aprendí Angular?",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "10/18/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "imatge": "../../assets/images/projecte7.png",
-        "html": "En este ejemplo podrás aprender paso a paso a programar tu primera página web.<br/><br/>Los pasos están muy bien definidos y es sencillo de seguir.<br/><br/>En un par de días podrás tener tu proyecto preparado.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
-        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
-        },
-        {
-        "id": 5, "titol": "Mi Primera Web",
+        "id": 21, "titol": "Editor:  mallas 3D",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "10/19/2016",
+        "data": "02/21/2018",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
+        "imatge": "../../assets/images/projecte4.png",
+        "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes clicar en los elementos de la malla y verás como se desplazan.<br/><br/>También puedes mover, rotar y desplazar con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
+        },
+        {
+        "id": 20, "titol": "Comparativas: IA (Inteligencia Artificial)",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos que se muestran están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "imatge": "../../assets/images/projecte21.png",
+        "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.",
+        "repositori": null
+        },
+        {
+        "id": 19, "titol": "¿Cuál Monumento?",
+        "tema": "Ionic",
+        "tipus": "Project",
+        "data": "09/14/2017",
+        "estat": "PLANIFICANDO",
+        "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
+        "html": "Este proyecto estará desarrollado con <a href='https://ionicframework.com/'>Ionic</a>, <b>Java 8</b> con <b>Spring Boot 1.5</b> y <a href='https://www.tensorflow.org/install/install_java' target='_blank'>Tensor Flow</a>.<br/><br/>El objetivo es que el móbil haga una fotografía de un monumento y la Aplicación muestra una descripción de la fotografía.<br/><br/><b>¡Próximamente!</b>",
+        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        },
+        {
+        "id": 18, "titol": "Aprendizaje con Inteligencia Artificial",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular2/myyme",
+        "imatge": "../../assets/images/projecte17.png",
+        "html": "El objetivo del proyecto es poder interactuar con una máquina mediante <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/> Está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>En el siguiente enlace están explicadas las partes del proyecto y cómo se comunican <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>¡Trabajando en ello!</b>",
+        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
+        },
+        {
+        "id": 17, "titol": "Remake de Ghost'n Goblins",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "PLANIFICANDO",
+        "link": "https://davidmartinezros.com/3D/PersonMovement/",
+        "imatge": "../../assets/images/projecte15.png",
+        "html": "Este proyecto es un 'remake' del juego Ghost'n Goblins aprovechando las ventajas de las nuevas tecnologías.<br/><br/>Mis colaboradores serán <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> y <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>¡Pronto llegará!</b>",
+        "repositori": "https://github.com/davidmartinezros/PersonMovement"
+        },
+        {
+        "id": 16, "titol": "Juego 3D Serpiente",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/04/2017",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "imatge": "../../assets/images/projecte3.png",
+        "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
+        },
+        {
+        "id": 15, "titol": "Entra en el mundo 3D",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "03/29/2017",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
+        "imatge": "../../assets/images/projecte14.png",
+        "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 14, "titol": "Comparativas: búsquedas de Google",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/23/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
+        "imatge": "../../assets/images/projecte20.png",
+        "html": "Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.",
+        "repositori": null
+        },
+        {
+        "id": 13, "titol": "Comparativa: VR y las videoconsolas PlayStation4 y XBox 360",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/15/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_VR.html",
+        "imatge": "../../assets/images/projecte19.png",
+        "html": "Esta es una comparativa entre <b>VR (Realidad Virtual)</b> y las VideoConsolas <b>PlayStation4</b> y <b>XBox 360</b>.",
+        "repositori": null
+        },
+        {
+        "id": 12, "titol": "Editor: Divs arrastrables",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "12/08/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "imatge": "../../assets/images/projecte9.png",
+        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones Angular2.",
+        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        },
+        {
+        "id": 11, "titol": "Componente: Árbol ancestros",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "11/06/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "imatge": "../../assets/images/projecte5.png",
+        "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.<br/><br/>Puedes cargar cualquier estructura de árbol.<br/<br/>Solo tienes que descargar el fichero json de ejemplo, modificarlo y volver a cargarlo.",
+        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        },
+        {
+        "id": 10, "titol": "Escena naturaleza: Agua",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/30/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
+        "imatge": "../../assets/images/projecte6.png",
+        "html": "Este ejemplo muestra un terreno abrupto con texturas y dentro un pequeño lago.",
+        "repositori": "https://github.com/davidmartinezros/WaterProject"
+        },
+        {
+        "id": 9, "titol": "Componente: animaciones texto html",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "10/30/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "imatge": "../../assets/images/projecte1.png",
+        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        },
+        {
+        "id": 8, "titol": "Importar geometría Blender",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/29/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
+        "imatge": "../../assets/images/projecte18.png",
+        "html": "Este ejemplo muestra un Dragón generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.",
+        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        },
+        {
+        "id": 7, "titol": "Comparativa: AngularJS y Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "repositori": null
         },
         {
         "id": 6, "titol": "Asociar fichero json a tabla html",
@@ -168,106 +311,18 @@
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
-        "id": 7, "titol": "Componente: animaciones texto html",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "10/30/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "imatge": "../../assets/images/projecte1.png",
-        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
-        "repositori": "https://github.com/davidmartinezros/components-animations-project"
-        },
-        {
-        "id": 8, "titol": "Componente: Árbol ancestros",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "11/06/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "imatge": "../../assets/images/projecte5.png",
-        "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.<br/><br/>Puedes cargar cualquier estructura de árbol.<br/<br/>Solo tienes que descargar el fichero json de ejemplo, modificarlo y volver a cargarlo.",
-        "repositori": "https://github.com/davidmartinezros/component-tree-project"
-        },
-        {
-        "id": 9, "titol": "Editor: Divs arrastrables",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "12/08/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "imatge": "../../assets/images/projecte9.png",
-        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones Angular2.",
-        "repositori": "https://github.com/davidmartinezros/component-divs-project"
-        },
-        {
-        "id": 10, "titol": "Editor:  mallas 3D",
+        "id": 5, "titol": "Mi Primera Web",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "02/21/2018",
-        "estat": "TRABAJANDO",
-        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "imatge": "../../assets/images/projecte4.png",
-        "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes clicar en los elementos de la malla y verás como se desplazan.<br/><br/>También puedes mover, rotar y desplazar con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
-        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
-        },
-        {
-        "id": 13, "titol": "Entra en el mundo 3D",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "03/29/2017",
+        "data": "10/19/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "imatge": "../../assets/images/projecte14.png",
-        "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
+        "imatge": "../../assets/images/projecte12.png",
+        "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos que se muestran están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
+        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
-        "id": 14, "titol": "Juego 3D Serpiente",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "04/04/2017",
-        "estat": "TRABAJANDO",
-        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "imatge": "../../assets/images/projecte3.png",
-        "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
-        },
-        {
-        "id": 102, "titol": "Escena 3D : Marte",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/11/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "imatge": "../../assets/images/projecte2.png",
-        "html": "Este ejemplo muestra un paisaje futurista imaginario del primer habitante que vive en Marte.<br/><br/>Pura ciencia ficción y fantasía.",
-        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
-        },
-        {
-        "id": 103, "titol": "Ejemplo físico",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/12/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "imatge": "../../assets/images/projecte10.png",
-        "html": "En este ejemplo puedes mover la cámara arrastrando el ratón y, con la flecha hacia arriba del teclado.<br/><br/>Lanzarás la pelota que colisionará con el cubo y la acción cambiará el material de los dos objetos.",
-        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
-        },
-        {
-        "id": 104, "titol": "Remake de Ghost'n Goblins",
-        "tema": "Unity",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "PLANIFICANDO",
-        "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "imatge": "../../assets/images/projecte15.png",
-        "html": "Este proyecto es un 'remake' del juego Ghost'n Goblins aprovechando las ventajas de las nuevas tecnologías.<br/><br/>Mis colaboradores serán <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> y <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>¡Pronto llegará!</b>",
-        "repositori": "https://github.com/davidmartinezros/PersonMovement"
-        },
-        {
-        "id": 106, "titol": "Dos cámaras de misma escena",
+        "id": 4, "titol": "Dos cámaras de misma escena",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/18/2016",
@@ -278,92 +333,37 @@
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
         {
-        "id": 107, "titol": "Importar geometría Blender",
+        "id": 3, "titol": "¿Cómo aprendí Angular?",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "imatge": "../../assets/images/projecte7.png",
+        "html": "En este ejemplo podrás aprender paso a paso a programar tu primera página web.<br/><br/>Los pasos están muy bien definidos y es sencillo de seguir.<br/><br/>En un par de días podrás tener tu proyecto preparado.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
+        },
+        {
+        "id": 2, "titol": "Ejemplo físico",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/29/2016",
+        "data": "10/12/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "imatge": "../../assets/images/projecte18.png",
-        "html": "Este ejemplo muestra un Dragón generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.",
-        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
+        "imatge": "../../assets/images/projecte10.png",
+        "html": "En este ejemplo puedes mover la cámara arrastrando el ratón y, con la flecha hacia arriba del teclado.<br/><br/>Lanzarás la pelota que colisionará con el cubo y la acción cambiará el material de los dos objetos.",
+        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
         {
-        "id": 108, "titol": "Escena naturaleza: Agua",
+        "id": 1, "titol": "Escena 3D : Marte",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/30/2016",
+        "data": "10/11/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "imatge": "../../assets/images/projecte6.png",
-        "html": "Este ejemplo muestra un terreno abrupto con texturas y dentro un pequeño lago.",
-        "repositori": "https://github.com/davidmartinezros/WaterProject"
-        },
-        {
-        "id": 201, "titol": "Comparativa: AngularJS y Angular2",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/28/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "imatge": "../../assets/images/projecte11.png",
-        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
-        "repositori": null
-        },
-        {
-        "id": 204, "titol": "Comparativa: VR y las videoconsolas PlayStation4 y XBox 360",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/15/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "imatge": "../../assets/images/projecte19.png",
-        "html": "Esta es una comparativa entre <b>VR (Realidad Virtual)</b> y las VideoConsolas <b>PlayStation4</b> y <b>XBox 360</b>.",
-        "repositori": null
-        },
-        {
-        "id": 205, "titol": "Comparativas: búsquedas de Google",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.",
-        "repositori": null
-        },
-        {
-        "id": 206, "titol": "Comparativas: IA (Inteligencia Artificial)",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/31/2017",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_IA.html",
-        "imatge": "../../assets/images/projecte21.png",
-        "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.",
-        "repositori": null
-        },
-        {
-        "id": 301, "titol": "Aprendizaje con Inteligencia Artificial",
-        "tema": "Java",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "TRABAJANDO",
-        "link": "https://davidmartinezros.com/Angular2/myyme",
-        "imatge": "../../assets/images/projecte17.png",
-        "html": "El objetivo del proyecto es poder interactuar con una máquina mediante <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/> Está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>En el siguiente enlace están explicadas las partes del proyecto y cómo se comunican <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>¡Trabajando en ello!</b>",
-        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
-        },
-        {
-        "id": 401, "titol": "¿Cuál Monumento?",
-        "tema": "Ionic",
-        "tipus": "Project",
-        "data": "09/14/2017",
-        "estat": "PLANIFICANDO",
-        "link": "https://github.com/davidmartinezros/which-image-is",
-        "imatge": "../../assets/images/projecte22.png",
-        "html": "Este proyecto estará desarrollado con <a href='https://ionicframework.com/'>Ionic</a>, <b>Java 8</b> con <b>Spring Boot 1.5</b> y <a href='https://www.tensorflow.org/install/install_java' target='_blank'>Tensor Flow</a>.<br/><br/>El objetivo es que el móbil haga una fotografía de un monumento y la Aplicación muestra una descripción de la fotografía.<br/><br/><b>¡Próximamente!</b>",
-        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "imatge": "../../assets/images/projecte2.png",
+        "html": "Este ejemplo muestra un paisaje futurista imaginario del primer habitante que vive en Marte.<br/><br/>Pura ciencia ficción y fantasía.",
+        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }
     ]
 }

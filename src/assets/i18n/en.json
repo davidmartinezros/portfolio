@@ -135,26 +135,169 @@
     "projects":
     [
         {
-        "id": 4, "titol": "How did I learn Angular?",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "10/18/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "imatge": "../../assets/images/projecte7.png",
-        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
-        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
-        },
-        {
-        "id": 5, "titol": "My First Web",
+        "id": 21, "titol": "Editor: 3D mesh",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "10/19/2016",
+        "data": "02/21/2018",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
+        "imatge": "../../assets/images/projecte4.png",
+        "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.<br/> <br/> You can click on the elements of the mesh and you will see how they move. <br/> <br/> You can also move, rotate and move with the computer mouse or tactilely on mobile or tablet screens.",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
+        },
+        {
+        "id": 20, "titol": "Comparatives: IA (Artificial Intelligence)",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
         "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target ='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> or <a href ='https://ionicframework.com' target ='_blank'>ionic</a>.",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "imatge": "../../assets/images/projecte21.png",
+        "html": "This is a comparison between the concepts that cohabit in the <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA (Artificial Intelligence) </a>.",
+        "repositori": null
+        },
+        {
+        "id": 19, "titol": "¿Which Monument?",
+        "tema": "Ionic",
+        "tipus": "Project",
+        "data": "09/14/2017",
+        "estat": "PLANNING",
+        "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
+        "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
+        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        },
+        {
+        "id": 18, "titol": "Learning with Artificial Intelligence",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Angular2/myyme",
+        "imatge": "../../assets/images/projecte17.png",
+        "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>Working on it!</b>",
+        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
+        },
+        {
+        "id": 17, "titol": "Remake of Ghost'n Goblins",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "PlANNING",
+        "link": "https://davidmartinezros.com/3D/PersonMovement/",
+        "imatge": "../../assets/images/projecte15.png",
+        "html": "This project is a 'remake' of the game Ghost'n Goblins taking advantage of the new technologies. <br/> <br/> My collaborators will be <a href = 'https://twitter.com/JordiViaVia' target = '_blank'> Jordi Via </a> and <a href='mailto:xavi.warrior.peace@gmail.com' target='_blank'> Xavi Guerrero </a>. <br/> <br/> <b> Soon it will be here! </ b>",
+        "repositori": "https://github.com/davidmartinezros/PersonMovement"
+        },
+        {
+        "id": 16, "titol": "3D Snake Game",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/04/2017",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "imatge": "../../assets/images/projecte3.png",
+        "html": "This project is a <b> remake of the Snake game </b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> Use the libraries <a href = 'http://glmatrix.net/' target = '_blank'>gl-matrix.js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
+        },
+        {
+        "id": 15, "titol": "Enter the 3D world",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "03/29/2017",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
+        "imatge": "../../assets/images/projecte14.png",
+        "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/>Use the libraries <a href='http://glmatrix.net/' target='_blank'>gl-matrix. js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 14, "titol": "Comparisons: Google searches",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/23/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
+        "imatge": "../../assets/images/projecte20.png",
+        "html": "This project wants to investigate and find which are the topics that interest the world.",
+        "repositori": null
+        },
+        {
+        "id": 13, "titol": "Comparison: VR and the PlayStation4 and XBox 360 game consoles",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/15/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/web/comparative_VR.html",
+        "imatge": "../../assets/images/projecte19.png",
+        "html": "This is a comparison between <b>VR (Virtual Reality)</b> and Video Consoles <b>PlayStation4</b> and <b>XBox 360</b>.",
+        "repositori": null
+        },
+        {
+        "id": 12, "titol": "Component: Draggable Divs",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "12/08/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "imatge": "../../assets/images/projecte9.png",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications Angular2.",
+        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        },
+        {
+        "id": 11, "titol": "Component: Ancestral tree",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "11/06/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "imatge": "../../assets/images/projecte5.png",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show a <b> tree component </b> loaded from a json file with an ancestor and children structure.<br/> <br/> You can load any tree structure. <br/> <br/> You only have to download the sample json file, modify it and reload it.",
+        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        },
+        {
+        "id": 10, "titol": "Nature scene: Water",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/30/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
+        "imatge": "../../assets/images/projecte6.png",
+        "html": "This example shows an abrupt terrain with textures and inside a small lake.",
+        "repositori": "https://github.com/davidmartinezros/WaterProject"
+        },
+        {
+        "id": 9, "titol": "Component: html text animations",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "10/30/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "imatge": "../../assets/images/projecte1.png",
+        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in Angular2 web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        },
+        {
+        "id": 8, "titol": "Importar geometría Blender",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/29/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
+        "imatge": "../../assets/images/projecte18.png",
+        "html": "This example shows a Dragon generated with the Blender 3D modeling tool that we can obtain in <a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>. <br/> <br/> This Dragon has animations created in Blender and I used one of them in the keyboard event.",
+        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        },
+        {
+        "id": 7, "titol": "Comparison: AngularJS and Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "This is a comparison between AngularJS and Angular2, with the application <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "repositori": null
         },
         {
         "id": 6, "titol": "Associate json file to html table",
@@ -168,106 +311,18 @@
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
-        "id": 7, "titol": "Component: html text animations",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "10/30/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "imatge": "../../assets/images/projecte1.png",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in Angular2 web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
-        "repositori": "https://github.com/davidmartinezros/components-animations-project"
-        },
-        {
-        "id": 8, "titol": "Component: Ancestral tree",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "11/06/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "imatge": "../../assets/images/projecte5.png",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show a <b> tree component </b> loaded from a json file with an ancestor and children structure.<br/> <br/> You can load any tree structure. <br/> <br/> You only have to download the sample json file, modify it and reload it.",
-        "repositori": "https://github.com/davidmartinezros/component-tree-project"
-        },
-        {
-        "id": 9, "titol": "Component: Draggable Divs",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "12/08/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "imatge": "../../assets/images/projecte9.png",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications Angular2.",
-        "repositori": "https://github.com/davidmartinezros/component-divs-project"
-        },
-        {
-        "id": 10, "titol": "Editor: 3D mesh",
+        "id": 5, "titol": "My First Web",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "02/21/2018",
-        "estat": "WORKING",
-        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "imatge": "../../assets/images/projecte4.png",
-        "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.<br/> <br/> You can click on the elements of the mesh and you will see how they move. <br/> <br/> You can also move, rotate and move with the computer mouse or tactilely on mobile or tablet screens.",
-        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
-        },
-        {
-        "id": 13, "titol": "Enter the 3D world",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "03/29/2017",
+        "data": "10/19/2016",
         "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "imatge": "../../assets/images/projecte14.png",
-        "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/>Use the libraries <a href='http://glmatrix.net/' target='_blank'>gl-matrix. js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
+        "imatge": "../../assets/images/projecte12.png",
+        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target ='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> or <a href ='https://ionicframework.com' target ='_blank'>ionic</a>.",
+        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
-        "id": 14, "titol": "3D Snake Game",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "04/04/2017",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "imatge": "../../assets/images/projecte3.png",
-        "html": "This project is a <b> remake of the Snake game </b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> Use the libraries <a href = 'http://glmatrix.net/' target = '_blank'>gl-matrix.js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
-        },
-        {
-        "id": 102, "titol": "3D scene: Mars",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/11/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "imatge": "../../assets/images/projecte2.png",
-        "html": "This example shows an imaginary futuristic landscape of the first inhabitant living on Mars. <br/> <br/> Pure science fiction and fantasy.",
-        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
-        },
-        {
-        "id": 103, "titol": "Physical example",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/12/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "imatge": "../../assets/images/projecte10.png",
-        "html": "In this example you can move the camera by dragging the mouse and, with the arrow pointing upwards of the keyboard. <br/> <br/> You will throw the ball that will collide with the cube and the action will change the material of the two objects.",
-        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
-        },
-        {
-        "id": 104, "titol": "Remake of Ghost'n Goblins",
-        "tema": "Unity",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "PlANNING",
-        "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "imatge": "../../assets/images/projecte15.png",
-        "html": "This project is a 'remake' of the game Ghost'n Goblins taking advantage of the new technologies. <br/> <br/> My collaborators will be <a href = 'https://twitter.com/JordiViaVia' target = '_blank'> Jordi Via </a> and <a href='mailto:xavi.warrior.peace@gmail.com' target='_blank'> Xavi Guerrero </a>. <br/> <br/> <b> Soon it will be here! </ b>",
-        "repositori": "https://github.com/davidmartinezros/PersonMovement"
-        },
-        {
-        "id": 106, "titol": "Two cameras of the same scene",
+        "id": 4, "titol": "Two cameras of the same scene",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/18/2016",
@@ -278,92 +333,37 @@
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
         {
-        "id": 107, "titol": "Importar geometría Blender",
+        "id": 3, "titol": "How did I learn Angular?",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "imatge": "../../assets/images/projecte7.png",
+        "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
+        },
+        {
+        "id": 2, "titol": "Physical example",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/29/2016",
+        "data": "10/12/2016",
         "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "imatge": "../../assets/images/projecte18.png",
-        "html": "This example shows a Dragon generated with the Blender 3D modeling tool that we can obtain in <a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>. <br/> <br/> This Dragon has animations created in Blender and I used one of them in the keyboard event.",
-        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
+        "imatge": "../../assets/images/projecte10.png",
+        "html": "In this example you can move the camera by dragging the mouse and, with the arrow pointing upwards of the keyboard. <br/> <br/> You will throw the ball that will collide with the cube and the action will change the material of the two objects.",
+        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
         {
-        "id": 108, "titol": "Nature scene: Water",
+        "id": 1, "titol": "3D scene: Mars",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/30/2016",
+        "data": "10/11/2016",
         "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "imatge": "../../assets/images/projecte6.png",
-        "html": "This example shows an abrupt terrain with textures and inside a small lake.",
-        "repositori": "https://github.com/davidmartinezros/WaterProject"
-        },
-        {
-        "id": 201, "titol": "Comparison: AngularJS and Angular2",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/28/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "imatge": "../../assets/images/projecte11.png",
-        "html": "This is a comparison between AngularJS and Angular2, with the application <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
-        "repositori": null
-        },
-        {
-        "id": 204, "titol": "Comparison: VR and the PlayStation4 and XBox 360 game consoles",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/15/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "imatge": "../../assets/images/projecte19.png",
-        "html": "This is a comparison between <b>VR (Virtual Reality)</b> and Video Consoles <b>PlayStation4</b> and <b>XBox 360</b>.",
-        "repositori": null
-        },
-        {
-        "id": 205, "titol": "Comparisons: Google searches",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "This project wants to investigate and find which are the topics that interest the world.",
-        "repositori": null
-        },
-        {
-        "id": 206, "titol": "Comparatives: IA (Artificial Intelligence)",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/31/2017",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/web/comparative_IA.html",
-        "imatge": "../../assets/images/projecte21.png",
-        "html": "This is a comparison between the concepts that cohabit in the <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA (Artificial Intelligence) </a>.",
-        "repositori": null
-        },
-        {
-        "id": 301, "titol": "Learning with Artificial Intelligence",
-        "tema": "Java",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "WORKING",
-        "link": "https://davidmartinezros.com/Angular2/myyme",
-        "imatge": "../../assets/images/projecte17.png",
-        "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>Working on it!</b>",
-        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
-        },
-        {
-        "id": 401, "titol": "¿Which Monument?",
-        "tema": "Ionic",
-        "tipus": "Project",
-        "data": "09/14/2017",
-        "estat": "PLANNING",
-        "link": "https://github.com/davidmartinezros/which-image-is",
-        "imatge": "../../assets/images/projecte22.png",
-        "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
-        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "imatge": "../../assets/images/projecte2.png",
+        "html": "This example shows an imaginary futuristic landscape of the first inhabitant living on Mars. <br/> <br/> Pure science fiction and fantasy.",
+        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }
     ]
 }

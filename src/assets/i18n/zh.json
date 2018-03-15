@@ -135,26 +135,169 @@
     "projects":
     [
         {
-        "id": 4, "titol": "我是如何學習Angular的？",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "10/18/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "imatge": "../../assets/images/projecte7.png",
-        "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https://angular.io/docs/ts/latest/tutorial' target='_blank'>教程</a>。",
-        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
-        },
-        {
-        "id": 5, "titol": "我的第一個網站",
+        "id": 21, "titol": "编辑器：3D网格",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "10/19/2016",
+        "data": "02/21/2018",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
+        "imatge": "../../assets/images/projecte4.png",
+        "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。<br/> <br/>你可以点击网格的元素，你会看到它们的移动方式。<br/> <br/>你也可以移动，旋转和移动电脑鼠标，或触摸移动或平板电脑屏幕。",
+        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
+        },
+        {
+        "id": 20, "titol": "比較：IA（人工智能）",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/31/2017",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "我使用<b> Angular / Cli </b>開發了<b> angular 4 </b>的網站。<br/> <br/> <b> bootstrap 3 </ b>是一個響應式網站。 <br/> <br/>項目用<a href='https://angular.io' target='_blank'>角度</a>，<a href ='https://unity3d.com' target ='_blank'>unity</a>，<a href='https://www.java.com/' target='_blank'>java</a>或<a href ='https://ionicframework.com' target ='_blank'> ionic </a>。",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
+        "link": "https://davidmartinezros.com/web/comparative_IA.html",
+        "imatge": "../../assets/images/projecte21.png",
+        "html": "這是在<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>中的概念之間的比較。",
+        "repositori": null
+        },
+        {
+        "id": 19, "titol": "哪座紀念碑？",
+        "tema": "Ionic",
+        "tipus": "Project",
+        "data": "09/14/2017",
+        "estat": "規劃",
+        "link": "https://github.com/davidmartinezros/which-image-is",
+        "imatge": "../../assets/images/projecte22.png",
+        "html": "這個項目將用<a href='https://ionicframework.com/' target='_blank'> Ionic </a>，<b> Java 8 </ b>和<b> Spring Boot 1.5 </b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>流量張量</a> <br/> <br/>目的是讓移動設備拍攝紀念碑的照片， <br/>應用程序顯示照片的描述。<br/> <br/> <b>即將推出！</ b>",
+        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        },
+        {
+        "id": 18, "titol": "學習與人工智能",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/myyme",
+        "imatge": "../../assets/images/projecte17.png",
+        "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>。<br/> <br/> <b>处理它！</b>",
+        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
+        },
+        {
+        "id": 17, "titol": "重製Ghost'n Goblins",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "04/13/2017",
+        "estat": "規劃",
+        "link": "https://davidmartinezros.com/3D/PersonMovement/",
+        "imatge": "../../assets/images/projecte15.png",
+        "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'> Jordi Via </a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
+        "repositori": "https://github.com/davidmartinezros/PersonMovement"
+        },
+        {
+        "id": 16, "titol": "3D蛇遊戲",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/04/2017",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
+        "imatge": "../../assets/images/projecte3.png",
+        "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>運行。",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
+        },
+        {
+        "id": 15, "titol": "進入3D世界",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "03/29/2017",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
+        "imatge": "../../assets/images/projecte14.png",
+        "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
+        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        },
+        {
+        "id": 14, "titol": "比較：Google搜索",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/23/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
+        "imatge": "../../assets/images/projecte20.png",
+        "html": "這個項目想調查和發現哪些是世界上感興趣的話題。",
+        "repositori": null
+        },
+        {
+        "id": 13, "titol": "比較：VR和PlayStation4和XBox 360遊戲控制台",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "12/15/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/web/comparative_VR.html",
+        "imatge": "../../assets/images/projecte19.png",
+        "html": "這是一個比較<b>VR（虛擬現實）</b>和視頻控制台<b>PlayStation4</b>和<b>XBox 360</b>。",
+        "repositori": null
+        },
+        {
+        "id": 12, "titol": "組件：Draggable Divs",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "12/08/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "imatge": "../../assets/images/projecte9.png",
+        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中Angular2。",
+        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        },
+        {
+        "id": 11, "titol": "組件：祖先樹",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "11/06/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "imatge": "../../assets/images/projecte5.png",
+        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
+        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        },
+        {
+        "id": 10, "titol": "自然場景：水",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/30/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/3D/WaterProject/",
+        "imatge": "../../assets/images/projecte6.png",
+        "html": "这个例子显示了一个具有纹理的突然地形，并且在一个小湖中。",
+        "repositori": "https://github.com/davidmartinezros/WaterProject"
+        },
+        {
+        "id": 9, "titol": "組件：HTML文本動畫",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "10/30/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "imatge": "../../assets/images/projecte1.png",
+        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在Angular2網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https：//daneden.github.io/animate.css/'目標='_空白'> https://daneden.github.io/animate.css/</a>。",
+        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        },
+        {
+        "id": 8, "titol": "導入混合器幾何",
+        "tema": "Unity",
+        "tipus": "Example",
+        "data": "10/29/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
+        "imatge": "../../assets/images/projecte18.png",
+        "html": "此示例顯示了使用3D Blender建模工俱生成的Dragon，我們可以在<a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>中獲取Dragon。 <br/> <br/>這個龍在Blender中創建了動畫，我在鍵盤事件中使用了其中的一個。",
+        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        },
+        {
+        "id": 7, "titol": "比較：AngularJS和Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "這是AngularJS和Angular2之間的對比，随着<a href='https://www.google.com/trends' target='_blank'> Google Trends</a>的应用。",
+        "repositori": null
         },
         {
         "id": 6, "titol": "將json文件關聯到html表格",
@@ -168,106 +311,18 @@
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
-        "id": 7, "titol": "組件：HTML文本動畫",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "10/30/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "imatge": "../../assets/images/projecte1.png",
-        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在Angular2網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https：//daneden.github.io/animate.css/'目標='_空白'> https://daneden.github.io/animate.css/</a>。",
-        "repositori": "https://github.com/davidmartinezros/components-animations-project"
-        },
-        {
-        "id": 8, "titol": "組件：祖先樹",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "11/06/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "imatge": "../../assets/images/projecte5.png",
-        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
-        "repositori": "https://github.com/davidmartinezros/component-tree-project"
-        },
-        {
-        "id": 9, "titol": "組件：Draggable Divs",
-        "tema": "Angular",
-        "tipus": "Component",
-        "data": "12/08/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "imatge": "../../assets/images/projecte9.png",
-        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中Angular2。",
-        "repositori": "https://github.com/davidmartinezros/component-divs-project"
-        },
-        {
-        "id": 10, "titol": "编辑器：3D网格",
+        "id": 5, "titol": "我的第一個網站",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "02/21/2018",
-        "estat": "加工",
-        "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "imatge": "../../assets/images/projecte4.png",
-        "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。<br/> <br/>你可以点击网格的元素，你会看到它们的移动方式。<br/> <br/>你也可以移动，旋转和移动电脑鼠标，或触摸移动或平板电脑屏幕。",
-        "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
-        },
-        {
-        "id": 13, "titol": "進入3D世界",
-        "tema": "Angular",
-        "tipus": "Example",
-        "data": "03/29/2017",
+        "data": "10/19/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "imatge": "../../assets/images/projecte14.png",
-        "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
+        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
+        "imatge": "../../assets/images/projecte12.png",
+        "html": "我使用<b> Angular / Cli </b>開發了<b> angular 4 </b>的網站。<br/> <br/> <b> bootstrap 3 </ b>是一個響應式網站。 <br/> <br/>項目用<a href='https://angular.io' target='_blank'>角度</a>，<a href ='https://unity3d.com' target ='_blank'>unity</a>，<a href='https://www.java.com/' target='_blank'>java</a>或<a href ='https://ionicframework.com' target ='_blank'> ionic </a>。",
+        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
-        "id": 14, "titol": "3D蛇遊戲",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "04/04/2017",
-        "estat": "加工",
-        "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "imatge": "../../assets/images/projecte3.png",
-        "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>運行。",
-        "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
-        },
-        {
-        "id": 102, "titol": "3D場景：火星",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/11/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "imatge": "../../assets/images/projecte2.png",
-        "html": "這個例子展示了第一個居住在火星上的未來派景觀。<br/> <br/>純粹的科幻和幻想。",
-        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
-        },
-        {
-        "id": 103, "titol": "物理的例子",
-        "tema": "Unity",
-        "tipus": "Example",
-        "data": "10/12/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "imatge": "../../assets/images/projecte10.png",
-        "html": "在這個例子中，你可以通過拖動鼠標來移動攝像機，並且箭頭指向鍵盤上方。<br/> <br/>你會拋出碰撞立方體的球，動作會改變兩個物體的材質。",
-        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
-        },
-        {
-        "id": 104, "titol": "重製Ghost'n Goblins",
-        "tema": "Unity",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "規劃",
-        "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "imatge": "../../assets/images/projecte15.png",
-        "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'> Jordi Via </a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
-        "repositori": "https://github.com/davidmartinezros/PersonMovement"
-        },
-        {
-        "id": 106, "titol": "兩個相同的場景的相機",
+        "id": 4, "titol": "兩個相同的場景的相機",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/18/2016",
@@ -278,92 +333,37 @@
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
         {
-        "id": 107, "titol": "導入混合器幾何",
+        "id": 3, "titol": "我是如何學習Angular的？",
+        "tema": "Angular",
+        "tipus": "Example",
+        "data": "10/18/2016",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
+        "imatge": "../../assets/images/projecte7.png",
+        "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https://angular.io/docs/ts/latest/tutorial' target='_blank'>教程</a>。",
+        "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
+        },
+        {
+        "id": 2, "titol": "物理的例子",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/29/2016",
+        "data": "10/12/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "imatge": "../../assets/images/projecte18.png",
-        "html": "此示例顯示了使用3D Blender建模工俱生成的Dragon，我們可以在<a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>中獲取Dragon。 <br/> <br/>這個龍在Blender中創建了動畫，我在鍵盤事件中使用了其中的一個。",
-        "repositori": "https://github.com/davidmartinezros/ImportingColladas"
+        "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
+        "imatge": "../../assets/images/projecte10.png",
+        "html": "在這個例子中，你可以通過拖動鼠標來移動攝像機，並且箭頭指向鍵盤上方。<br/> <br/>你會拋出碰撞立方體的球，動作會改變兩個物體的材質。",
+        "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
         {
-        "id": 108, "titol": "自然場景：水",
+        "id": 1, "titol": "3D場景：火星",
         "tema": "Unity",
         "tipus": "Example",
-        "data": "10/30/2016",
+        "data": "10/11/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "imatge": "../../assets/images/projecte6.png",
-        "html": "这个例子显示了一个具有纹理的突然地形，并且在一个小湖中。",
-        "repositori": "https://github.com/davidmartinezros/WaterProject"
-        },
-        {
-        "id": 201, "titol": "比較：AngularJS和Angular2",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/28/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "imatge": "../../assets/images/projecte11.png",
-        "html": "這是AngularJS和Angular2之間的對比，随着<a href='https://www.google.com/trends' target='_blank'> Google Trends</a>的应用。",
-        "repositori": null
-        },
-        {
-        "id": 204, "titol": "比較：VR和PlayStation4和XBox 360遊戲控制台",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/15/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "imatge": "../../assets/images/projecte19.png",
-        "html": "這是一個比較<b>VR（虛擬現實）</b>和視頻控制台<b>PlayStation4</b>和<b>XBox 360</b>。",
-        "repositori": null
-        },
-        {
-        "id": 205, "titol": "比較：Google搜索",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "這個項目想調查和發現哪些是世界上感興趣的話題。",
-        "repositori": null
-        },
-        {
-        "id": 206, "titol": "比較：IA（人工智能）",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/31/2017",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_IA.html",
-        "imatge": "../../assets/images/projecte21.png",
-        "html": "這是在<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>中的概念之間的比較。",
-        "repositori": null
-        },
-        {
-        "id": 301, "titol": "學習與人工智能",
-        "tema": "Java",
-        "tipus": "Project",
-        "data": "04/13/2017",
-        "estat": "加工",
-        "link": "https://davidmartinezros.com/Angular2/myyme",
-        "imatge": "../../assets/images/projecte17.png",
-        "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>。<br/> <br/> <b>处理它！</b>",
-        "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
-        },
-        {
-        "id": 401, "titol": "哪座紀念碑？",
-        "tema": "Ionic",
-        "tipus": "Project",
-        "data": "09/14/2017",
-        "estat": "規劃",
-        "link": "https://github.com/davidmartinezros/which-image-is",
-        "imatge": "../../assets/images/projecte22.png",
-        "html": "這個項目將用<a href='https://ionicframework.com/' target='_blank'> Ionic </a>，<b> Java 8 </ b>和<b> Spring Boot 1.5 </b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>流量張量</a> <br/> <br/>目的是讓移動設備拍攝紀念碑的照片， <br/>應用程序顯示照片的描述。<br/> <br/> <b>即將推出！</ b>",
-        "repositori": "https://github.com/davidmartinezros/which-image-is"
+        "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
+        "imatge": "../../assets/images/projecte2.png",
+        "html": "這個例子展示了第一個居住在火星上的未來派景觀。<br/> <br/>純粹的科幻和幻想。",
+        "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }
     ]
 }
