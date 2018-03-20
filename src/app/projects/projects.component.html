@@ -26,8 +26,8 @@
               <p class="card-text text-justify" innerHTML="{{projects[i].html}}"></p>
             </div>
             <div class="card-footer">
-              <a target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="btn btn-primary">Git</a>
+              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
+              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="btn btn-primary">Git</a>
             </div>
           </div>
           <div *ngIf="projects[i+1]" class="card text-center">
@@ -53,8 +53,8 @@
               <p class="card-text text-justify" innerHTML="{{projects[i+1].html}}"></p>
             </div>
             <div class="card-footer">
-              <a target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="btn btn-primary">Git</a>
+              <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
+              <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="btn btn-primary">Git</a>
             </div>
           </div>
           <div *ngIf="projects[i+2]" class="card text-center">
@@ -80,8 +80,8 @@
               <p class="card-text text-justify" innerHTML="{{projects[i+2].html}}"></p>
             </div>
             <div class="card-footer">
-              <a target="_blank" rel="noopener" [href]="projects[i+2].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a target="_blank" rel="noopener" [href]="projects[i+2].repositori | safeUrl" class="btn btn-primary">Git</a>
+              <a *ngIf="projects[i+2].link!=null" target="_blank" rel="noopener" [href]="projects[i+2].link | safeUrl" class="btn btn-primary" style="margin-right:10px;">Demo</a>
+              <a *ngIf="projects[i+2].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+2].repositori | safeUrl" class="btn btn-primary">Git</a>
             </div>
           </div>
         </div>

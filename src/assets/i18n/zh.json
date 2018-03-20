@@ -162,7 +162,7 @@
         "tipus": "Project",
         "data": "09/14/2017",
         "estat": "規劃",
-        "link": "https://github.com/davidmartinezros/which-image-is",
+        "link": null,
         "imatge": "../../assets/images/projecte22.png",
         "html": "這個項目將用<a href='https://ionicframework.com/' target='_blank'> Ionic </a>，<b> Java 8 </ b>和<b> Spring Boot 1.5 </b>和<a href='https://www.tensorflow.org/install/install_java' target='_blank'>流量張量</a> <br/> <br/>目的是讓移動設備拍攝紀念碑的照片， <br/>應用程序顯示照片的描述。<br/> <br/> <b>即將推出！</ b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"

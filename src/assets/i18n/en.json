@@ -162,7 +162,7 @@
         "tipus": "Project",
         "data": "09/14/2017",
         "estat": "PLANNING",
-        "link": "https://github.com/davidmartinezros/which-image-is",
+        "link": null,
         "imatge": "../../assets/images/projecte22.png",
         "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
         "repositori": "https://github.com/davidmartinezros/which-image-is"
