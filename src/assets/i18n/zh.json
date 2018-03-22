@@ -135,6 +135,17 @@
     "projects":
     [
         {
+        "id": 22, "titol": "场景：海与海豚",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "03/22/2018",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
+        "imatge": "../../assets/images/projecte23.png",
+        "html": "该项目展示了<b>海洋与海豚</b>和其他动物的场景。<br/> <br/>使用图书馆<a href ='https://threejs.org/' target ='_blank' >THREE.js</a>。<br/> <br/>您可以使用电脑鼠标移动，旋转和移动屏幕，也可以在移动或平板电脑屏幕上触摸移动屏幕。",
+        "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
+        },
+        {
         "id": 21, "titol": "编辑器：3D网格",
         "tema": "Angular",
         "tipus": "Project",
@@ -220,17 +231,6 @@
         "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "imatge": "../../assets/images/projecte20.png",
         "html": "這個項目想調查和發現哪些是世界上感興趣的話題。",
-        "repositori": null
-        },
-        {
-        "id": 13, "titol": "比較：VR和PlayStation4和XBox 360遊戲控制台",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/15/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "imatge": "../../assets/images/projecte19.png",
-        "html": "這是一個比較<b>VR（虛擬現實）</b>和視頻控制台<b>PlayStation4</b>和<b>XBox 360</b>。",
         "repositori": null
         },
         {

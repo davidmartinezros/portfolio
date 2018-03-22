@@ -135,6 +135,17 @@
     "projects":
     [
         {
+        "id": 22, "titol": "Escena: Mar con delfines",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "03/22/2018",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
+        "imatge": "../../assets/images/projecte23.png",
+        "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
+        "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
+        },
+        {
         "id": 21, "titol": "Editor:  mallas 3D",
         "tema": "Angular",
         "tipus": "Project",
@@ -220,17 +231,6 @@
         "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
         "imatge": "../../assets/images/projecte20.png",
         "html": "Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.",
-        "repositori": null
-        },
-        {
-        "id": 13, "titol": "Comparativa: VR y las videoconsolas PlayStation4 y XBox 360",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/15/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_VR.html",
-        "imatge": "../../assets/images/projecte19.png",
-        "html": "Esta es una comparativa entre <b>VR (Realidad Virtual)</b> y las VideoConsolas <b>PlayStation4</b> y <b>XBox 360</b>.",
         "repositori": null
         },
         {
