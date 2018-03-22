@@ -186,7 +186,7 @@
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "imatge": "../../assets/images/projecte17.png",
-        "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modules/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>Working on it!</b>",
+        "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.<br/><br/><b>Working on it!</b>",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
