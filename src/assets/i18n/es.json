@@ -71,7 +71,7 @@
             "description":
             [
                 "Formo parte del equipo AERI, donde resuelvo incidencias y hago desarrollos relacionados con Documentum, Firma Electrónica y Administración Electrónica.",
-                "Proyectos de digitalización de documentos y certificados académicos para estudiantes con Angular y Spring-Boot.",
+                "Proyectos de digitalización de documentos, certificados académicos y de cargos con Angular y Spring-Boot.",
                 "Servicios REST de firma, validación y completación de firma electrónica en formatos XAdES, CAdES y PAdES.",
                 "Servicios SOAP de Registro de Entrada y Registro de Evidencias con Spring, CXF y Quartz."
             ]

@@ -71,7 +71,7 @@
             "description":
             [
                 "我是AERI团队的一员，负责解决与Documentum，电子签名和电子管理相关的事件并进行开发。",
-                "针对Angular和Spring-Boot学生的文档和学术证书的数字化项目。",
+                "使用Angular和Spring-Boot进行数字化文档项目，学历证书和费用。",
                 "XAdES，CAdES和PAdES格式的电子签名的签名，验证和完成的REST服务。",
                 "用Spring入门注册和证据注册的SOAP服务，CXF和Quartz。"
             ]
