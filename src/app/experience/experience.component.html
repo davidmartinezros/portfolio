@@ -4,8 +4,8 @@
       <ul>
         <li *ngFor="let experience of experiences; let i = index">
           <div>
-            <time class="job-date"><i class='job-lowlight fa fa-calendar'></i> <span class='job-highlight'>{{ experience.dates }}</span> <i class='job-lowlight fa fa-location-arrow'></i> {{ 'in' | translate }} {{ experience.lloc }}</time>
-            <time class="job-name"><i class='job-lowlight fa fa-handshake-o'></i> {{ experience.categoria }} <i class='job-lowlight fa fa-location-arrow'></i> {{ 'at' | translate }} <span class='job-highlight'>{{ experience.client }}</span></time>
+            <time class="job-date"><i class='job-lowlight fa fa-calendar'></i> <span class='job-highlight'>{{ experience.dates }}</span> <i class='job-lowlight fa fa-location-arrow'></i> <span style="font-style: italic">{{ 'in' | translate }}</span> {{ experience.lloc }}</time>
+            <time class="job-name"><i class='job-lowlight fa fa-handshake-o'></i> {{ experience.categoria }} <i class='job-lowlight fa fa-location-arrow'></i> <span style="font-style: italic">{{ 'at' | translate }}</span> <span class='job-highlight'>{{ experience.client }}</span></time>
             <time class="job-desc">
               <span *ngFor="let descItem of experience.description">
                 <i class='fa fa-circle'></i> <span>{{descItem}}</span>

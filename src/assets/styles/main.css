@@ -30,16 +30,23 @@ body {
   font-size: 12px !important;
 }
 
-.job-date, .job-company {
+.job-date {
   letter-spacing: 1px !important;
   background-color: var(--navbar-color);
-  padding-left: 2px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.job-company {
+  letter-spacing: 1px !important;
 }
 
 .job-name {
   letter-spacing: 1px !important;
   background-color: var(--second-background);
-  padding-left: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 1px solid white;
 }
 
 a {
