@@ -11,7 +11,7 @@
 }
 
 .job-lowlight {
-  color: var(--second-color);  
+  color: var(--my-blue);  
 }
 
 .job-date, .job-name, .job-desc {
