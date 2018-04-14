@@ -18,22 +18,22 @@
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
+					<a class="menu nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section2">{{ 'TitleSection2' | translate }}</a>
+					<a class="menu nav-link hide-on-click" href="#section2">{{ 'TitleSection2' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section3">{{ 'TitleSection3' | translate }}</a>
+					<a class="menu nav-link hide-on-click" href="#section3">{{ 'TitleSection3' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section4">{{ 'TitleSection4' | translate }}</a>
+					<a class="menu nav-link hide-on-click" href="#section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
+					<a class="menu nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.authenticated">
-					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
+					<a class="menu nav-link" routerLink="dashboard" routerLinkActive="active">
 						{{ 'TitleSection6' | translate }}
 					</a>
 				</li>
@@ -43,7 +43,7 @@
 					</select>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
@@ -87,8 +87,8 @@
 		&copy; davidmartinezros.com, 2018
 	</div>
 	<div class="pt-3">
-		<a href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
-		<a href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
-		<a href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
+		<a class="footer" href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
+		<a class="footer" href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
+		<a class="footer" href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
 	</div>
 </footer>

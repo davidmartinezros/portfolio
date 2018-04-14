@@ -49,13 +49,46 @@ body {
   border: 1px solid white;
 }
 
-a {
+a, a:link, a:focus {
   color: var(--my-blue);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 a:hover {
   color: var(--second-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.menu, a.menu:link, a.menu:focus {
+  color: var(--my-blue);
   text-decoration: none;
+}
+
+a.menu:hover {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+a.boto, a.boto:link, a.boto:focus {
+  color: black;
+  text-decoration: none;
+}
+
+a.boto:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a.footer, a.footer:link, a.footer:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+a.footer:hover {
+  color: var(--second-color);
+  text-decoration: underline;
 }
 
 h3 {
