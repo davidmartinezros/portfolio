@@ -30,25 +30,65 @@ body {
   font-size: 12px !important;
 }
 
-.job-date, .job-company {
+.job-date {
   letter-spacing: 1px !important;
   background-color: var(--navbar-color);
-  padding-left: 2px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.job-company {
+  letter-spacing: 1px !important;
 }
 
 .job-name {
   letter-spacing: 1px !important;
   background-color: var(--second-background);
-  padding-left: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 1px solid white;
 }
 
-a {
+a, a:link, a:focus {
   color: var(--my-blue);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 a:hover {
   color: var(--second-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.menu, a.menu:link, a.menu:focus {
+  color: var(--my-blue);
   text-decoration: none;
+}
+
+a.menu:hover {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+a.boto, a.boto:link, a.boto:focus {
+  color: black;
+  text-decoration: none;
+}
+
+a.boto:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a.footer, a.footer:link, a.footer:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+a.footer:hover {
+  color: var(--second-color);
+  text-decoration: underline;
 }
 
 h3 {

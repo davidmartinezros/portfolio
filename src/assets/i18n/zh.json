@@ -67,11 +67,12 @@
             "dates": "10.2015 - 现在",
             "lloc": "Barcelona",
             "client": "Pompeu Fabra 大学",
+            "linkClient": "https://www.upf.edu",
             "categoria": "全栈开发者",
             "description":
             [
                 "我是AERI团队的一员，负责解决与Documentum，电子签名和电子管理相关的事件并进行开发。",
-                "针对Angular和Spring-Boot学生的文档和学术证书的数字化项目。",
+                "使用Angular和Spring-Boot进行数字化文档项目，学历证书和费用。",
                 "XAdES，CAdES和PAdES格式的电子签名的签名，验证和完成的REST服务。",
                 "用Spring入门注册和证据注册的SOAP服务，CXF和Quartz。"
             ]
@@ -80,6 +81,7 @@
             "dates": "07.2015 - 10.2015",
             "lloc": "Barcelona",
             "client": "Diputació de Barcelona",
+            "linkClient": "http://www.diba.cat/es",
             "categoria": "程序员分析师",
             "description":
             [
@@ -91,6 +93,7 @@
             "dates": "04.2015 - 07.2015",
             "lloc": "Parets del Vallès",
             "client": "Grifols",
+            "linkClient": "http://www.grifols.es/es/web/spain/our_company",
             "categoria": "IT顾问",
             "description":
             [
@@ -101,6 +104,7 @@
             "dates": "12.2013 - 08.2014",
             "lloc": "Barcelona",
             "client": "Mc-Mutual",
+            "linkClient": "https://www.mc-mutual.com/extranet/homePublica.do",
             "categoria": "程序员分析师",
             "description":
             [
@@ -111,6 +115,7 @@
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
             "client": "Generalitat de Catalunya",
+            "linkClient": "https://web.gencat.cat/ca/inici",
             "categoria": "程序员分析师",
             "description":
             [
@@ -124,6 +129,7 @@
             "dates": "2005 - 2006",
             "lloc": "Sabadell",
             "client": "Banco Sabadell",
+            "linkClient": "https://www.bancsabadell.com/cs/Satellite/SabAtl/",
             "categoria": "部门协调员",
             "description":
             [

@@ -67,11 +67,12 @@
             "dates": "10.2015 - currently",
             "lloc": "Barcelona",
             "client": "Pompeu Fabra University",
+            "linkClient": "https://www.upf.edu",
             "categoria": "Full Stack Developer",
             "description":
             [
                 "I am part of the AERI team, where I resolve incidents and make developments related to Documentum, Electronic Signature and Electronic Administration.",
-                "Digitalization projects of documents and academic certificates for students with Angular and Spring-Boot.",
+                "Digitalization of documents, academic certificates and charges certificates projects with Angular and Spring-Boot.",
                 "REST services of signature, validation and completion of electronic signature in XAdES, CAdES and PAdES formats.",
                 "SOAP Services for Entry Registration and Evidence Registration with Spring, CXF and Quartz."
             ]
@@ -80,6 +81,7 @@
             "dates": "07.2015 - 10.2015",
             "lloc": "Barcelona",
             "client": "Diputació de Barcelona",
+            "linkClient": "http://www.diba.cat/es",
             "categoria": "Programmer analyst",
             "description":
             [
@@ -91,6 +93,7 @@
             "dates": "04.2015 - 07.2015",
             "lloc": "Parets del Vallès",
             "client": "Grifols",
+            "linkClient": "http://www.grifols.es/es/web/spain/our_company",
             "categoria": "IT Consultant",
             "description":
             [
@@ -101,6 +104,7 @@
             "dates": "12.2013 - 08.2014",
             "lloc": "Barcelona",
             "client": "Mc-Mutual",
+            "linkClient": "https://www.mc-mutual.com/extranet/homePublica.do",
             "categoria": "Programmer analyst",
             "description":
             [
@@ -111,6 +115,7 @@
             "dates": "06.2006 - 12.2013",
             "lloc": "Barcelona",
             "client": "Generalitat de Catalunya",
+            "linkClient": "https://web.gencat.cat/ca/inici",
             "categoria": "Programmer analyst",
             "description":
             [
@@ -124,6 +129,7 @@
             "dates": "2005 - 2006",
             "lloc": "Sabadell",
             "client": "Banco Sabadell",
+            "linkClient": "https://www.bancsabadell.com/cs/Satellite/SabAtl/",
             "categoria": "Department Coordinator",
             "description":
             [
