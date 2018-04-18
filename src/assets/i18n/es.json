@@ -141,7 +141,7 @@
         "data": "03/22/2018",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "imatge": "../../assets/images/projecte23.png",
+        "video": "../../assets/videos/fireworks.ogv",
         "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
