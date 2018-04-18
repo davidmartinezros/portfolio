@@ -141,6 +141,17 @@
     "projects":
     [
         {
+        "id": 23, "titol": "ChatBot Myyme",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/18/2018",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
+        "imatge": "../../assets/images/projecte24.png",
+        "html": "This project is an artificial conversational unit, commonly called ChatBot.<br/><br/>It is made with <b>Angular5</b> and <b>DialogFlow</b>.",
+        "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
+        },
+        {
         "id": 22, "titol": "Scene: Sea with dolphins",
         "tema": "Angular",
         "tipus": "Project",
@@ -227,17 +238,6 @@
         "imatge": "../../assets/images/projecte14.png",
         "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/>Use the libraries <a href='http://glmatrix.net/' target='_blank'>gl-matrix. js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
-        },
-        {
-        "id": 14, "titol": "Comparisons: Google searches",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "This project wants to investigate and find which are the topics that interest the world.",
-        "repositori": null
         },
         {
         "id": 12, "titol": "Component: Draggable Divs",

@@ -141,13 +141,24 @@
     "projects":
     [
         {
+        "id": 23, "titol": "ChatBot Myyme",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/18/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
+        "imatge": "../../assets/images/projecte24.png",
+        "html": "Este proyecto es una unidad conversacional artificial, comúnmente llamada ChatBot.<br/><br/>Está hecha con <b>Angular5</b> y <b>DialogFlow</b>.",
+        "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
+        },
+        {
         "id": 22, "titol": "Escena: Mar con delfines",
         "tema": "Angular",
         "tipus": "Project",
         "data": "03/22/2018",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "video": "../../assets/videos/fireworks.ogv",
+        "imatge": "../../assets/images/projecte23.png",
         "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -227,17 +238,6 @@
         "imatge": "../../assets/images/projecte14.png",
         "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
-        },
-        {
-        "id": 14, "titol": "Comparativas: búsquedas de Google",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "Este proyecto quiere investigar y encontrar cuáles son los temas que interesan al mundo.",
-        "repositori": null
         },
         {
         "id": 12, "titol": "Editor: Divs arrastrables",

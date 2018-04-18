@@ -141,6 +141,17 @@
     "projects":
     [
         {
+        "id": 23, "titol": "聊天机器人Myyme",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/18/2018",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
+        "imatge": "../../assets/images/projecte24.png",
+        "html": "这个项目是一个人工会话单元，通常称为聊天机器人。<br/>它由<b>Angular5</b>和<b>DialogFlow</b>制成。",
+        "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
+        },
+        {
         "id": 22, "titol": "场景：海与海豚",
         "tema": "Angular",
         "tipus": "Project",
@@ -227,17 +238,6 @@
         "imatge": "../../assets/images/projecte14.png",
         "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
-        },
-        {
-        "id": 14, "titol": "比較：Google搜索",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "12/23/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_GoogleSearches.html",
-        "imatge": "../../assets/images/projecte20.png",
-        "html": "這個項目想調查和發現哪些是世界上感興趣的話題。",
-        "repositori": null
         },
         {
         "id": 12, "titol": "組件：Draggable Divs",
