@@ -169,7 +169,7 @@
         "data": "02/21/2018",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "imatge": "../../assets/images/projecte4.png",
+        "video": "https://www.youtube.com/embed/Um1JFE1jN0E",
         "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes clicar en los elementos de la malla y verás como se desplazan.<br/><br/>También puedes mover, rotar y desplazar con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
@@ -213,7 +213,7 @@
         "data": "04/13/2017",
         "estat": "PLANIFICANDO",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "imatge": "../../assets/images/projecte15.png",
+        "video": "https://www.youtube.com/embed/X1sdpKoNN6A",
         "html": "Este proyecto es un 'remake' del juego Ghost'n Goblins aprovechando las ventajas de las nuevas tecnologías.<br/><br/>Mis colaboradores serán <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> y <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>¡Pronto llegará!</b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -224,7 +224,7 @@
         "data": "04/04/2017",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "imatge": "../../assets/images/projecte3.png",
+        "video": "https://www.youtube.com/embed/2bb1o8wzNNw",
         "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -235,7 +235,7 @@
         "data": "03/29/2017",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "imatge": "../../assets/images/projecte14.png",
+        "video": "https://www.youtube.com/embed/fS_eInYEo78",
         "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -268,7 +268,7 @@
         "data": "10/30/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "imatge": "../../assets/images/projecte6.png",
+        "video": "https://www.youtube.com/embed/XBscwm5PCxo",
         "html": "Este ejemplo muestra un terreno abrupto con texturas y dentro un pequeño lago.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -290,7 +290,7 @@
         "data": "10/29/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "imatge": "../../assets/images/projecte18.png",
+        "video": "https://www.youtube.com/embed/S88k_sR2hnU",
         "html": "Este ejemplo muestra un Dragón generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -323,7 +323,7 @@
         "data": "10/18/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
-        "imatge": "../../assets/images/projecte16.png",
+        "video": "https://www.youtube.com/embed/wVkcg-hKsfM",
         "html": "Este ejemplo muestra la pantalla dividida por la mitad.<br/><br/>En el lado izquierdo, nos encontramos una cámara perspectiva que sigue al personaje, siempre detrás suyo.<br/><br/>En el lado derecho, nos encontramos una cámara 'multiporpuse' que sigue al personaje, recuperando la posición siempre detrás suyo.",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -345,7 +345,7 @@
         "data": "10/12/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "imatge": "../../assets/images/projecte10.png",
+        "video": "https://www.youtube.com/embed/Cvs4Tmiq-f8",
         "html": "En este ejemplo puedes mover la cámara arrastrando el ratón y, con la flecha hacia arriba del teclado.<br/><br/>Lanzarás la pelota que colisionará con el cubo y la acción cambiará el material de los dos objetos.",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -356,7 +356,7 @@
         "data": "10/11/2016",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "imatge": "../../assets/images/projecte2.png",
+        "video": "https://www.youtube.com/embed/GDFbIJjk5ag",
         "html": "Este ejemplo muestra un paisaje futurista imaginario del primer habitante que vive en Marte.<br/><br/>Pura ciencia ficción y fantasía.",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }

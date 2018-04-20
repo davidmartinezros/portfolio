@@ -3,6 +3,10 @@
     <div *ngFor="let project of projects; let i = index">
       <div *ngIf="i%2===0">
         <div class="card-deck">
+            <!--
+              <app-project [project]="projects[i]"></app-project>
+              <app-project [project]="projects[i+1]"></app-project>
+            -->
           <div *ngIf="projects[i]" class="card text-center">
             <div *ngIf="projects[i].tema == 'Angular'" class="ribbon ribbon-angular">
               <span>{{projects[i].tema}}</span>

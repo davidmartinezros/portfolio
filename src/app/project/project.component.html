@@ -1,0 +1,31 @@
+<div *ngIf="project" class="card text-center">
+  <div *ngIf="project.tema == 'Angular'" class="ribbon ribbon-angular">
+    <span>{{project.tema}}</span>
+  </div>
+  <div *ngIf="project.tema == 'Ionic'" class="ribbon ribbon-ionic">
+    <span>{{project.tema}}</span>
+  </div>
+  <div *ngIf="project.tema == 'Java'" class="ribbon ribbon-java">
+    <span>{{project.tema}}</span>
+  </div>
+  <div *ngIf="project.tema == 'Unity'" class="ribbon ribbon-unity">
+    <span>{{project.tema}}</span>
+  </div>
+  <div *ngIf="project.tema == 'Google Trends'" class="ribbon ribbon-googletrends">
+    <span>{{project.tema}}</span>
+  </div>
+  <iframe *ngIf="project.video" [src]="project.video | safeUrl"></iframe>
+  <!--
+  <video *ngIf="project.video" class="card-img-top" [src]="project.video" autoplay></video>
+  -->
+  <img *ngIf="project.imatge" class="card-img-top" [src]="project.imatge">
+  <div class="card-body">
+    <hr class="style-three">
+    <h4 class="card-title">{{project.titol}}</h4>
+    <p class="card-text text-justify" innerHTML="{{project.html}}"></p>
+  </div>
+  <div class="card-footer">
+    <a *ngIf="project.link!=null" target="_blank" rel="noopener" [href]="project.link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">Demo</a>
+    <a *ngIf="project.repositori!=null" target="_blank" rel="noopener" [href]="project.repositori | safeUrl" class="boto btn btn-primary">Git</a>
+  </div>
+</div>

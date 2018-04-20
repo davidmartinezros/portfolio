@@ -21,6 +21,7 @@ import { TemplateComponent } from '../template/template.component';
 import { MainComponent } from '../main/main.component';
 import { BlogComponent } from '../blog/blog.component';
 import { ProjectsComponent } from '../projects/projects.component';
+import { ProjectComponent } from '../project/project.component';
 import { FormComponent } from '../form/form.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
@@ -78,6 +79,7 @@ const appRoutes: Routes = [
     BlogComponent,
     TemplateComponent,
     ProjectsComponent,
+    ProjectComponent,
     FormComponent,
     DashboardComponent,
     DashboardBlogComponent,

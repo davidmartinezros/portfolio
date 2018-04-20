@@ -169,7 +169,7 @@
         "data": "02/21/2018",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "imatge": "../../assets/images/projecte4.png",
+        "video": "https://www.youtube.com/embed/Um1JFE1jN0E",
         "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。<br/> <br/>你可以点击网格的元素，你会看到它们的移动方式。<br/> <br/>你也可以移动，旋转和移动电脑鼠标，或触摸移动或平板电脑屏幕。",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
@@ -213,7 +213,7 @@
         "data": "04/13/2017",
         "estat": "規劃",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "imatge": "../../assets/images/projecte15.png",
+        "video": "https://www.youtube.com/embed/X1sdpKoNN6A",
         "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'> Jordi Via </a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -224,7 +224,7 @@
         "data": "04/04/2017",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "imatge": "../../assets/images/projecte3.png",
+        "video": "https://www.youtube.com/embed/2bb1o8wzNNw",
         "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>運行。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -235,7 +235,7 @@
         "data": "03/29/2017",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "imatge": "../../assets/images/projecte14.png",
+        "video": "https://www.youtube.com/embed/fS_eInYEo78",
         "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -268,7 +268,7 @@
         "data": "10/30/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "imatge": "../../assets/images/projecte6.png",
+        "video": "https://www.youtube.com/embed/XBscwm5PCxo",
         "html": "这个例子显示了一个具有纹理的突然地形，并且在一个小湖中。",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -290,7 +290,7 @@
         "data": "10/29/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "imatge": "../../assets/images/projecte18.png",
+        "video": "https://www.youtube.com/embed/S88k_sR2hnU",
         "html": "此示例顯示了使用3D Blender建模工俱生成的Dragon，我們可以在<a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>中獲取Dragon。 <br/> <br/>這個龍在Blender中創建了動畫，我在鍵盤事件中使用了其中的一個。",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -323,7 +323,7 @@
         "data": "10/18/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
-        "imatge": "../../assets/images/projecte16.png",
+        "video": "https://www.youtube.com/embed/wVkcg-hKsfM",
         "html": "這個例子顯示屏幕被分成兩半。<br/> <br/>在左邊，我們發現一個跟在角色後面的透視相機，總是在他身後。<br/> <br/>在右邊， 我們發現一個跟隨角色的“多用途”攝像頭，總是在他身後恢復。",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -345,7 +345,7 @@
         "data": "10/12/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "imatge": "../../assets/images/projecte10.png",
+        "video": "https://www.youtube.com/embed/Cvs4Tmiq-f8",
         "html": "在這個例子中，你可以通過拖動鼠標來移動攝像機，並且箭頭指向鍵盤上方。<br/> <br/>你會拋出碰撞立方體的球，動作會改變兩個物體的材質。",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -356,7 +356,7 @@
         "data": "10/11/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "imatge": "../../assets/images/projecte2.png",
+        "video": "https://www.youtube.com/embed/GDFbIJjk5ag",
         "html": "這個例子展示了第一個居住在火星上的未來派景觀。<br/> <br/>純粹的科幻和幻想。",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }
