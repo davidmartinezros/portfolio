@@ -147,7 +147,7 @@
         "data": "04/18/2018",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
-        "imatge": "../../assets/images/projecte24.png",
+        "video": "https://www.youtube.com/embed/EjtESFUxgpU",
         "html": "这个项目是一个人工会话单元，通常称为聊天机器人。<br/>它由<b>Angular5</b>和<b>DialogFlow</b>制成。",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -158,7 +158,7 @@
         "data": "03/22/2018",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "imatge": "../../assets/images/projecte23.png",
+        "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
         "html": "该项目展示了<b>海洋与海豚</b>和其他动物的场景。<br/> <br/>使用图书馆<a href ='https://threejs.org/' target ='_blank' >THREE.js</a>。<br/> <br/>您可以使用电脑鼠标移动，旋转和移动屏幕，也可以在移动或平板电脑屏幕上触摸移动屏幕。",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -315,17 +315,6 @@
         "imatge": "../../assets/images/projecte13.png",
         "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/> <br/>這是一個<b>用Angular-Cli服務將JSON文件加載到html表</b>的例子。<br/> <br/> <a href ='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html'target ='_blank'> davidlearns.blogspot.com </a>你可以看到這個例子的解釋，你可以 學會去做",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
-        },
-        {
-        "id": 5, "titol": "我的第一個網站",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "10/19/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "我使用<b> Angular / Cli </b>開發了<b> angular 4 </b>的網站。<br/> <br/> <b> bootstrap 3 </ b>是一個響應式網站。 <br/> <br/>項目用<a href='https://angular.io' target='_blank'>角度</a>，<a href ='https://unity3d.com' target ='_blank'>unity</a>，<a href='https://www.java.com/' target='_blank'>java</a>或<a href ='https://ionicframework.com' target ='_blank'> ionic </a>。",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
         "id": 4, "titol": "兩個相同的場景的相機",

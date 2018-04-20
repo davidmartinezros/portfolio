@@ -147,7 +147,7 @@
         "data": "04/18/2018",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
-        "imatge": "../../assets/images/projecte24.png",
+        "video": "https://www.youtube.com/embed/EjtESFUxgpU",
         "html": "This project is an artificial conversational unit, commonly called ChatBot.<br/><br/>It is made with <b>Angular5</b> and <b>DialogFlow</b>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -158,7 +158,7 @@
         "data": "03/22/2018",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "imatge": "../../assets/images/projecte23.png",
+        "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
         "html": "This project shows a scene of <b> Sea with dolphins </b> and other animals. <br/> <br/> Use the library <a href = 'https://threejs.org/' target = '_blank' >THREE.js</a>. <br/> <br/> You can move, rotate and translate the screen with the computer mouse or tactilely on mobile or tablet screens.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -315,17 +315,6 @@
         "imatge": "../../assets/images/projecte13.png",
         "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> It's an example that <b> loads a JSON file into an html table </b> with an Angular-Cli Service. <br/> <br/> Here at <a href = 'https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html 'target ='_blank '> davidlearns.blogspot.com </a> You can see the explanation of the example and you can learn to do it.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
-        },
-        {
-        "id": 5, "titol": "My First Web",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "10/19/2016",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "I have developed my website with <b> angular 4 </b> using <b> angular / Cli </b>. <br/> <br/> It is a responsive website with <b> bootstrap 3 </b>. <br/> <br/> Projects are done with <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target ='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> or <a href ='https://ionicframework.com' target ='_blank'>ionic</a>.",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
         "id": 4, "titol": "Two cameras of the same scene",

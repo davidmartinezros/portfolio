@@ -1,7 +1,7 @@
 <div *ngIf="projects">
   <div class="container-fluid">
     <div *ngFor="let project of projects; let i = index">
-      <div *ngIf="i%3===0">
+      <div *ngIf="i%2===0">
         <div class="card-deck">
           <div *ngIf="projects[i]" class="card text-center">
             <div *ngIf="projects[i].tema == 'Angular'" class="ribbon ribbon-angular">
@@ -19,8 +19,10 @@
             <div *ngIf="projects[i].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
               <span>{{projects[i].tema}}</span>
             </div>
-            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            <iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl"></iframe>
+            <!--
             <video *ngIf="projects[i].video" class="card-img-top" [src]="projects[i].video" autoplay></video>
+            -->
             <img *ngIf="projects[i].imatge" class="card-img-top" [src]="projects[i].imatge">
             <div class="card-body ">
               <hr class="style-three">
@@ -48,6 +50,10 @@
             <div *ngIf="projects[i+1].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
               <span>{{projects[i+1].tema}}</span>
             </div>
+            <iframe *ngIf="projects[i+1].video" [src]="projects[i+1].video | safeUrl"></iframe>
+            <!--
+            <video *ngIf="projects[i+1].video" class="card-img-top" [src]="projects[i+1].video" autoplay></video>
+            -->
             <img *ngIf="projects[i+1].imatge" class="card-img-top" [src]="projects[i+1].imatge">
             <div class="card-body ">
               <hr class="style-three">
@@ -57,33 +63,6 @@
             <div class="card-footer">
               <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">Demo</a>
               <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="boto btn btn-primary">Git</a>
-            </div>
-          </div>
-          <div *ngIf="projects[i+2]" class="card text-center">
-            <div *ngIf="projects[i+2].tema == 'Angular'" class="ribbon ribbon-angular">
-              <span>{{projects[i+2].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+2].tema == 'Ionic'" class="ribbon ribbon-ionic">
-              <span>{{projects[i+2].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+2].tema == 'Java'" class="ribbon ribbon-java">
-              <span>{{projects[i+2].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+2].tema == 'Unity'" class="ribbon ribbon-unity">
-              <span>{{projects[i+2].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+2].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
-              <span>{{projects[i+2].tema}}</span>
-            </div>
-            <img *ngIf="projects[i+2].imatge" class="card-img-top" [src]="projects[i+2].imatge">
-            <div class="card-body ">
-              <hr class="style-three">
-              <h4 class="card-title">{{projects[i+2].titol}}</h4>
-              <p class="card-text text-justify" innerHTML="{{projects[i+2].html}}"></p>
-            </div>
-            <div class="card-footer">
-              <a *ngIf="projects[i+2].link!=null" target="_blank" rel="noopener" [href]="projects[i+2].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a *ngIf="projects[i+2].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+2].repositori | safeUrl" class="boto btn btn-primary">Git</a>
             </div>
           </div>
         </div>

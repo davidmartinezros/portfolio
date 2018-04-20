@@ -147,7 +147,7 @@
         "data": "04/18/2018",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
-        "imatge": "../../assets/images/projecte24.png",
+        "video": "https://www.youtube.com/embed/EjtESFUxgpU",
         "html": "Este proyecto es una unidad conversacional artificial, comúnmente llamada ChatBot.<br/><br/>Está hecha con <b>Angular5</b> y <b>DialogFlow</b>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -158,7 +158,7 @@
         "data": "03/22/2018",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "imatge": "../../assets/images/projecte23.png",
+        "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
         "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -315,17 +315,6 @@
         "imatge": "../../assets/images/projecte13.png",
         "html": "Ejemplo que <b>carga un fichero JSON en una tabla html</b> con un Servicio Angular-Cli.<br/><br/>Aquí en <a href='https://davidlearns.blogspot.com.es/2016/10/bind-json-data-to-html-table-with.html' target='_blank'>davidlearns.blogspot.com</a> puedes ver la explicación del ejemplo y puedes aprender a hacerlo.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
-        },
-        {
-        "id": 5, "titol": "Mi Primera Web",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "10/19/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/PrimeraWeb",
-        "imatge": "../../assets/images/projecte12.png",
-        "html": "He desarollado mi página web con <b>angular 4</b> usando <b>angular/Cli</b>.<br/><br/>Es una web responsiva con <b>bootstrap 3</b>.<br/><br/>Los proyectos que se muestran están realizados con <a href='https://angular.io' target='_blank'>angular</a>, <a href='https://unity3d.com' target='_blank'>unity</a>, <a href='https://www.java.com/' target='_blank'>java</a> o <a href='https://ionicframework.com' target='_blank'>ionic</a>.",
-        "repositori": "https://github.com/davidmartinezros/MiWeb"
         },
         {
         "id": 4, "titol": "Dos cámaras de misma escena",
