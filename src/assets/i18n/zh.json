@@ -148,7 +148,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
         "video": "https://www.youtube.com/embed/EjtESFUxgpU",
-        "html": "这个项目是一个人工会话单元，通常称为聊天机器人。<br/>它由<b>Angular5</b>和<b>DialogFlow</b>制成。",
+        "html": "这个项目是一个人工会话单元，通常称为聊天机器人。<br/><br/>告诉你想要什么并回答你所知道的。<br/><br/>它由<b>Angular5</b>和<b>DialogFlow</b>制成。",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
         {
@@ -202,8 +202,8 @@
         "data": "04/13/2017",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/myyme",
-        "imatge": "../../assets/images/projecte17.png",
-        "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>。<br/> <br/> <b>处理它！</b>",
+        "video": "https://www.youtube.com/embed/LGhPmrAz-cQ",
+        "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>。",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
@@ -214,7 +214,7 @@
         "estat": "規劃",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
         "video": "https://www.youtube.com/embed/X1sdpKoNN6A",
-        "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'> Jordi Via </a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
+        "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
         {
@@ -246,7 +246,7 @@
         "data": "12/08/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "imatge": "../../assets/images/projecte9.png",
+        "video": "https://www.youtube.com/embed/qNqkQNnZ7tM",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中Angular2。",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
@@ -257,7 +257,7 @@
         "data": "11/06/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "imatge": "../../assets/images/projecte5.png",
+        "video": "https://www.youtube.com/embed/Ubm8HhqhkwE",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
@@ -279,7 +279,7 @@
         "data": "10/30/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "imatge": "../../assets/images/projecte1.png",
+        "video": "https://www.youtube.com/embed/hI7a4HskMIw",
         "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在Angular2網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https：//daneden.github.io/animate.css/'目標='_空白'> https://daneden.github.io/animate.css/</a>。",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
@@ -334,7 +334,7 @@
         "data": "10/18/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "imatge": "../../assets/images/projecte7.png",
+        "video": "https://www.youtube.com/embed/2PRMTfO2T5U",
         "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https://angular.io/docs/ts/latest/tutorial' target='_blank'>教程</a>。",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
