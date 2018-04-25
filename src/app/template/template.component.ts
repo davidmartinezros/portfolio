@@ -7,6 +7,7 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { LanguageService } from './language.service';
 import { Pipe } from '@angular/core';
 import { Language } from './language';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-template',
@@ -28,7 +29,10 @@ export class TemplateComponent {
     constructor(public authService: AuthService,
         private translate: TranslateService,
         private route: ActivatedRoute,
-        private languageService: LanguageService) {
+        private languageService: LanguageService,
+        private titleService: Title,
+        private metaService: Meta) {
+
         var userLang = "";
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -134,6 +138,32 @@ export class TemplateComponent {
         ProjectsComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
         this.getLanguanges();
+
+        let title = "";
+
+        // Sets the <title></title>
+        this.translate.get("TitleIndex")
+            .toPromise()        
+            .then(title => this.titleService.setTitle(title))
+            .catch(this.handleError);
+
+        // Sets the <meta> tag author
+        this.translate.get("TagAuthorIndex")
+            .toPromise()        
+            .then(author => this.metaService.addTag({ name: 'author', content: author }))
+            .catch(this.handleError);
+        
+        // Sets the <meta> tag keywords
+        this.translate.get("TagKeywordsIndex")
+            .toPromise()        
+            .then(keywords => this.metaService.addTag({ name: 'keywords', content: keywords }))
+            .catch(this.handleError);
+
+        // Sets the <meta> tag description
+        this.translate.get("TagDescriptionIndex")
+            .toPromise()        
+            .then(description => this.metaService.addTag({ name: 'description', content: description }))
+            .catch(this.handleError);
         
     }
 
@@ -142,5 +172,10 @@ export class TemplateComponent {
             .then(languages => 
             { this.languages = languages }
         );
+    }
+
+    private handleError(error: any): Promise<any> {
+        console.error('An error occurred', error); // for demo purposes only
+        return Promise.reject(error.message || error);
     }
 }

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "universal": "ng build --prod client && ng build --prod --app server --output-hashing=false && webpack --config webpack.server.config.js --progress --colors && node dist/server.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -12,17 +13,18 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "4.4.4",
-    "@angular/cli": "1.4.4",
-    "@angular/common": "4.4.4",
-    "@angular/compiler": "4.4.4",
-    "@angular/compiler-cli": "4.4.4",
-    "@angular/core": "4.4.4",
-    "@angular/forms": "4.4.4",
-    "@angular/http": "4.4.4",
-    "@angular/language-service": "4.4.4",
-    "@angular/platform-browser": "4.4.4",
-    "@angular/platform-browser-dynamic": "4.4.4",
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/language-service": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/platform-server": "^5.0.0",
+    "@nguniversal/module-map-ngfactory-loader": "^5.0.0-beta.5",
     "@angular/router": "4.4.4",
     "@ngx-translate/core": "8.0.0",
     "@ngx-translate/http-loader": "2.0.0",
@@ -39,14 +41,13 @@
     "popper.js": "1.11.0",
     "promise-polyfill": "6.0.2",
     "requirejs": "2.3.5",
-    "rxjs": "5.4.3",
+    "rxjs": "5.5.6",
     "tether": "1.4.0",
     "zone.js": "0.8.18"
   },
   "devDependencies": {
     "@angular/cli": "1.4.4",
     "@angular/compiler-cli": "4.4.4",
-    "@angular/language-service": "4.4.4",
     "@types/google.analytics": "0.0.35",
     "@types/jasmine": "2.6.0",
     "@types/jasminewd2": "2.0.2",
@@ -64,6 +65,6 @@
     "protractor": "5.1.2",
     "ts-node": "3.2.0",
     "tslint": "5.3.2",
-    "typescript": "2.3.3"
+    "typescript": "2.4.2"
   }
 }

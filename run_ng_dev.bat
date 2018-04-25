@@ -1,1 +1,1 @@
-ng build --dev --env=dev
+ng build --prod --env=dev --app=client && ng build --prod --env=dev --app=server

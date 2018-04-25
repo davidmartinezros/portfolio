@@ -87,7 +87,7 @@ const appRoutes: Routes = [
     ExperienceComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
