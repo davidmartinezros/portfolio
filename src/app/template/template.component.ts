@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild, ElementRef, Inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
@@ -8,6 +8,8 @@ import { LanguageService } from './language.service';
 import { Pipe } from '@angular/core';
 import { Language } from './language';
 import { Title, Meta } from '@angular/platform-browser';
+import { PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 
 @Component({
     selector: 'app-template',
@@ -26,13 +28,53 @@ export class TemplateComponent {
 
     sound: any;
 
-    constructor(public authService: AuthService,
+    constructor(@Inject(PLATFORM_ID) private platformId: Object,
+        public authService: AuthService,
         private translate: TranslateService,
         private route: ActivatedRoute,
         private languageService: LanguageService,
         private titleService: Title,
         private metaService: Meta) {
+        
+        this.getLanguanges();
+    }
 
+    ngOnInit() {
+        if (isPlatformBrowser(this.platformId)) {
+            // Client only code.
+            this.loadLanguage();
+            this.loadMusic();
+         }
+         if (isPlatformServer(this.platformId)) {
+           // Server only code.
+         }
+    }
+
+    loadMusic() {
+        this.sound = new Audio();
+        this.sound.autoplay = false;
+        this.sound.preload = 'auto';
+        this.sound.autobuffer = true;
+
+        let parent = this;
+
+        this.sound.addEventListener('loadeddata', function() {
+            parent.loaded = true;
+        }, false);
+
+        this.sound.addEventListener('play', function() {
+            parent.playing = true;
+        }, false);
+
+        this.sound.addEventListener('pause', function() {
+            parent.playing = false;
+        }, false);
+        
+        this.sound.src = './assets/audio/Rhodesia_MkII.mp3';
+        this.sound.load();
+    }
+
+    loadLanguage() {
         var userLang = "";
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -65,42 +107,6 @@ export class TemplateComponent {
             }
 
         });
-        /*
-        let template = this;
-        this.sound = new Howl({
-            src: ['./assets/audio/Rhodesia_MkII.mp3'],
-            autoplay: true,
-            loop: true,
-            volume: 0.3,
-            html5 :true,
-            mobileAutoEnable: true
-        });
-        */
-        this.sound = new Audio();
-        this.sound.autoplay = false;
-        this.sound.preload = 'auto';
-        this.sound.autobuffer = true;
-
-        let parent = this;
-
-        this.sound.addEventListener('loadeddata', function() {
-            parent.loaded = true;
-        }, false);
-
-        this.sound.addEventListener('play', function() {
-            parent.playing = true;
-        }, false);
-
-        this.sound.addEventListener('pause', function() {
-            parent.playing = false;
-        }, false);
-        
-        this.sound.src = './assets/audio/Rhodesia_MkII.mp3';
-        this.sound.load();
-    }
-
-    ngOnInit() {
-        this.getLanguanges();
     }
 
     isLoadedTrack() {
@@ -150,19 +156,19 @@ export class TemplateComponent {
         // Sets the <meta> tag author
         this.translate.get("TagAuthorIndex")
             .toPromise()        
-            .then(author => this.metaService.addTag({ name: 'author', content: author }))
+            .then(author => this.metaService.updateTag({ name: 'author', content: author }))
             .catch(this.handleError);
         
         // Sets the <meta> tag keywords
         this.translate.get("TagKeywordsIndex")
             .toPromise()        
-            .then(keywords => this.metaService.addTag({ name: 'keywords', content: keywords }))
+            .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
             .catch(this.handleError);
 
         // Sets the <meta> tag description
         this.translate.get("TagDescriptionIndex")
             .toPromise()        
-            .then(description => this.metaService.addTag({ name: 'description', content: description }))
+            .then(description => this.metaService.updateTag({ name: 'description', content: description }))
             .catch(this.handleError);
         
     }
