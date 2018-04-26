@@ -27,6 +27,7 @@
     "@angular/router": "4.4.4",
     "@firebase/app": "^0.1.10",
     "@nguniversal/module-map-ngfactory-loader": "^5.0.0-beta.5",
+    "@nguniversal/express-engine": "^5.0.0-beta.5",
     "@ngx-translate/core": "8.0.0",
     "@ngx-translate/http-loader": "2.0.0",
     "@types/jasmine": "2.6.0",
