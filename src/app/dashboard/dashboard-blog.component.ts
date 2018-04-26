@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BlogComponent } from '../blog/blog.component';
 import { AuthService } from '../firebase-auth/auth.service';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 import { AuthService } from '../firebase-auth/auth.service';
 
 const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -18,7 +18,7 @@ export class FormComponent implements OnInit {
     phone: number;
     text: string;
 
-    messages$: FirebaseListObservable<any[]>;
+    messages$;
 
     constructor(private fb: FormBuilder, private af: AngularFireDatabase, public authService: AuthService) {
         this.rForm = fb.group({
@@ -30,11 +30,7 @@ export class FormComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.messages$ = this.af.list('messages', {
-            query: {
-                limitToFirst: 100
-            }
-        });
+        this.messages$ = this.af.list('messages', ref => ref.limitToFirst(100)).valueChanges();
     }
 
     addMessage(message): void {

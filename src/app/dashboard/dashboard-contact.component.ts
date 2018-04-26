@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
     selector: 'app-dashboard-contact',
@@ -9,14 +9,10 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 export class DashboardContactComponent {
 
-    messages$: FirebaseListObservable<any[]>;
+    messages$;
 
     constructor(private af: AngularFireDatabase) {
         
-        this.messages$ = this.af.list('messages', {
-            query: {
-                limitToFirst: 100
-            }
-        });
+        this.messages$ = this.af.list('messages', ref => ref.limitToFirst(100)).valueChanges();
     }
 }

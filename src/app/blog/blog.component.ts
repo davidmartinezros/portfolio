@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { AuthService } from '../firebase-auth/auth.service';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
     selector: 'app-blog',
@@ -12,16 +12,12 @@ export class BlogComponent implements OnInit {
     title: string;
     body: string;
 
-    posts$: FirebaseListObservable<any[]>;
+    posts$;
 
     constructor(private af: AngularFireDatabase, public authService: AuthService) { }
 
     ngOnInit() {
-        this.posts$ = this.af.list('posts', {
-            query: {
-                limitToFirst: 100
-            }
-        });
+        this.posts$ = this.af.list('posts', ref => ref.limitToFirst(100)).valueChanges();
     }
 
     addPost(
