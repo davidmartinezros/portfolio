@@ -109,11 +109,11 @@ const appRoutes: Routes = [
 })
 
 export class AppModule { }
-
+/*
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();
 }
-
+*/
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
