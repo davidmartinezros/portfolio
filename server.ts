@@ -66,30 +66,20 @@ export const routes: string[] = [
 app.get('/', (req, res) => {
   res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
 });
+
 routes.forEach(route => {
   app.get(`/${route}`, (req, res) => {
     res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
   });
-  // Route pattern
   app.get(`/${route}/*`, (req, res) => {
     res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
   });
 });
 
+// All other routes must be resolved if exist
 app.get('*', function(req, res) {
-  res.render(join(DIST_FOLDER, 'browser', req.url), { req });
+  res.render(join(req.url), { req });
 });
-/*
-app.get('*', function(req, res) {
-  res.render('http://localhost:' + PORT + '/' + req.url);
-});
-*/
-// All regular routes use the Universal engine
-/*
-app.get('*', (req, res) => {
-    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
-});
-*/
 
 var http = require('http');
 
