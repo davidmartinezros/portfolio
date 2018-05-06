@@ -54,7 +54,9 @@ app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));
 
 // Server static files from /browser
-app.get('*.*', express.static(join(DIST_FOLDER, 'browser')));
+app.get('/web', express.static(join(DIST_FOLDER, 'browser'), { 'index': false }));
+
+app.get('/**', express.static(join(DIST_FOLDER, 'browser')));
 
 // Our page routes
 export const routes: string[] = [
@@ -90,9 +92,10 @@ httpServer.listen(PORT, () => {
   console.log(`Node server listening on http://localhost:${PORT}`);
 });
 
-var fs = require('fs');
-var https = require('https');
 if(KEY_CERTIFICATE && CRT_CERTIFICATE && PASSWORD_CERTIFICATE) {
+
+  var fs = require('fs');
+  var https = require('https');
 
   var privateKey  = fs.readFileSync(KEY_CERTIFICATE, 'utf8');
   var certificate = fs.readFileSync(CRT_CERTIFICATE, 'utf8');
