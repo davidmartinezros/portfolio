@@ -10,6 +10,8 @@ import { Subject }    from 'rxjs/Subject';
 
  export class ProjectsComponent {
 
+    objectKeys = Object.keys;
+
     projects: Project[];
 
     public static updateStuff: Subject<any> = new Subject();

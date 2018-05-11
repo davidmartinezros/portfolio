@@ -10,6 +10,8 @@ import { Subject }    from 'rxjs/Subject';
 
 export class ExperienceComponent {
 
+    objectKeys = Object.keys;
+
     experiences: Experience[];
 
     public static updateStuff: Subject<any> = new Subject();

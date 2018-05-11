@@ -19,6 +19,8 @@ enableProdMode();
 // Express server
 const app = express();
 
+//app.urlencoded({extended: false});
+
 const PORT = process.env.PORT || 4000;
 const HTTPS_PORT = process.env.HTTPS_PORT || 4443;
 
@@ -34,54 +36,65 @@ const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toStri
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main.bundle');
 
-const { provideModuleMap } = require('@nguniversal/module-map-ngfactory-loader');
+// Express Engine
+import { ngExpressEngine } from '@nguniversal/express-engine';
 
-app.engine('html', (_, options, callback) => {
-  renderModuleFactory(AppServerModuleNgFactory, {
-    // Our index.html
-    document: template,
-    url: options.req.url,
-    // DI so that we can get lazy-loading to work differently (since we need it to just instantly render it)
-    extraProviders: [
-      provideModuleMap(LAZY_MODULE_MAP)
-    ]
-  }).then(html => {
-    callback(null, html);
-  });
-});
+// Import module map for lazy loading
+import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
+
+app.engine('html', ngExpressEngine({
+  bootstrap: AppServerModuleNgFactory,
+  providers: [
+    provideModuleMap(LAZY_MODULE_MAP)
+  ]
+}));
 
 app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));
+
+// Our page routes
+export const routes: string[] = [
+  'main',
+  'dashboard',
+  'dashboard/contact',
+  'dashboard/blog'
+];
+
+// All regular routes use the Universal engine
+app.get('/', (req, res) => {
+  console.time(`GET: ${req.originalUrl}`);
+  res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
+  console.timeEnd(`GET: ${req.originalUrl}`);
+});
+
+routes.forEach(route => {
+  app.get(`/${route}`, (req, res) => {
+    //res.json({'lang': req.query.lang});
+    console.log(req.query.lang);
+    console.time(`GET: ${req.originalUrl}`);
+    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
+    console.timeEnd(`GET: ${req.originalUrl}`);
+  });
+  app.get(`/${route}/*`, (req, res) => {
+    //res.json({'lang': req.query.lang});
+    console.log(req.query.lang);
+    console.time(`GET: ${req.originalUrl}`);
+    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
+    console.timeEnd(`GET: ${req.originalUrl}`);
+  });
+});
 
 // Server static files from /browser
 app.get('/web', express.static(join(DIST_FOLDER, 'browser'), { 'index': false }));
 
 app.get('/**', express.static(join(DIST_FOLDER, 'browser')));
 
-// Our page routes
-export const routes: string[] = [
-  'main',
-  'dashboard'
-];
-
-// All regular routes use the Universal engine
-app.get('/', (req, res) => {
-  res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
-});
-
-routes.forEach(route => {
-  app.get(`/${route}`, (req, res) => {
-    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
-  });
-  app.get(`/${route}/*`, (req, res) => {
-    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req });
-  });
-});
-
 // All other routes must be resolved if exist
+/*
 app.get('*', function(req, res) {
   res.render(join(req.url), { req });
 });
+*/
 
 var http = require('http');
 

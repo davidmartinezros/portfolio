@@ -1,8 +1,8 @@
-import {NgModule} from '@angular/core';
-import {ServerModule, ServerTransferStateModule} from '@angular/platform-server';
-import {ModuleMapLoaderModule} from '@nguniversal/module-map-ngfactory-loader';
+import { NgModule } from '@angular/core';
+import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
+import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
 
-import {AppModule} from './app.module';
+import { AppModule } from './app.module';
 import { TemplateComponent } from '../template/template.component';
 
 @NgModule({
@@ -12,10 +12,14 @@ import { TemplateComponent } from '../template/template.component';
     AppModule,
     ServerModule,
     ModuleMapLoaderModule, // <-- *Important* to have lazy-loaded routes work
-    ServerTransferStateModule
+    ServerTransferStateModule,
   ],
   // Since the bootstrapped component is not inherited from your
   // imported AppModule, it needs to be repeated here.
   bootstrap: [TemplateComponent],
 })
-export class AppServerModule {}
+export class AppServerModule {
+  constructor() {
+    console.log('AppServerModule');
+  }
+}

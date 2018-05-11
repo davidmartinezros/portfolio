@@ -1,6 +1,6 @@
 <div *ngIf="projects">
   <div class="container-fluid">
-    <div *ngFor="let project of projects; let i = index">
+    <div *ngFor="let i of objectKeys(projects)">
       <div *ngIf="i%2===0">
         <div class="card-deck">
             <!--

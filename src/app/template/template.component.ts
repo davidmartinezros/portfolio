@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef, Inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
@@ -17,6 +17,8 @@ import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 })
 
 export class TemplateComponent {
+
+    objectKeys = Object.keys;
 
     languages: Language[];
 
@@ -47,6 +49,7 @@ export class TemplateComponent {
          }
          if (isPlatformServer(this.platformId)) {
            // Server only code.
+           this.loadServerLanguage();
          }
     }
 
@@ -76,6 +79,11 @@ export class TemplateComponent {
 
     loadLanguage() {
         var userLang = "";
+
+        //console.log(this.route);
+
+        console.log(this.route.queryParams);
+        
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
                 userLang = this.language;
@@ -83,7 +91,7 @@ export class TemplateComponent {
                 userLang = params['lang'];
             }
 
-            //console.log("queryParams:" + userLang);
+            console.log("queryParams:" + userLang);
 
             if(!userLang || userLang == "") {
                 userLang = navigator.language;
@@ -105,6 +113,43 @@ export class TemplateComponent {
             } else {
                 this.changeLanguage("en");
             }
+
+            console.log('complete loadLanguage');
+
+        });
+    }
+
+    loadServerLanguage() {
+        var userLang = "";
+
+        //console.log(this.route);
+
+        console.log(this.route.queryParams);
+        
+        this.route.queryParams.subscribe(params => {
+            if(!params['lang'] || params['lang'] == "") {
+                userLang = this.language;
+            } else {
+                userLang = params['lang'];
+            }
+
+            console.log("queryParams:" + userLang);
+
+            if(userLang) {
+                userLang = userLang.toLowerCase();
+            }
+
+            if(userLang && userLang.length > 2) {
+                userLang = userLang.substring(0,2);
+            }
+
+            if(userLang == "es" || userLang == "en" || userLang == "zh") {
+                this.changeLanguage(userLang);
+            } else {
+                this.changeLanguage("en");
+            }
+
+            console.log('complete loadLanguage');
 
         });
     }
@@ -129,6 +174,48 @@ export class TemplateComponent {
         }
     }
 
+    public changeServerLanguage(language) {
+
+        console.log(language);
+
+        console.log("Ara anem a cridar a this.translate.setDefaultLang(language); que al servidor dona error.");
+
+        // this language will be used as a fallback when a translation isn't found in the current language
+        this.translate.setDefaultLang(language);
+
+        // the lang to use, if the lang isn't available, it will use the current loader to get them
+        this.translate.use(language);
+
+        this.language = language;
+
+        // Sets the <title></title>
+        this.translate.get("TitleIndex")
+            .toPromise()        
+            .then(title => this.titleService.setTitle(title))
+            .catch(this.handleError);
+
+        // Sets the <meta> tag author
+        this.translate.get("TagAuthorIndex")
+            .toPromise()        
+            .then(author => this.metaService.updateTag({ name: 'author', content: author }))
+            .catch(this.handleError);
+        
+        // Sets the <meta> tag keywords
+        this.translate.get("TagKeywordsIndex")
+            .toPromise()        
+            .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
+            .catch(this.handleError);
+
+        // Sets the <meta> tag description
+        this.translate.get("TagDescriptionIndex")
+            .toPromise()        
+            .then(description => this.metaService.updateTag({ name: 'description', content: description }))
+            .catch(this.handleError);
+        
+        console.log('changeServerLanguage');
+        
+    }
+
     public changeLanguage(language) {
 
         console.log(language);
@@ -143,9 +230,8 @@ export class TemplateComponent {
 
         ProjectsComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
+        
         this.getLanguanges();
-
-        let title = "";
 
         // Sets the <title></title>
         this.translate.get("TitleIndex")

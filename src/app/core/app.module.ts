@@ -109,7 +109,11 @@ const appRoutes: Routes = [
   bootstrap: [TemplateComponent]  // main (first) component
 })
 
-export class AppModule { }
+export class AppModule {
+  constructor() {
+    console.log('AppModule');
+  }
+}
 /*
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();
