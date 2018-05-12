@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
+import { BrowserModule, BrowserTransferStateModule, TransferState } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { enableProdMode } from '@angular/core';
@@ -31,6 +31,8 @@ import { ProjectService } from '../projects/project.service';
 import { ExperienceService } from '../experience/experience.service';
 import { PipesModule } from '../pipes/pipes.module';
 import { LanguageService } from '../template/language.service';
+import { TransferHttpCacheModule } from '@nguniversal/common';
+import { translateFactory } from './translate-universal-loader.service';
 
 const appRoutes: Routes = [
   {
@@ -89,6 +91,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),
     BrowserTransferStateModule,
+    TransferHttpCacheModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
@@ -97,11 +100,19 @@ const appRoutes: Routes = [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     PipesModule,
+    /*
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
+      }
+    })
+    */
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: translateFactory
       }
     })
   ],
@@ -119,7 +130,3 @@ if (!/localhost/.test(document.location.host)) {
   enableProdMode();
 }
 */
-export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
-

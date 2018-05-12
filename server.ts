@@ -41,7 +41,14 @@ import { ngExpressEngine } from '@nguniversal/express-engine';
 
 // Import module map for lazy loading
 import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
+/*
+app.engine('html', (_, options, callback) => {
+  const opts = { document: template, url: options.req.url };
 
+  renderModuleFactory(AppServerModuleNgFactory, opts)
+    .then(html => callback(null, html));
+});
+*/
 app.engine('html', ngExpressEngine({
   bootstrap: AppServerModuleNgFactory,
   providers: [
@@ -62,6 +69,7 @@ export const routes: string[] = [
 
 // All regular routes use the Universal engine
 app.get('/', (req, res) => {
+  console.log(req.query.lang);
   console.time(`GET: ${req.originalUrl}`);
   res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
   console.timeEnd(`GET: ${req.originalUrl}`);
