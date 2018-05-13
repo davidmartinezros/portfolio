@@ -32,7 +32,8 @@ body {
 
 .job-date {
   letter-spacing: 1px !important;
-  background-color: var(--navbar-color);
+  /*background-color: var(--navbar-color);*/
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   border-radius: 3px;
 }
@@ -43,7 +44,8 @@ body {
 
 .job-name {
   letter-spacing: 1px !important;
-  background-color: var(--second-background);
+  /*background-color: var(--second-background);*/
+  background-color: rgba(100, 100, 100, 0.5);;
   padding-left: 1px;
   padding-right: 1px;
   border: 1px solid white;
