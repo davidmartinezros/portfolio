@@ -63,6 +63,10 @@ const appRoutes: Routes = [
     ]
   },
   {
+    path: "project/:lang/:nom",
+    component: ProjectComponent
+  },
+  {
     path: '',
     redirectTo: '/main',
     pathMatch: 'prefix'

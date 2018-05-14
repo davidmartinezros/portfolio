@@ -64,7 +64,8 @@ export const routes: string[] = [
   'main',
   'dashboard',
   'dashboard/contact',
-  'dashboard/blog'
+  'dashboard/blog',
+  'project/:lang/:nom'
 ];
 
 // All regular routes use the Universal engine

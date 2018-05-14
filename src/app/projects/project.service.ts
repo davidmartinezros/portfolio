@@ -28,14 +28,29 @@ export class ProjectService {
         */
     }
 
+    getProjectsWithLang(lang): Promise<Project[]> {
+        // this language will be used as a fallback when a translation isn't found in the current language
+        this.translate.setDefaultLang(lang);
+        
+        // the lang to use, if the lang isn't available, it will use the current loader to get them
+        this.translate.use(lang);
+
+        return this.getProjects();
+    }
+
     getTypeProjects(tipus: string): Promise<Project[]> {
         return this.getProjects()
              .then(projects => projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()));
     }
 
-    getProject(id: number): Promise<Project> {
+    getProjectById(id: number): Promise<Project> {
         return this.getProjects()
              .then(projects => projects.find(project => project.id === id));
+    }
+
+    getProjectByName(lang: string, nom: string): Promise<Project> {
+        return this.getProjectsWithLang(lang)
+             .then(projects => projects.find(project => project.nom === nom));
     }
 
     /*

@@ -1,5 +1,6 @@
 export class Project {
   id: number;
+  nom: string;
   tema: string;
   tipus: string;
   titol: string;

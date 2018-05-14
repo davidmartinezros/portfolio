@@ -14,6 +14,7 @@
         }
     ],
     "TitleIndex": "Angular y Java | David, el mejor Full Stack Developer de 2018",
+    "SubtitleIndex": " | David, un Full Stack Developer",
     "TagAuthorIndex": "David Martínez Ros",
     "TagKeywordsIndex": "qué, cómo, qué es, encontrar, contratar, experto, full stack developer, respuesta, fácil, david, martínez, ros, el mejor, portfolio, 2018, software, ingeniero, barcelona, españa, lo último, java, angular, node.js, spring",
     "TagDescriptionIndex": "Cómo encontrar y contratar el mejor Full Stack Developer en 2018? Qué es un Full Stack Developer? La respuesta es fácil ... David Martínez Ros, Ingeniero de Software y Full Stack Developer de Barcelona con lo último en Java, Angular, Node.js, Spring.",
@@ -138,10 +139,13 @@
             ]
         }
     ],
+    "TitleProject": "PROYECTO",
     "projects":
     [
         {
-        "id": 23, "titol": "ChatBot Myyme",
+        "id": 23,
+        "nom": "chatbot-myyme",
+        "titol": "ChatBot Myyme",
         "tema": "Angular",
         "tipus": "Project",
         "data": "04/18/2018",
@@ -152,7 +156,9 @@
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
         {
-        "id": 22, "titol": "Escena: Mar con delfines",
+        "id": 22,
+        "nom": "escena-mar-condelfines",
+        "titol": "Escena: Mar con delfines",
         "tema": "Angular",
         "tipus": "Project",
         "data": "03/22/2018",
@@ -163,7 +169,9 @@
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
         {
-        "id": 21, "titol": "Editor:  mallas 3D",
+        "id": 21,
+        "nom": "editor-mallas-3d",
+        "titol": "Editor:  mallas 3D",
         "tema": "Angular",
         "tipus": "Project",
         "data": "02/21/2018",
@@ -174,7 +182,9 @@
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
         {
-        "id": 20, "titol": "Comparativas: IA (Inteligencia Artificial)",
+        "id": 20,
+        "nom": "comparativas-ia-inteligencia-artificial",
+        "titol": "Comparativas: IA (Inteligencia Artificial)",
         "tema": "Google Trends",
         "tipus": "Comparative",
         "data": "10/31/2017",
@@ -185,7 +195,9 @@
         "repositori": null
         },
         {
-        "id": 19, "titol": "¿Cuál Monumento?",
+        "id": 19,
+        "nom": "cual-monumento",
+        "titol": "¿Cuál Monumento?",
         "tema": "Ionic",
         "tipus": "Project",
         "data": "09/14/2017",
@@ -196,7 +208,9 @@
         "repositori": "https://github.com/davidmartinezros/which-image-is"
         },
         {
-        "id": 18, "titol": "Aprendizaje con Inteligencia Artificial",
+        "id": 18,
+        "nom": "aprendizaje-con-inteligencia-artificial",
+        "titol": "Aprendizaje con Inteligencia Artificial",
         "tema": "Java",
         "tipus": "Project",
         "data": "04/13/2017",
@@ -207,7 +221,9 @@
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
         {
-        "id": 17, "titol": "Remake de Ghost'n Goblins",
+        "id": 17,
+        "nom": "remake-de-ghostn-goblins",
+        "titol": "Remake de Ghost'n Goblins",
         "tema": "Unity",
         "tipus": "Project",
         "data": "04/13/2017",
@@ -218,7 +234,9 @@
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
         {
-        "id": 16, "titol": "Juego 3D Serpiente",
+        "id": 16,
+        "nom": "juego-3d-serpiente",
+        "titol": "Juego 3D Serpiente",
         "tema": "Angular",
         "tipus": "Project",
         "data": "04/04/2017",
@@ -229,7 +247,9 @@
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
         {
-        "id": 15, "titol": "Entra en el mundo 3D",
+        "id": 15,
+        "nom": "entra-en-el-mundo-3d",
+        "titol": "Entra en el mundo 3D",
         "tema": "Angular",
         "tipus": "Example",
         "data": "03/29/2017",
@@ -240,7 +260,9 @@
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
         {
-        "id": 12, "titol": "Editor: Divs arrastrables",
+        "id": 12,
+        "nom": "editor-divs-arrastrables",
+        "titol": "Editor: Divs arrastrables",
         "tema": "Angular",
         "tipus": "Component",
         "data": "12/08/2016",
@@ -251,7 +273,9 @@
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
-        "id": 11, "titol": "Componente: Árbol ancestros",
+        "id": 11,
+        "nom": "componente-arbol-ancestros",
+        "titol": "Componente: Árbol ancestros",
         "tema": "Angular",
         "tipus": "Component",
         "data": "11/06/2016",
@@ -262,7 +286,9 @@
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
         {
-        "id": 10, "titol": "Escena naturaleza: Agua",
+        "id": 10,
+        "nom": "escena-naturaleza-agua",
+        "titol": "Escena naturaleza: Agua",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/30/2016",
@@ -273,7 +299,9 @@
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
         {
-        "id": 9, "titol": "Componente: animaciones texto html",
+        "id": 9,
+        "nom": "componente-animaciones-texto-html",
+        "titol": "Componente: animaciones texto html",
         "tema": "Angular",
         "tipus": "Component",
         "data": "10/30/2016",
@@ -284,7 +312,9 @@
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
-        "id": 8, "titol": "Importar geometría Blender",
+        "id": 8,
+        "nom": "importar-geometria-blender",
+        "titol": "Importar geometría Blender",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/29/2016",
@@ -295,7 +325,9 @@
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
-        "id": 7, "titol": "Comparativa: AngularJS y Angular2",
+        "id": 7,
+        "nom": "comparativa-angularjs-y-angular2",
+        "titol": "Comparativa: AngularJS y Angular2",
         "tema": "Google Trends",
         "tipus": "Comparative",
         "data": "10/28/2016",
@@ -306,7 +338,9 @@
         "repositori": null
         },
         {
-        "id": 6, "titol": "Asociar fichero json a tabla html",
+        "id": 6,
+        "nom": "asociar-fichero-json-a-tabla-html",
+        "titol": "Asociar fichero json a tabla html",
         "tema": "Angular",
         "tipus": "Example",
         "data": "10/27/2016",
@@ -317,7 +351,9 @@
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-html-table"
         },
         {
-        "id": 4, "titol": "Dos cámaras de misma escena",
+        "id": 4,
+        "nom": "dos-camaras-de-misma-escena",
+        "titol": "Dos cámaras de misma escena",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/18/2016",
@@ -328,7 +364,9 @@
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
         {
-        "id": 3, "titol": "¿Cómo aprendí Angular?",
+        "id": 3,
+        "nom": "como-aprendi-angular",
+        "titol": "¿Cómo aprendí Angular?",
         "tema": "Angular",
         "tipus": "Example",
         "data": "10/18/2016",
@@ -339,7 +377,9 @@
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
         {
-        "id": 2, "titol": "Ejemplo físico",
+        "id": 2,
+        "nom": "ejemplo-fisico",
+        "titol": "Ejemplo físico",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/12/2016",
@@ -350,7 +390,9 @@
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
         {
-        "id": 1, "titol": "Escena 3D : Marte",
+        "id": 1,
+        "nom": "escena-3d-marte",
+        "titol": "Escena 3D : Marte",
         "tema": "Unity",
         "tipus": "Example",
         "data": "10/11/2016",
