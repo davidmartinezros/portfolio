@@ -308,7 +308,7 @@
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "video": "https://www.youtube.com/embed/hI7a4HskMIw",
-        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在Angular2網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https：//daneden.github.io/animate.css/'目標='_空白'> https://daneden.github.io/animate.css/</a>。",
+        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在Angular2網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>。",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
