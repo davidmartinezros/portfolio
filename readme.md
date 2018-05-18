@@ -33,6 +33,37 @@ run with universal on port 4000:
 npm run universal
 ```
 
+### Configuration file
+You need also a file (app.json) with the configuration of the running.
+
+```
+{
+  "apps" : [{
+    "name"        : "davidmartinezros.com",
+    "cwd"         : "/var/www/html",
+    "script"      : "dist/server.js",
+    "watch"       : true,
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 80,
+      "HTTPS_PORT": 443,
+      "KEY_CERTIFICATE": "file_path.key",
+      "CRT_CERTIFICATE": "file_path.crt",
+      "PASSWORD_CERTIFICATE": "password"
+    },
+    "env_production" : {
+      "NODE_ENV": "production",
+      "PORT": 80,
+      "HTTPS_PORT": 443,
+      "KEY_CERTIFICATE": "file_path.key",
+      "CRT_CERTIFICATE": "file_path.crt",
+      "PASSWORD_CERTIFICATE": "password"
+    }
+  }]
+}
+```
+Then, you have to run: pm2 start app.json
+
 ### Latest version
 https://github.com/davidmartinezros/portfolio
 
