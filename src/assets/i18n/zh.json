@@ -143,6 +143,19 @@
     "projects":
     [
         {
+        "id": 24,
+        "nom": "背景画面立方体",
+        "titol": "与多维数据集的墙纸",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/03/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
+        "video": null,
+        "html": "这个项目是一个有立方体的壁纸，你可以与之互动。<br/> <br/>它由<b>Angular5</b>和<a href='https://threejs.org/' target='_blank'>THREE.js</a>。",
+        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        },
+        {
         "id": 23,
         "nom": "聊天机器人Myyme",
         "titol": "聊天机器人Myyme",
@@ -323,19 +336,6 @@
         "video": "https://www.youtube.com/embed/S88k_sR2hnU",
         "html": "此示例顯示了使用3D Blender建模工俱生成的Dragon，我們可以在<a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>中獲取Dragon。 <br/> <br/>這個龍在Blender中創建了動畫，我在鍵盤事件中使用了其中的一個。",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
-        },
-        {
-        "id": 7,
-        "nom": "比較-angularjs-和-angular2",
-        "titol": "比較：AngularJS和Angular2",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/28/2016",
-        "estat": "整理",
-        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "imatge": "../../assets/images/projecte11.png",
-        "html": "這是AngularJS和Angular2之間的對比，随着<a href='https://www.google.com/trends' target='_blank'> Google Trends</a>的应用。",
-        "repositori": null
         },
         {
         "id": 6,

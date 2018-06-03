@@ -143,6 +143,19 @@
     "projects":
     [
         {
+        "id": 24,
+        "nom": "fondo-pantalla-cubos",
+        "titol": "Fondo de pantalla con Cubos",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/03/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
+        "video": null,
+        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href = 'https://threejs.org/' target= '_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        },
+        {
         "id": 23,
         "nom": "chatbot-myyme",
         "titol": "ChatBot Myyme",
@@ -323,19 +336,6 @@
         "video": "https://www.youtube.com/embed/S88k_sR2hnU",
         "html": "Este ejemplo muestra un Dragón generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
-        },
-        {
-        "id": 7,
-        "nom": "comparativa-angularjs-y-angular2",
-        "titol": "Comparativa: AngularJS y Angular2",
-        "tema": "Google Trends",
-        "tipus": "Comparative",
-        "data": "10/28/2016",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
-        "imatge": "../../assets/images/projecte11.png",
-        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicación de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
-        "repositori": null
         },
         {
         "id": 6,
