@@ -151,8 +151,8 @@
         "data": "06/03/2018",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
-        "video": null,
-        "html": "Este proyecto es un fondo de pantalla con cubos con los que se puede interaccionar.<br/><br/>Está hecho con <b>Angular5</b> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
         {
