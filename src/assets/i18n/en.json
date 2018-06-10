@@ -143,6 +143,19 @@
     "projects":
     [
         {
+        "id": 25,
+        "nom": "interactive-background-geometries-threejs",
+        "titol": "Interactive Background with Geometries",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/09/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
+        "video": "https://www.youtube.com/embed/r3Oj2359fPU",
+        "html": "This project is a wallpaper with geometries with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
+        },
+        {
         "id": 24,
         "nom": "background-cubes-threejs",
         "titol": "Background with Cubes",

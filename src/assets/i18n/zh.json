@@ -143,17 +143,17 @@
     "projects":
     [
         {
-        "id": 24,
-        "nom": "背景画面立方体",
-        "titol": "与多维数据集的墙纸",
+        "id": 25,
+        "nom": "交互式背景的几何形状-threejs",
+        "titol": "与几何图形的交互式背景",
         "tema": "Angular",
         "tipus": "Project",
-        "data": "06/03/2018",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
-        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
-        "html": "这个项目是一个有立方体的壁纸，你可以与之互动。<br/> <br/>它由<b>Angular5</b>和<a href='https://threejs.org/' target='_blank'>THREE.js</a>。",
-        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        "data": "06/09/2018",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
+        "video": "https://www.youtube.com/embed/r3Oj2359fPU",
+        "html": "该项目是一种可与之互动的几何图形的壁纸。<br/> <br/> <b>Angular5</b>和<a href='https://threejs.org/' target='_blank'>THREE.js</a>。",
+        "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
         "id": 23,
