@@ -156,19 +156,6 @@
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
-        "id": 24,
-        "nom": "background-cubes-threejs",
-        "titol": "Background with Cubes",
-        "tema": "Angular",
-        "tipus": "Project",
-        "data": "06/03/2018",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
-        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
-        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
-        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
-        },
-        {
         "id": 23,
         "nom": "chatbot-myyme",
         "titol": "ChatBot Myyme",
