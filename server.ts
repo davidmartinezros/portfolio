@@ -61,11 +61,11 @@ app.set('views', join(DIST_FOLDER, 'browser'));
 
 // Our page routes
 export const routes: string[] = [
-  'main',
+  'full-stack-developer-software-engineer',
+  'full-stack-developer-software-engineer/project/:lang/:nom',
   'dashboard',
   'dashboard/contact',
-  'dashboard/blog',
-  'project/:lang/:nom'
+  'dashboard/blog'
 ];
 
 // All regular routes use the Universal engine

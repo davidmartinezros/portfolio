@@ -36,8 +36,12 @@ import { translateFactory } from './translate-universal-loader.service';
 
 const appRoutes: Routes = [
   {
-    path: 'main',
+    path: 'full-stack-developer-software-engineer',
     component: MainComponent
+  },
+  {
+    path: "full-stack-developer-software-engineer/project/:lang/:nom",
+    component: ProjectComponent
   },
   {
     path: 'blog',
@@ -63,17 +67,13 @@ const appRoutes: Routes = [
     ]
   },
   {
-    path: "project/:lang/:nom",
-    component: ProjectComponent
-  },
-  {
     path: '',
-    redirectTo: '/main',
+    redirectTo: '/full-stack-developer-software-engineer',
     pathMatch: 'prefix'
   },
   {
     path: '**',
-    redirectTo: '/main',
+    redirectTo: '/full-stack-developer-software-engineer',
     pathMatch: 'prefix'
   }
 ];
