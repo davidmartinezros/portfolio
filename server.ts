@@ -107,7 +107,12 @@ app.get('*', function(req, res) {
 
 var http = require('http');
 
-var httpServer = http.createServer(app);
+//var httpServer = http.createServer(app);
+
+var httpServer = http.createServer((req, res) => {
+  res.writeHead(301,{Location: `https://${req.headers.host}${req.url}`});
+  res.end();
+});
 
 // Start up the Node server at PORT
 httpServer.listen(PORT, () => {
@@ -131,6 +136,6 @@ if(KEY_CERTIFICATE && CRT_CERTIFICATE && PASSWORD_CERTIFICATE) {
 
   // Start up the Node server at HTTP_PORT
   httpsServer.listen(HTTPS_PORT, () => {
-    console.log(`Node server listening on http://localhost:${HTTPS_PORT}`);
+    console.log(`Node server listening on https://localhost:${HTTPS_PORT}`);
   });
 }
