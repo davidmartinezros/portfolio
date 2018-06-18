@@ -36,11 +36,11 @@ import { translateFactory } from './translate-universal-loader.service';
 
 const appRoutes: Routes = [
   {
-    path: 'full-stack-developer-software-engineer',
+    path: ':urlMain',
     component: MainComponent
   },
   {
-    path: "full-stack-developer-software-engineer/project/:lang/:nom",
+    path: ":urlMain/:urlProject/:lang/:nom",
     component: ProjectComponent
   },
   {

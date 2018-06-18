@@ -61,8 +61,12 @@ app.set('views', join(DIST_FOLDER, 'browser'));
 
 // Our page routes
 export const routes: string[] = [
+  'full-stack-developer-ingeniero-software',
+  'full-stack-developer-ingeniero-software/proyecto/:lang/:nom',
   'full-stack-developer-software-engineer',
   'full-stack-developer-software-engineer/project/:lang/:nom',
+  '全栈开发的软件工程师',
+  '全栈开发的软件工程师/项目/:lang/:nom',
   'dashboard',
   'dashboard/contact',
   'dashboard/blog'
@@ -107,19 +111,12 @@ app.get('*', function(req, res) {
 
 var http = require('http');
 
-//var httpServer = http.createServer(app);
-
-var httpServer = http.createServer((req, res) => {
-  res.writeHead(301,{Location: `https://${req.headers.host}${req.url}`});
-  res.end();
-});
-
-// Start up the Node server at PORT
-httpServer.listen(PORT, () => {
-  console.log(`Node server listening on http://localhost:${PORT}`);
-});
-
 if(KEY_CERTIFICATE && CRT_CERTIFICATE && PASSWORD_CERTIFICATE) {
+
+  var httpServer = http.createServer((req, res) => {
+    res.writeHead(301,{Location: `https://${req.headers.host}${req.url}`});
+    res.end();
+  });
 
   var fs = require('fs');
   var https = require('https');
@@ -138,4 +135,11 @@ if(KEY_CERTIFICATE && CRT_CERTIFICATE && PASSWORD_CERTIFICATE) {
   httpsServer.listen(HTTPS_PORT, () => {
     console.log(`Node server listening on https://localhost:${HTTPS_PORT}`);
   });
+} else {
+  var httpServer = http.createServer(app);
 }
+
+// Start up the Node server at PORT
+httpServer.listen(PORT, () => {
+  console.log(`Node server listening on http://localhost:${PORT}`);
+});

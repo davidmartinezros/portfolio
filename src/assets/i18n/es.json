@@ -18,6 +18,7 @@
     "TagAuthorIndex": "David Martínez Ros",
     "TagKeywordsIndex": "qué, cómo, qué es, encontrar, contratar, experto, experimentado, full stack developer, respuesta, fácil, david, martínez, ros, el mejor, portfolio, 2018, software, ingeniero, barcelona, españa, lo último, java, angular, node.js, spring",
     "TagDescriptionIndex": "Cómo encontrar y contratar a un Ingeniero de Software? Qué es un Full Stack Developer? La respuesta es fácil ... David Martínez Ros, Ingeniero de Software y Full Stack Developer de Barcelona con lo último en Java, Angular, Node.js, Spring.",
+    "UrlMain": "full-stack-developer-ingeniero-software",
     "TitleSection1": "SOBRE MÍ",
     "TitleSection2": "HABILIDADES",
     "TitleSection3": "EXPERIENCIA",
@@ -140,6 +141,7 @@
         }
     ],
     "TitleProject": "PROYECTO",
+    "UrlProject": "proyecto",
     "projects":
     [
         {
