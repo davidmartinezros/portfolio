@@ -5,6 +5,8 @@ My Web Portfolio shows an introduction, my habilities, my experience, my project
 
 With Universal, so you have a browser and a server part of the project communicating between them.
 
+Documentation "How to convert your Angular 5 application to Universal": http://davidlearns.blogspot.com/2018/05/how-to-convert-your-angular-5-app-to.html
+
 ### Tools
 Angular 5 (JS + TypeScript), Bootstrap 4, Firebase, Audio, Translate, Universal
 
