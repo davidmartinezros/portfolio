@@ -65,8 +65,8 @@ export const routes: string[] = [
   'full-stack-developer-ingeniero-software/proyecto/:lang/:nom',
   'full-stack-developer-software-engineer',
   'full-stack-developer-software-engineer/project/:lang/:nom',
-  '全栈开发的软件工程师',
-  '全栈开发的软件工程师/项目/:lang/:nom',
+  `${encodeURIComponent('全栈开发的软件工程师')}`,
+  `${encodeURIComponent('全栈开发的软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`,
   'dashboard',
   'dashboard/contact',
   'dashboard/blog'
