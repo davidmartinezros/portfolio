@@ -146,6 +146,7 @@
     [
         {
         "id": 25,
+        "visible": true,
         "nom": "交互式背景的几何形状-threejs",
         "titol": "与Three.js交互式背景几何",
         "tema": "Angular",
@@ -158,7 +159,22 @@
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
+        "id": 24,
+        "visible": false,
+        "nom": "背景画面立方体-threejs",
+        "titol": "与多维数据集的墙纸",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/03/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
+        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "html": "这个项目是一个可以与你互动的立方体壁纸。<br/><br/><b>Angular5</b>和<a href ='https://threejs.org/ 'target ='_blank'>THREE.js</a>。",
+        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        },
+        {
         "id": 23,
+        "visible": true,
         "nom": "聊天机器人-myyme-人工智能",
         "titol": "聊天机器人 Myyme, 人工智能",
         "tema": "Angular",
@@ -172,6 +188,7 @@
         },
         {
         "id": 22,
+        "visible": true,
         "nom": "现场海与-海豚-threejs",
         "titol": "场景: 海与Three.js海豚",
         "tema": "Angular",
@@ -185,6 +202,7 @@
         },
         {
         "id": 21,
+        "visible": true,
         "nom": "编辑器-3d-网格-threejs",
         "titol": "编辑器: 与Three.js的3D网格",
         "tema": "Angular",
@@ -198,6 +216,7 @@
         },
         {
         "id": 20,
+        "visible": true,
         "nom": "对比-ai-人工智能",
         "titol": "比较: AI (人工智能)",
         "tema": "Google Trends",
@@ -211,6 +230,7 @@
         },
         {
         "id": 19,
+        "visible": true,
         "nom": "其中-碑人工智能",
         "titol": "哪座纪念碑? 用人工智能",
         "tema": "Ionic",
@@ -224,6 +244,7 @@
         },
         {
         "id": 18,
+        "visible": true,
         "nom": "学习与-人工智能",
         "titol": "学习人工智能",
         "tema": "Java",
@@ -237,6 +258,7 @@
         },
         {
         "id": 17,
+        "visible": true,
         "nom": "重拍-的-ghostn-goblins-团结-3d",
         "titol": "用Unity 3D重制Ghost'n Goblins",
         "tema": "Unity",
@@ -250,6 +272,7 @@
         },
         {
         "id": 16,
+        "visible": true,
         "nom": "3d-蛇遊戲-threejs",
         "titol": "与Three.js的3D蛇游戏",
         "tema": "Angular",
@@ -263,6 +286,7 @@
         },
         {
         "id": 15,
+        "visible": true,
         "nom": "進入-3d-世界-threejs",
         "titol": "用Three.js输入3D世界",
         "tema": "Angular",
@@ -276,6 +300,7 @@
         },
         {
         "id": 12,
+        "visible": true,
         "nom": "組件-draggable-divs-angular",
         "titol": "组件: 带有角度的可拖动Div",
         "tema": "Angular",
@@ -289,6 +314,7 @@
         },
         {
         "id": 11,
+        "visible": true,
         "nom": "組件-祖先樹-angular",
         "titol": "组件: Angular的祖先树",
         "tema": "Angular",
@@ -302,6 +328,7 @@
         },
         {
         "id": 10,
+        "visible": true,
         "nom": "自然場景-水-unity-3d",
         "titol": "自然风景: Unity 3D水",
         "tema": "Unity",
@@ -315,6 +342,7 @@
         },
         {
         "id": 9,
+        "visible": true,
         "nom": "組件-html-文本動畫-angular",
         "titol": "組件: 使用Angular的html文字动画",
         "tema": "Angular",
@@ -328,6 +356,7 @@
         },
         {
         "id": 8,
+        "visible": true,
         "nom": "導入混合器幾何-unity-3d",
         "titol": "使用Unity 3D导入几何Blender",
         "tema": "Unity",
@@ -340,7 +369,22 @@
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
+        "id": 7,
+        "visible": false,
+        "nom": "比较-AngularJS和-angular2",
+        "titol": "比较：AngularJS和Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "æ•´ç†",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "这是AngularJS和Angular2之间的比较，同时应用了<a href='https://www.google.com/trends' target='_blank'>Google趋势</a>。",
+        "repositori": null
+        },
+        {
         "id": 6,
+        "visible": true,
         "nom": "將-json-文件關聯到-html-表格-angular",
         "titol": "使用Angular将json文件关联到html表格",
         "tema": "Angular",
@@ -354,6 +398,7 @@
         },
         {
         "id": 4,
+        "visible": true,
         "nom": "兩個相同的場景的相機-unity-3d",
         "titol": "与Unity 3D相同场景的两台相机",
         "tema": "Unity",
@@ -367,6 +412,7 @@
         },
         {
         "id": 3,
+        "visible": true,
         "nom": "我是如何學習-angular-的",
         "titol": "我是如何學習Angular的？",
         "tema": "Angular",
@@ -380,6 +426,7 @@
         },
         {
         "id": 2,
+        "visible": true,
         "nom": "物理的例子-unity-3d",
         "titol": "Unity 3D的物理例子",
         "tema": "Unity",
@@ -393,6 +440,7 @@
         },
         {
         "id": 1,
+        "visible": true,
         "nom": "3d-場景-火星-unity-3d",
         "titol": "3D场景: 火星与Unity 3D",
         "tema": "Unity",

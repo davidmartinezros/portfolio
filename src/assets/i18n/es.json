@@ -146,6 +146,7 @@
     [
         {
         "id": 25,
+        "visible": true,
         "nom": "fondo-pantalla-interactivo-geometrias-threejs",
         "titol": "Fondo de pantalla interactivo de Geometrías con Three.js",
         "tema": "Angular",
@@ -158,7 +159,22 @@
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
+        "id": 24,
+        "visible": false,
+        "nom": "fondo-pantalla-cubos-threejs",
+        "titol": "Fondo de pantalla con Cubos",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/03/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
+        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "html": "Este proyecto es un fondo de pantalla con cubos con los que se puede interaccionar.<br/><br/>EstÃ¡ hecho con <b>Angular5</b> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        },
+        {
         "id": 23,
+        "visible": true,
         "nom": "chatbot-myyme-inteligencia-artificial",
         "titol": "ChatBot Myyme con Inteligencia Artificial",
         "tema": "Angular",
@@ -172,6 +188,7 @@
         },
         {
         "id": 22,
+        "visible": true,
         "nom": "escena-mar-condelfines-threejs",
         "titol": "Escena: Mar con delfines con Three.js",
         "tema": "Angular",
@@ -185,6 +202,7 @@
         },
         {
         "id": 21,
+        "visible": true,
         "nom": "editor-mallas-3d-threejs",
         "titol": "Editor:  mallas 3D con Three.js",
         "tema": "Angular",
@@ -198,6 +216,7 @@
         },
         {
         "id": 20,
+        "visible": true,
         "nom": "comparativas-ia-inteligencia-artificial",
         "titol": "Comparativas: IA (Inteligencia Artificial)",
         "tema": "Google Trends",
@@ -211,6 +230,7 @@
         },
         {
         "id": 19,
+        "visible": true,
         "nom": "cual-monumento-inteligencia-artificial",
         "titol": "¿Cuál Monumento? Con Inteligencia Artificial",
         "tema": "Ionic",
@@ -224,6 +244,7 @@
         },
         {
         "id": 18,
+        "visible": true,
         "nom": "aprendizaje-con-inteligencia-artificial",
         "titol": "Aprendizaje con Inteligencia Artificial",
         "tema": "Java",
@@ -237,6 +258,7 @@
         },
         {
         "id": 17,
+        "visible": true,
         "nom": "remake-de-ghostn-goblins-unity-3d",
         "titol": "Remake de Ghost'n Goblins con Unity 3D",
         "tema": "Unity",
@@ -250,6 +272,7 @@
         },
         {
         "id": 16,
+        "visible": true,
         "nom": "juego-3d-serpiente-threejs",
         "titol": "Juego 3D Serpiente con Three.js",
         "tema": "Angular",
@@ -263,6 +286,7 @@
         },
         {
         "id": 15,
+        "visible": true,
         "nom": "entra-en-el-mundo-3d-threejs",
         "titol": "Entra en el mundo 3D con Three.js",
         "tema": "Angular",
@@ -276,6 +300,7 @@
         },
         {
         "id": 12,
+        "visible": true,
         "nom": "editor-divs-arrastrables-angular",
         "titol": "Editor: Divs arrastrables con Angular",
         "tema": "Angular",
@@ -289,6 +314,7 @@
         },
         {
         "id": 11,
+        "visible": true,
         "nom": "componente-arbol-ancestros-angular",
         "titol": "Componente: Árbol ancestros con Angular",
         "tema": "Angular",
@@ -302,6 +328,7 @@
         },
         {
         "id": 10,
+        "visible": true,
         "nom": "escena-naturaleza-agua-unity-3d",
         "titol": "Escena naturaleza: Agua con Unity 3D",
         "tema": "Unity",
@@ -315,6 +342,7 @@
         },
         {
         "id": 9,
+        "visible": true,
         "nom": "componente-animaciones-texto-html-angular",
         "titol": "Componente: animaciones texto html con Angular",
         "tema": "Angular",
@@ -328,6 +356,7 @@
         },
         {
         "id": 8,
+        "visible": true,
         "nom": "importar-geometria-blender-unity-3d",
         "titol": "Importar geometría Blender con Unity 3D",
         "tema": "Unity",
@@ -340,7 +369,22 @@
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
+        "id": 7,
+        "visible": false,
+        "nom": "comparativa-angularjs-y-angular2",
+        "titol": "Comparativa: AngularJS y Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicaciÃ³n de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "repositori": null
+        },
+        {
         "id": 6,
+        "visible": true,
         "nom": "asociar-fichero-json-a-tabla-html-angular",
         "titol": "Asociar fichero json a tabla html con Angular",
         "tema": "Angular",
@@ -354,6 +398,7 @@
         },
         {
         "id": 4,
+        "visible": true,
         "nom": "dos-camaras-de-misma-escena-unity-3d",
         "titol": "Dos cámaras de misma escena con Unity 3D",
         "tema": "Unity",
@@ -367,6 +412,7 @@
         },
         {
         "id": 3,
+        "visible": true,
         "nom": "como-aprendi-angular",
         "titol": "¿Cómo aprendí Angular?",
         "tema": "Angular",
@@ -380,6 +426,7 @@
         },
         {
         "id": 2,
+        "visible": true,
         "nom": "ejemplo-fisico-unity-3d",
         "titol": "Ejemplo físico con Unity 3D",
         "tema": "Unity",
@@ -393,6 +440,7 @@
         },
         {
         "id": 1,
+        "visible": true,
         "nom": "escena-3d-marte-unity-3d",
         "titol": "Escena 3D : Marte con Unity 3D",
         "tema": "Unity",

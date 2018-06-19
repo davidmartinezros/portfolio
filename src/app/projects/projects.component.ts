@@ -29,7 +29,7 @@ import { Subject }    from 'rxjs/Subject';
     }
 
     getProjects(): void {
-        this.projectService.getProjects()
+        this.projectService.getTheTop20Projects()
             .then(projects => 
             { this.projects = projects }
         );

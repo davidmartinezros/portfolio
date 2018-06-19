@@ -28,6 +28,11 @@ export class ProjectService {
         */
     }
 
+    getTheTop20Projects(): Promise<Project[]> {
+        return this.getProjects()
+            .then(projects => projects.filter(project => project.visible === true));
+    }
+
     getProjectsWithLang(lang): Promise<Project[]> {
         // this language will be used as a fallback when a translation isn't found in the current language
         this.translate.setDefaultLang(lang);

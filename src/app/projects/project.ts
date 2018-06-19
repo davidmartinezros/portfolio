@@ -1,5 +1,6 @@
 export class Project {
   id: number;
+  visible: boolean;
   nom: string;
   tema: string;
   tipus: string;

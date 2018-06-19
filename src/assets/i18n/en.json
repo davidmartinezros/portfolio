@@ -146,6 +146,7 @@
     [
         {
         "id": 25,
+        "visible": true,
         "nom": "interactive-background-geometries-threejs",
         "titol": "Interactive Background Geometries with Three.js",
         "tema": "Angular",
@@ -158,7 +159,22 @@
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
+        "id": 24,
+        "visible": false,
+        "nom": "background-cubes-threejs",
+        "titol": "Background with Cubes",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/03/2018",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
+        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
+        },
+        {
         "id": 23,
+        "visible": true,
         "nom": "chatbot-myyme-artificial-intelligence",
         "titol": "ChatBot Myyme, an Artifical Intelligence",
         "tema": "Angular",
@@ -172,6 +188,7 @@
         },
         {
         "id": 22,
+        "visible": true,
         "nom": "scene-sea-with-dolphins-threejs",
         "titol": "Scene: Sea with dolphins with Three.js",
         "tema": "Angular",
@@ -185,6 +202,7 @@
         },
         {
         "id": 21,
+        "visible": true,
         "nom": "editor-3d-mesh-threejs",
         "titol": "Editor: 3D mesh with Three.js",
         "tema": "Angular",
@@ -198,6 +216,7 @@
         },
         {
         "id": 20,
+        "visible": true,
         "nom": "comparatives-ai-artificial-intelligence",
         "titol": "Comparatives: AI (Artificial Intelligence)",
         "tema": "Google Trends",
@@ -211,6 +230,7 @@
         },
         {
         "id": 19,
+        "visible": true,
         "nom": "which-monument-artificial-intelligence",
         "titol": "Which Monument? With Artificial Intelligence",
         "tema": "Ionic",
@@ -224,6 +244,7 @@
         },
         {
         "id": 18,
+        "visible": true,
         "nom": "learning-with-artificial-intelligence",
         "titol": "Learning with Artificial Intelligence",
         "tema": "Java",
@@ -237,6 +258,7 @@
         },
         {
         "id": 17,
+        "visible": true,
         "nom": "remake-of-ghostn-goblins-unity-3d",
         "titol": "Remake of Ghost'n Goblins with Unity 3D",
         "tema": "Unity",
@@ -250,6 +272,7 @@
         },
         {
         "id": 16,
+        "visible": true,
         "nom": "3d-snake-game-threejs",
         "titol": "3D Snake Game with Three.js",
         "tema": "Angular",
@@ -263,6 +286,7 @@
         },
         {
         "id": 15,
+        "visible": true,
         "nom": "enter-the-3d-world-threejs",
         "titol": "Enter the 3D world with Three.js",
         "tema": "Angular",
@@ -276,6 +300,7 @@
         },
         {
         "id": 12,
+        "visible": true,
         "nom": "component-draggable-divs-angular",
         "titol": "Component: Draggable Divs with Angular",
         "tema": "Angular",
@@ -289,6 +314,7 @@
         },
         {
         "id": 11,
+        "visible": true,
         "nom": "component-ancestral-tree-angular",
         "titol": "Component: Ancestral tree with Angular",
         "tema": "Angular",
@@ -302,6 +328,7 @@
         },
         {
         "id": 10,
+        "visible": true,
         "nom": "nature-scene-water-unity-3d",
         "titol": "Nature scene: Water with Unity 3D",
         "tema": "Unity",
@@ -315,6 +342,7 @@
         },
         {
         "id": 9,
+        "visible": true,
         "nom": "component-html-text-animations-angular",
         "titol": "Component: html text animations with Angular",
         "tema": "Angular",
@@ -328,6 +356,7 @@
         },
         {
         "id": 8,
+        "visible": true,
         "nom": "import-geometry-blender-unity-3d",
         "titol": "Import geometry Blender with Unity 3D",
         "tema": "Unity",
@@ -340,7 +369,22 @@
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
         {
+        "id": 7,
+        "visible": false,
+        "nom": "comparison-angularjs-and-angular2",
+        "titol": "Comparison: AngularJS and Angular2",
+        "tema": "Google Trends",
+        "tipus": "Comparative",
+        "data": "10/28/2016",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
+        "imatge": "../../assets/images/projecte11.png",
+        "html": "This is a comparison between AngularJS and Angular2, with the application <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "repositori": null
+        },
+        {
         "id": 6,
+        "visible": true,
         "nom": "associate-json-file-to-html-table-angular",
         "titol": "Associate json file to html table with Angular",
         "tema": "Angular",
@@ -354,6 +398,7 @@
         },
         {
         "id": 4,
+        "visible": true,
         "nom": "two-cameras-of-the-same-scene-unity-3d",
         "titol": "Two cameras of the same scene with Unity 3D",
         "tema": "Unity",
@@ -367,6 +412,7 @@
         },
         {
         "id": 3,
+        "visible": true,
         "nom": "how-did-i-learn-angular",
         "titol": "How did I learn Angular?",
         "tema": "Angular",
@@ -380,6 +426,7 @@
         },
         {
         "id": 2,
+        "visible": true,
         "nom": "physical-example-unity-3d",
         "titol": "Physical example with Unity 3D",
         "tema": "Unity",
@@ -393,6 +440,7 @@
         },
         {
         "id": 1,
+        "visible": true,
         "nom": "3d-scene-mars-unity-3d",
         "titol": "3D scene: Mars with Unity 3D",
         "tema": "Unity",

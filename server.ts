@@ -72,7 +72,6 @@ export const routes: string[] = [
   'dashboard/blog'
 ];
 
-// All regular routes use the Universal engine
 app.get('/', (req, res) => {
   console.log(req.query.lang);
   console.time(`GET: ${req.originalUrl}`);
