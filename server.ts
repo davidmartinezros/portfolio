@@ -67,9 +67,9 @@ export const routes: string[] = [
   'full-stack-developer-software-engineer/project/:lang/:nom',
   `${encodeURIComponent('全栈开发的软件工程师')}`,
   `${encodeURIComponent('全栈开发的软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`,
-  'dashboard',
-  'dashboard/contact',
-  'dashboard/blog'
+  'full-stack-developer-software-engineer/dashboard',
+  'full-stack-developer-software-engineer/dashboard/contact',
+  'full-stack-developer-software-engineer/dashboard/blog'
 ];
 
 app.get('/', (req, res) => {

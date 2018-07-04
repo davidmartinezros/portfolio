@@ -44,11 +44,11 @@ const appRoutes: Routes = [
     component: ProjectComponent
   },
   {
-    path: 'blog',
+    path: ':urlMain/blog',
     component: BlogComponent
   },
   {
-    path: 'dashboard',
+    path: ':urlMain/dashboard',
     component: DashboardComponent,
     children: [
       {
