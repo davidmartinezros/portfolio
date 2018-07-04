@@ -30,7 +30,7 @@ export class FormComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.messages$ = this.af.list('messages', ref => ref.limitToFirst(100)).valueChanges();
+        this.messages$ = this.af.list('messages', ref => ref.limitToFirst(100));
     }
 
     addMessage(message): void {
