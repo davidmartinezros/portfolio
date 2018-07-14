@@ -188,30 +188,8 @@ export class TemplateComponent {
 
         this.language = language;
 
-        // Sets the <title></title>
-        this.translate.get("TitleIndex")
-            .toPromise()        
-            .then(title => this.titleService.setTitle(title))
-            .catch(this.handleError);
+        this.changeMetaTagsSeo();
 
-        // Sets the <meta> tag author
-        this.translate.get("TagAuthorIndex")
-            .toPromise()        
-            .then(author => this.metaService.updateTag({ name: 'author', content: author }))
-            .catch(this.handleError);
-        
-        // Sets the <meta> tag keywords
-        this.translate.get("TagKeywordsIndex")
-            .toPromise()        
-            .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
-            .catch(this.handleError);
-
-        // Sets the <meta> tag description
-        this.translate.get("TagDescriptionIndex")
-            .toPromise()        
-            .then(description => this.metaService.updateTag({ name: 'description', content: description }))
-            .catch(this.handleError);
-        
         console.log('changeServerLanguage');
         
     }
@@ -233,30 +211,55 @@ export class TemplateComponent {
         
         this.getLanguanges();
 
+        this.changeMetaTagsSeo();        
+    }
+
+    changeMetaTagsSeo() {
         // Sets the <title></title>
         this.translate.get("TitleIndex")
-            .toPromise()        
-            .then(title => this.titleService.setTitle(title))
-            .catch(this.handleError);
+        .toPromise()        
+        .then(title => {
+            this.titleService.setTitle(title);
+            this.metaService.updateTag({ name: 'og:title', content: title });
+            this.metaService.updateTag({ name: 'twitter:title', content: title });
+        })
+        .catch(this.handleError);
 
         // Sets the <meta> tag author
         this.translate.get("TagAuthorIndex")
-            .toPromise()        
-            .then(author => this.metaService.updateTag({ name: 'author', content: author }))
-            .catch(this.handleError);
-        
+        .toPromise()        
+        .then(author => this.metaService.updateTag({ name: 'author', content: author }))
+        .catch(this.handleError);
+
         // Sets the <meta> tag keywords
         this.translate.get("TagKeywordsIndex")
-            .toPromise()        
-            .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
-            .catch(this.handleError);
+        .toPromise()        
+        .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
+        .catch(this.handleError);
 
         // Sets the <meta> tag description
         this.translate.get("TagDescriptionIndex")
-            .toPromise()        
-            .then(description => this.metaService.updateTag({ name: 'description', content: description }))
-            .catch(this.handleError);
-        
+        .toPromise()        
+        .then(description => {
+            this.metaService.updateTag({ name: 'description', content: description });
+            this.metaService.updateTag({ name: 'og:description', content: description });
+            this.metaService.updateTag({ name: 'twitter:description', content: description });
+        })
+        .catch(this.handleError);
+
+        // Sets the <meta> tag image
+        this.translate.get("TagImageIndex")
+        .toPromise()        
+        .then(image => {
+            this.metaService.updateTag({ name: 'image', content: image });
+            this.metaService.updateTag({ name: 'og:image', content: image });
+            this.metaService.updateTag({ name: 'twitter:image', content: image });
+        })
+        .catch(this.handleError);
+
+        this.metaService.updateTag({ name: 'og:type', content: 'website' });
+        this.metaService.updateTag({ name: 'og:url', content: 'https://davidmartinezros.com' });
+        this.metaService.updateTag({ name: 'twitter:card', content: 'summary' });
     }
 
     getLanguanges(): void {

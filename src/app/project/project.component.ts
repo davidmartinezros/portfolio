@@ -44,28 +44,48 @@ import { Title, Meta } from '@angular/platform-browser';
 
     private changeGoogleSearchItems() {
         if(this.project) {
+
             // Sets the <title></title>
-             // Sets the <meta> tag author
             this.translate.get("SubtitleIndex")
-                .toPromise()        
-                .then(subtitle => this.titleService.setTitle(this.project.titol + subtitle))
-                .catch(this.handleError);
+            .toPromise()        
+            .then(subtitle => {
+                this.titleService.setTitle(this.project.titol + subtitle);
+                this.metaService.updateTag({ name: 'og:title', content: this.project.titol + subtitle });
+                this.metaService.updateTag({ name: 'twitter:title', content: this.project.titol + subtitle });
+            })
+            .catch(this.handleError);
 
             // Sets the <meta> tag author
             this.translate.get("TagAuthorIndex")
-                .toPromise()        
-                .then(author => this.metaService.updateTag({ name: 'author', content: author }))
-                .catch(this.handleError);
-            
+            .toPromise()        
+            .then(author => this.metaService.updateTag({ name: 'author', content: author }))
+            .catch(this.handleError);
+
             // Sets the <meta> tag keywords
             this.translate.get("TagKeywordsIndex")
-                .toPromise()        
-                .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
-                .catch(this.handleError);
+            .toPromise()        
+            .then(keywords => this.metaService.updateTag({ name: 'keywords', content: keywords }))
+            .catch(this.handleError);
 
             // Sets the <meta> tag description
-            this.metaService.updateTag({ name: 'description', content: this.project.html })
-        }    
+            this.metaService.updateTag({ name: 'description', content: this.project.html });
+            this.metaService.updateTag({ name: 'og:description', content: this.project.html });
+            this.metaService.updateTag({ name: 'twitter:description', content: this.project.html });
+
+            // Sets the <meta> tag image
+            this.translate.get("TagImageIndex")
+            .toPromise()        
+            .then(image => {
+                this.metaService.updateTag({ name: 'image', content: image });
+                this.metaService.updateTag({ name: 'og:image', content: image });
+                this.metaService.updateTag({ name: 'twitter:image', content: image });
+            })
+            .catch(this.handleError);
+
+            this.metaService.updateTag({ name: 'og:type', content: 'website' });
+            this.metaService.updateTag({ name: 'og:url', content: 'https://davidmartinezros.com' });
+            this.metaService.updateTag({ name: 'twitter:card', content: 'summary' });
+        }
     }
 
     private handleError(error: any): Promise<any> {
