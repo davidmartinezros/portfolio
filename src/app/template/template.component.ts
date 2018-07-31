@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef, Inject } from '@angular/core';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule, Router } from '@angular/router';
 import { AuthService } from '../firebase-auth/auth.service';
 import { TranslateService } from '@ngx-translate/core';
 import { ProjectsComponent } from '../projects/projects.component';
@@ -10,6 +10,7 @@ import { Language } from './language';
 import { Title, Meta } from '@angular/platform-browser';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, isPlatformServer } from '@angular/common';
+import { Location } from '@angular/common';
 
 @Component({
     selector: 'app-template',
@@ -30,15 +31,31 @@ export class TemplateComponent {
 
     sound: any;
 
+    ruta: string;
+
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         public authService: AuthService,
         private translate: TranslateService,
         private route: ActivatedRoute,
+        private location: Location,
+        private router: Router,
         private languageService: LanguageService,
         private titleService: Title,
         private metaService: Meta) {
+
+        router.events.subscribe((val) => {
+            if(location.path() != ''){
+                this.ruta = location.path().substring(0,location.path().substring(1).indexOf('/') + 1);
+            } else {
+                this.ruta = 'full-stack-developer-software-engineer'
+            }
+        });
         
         this.getLanguanges();
+    }
+
+    onClickSection(section) {
+        this.router.navigate([this.ruta], {fragment: section});
     }
 
     ngOnInit() {

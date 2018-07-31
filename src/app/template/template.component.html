@@ -18,19 +18,19 @@
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" href="#section1">{{ 'TitleSection1' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" href="#section2">{{ 'TitleSection2' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section2">{{ 'TitleSection2' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" href="#section3">{{ 'TitleSection3' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section3">{{ 'TitleSection3' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" href="#section4">{{ 'TitleSection4' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" href="#section5">{{ 'TitleSection5' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section5">{{ 'TitleSection5' | translate }}</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.authenticated">
 					<a class="menu nav-link" routerLink="full-stack-developer-software-engineer/dashboard" routerLinkActive="active">
