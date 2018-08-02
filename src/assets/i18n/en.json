@@ -146,6 +146,20 @@
     "projects":
     [
         {
+        "id": 26,
+        "visible": true,
+        "nom": "which-monument-tensorflow-artificial-intelligence",
+        "titol": "\"¿Which monumento?\" application with TensorFlow from Artificial Intelligence",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "07/28/2018",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular5/which-monument/",
+        "video": "https://www.youtube.com/embed/qhTHenMZqow",
+        "html": "This project is divided into two parts: Frontend with <a href='https://angular.io/' target='_blank'>Angular 5</a> and Backend with <a href = 'https://www.java.com' target='_blank'>Java</a> and <a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>.<br/><br/>It consists of a REST Web Service that connects to the Image Comparison Engine with <a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>.<br/><br/>Thus, given your image entered on the screen, you will compare with the tagged and stored images and return the labels that most resemble the content of the image.",
+        "repositori": "https://github.com/davidmartinezros/which-monument"
+        },
+        {
         "id": 25,
         "visible": true,
         "nom": "interactive-background-geometries-threejs",
@@ -156,7 +170,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
         "video": "https://www.youtube.com/embed/r3Oj2359fPU",
-        "html": "This project is a background with geometries with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "html": "This project is a background with geometries with which you can interact. <br/> <br/> It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
@@ -170,7 +184,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
         "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
-        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <b>Angular5</b> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
         {
@@ -184,7 +198,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
         "video": "https://www.youtube.com/embed/EjtESFUxgpU",
-        "html": "This project is an artificial conversational unit, commonly called ChatBot.<br/><br/>Tell what you want and answer what you know.<br/><br/>It is made with <b>Angular5</b> and <b>DialogFlow</b>.",
+        "html": "This project is an artificial conversational unit, commonly called ChatBot.<br/><br/>Tell what you want and answer what you know.<br/><br/>It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
         {
@@ -195,7 +209,7 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "03/22/2018",
-        "estat": "WORKING",
+        "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
         "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
         "html": "This project shows a scene of <b> Sea with dolphins </b> and other animals. <br/> <br/> Use the library <a href = 'https://threejs.org/' target = '_blank' >THREE.js</a>. <br/> <br/> You can move, rotate and translate the screen with the computer mouse or tactilely on mobile or tablet screens.",
@@ -228,20 +242,6 @@
         "imatge": "../../assets/images/projecte21.png",
         "html": "This is a comparison between the concepts that cohabit in the <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA (Artificial Intelligence) </a>.",
         "repositori": null
-        },
-        {
-        "id": 19,
-        "visible": true,
-        "nom": "which-monument-artificial-intelligence",
-        "titol": "Which Monument? With Artificial Intelligence",
-        "tema": "Ionic",
-        "tipus": "Project",
-        "data": "09/14/2017",
-        "estat": "PLANNING",
-        "link": null,
-        "imatge": "../../assets/images/projecte22.png",
-        "html": "This project will be developed with <a href='https://ionicframework.com/' target='_blank'> Ionic </a>, <b> Java 8 </b> with <b> Spring Boot 1.5 </b> and <a href = 'https://www.tensorflow.org/install/install_java' target = '_blank'> Tensor Flow </a>. <br/> <br/> The objective is for the mobile to take a photograph of a monument and the Application shows a description of the photograph. <br/> <br/> <b> Coming soon! </b>",
-        "repositori": "https://github.com/davidmartinezros/which-image-is"
         },
         {
         "id": 18,
@@ -310,7 +310,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "video": "https://www.youtube.com/embed/qNqkQNnZ7tM",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications Angular2.",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -352,7 +352,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "video": "https://www.youtube.com/embed/hI7a4HskMIw",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in Angular2 web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in <a href='https://angular.io/' target='_blank'>Angular 2</a> web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -380,7 +380,7 @@
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "imatge": "../../assets/images/projecte11.png",
-        "html": "This is a comparison between AngularJS and Angular2, with the application <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "html": "This is a comparison between <a href='https://angular.io/' target='_blank'>AngularJS and Angular 2</a>, with the application <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
         {

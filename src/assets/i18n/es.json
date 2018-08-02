@@ -146,6 +146,20 @@
     "projects":
     [
         {
+        "id": 26,
+        "visible": true,
+        "nom": "que-monumento-tensorflow-inteligencia-artificial",
+        "titol": "Aplicación \"¿Qué monumento?\" con TensorFlow de Inteligencia Artificial",
+        "tema": "Java",
+        "tipus": "Project",
+        "data": "07/28/2018",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular5/which-monument/",
+        "video": "https://www.youtube.com/embed/qhTHenMZqow",
+        "html": "Este proyecto se divide en dos partes: Frontend con <a href='https://angular.io/' target='_blank'>Angular 5</a> y Backend con <a href='https://www.java.com' target='_blank'>Java</a> y <a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>.<br/><br/>Consiste en un Web Service REST que se conecta con Engine de Comparación de imágenes con <a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>.<br/><br/>Así, dada tu imagen introducida en la pantalla, compararás con las imágenes etiquetadas y almacenadas y devolverá las etiquetas que se parezcan más al contenido de la imagen.",
+        "repositori": "https://github.com/davidmartinezros/which-monument"
+        },
+        {
         "id": 25,
         "visible": true,
         "nom": "fondo-pantalla-interactivo-geometrias-threejs",
@@ -156,7 +170,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
         "video": "https://www.youtube.com/embed/r3Oj2359fPU",
-        "html": "Este proyecto es un fondo de pantalla con geometrías con los que se puede interaccionar.<br/><br/>Está hecho con <b>Angular5</b> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "html": "Este proyecto es un fondo de pantalla con geometrías con los que se puede interaccionar.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
         {
@@ -170,7 +184,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
         "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
-        "html": "Este proyecto es un fondo de pantalla con cubos con los que se puede interaccionar.<br/><br/>EstÃ¡ hecho con <b>Angular5</b> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
+        "html": "Este proyecto es un fondo de pantalla con cubos con los que se puede interaccionar.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
         {
@@ -184,7 +198,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
         "video": "https://www.youtube.com/embed/EjtESFUxgpU",
-        "html": "Este proyecto es una unidad de conversación artificial, comúnmente llamada ChatBot.<br/><br/>Dile lo que quieras y contestará lo que sabe.<br/><br/>Está hecho con <b>Angular5</b> y <a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>.",
+        "html": "Este proyecto es una unidad de conversación artificial, comúnmente llamada ChatBot.<br/><br/>Dile lo que quieras y contestará lo que sabe.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
         {
@@ -195,7 +209,7 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "03/22/2018",
-        "estat": "TRABAJANDO",
+        "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
         "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
         "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
@@ -228,20 +242,6 @@
         "imatge": "../../assets/images/projecte21.png",
         "html": "Esta es una comparativa entre los conceptos que cohabitan en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.",
         "repositori": null
-        },
-        {
-        "id": 19,
-        "visible": true,
-        "nom": "cual-monumento-inteligencia-artificial",
-        "titol": "¿Cuál Monumento? Con Inteligencia Artificial",
-        "tema": "Ionic",
-        "tipus": "Project",
-        "data": "09/14/2017",
-        "estat": "PLANIFICANDO",
-        "link": null,
-        "imatge": "../../assets/images/projecte22.png",
-        "html": "Este proyecto estará desarrollado con <a href='https://ionicframework.com/'>Ionic</a>, <b>Java 8</b> con <b>Spring Boot 1.5</b> y <a href='https://www.tensorflow.org/install/install_java' target='_blank'>Tensor Flow</a>.<br/><br/>El objetivo es que el móbil haga una fotografía de un monumento y la Aplicación muestra una descripción de la fotografía.<br/><br/><b>¡Próximamente!</b>",
-        "repositori": "https://github.com/davidmartinezros/which-image-is"
         },
         {
         "id": 18,
@@ -310,7 +310,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "video": "https://www.youtube.com/embed/qNqkQNnZ7tM",
-        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones Angular2.",
+        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
         {
@@ -352,7 +352,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "video": "https://www.youtube.com/embed/hI7a4HskMIw",
-        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web Angular2.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web <a href='https://angular.io/' target='_blank'>Angular 2</a>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
         {
@@ -380,7 +380,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/web/comparative_Angular2.html",
         "imatge": "../../assets/images/projecte11.png",
-        "html": "Esta es una comparativa entre AngularJS y Angular2, con la aplicaciÃ³n de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
+        "html": "Esta es una comparativa entre <a href='https://angular.io/' target='_blank'>AngularJS y Angular2</a>, con la aplicaciÃ³n de <a href='https://www.google.com/trends' target='_blank'>Google Trends</a>.",
         "repositori": null
         },
         {
