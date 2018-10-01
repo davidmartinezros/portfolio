@@ -1,14 +1,12 @@
 <div class="container-fluid col-sm-8">
 	<form [formGroup]="rForm" (ngSubmit)="addMessage(rForm.value)">
-		<div class="form-row">
-			<div class="form-group col-sm-6">
-				<input type="email" class="form-control" id="form-email" placeholder="{{ 'FormField1' | translate }}" formControlName="email">
-				<div class="alert alert-danger" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">{{ 'FormFieldDesc1' | translate }}</div>
-			</div>
-			<div class="form-group col-sm-6">
-				<input type="text" class="form-control" id="phone" placeholder="{{ 'FormField2' | translate }}" formControlName="phone">
-				<div class="alert alert-danger" *ngIf="!rForm.controls['phone'].valid && rForm.controls['phone'].touched">{{ 'FormFieldDesc2' | translate }}</div>
-			</div>
+		<div class="form-group">
+			<input type="email" class="form-control" id="form-email" placeholder="{{ 'FormField1' | translate }}" formControlName="email">
+			<div class="alert alert-danger" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">{{ 'FormFieldDesc1' | translate }}</div>
+		</div>
+		<div class="form-group">
+			<input type="title" class="form-control" id="form-title" placeholder="{{ 'FormField2' | translate }}" formControlName="title">
+			<div class="alert alert-danger" *ngIf="!rForm.controls['title'].valid && rForm.controls['title'].touched">{{ 'FormFieldDesc2' | translate }}</div>
 		</div>
 		<div class="form-group">
 			<textarea class="form-control" id="text" rows="8" placeholder="{{ 'FormField3' | translate }}" formControlName="text"></textarea>
