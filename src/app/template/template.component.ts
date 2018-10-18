@@ -99,7 +99,7 @@ export class TemplateComponent {
 
         //console.log(this.route);
 
-        console.log(this.route.queryParams);
+        //console.log(this.route.queryParams);
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -141,7 +141,7 @@ export class TemplateComponent {
 
         //console.log(this.route);
 
-        console.log(this.route.queryParams);
+        //console.log(this.route.queryParams);
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {

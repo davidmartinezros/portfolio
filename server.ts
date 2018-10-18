@@ -73,7 +73,8 @@ export const routes: string[] = [
 ];
 
 app.get('/', (req, res) => {
-  console.log(req.query.lang);
+  console.log('--------------------------------- nova peticio ---');
+  console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
   console.time(`GET: ${req.originalUrl}`);
   res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
   console.timeEnd(`GET: ${req.originalUrl}`);
@@ -81,15 +82,15 @@ app.get('/', (req, res) => {
 
 routes.forEach(route => {
   app.get(`/${route}`, (req, res) => {
-    //res.json({'lang': req.query.lang});
-    console.log(req.query.lang);
+    console.log('--------------------------------- nova peticio ---');
+    console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
     console.time(`GET: ${req.originalUrl}`);
     res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
     console.timeEnd(`GET: ${req.originalUrl}`);
   });
   app.get(`/${route}/*`, (req, res) => {
-    //res.json({'lang': req.query.lang});
-    console.log(req.query.lang);
+    console.log('--------------------------------- nova peticio ---');
+    console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
     console.time(`GET: ${req.originalUrl}`);
     res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
     console.timeEnd(`GET: ${req.originalUrl}`);
