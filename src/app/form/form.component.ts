@@ -15,7 +15,7 @@ export class FormComponent implements OnInit {
     rForm: FormGroup;
     message: any;
     email: string;
-    phone: number;
+    title: number;
     text: string;
 
     messages$;
@@ -23,7 +23,7 @@ export class FormComponent implements OnInit {
     constructor(private fb: FormBuilder, private af: AngularFireDatabase, public authService: AuthService) {
         this.rForm = fb.group({
             'email': [null, Validators.compose([Validators.required, Validators.pattern(emailRegex)])],
-            'phone': [null, Validators.compose([Validators.pattern(onlyDigitsRegex), Validators.minLength(7)])],
+            'title': [null, Validators.compose([Validators.required, Validators.minLength(1), Validators.maxLength(50)])],
             'text': [null, Validators.compose([Validators.required, Validators.minLength(10), Validators.maxLength(500)])],
             'validate': ''
         });
@@ -35,7 +35,7 @@ export class FormComponent implements OnInit {
 
     addMessage(message): void {
         this.email = message.email;
-        this.phone = message.phone;
+        this.title = message.title;
         this.text = message.text;
         this.pushToFirebase(message);
         this.rForm.reset();
@@ -44,7 +44,7 @@ export class FormComponent implements OnInit {
     pushToFirebase(message: any): void {
         this.messages$.push({
             email: message.email,
-            phone: message.phone,
+            title: message.title,
             text: message.text,
         });
     }
