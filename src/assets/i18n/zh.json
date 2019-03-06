@@ -146,6 +146,20 @@
     "projects":
     [
         {
+        "id": 27,
+        "visible": true,
+        "nom": "結合-JSON-陣列到配置菜單",
+        "titol": "組件將json數組綁定到可配置菜單",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "03/06/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
+        "video": null,
+        "html": "該組件從json文件加載可配置菜單，我們可以通過“選擇文件”按鈕修改和上傳。<br/><br/>用<a href ='https://angular.io/' target ='_blank'>Angular 7</a>，<b>Angular</b>的最新版本和Angular-CLI。",
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-configurable-menu/"
+        },
+        {
         "id": 26,
         "visible": true,
         "nom": "其中-碑-tensorflow-人工-智能",
@@ -357,7 +371,7 @@
         },
         {
         "id": 8,
-        "visible": true,
+        "visible": false,
         "nom": "導入混合器幾何-unity-3d",
         "titol": "使用Unity 3D导入几何Blender",
         "tema": "Unity",
