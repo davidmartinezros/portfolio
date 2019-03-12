@@ -34,6 +34,8 @@ export class TemplateComponent {
 
     ruta: string;
 
+    rutaHistorial: string;
+
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         public authService: AuthService,
         private translate: TranslateService,
@@ -51,7 +53,7 @@ export class TemplateComponent {
                 this.ruta = 'full-stack-developer-software-engineer'
             }
         });
-        
+
         this.getLanguanges();
     }
 
@@ -228,6 +230,19 @@ export class TemplateComponent {
         ExperienceComponent.updateStuff.next(false);
         HistoryComponent.updateStuff.next(false);
         
+        // Sets the rutaHistorial
+        this.translate.get("UrlMain")
+        .toPromise()        
+        .then(urlMain => {
+            // Sets the rutaHistorial
+            this.translate.get("UrlHistory")
+            .toPromise()        
+            .then(urlHistory => {
+                this.rutaHistorial = urlMain + "/" + urlHistory;
+            })
+        })
+        .catch(this.handleError);
+
         this.getLanguanges();
 
         this.changeMetaTagsSeo();        

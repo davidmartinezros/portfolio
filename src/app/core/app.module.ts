@@ -68,7 +68,7 @@ const appRoutes: Routes = [
     ]
   },
   {
-    path: ':urlMain/history',
+    path: ':urlMain/:urlHistory',
     component: HistoryComponent
   },
   {
