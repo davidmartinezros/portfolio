@@ -33,6 +33,7 @@ import { PipesModule } from '../pipes/pipes.module';
 import { LanguageService } from '../template/language.service';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { translateFactory } from './translate-universal-loader.service';
+import { HistoryComponent } from '../history/history.component';
 
 const appRoutes: Routes = [
   {
@@ -67,6 +68,10 @@ const appRoutes: Routes = [
     ]
   },
   {
+    path: ':urlMain/history',
+    component: HistoryComponent
+  },
+  {
     path: '',
     redirectTo: '/full-stack-developer-software-engineer',
     pathMatch: 'prefix'
@@ -91,6 +96,7 @@ const appRoutes: Routes = [
     DashboardBlogComponent,
     DashboardContactComponent,
     ExperienceComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),

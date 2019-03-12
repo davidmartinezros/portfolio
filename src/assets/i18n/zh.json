@@ -24,8 +24,9 @@
     "TitleSection2": "技能",
     "TitleSection3": "经验",
     "TitleSection4": "项目",
-    "TitleSection5": "接触",
-    "TitleSection6": "ADMIN",
+    "TitleSection5": "記錄",
+    "TitleSection6": "接触",
+    "TitleSection7": "ADMIN",
     "Section1Text1": "我是David，一位在各級軟件工程方面擁有豐富經驗的全棧開發人員.",
     "Section1Text2": "我有14年以上的專業經驗和6年的大學培訓經歷，曾經學習計算機工程和多媒體工程.",
     "Section1Text3": "我曾参加过巴塞罗那领先公司的重大项目，如: <a href='https://www.upf.edu/' target='_blank'>Universitat Pompeu Fabra</a>，<a href = 'https://web.gencat.cat/ca/inici' target ='_blank'>Generalitat de Catalunya</a>，<a href ='http://www.diba.cat/en' target='_blank'>Diputació de Barcelona</a>，<a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banco de Sabadell</a>和<a href ='http://www.grifols.es/es/web/spain/our_company' target ='_blank'>Grifols</a>等等.",
@@ -143,6 +144,16 @@
     ],
     "TitleProject": "项目",
     "UrlProject": "项目",
+    "projectFields":
+    {
+        "tema": "主題",
+        "tipus": "類型",
+        "data": "日期",
+        "estat": "狀態",
+        "captura": "捕獲",
+        "descripcio": "描述",
+        "links": "鏈接"
+    },
     "projects":
     [
         {
@@ -153,7 +164,7 @@
         "tema": "Angular",
         "tipus": "Component",
         "data": "03/06/2019",
-        "estat": "TRABAJANDO",
+        "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
         "video": null,
         "html": "該組件從json文件加載可配置菜單，我們可以通過“選擇文件”按鈕修改和上傳。<br/><br/>用<a href ='https://angular.io/' target ='_blank'>Angular 7</a>，<b>Angular</b>的最新版本和Angular-CLI。",
@@ -167,7 +178,7 @@
         "tema": "Java",
         "tipus": "Project",
         "data": "07/28/2018",
-        "estat": "TRABAJANDO",
+        "estat": "加工",
         "link": "https://davidmartinezros.com/Angular5/which-monument/",
         "video": "https://www.youtube.com/embed/qhTHenMZqow",
         "html": "该项目分为两部分：前端有<a href='https://angular.io/' target='_blank'>Angular 5</a>，后端有<a href='https://www.java.com' target='_blank'>Java</a>和<a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>。<br/><br/>它包含一个REST Web服务，它使用<a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>连接到图像比较引擎。<br/><br/>因此，如果您在屏幕上输入图像，您将与标记和存储的图像进行比较，并返回最类似图像内容的标签。",
@@ -195,7 +206,7 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "06/03/2018",
-        "estat": "ACABADO",
+        "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
         "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
         "html": "这个项目是一个可以与你互动的立方体壁纸。<br/><br/><a href='https://angular.io/' target='_blank'>Angular 5</a>和<a href ='https://threejs.org/ 'target ='_blank'>THREE.js</a>。",

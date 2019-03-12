@@ -11,6 +11,7 @@ import { Title, Meta } from '@angular/platform-browser';
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Location } from '@angular/common';
+import { HistoryComponent } from '../history/history.component';
 
 @Component({
     selector: 'app-template',
@@ -225,6 +226,7 @@ export class TemplateComponent {
 
         ProjectsComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
+        HistoryComponent.updateStuff.next(false);
         
         this.getLanguanges();
 

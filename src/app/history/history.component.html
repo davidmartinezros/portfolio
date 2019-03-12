@@ -1,0 +1,41 @@
+<div *ngIf="projects" style="margin-top: 100px; margin-bottom: 100px">
+  <div class="container-fluid">
+    <table width="100%" border="1">
+      <tr>
+        <th>{{ 'projectFields.captura' | translate}}</th>
+        <th>{{ 'projectFields.tema' | translate}}</th>
+        <th>{{ 'projectFields.tipus' | translate}}</th>
+        <th>{{ 'projectFields.estat' | translate}}</th>
+        <th>{{ 'projectFields.data' | translate}}</th>
+        <th>{{ 'projectFields.descripcio' | translate}}</th>
+        <th>{{ 'projectFields.links' | translate}}</th>
+      </tr>
+      <tr *ngFor="let key of objectKeys(projects); let i = index">
+        <td>
+            <iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" style="border-width: 0px;"></iframe>
+            <img *ngIf="projects[i].imatge" class="card-img-top" [src]="projects[i].imatge">
+        </td>
+        <td *ngIf="projects[i]" class="text-center">
+          <span>{{projects[i].tema}}</span>
+        </td>
+        <td *ngIf="projects[i]" class="text-center">
+            <span>{{projects[i].tipus}}</span>
+        </td>
+        <td *ngIf="projects[i]" class="text-center">
+          <span>{{projects[i].estat}}</span>
+        </td>
+        <td *ngIf="projects[i]" class="text-center">
+          <span>{{projects[i].data}}</span>
+        </td>
+        <td>
+          <h4>{{projects[i].titol}}</h4>
+          <p class="text-justify" innerHTML="{{projects[i].html}}"></p>
+        </td>
+        <td>
+          <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl">Demo</a>
+          <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl">Git</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

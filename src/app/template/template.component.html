@@ -29,12 +29,17 @@
 				<li class="nav-item">
 					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
+				<li class="hidden-xs">
+					<a id="history-list" class="menu nav-link" routerLink="full-stack-developer-software-engineer/history">
+						{{ 'TitleSection5' | translate }}
+					</a>
+				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section5">{{ 'TitleSection5' | translate }}</a>
+					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section6">{{ 'TitleSection6' | translate }}</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.authenticated">
 					<a class="menu nav-link" routerLink="full-stack-developer-software-engineer/dashboard" routerLinkActive="active">
-						{{ 'TitleSection6' | translate }}
+						{{ 'TitleSection7' | translate }}
 					</a>
 				</li>
 				<li class="nav-item margin-auto" *ngIf="languages">
