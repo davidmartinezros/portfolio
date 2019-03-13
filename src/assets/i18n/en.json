@@ -167,7 +167,7 @@
         "data": "03/06/2019",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/j5RxiofrpxA",
         "html": "This component loads a configurable menu from a json file, which we can modify and upload through the \"Select file\" button. <br/> <br/> It is made with <a href = 'https://angular.io/' target ='_blank'>Angular 7</a>, the latest version of <b>Angular</b>, and Angular-CLI.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-configurable-menu/"
         },
