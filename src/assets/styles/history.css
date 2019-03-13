@@ -1,0 +1,19 @@
+.historyTable {
+    /*background-color: var(--second-background);*/
+    background-color: rgba(33, 33, 33, 0.5);
+    border: 1px solid var(--my-blue);
+}
+
+.historyTable tr th{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 1px solid var(--second-color);
+    color:var(--second-color);
+}
+
+.historyTable tr td{
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid var(--my-blue);
+}

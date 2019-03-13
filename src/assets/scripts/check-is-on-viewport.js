@@ -3,7 +3,7 @@
     $(document).ready(function () {
 
         $.fn.isInViewport = function () {
-            var elementTop = $(this).offset().top;
+            var elementTop = $(this).offset()? $(this).offset().top : 0;
             var elementBottom = elementTop + $(this).outerHeight();
             var viewportTop = $(window).scrollTop();
             var viewportBottom = viewportTop + $(window).height();
