@@ -37,8 +37,9 @@
               <p class="card-text text-justify" innerHTML="{{projects[i].html}}"></p>
             </div>
             <div class="card-footer">
-              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="boto btn btn-primary">Git</a>
+              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ demo }}</a>
+              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ git }}</a>
+              <a *ngIf="projects[i].urlProjecte!=null" target="_blank" rel="noopener" [href]="projects[i].urlProjecte | safeUrl" class="boto btn btn-primary">{{ detall }}</a>
             </div>
           </div>
           <div *ngIf="projects[i+1]" class="card text-center">
@@ -71,8 +72,9 @@
               <p class="card-text text-justify" innerHTML="{{projects[i+1].html}}"></p>
             </div>
             <div class="card-footer">
-              <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">Demo</a>
-              <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="boto btn btn-primary">Git</a>
+              <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ demo }}</a>
+              <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ git }}</a>
+              <a *ngIf="projects[i+1].urlProjecte!=null" target="_blank" rel="noopener" [href]="projects[i+1].urlProjecte | safeUrl" class="boto btn btn-primary">{{ detall }}</a>
             </div>
           </div>
         </div>

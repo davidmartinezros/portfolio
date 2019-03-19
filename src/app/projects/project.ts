@@ -9,7 +9,8 @@ export class Project {
   link: string;
   html: string;
   repositori: string;
-
+  urlProjecte: string;
+  
   public show: boolean = false;
   
 }

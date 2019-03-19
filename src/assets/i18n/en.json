@@ -2,7 +2,7 @@
     "languages": [
         {
             "value": "es",
-            "text": "SPANISH"
+            "text": "ESPAÑOL"
         },
         {
             "value": "en",
@@ -10,7 +10,7 @@
         },
         {
             "value": "zh",
-            "text": "CHINESE"
+            "text": "中文"
         }
     ],
     "TitleIndex": "Angular and Java | David, a Full Stack Developer and Software Engineer",
@@ -66,6 +66,9 @@
     "FormButton": "Send",
     "in": "in",
     "at": "at",
+    "TextDemo": "Demo",
+    "TextGit": "Git",
+    "TextDetall": "Detail",
     "experiences":
     [
         {
@@ -161,13 +164,13 @@
         "id": 28,
         "visible": true,
         "nom": "fluid-simulation-navier-stokes-javascript",
-        "titol": "Fluid simulation project with the Navier Stokes equation",
+        "titol": "Fluid simulation project with the Navier Stokes equation with Javascript",
         "tema": "Javascript",
         "tipus": "Project",
         "data": "03/19/2019",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/Mfi1SQ-frOs",
         "html": "This project simulates the behavior of fluids through the equation of <a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a> . <br/> <br/> It only works <b> from a computer </b>. <br/> <br/> It's done with <a href = 'https://www.javascript.com/' target = '_blank'>Javascript</a>. <br/> <br/> With the left button you indicate the shape and direction of the fluid and with the right button you indicate the direction of the force of the space where the fluid will inhabit.",
         "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
         },
@@ -175,7 +178,7 @@
         "id": 27,
         "visible": true,
         "nom": "bind-json-array-to-configurable-menu-angular",
-        "titol": "Component bind json array to configurable menu",
+        "titol": "Component bind json array to configurable menu with Angular",
         "tema": "Angular",
         "tipus": "Component",
         "data": "03/06/2019",
@@ -426,8 +429,8 @@
         {
         "id": 6,
         "visible": true,
-        "nom": "associate-json-file-to-html-table-angular",
-        "titol": "Associate json file to html table with Angular",
+        "nom": "bind-json-file-to-html-table-angular",
+        "titol": "Bind json file to html table with Angular",
         "tema": "Angular",
         "tipus": "Example",
         "data": "10/27/2016",

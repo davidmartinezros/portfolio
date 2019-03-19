@@ -6,11 +6,11 @@
         },
         {
             "value": "en",
-            "text": "INGLÉS"
+            "text": "ENGLISH"
         },
         {
             "value": "zh",
-            "text": "CHINO"
+            "text": "中文"
         }
     ],
     "TitleIndex": "Angular y Java | David, un Full Stack Developer e Ingeniero de Sofware",
@@ -66,6 +66,9 @@
     "FormButton": "Enviar",
     "in": "en",
     "at": "en",
+    "TextDemo": "Demo",
+    "TextGit": "Git",
+    "TextDetall": "Detalle",
     "experiences":
     [
         {
@@ -161,13 +164,13 @@
         "id": 28,
         "visible": true,
         "nom": "simulacion-fluidos-navier-stokes-javascript",
-        "titol": "Proyecto de simulación de fluidos con la ecuación de Navier Stokes",
+        "titol": "Proyecto de simulación de fluidos con la ecuación de Navier Stokes con Javascript",
         "tema": "Javascript",
         "tipus": "Project",
         "data": "03/19/2019",
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/Mfi1SQ-frOs",
         "html": "Este proyecto simula el comportamiento de fluidos a través de la ecuación de <a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>.<br/><br/>Sólo funciona <b>desde ordenador</b>.<br/><br/>Está realizado con <a href='https://www.javascript.com/' target='_blank'>Javascript</a>.<br/><br/>Con el botón izquierdo indicas la forma y dirección del fluido y con el botón derecho indicas la dirección de la fuerza del espacio donde habitará el fluido.",
         "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
         },
@@ -175,7 +178,7 @@
         "id": 27,
         "visible": true,
         "nom": "asociar-json-array-a-menu-configurable-angular",
-        "titol": "Componente que asocia un fichero json a un menu configurable",
+        "titol": "Componente que asocia un fichero json a un menu configurable con Angular",
         "tema": "Angular",
         "tipus": "Component",
         "data": "03/06/2019",

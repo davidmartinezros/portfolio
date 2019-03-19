@@ -17,7 +17,7 @@ import { Title, Meta } from '@angular/platform-browser';
     private lang: string;
     private sub: any;
     project: Project;
-
+    
     constructor(private route: ActivatedRoute,
                 private projectService: ProjectService,
                 private translate: TranslateService,
@@ -38,7 +38,6 @@ import { Title, Meta } from '@angular/platform-browser';
                     }
                 );
             }
-
         });
     }
 
