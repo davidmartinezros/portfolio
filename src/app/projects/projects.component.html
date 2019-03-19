@@ -23,6 +23,9 @@
             <div *ngIf="projects[i].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
               <span>{{projects[i].tema}}</span>
             </div>
+            <div *ngIf="projects[i].tema == 'Javascript'" class="ribbon ribbon-javascript">
+              <span>{{projects[i].tema}}</span>
+            </div>
             <iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" style="border-width: 0px;"></iframe>
             <!--
             <video *ngIf="projects[i].video" class="card-img-top" [src]="projects[i].video" autoplay></video>
@@ -52,6 +55,9 @@
               <span>{{projects[i+1].tema}}</span>
             </div>
             <div *ngIf="projects[i+1].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Javascript'" class="ribbon ribbon-javascript">
               <span>{{projects[i+1].tema}}</span>
             </div>
             <iframe *ngIf="projects[i+1].video" [src]="projects[i+1].video | safeUrl" style="border-width: 0px;"></iframe>

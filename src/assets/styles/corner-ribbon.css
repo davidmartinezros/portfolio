@@ -132,3 +132,17 @@
     border-right: 3px solid #4285f4;
     border-top: 3px solid #4285f4;
 }
+.ribbon-javascript span {
+    color: black;
+    background: #f7df1e;
+}
+
+.ribbon-javascript span::before {
+    border-left: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}
+
+.ribbon-javascript span::after {
+    border-right: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}

@@ -158,9 +158,23 @@
     "projects":
     [
         {
+        "id": 28,
+        "visible": true,
+        "nom": "仿真流体的Navier-Stokes的-javascript",
+        "titol": "使用Navier Stokes方程的流体模拟项目",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/19/2019",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
+        "video": null,
+        "html": "该项目通过<a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>等式模拟流体的行为 。<br/> <br/><b>它只能从电脑上运行</b>。<br/> <br/>用<a href ='https://www.javascript.com/' target = '_blank'>Javascript</a>。<br/> <br/>使用左按钮指示流体的形状和方向，使用右按钮指示流体将居住的空间的力的方向。",
+        "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
+        },
+        {
         "id": 27,
         "visible": true,
-        "nom": "結合-JSON-陣列到配置菜單",
+        "nom": "結合-JSON-陣列到配置菜單-angular",
         "titol": "組件將json數組綁定到可配置菜單",
         "tema": "Angular",
         "tipus": "Component",
@@ -425,7 +439,7 @@
         },
         {
         "id": 4,
-        "visible": true,
+        "visible": false,
         "nom": "兩個相同的場景的相機-unity-3d",
         "titol": "与Unity 3D相同场景的两台相机",
         "tema": "Unity",

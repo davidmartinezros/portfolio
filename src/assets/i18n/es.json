@@ -158,9 +158,23 @@
     "projects":
     [
         {
+        "id": 28,
+        "visible": true,
+        "nom": "simulacion-fluidos-navier-stokes-javascript",
+        "titol": "Proyecto de simulación de fluidos con la ecuación de Navier Stokes",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/19/2019",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
+        "video": null,
+        "html": "Este proyecto simula el comportamiento de fluidos a través de la ecuación de <a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>.<br/><br/>Sólo funciona <b>desde ordenador</b>.<br/><br/>Está realizado con <a href='https://www.javascript.com/' target='_blank'>Javascript</a>.<br/><br/>Con el botón izquierdo indicas la forma y dirección del fluido y con el botón derecho indicas la dirección de la fuerza del espacio donde habitará el fluido.",
+        "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
+        },
+        {
         "id": 27,
         "visible": true,
-        "nom": "asociar-json-array-a-menu-configurable",
+        "nom": "asociar-json-array-a-menu-configurable-angular",
         "titol": "Componente que asocia un fichero json a un menu configurable",
         "tema": "Angular",
         "tipus": "Component",
@@ -425,7 +439,7 @@
         },
         {
         "id": 4,
-        "visible": true,
+        "visible": false,
         "nom": "dos-camaras-de-misma-escena-unity-3d",
         "titol": "Dos cámaras de misma escena con Unity 3D",
         "tema": "Unity",

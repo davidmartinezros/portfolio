@@ -18,6 +18,9 @@
         <div *ngIf="project.tema == 'Google Trends'" class="ribbon ribbon-googletrends">
           <span>{{project.tema}}</span>
         </div>
+        <div *ngIf="project.tema == 'Javascript'" class="ribbon ribbon-javascript">
+          <span>{{project.tema}}</span>
+        </div>
         <iframe *ngIf="project.video" [src]="project.video | safeUrl" style="border-width: 0px"></iframe>
         <!--
         <video *ngIf="project.video" class="card-img-top" [src]="project.video" autoplay></video>
