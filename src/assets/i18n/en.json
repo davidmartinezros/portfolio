@@ -161,6 +161,20 @@
     "projects":
     [
         {
+        "id": 29,
+        "visible": true,
+        "nom": "webgl-fluid-simulation-javascript",
+        "titol": "Fluid simulation project with WebGL and Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/20/2019",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Javascript/webgl-fluid-simulation/",
+        "video": "https://www.youtube.com/embed/4j1_y3YDj2k",
+        "html": "This project simulates the behavior of fluids with WebGL. <br/> <br/> It works on computers, mobile phones or tablets. <br/> <br/> It is done with <a href = 'https://www.javascript.com/' target ='_blank'>Javascript</a>. <br/> <br/> With the mouse or pad of the mobile or tablet you can generate fluids in the black area, which will follow the direction you indicate.",
+        "repositori": "https://github.com/davidmartinezros/webgl-fluid-simulation/"
+        },
+        {
         "id": 28,
         "visible": true,
         "nom": "fluid-simulation-navier-stokes-javascript",
@@ -484,7 +498,7 @@
         },
         {
         "id": 1,
-        "visible": true,
+        "visible": false,
         "nom": "3d-scene-mars-unity-3d",
         "titol": "3D scene: Mars with Unity 3D",
         "tema": "Unity",

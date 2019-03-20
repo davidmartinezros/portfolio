@@ -161,6 +161,20 @@
     "projects":
     [
         {
+        "id": 29,
+        "visible": true,
+        "nom": "WebGL-的模拟流体的-JavaScript",
+        "titol": "使用WebGL和Javascript的流体模拟项目",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/20/2019",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Javascript/webgl-fluid-simulation/",
+        "video": "https://www.youtube.com/embed/4j1_y3YDj2k",
+        "html": "该项目使用WebGL模拟流体的行为。<br/> <br/>它适用于计算机，手机或平板电脑。<br/> <br/>用<a href ='https://www.javascript.com/' target ='_blank'>Javascript</a>。<br/> <br/>使用移动设备或平板电脑的鼠标或平板，您可以在黑色区域生成流体，这将按照您指示的方向生成。",
+        "repositori": "https://github.com/davidmartinezros/webgl-fluid-simulation/"
+        },
+        {
         "id": 28,
         "visible": true,
         "nom": "流体仿真的Navier-Stokes的javascript",
@@ -168,7 +182,7 @@
         "tema": "Javascript",
         "tipus": "Project",
         "data": "03/19/2019",
-        "estat": "ACABADO",
+        "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
         "video": "https://www.youtube.com/embed/Mfi1SQ-frOs",
         "html": "该项目通过<a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>等式模拟流体的行为 。<br/> <br/><b>它只能从电脑上运行</b>。<br/> <br/>用<a href ='https://www.javascript.com/' target = '_blank'>Javascript</a>。<br/> <br/>使用左按钮指示流体的形状和方向，使用右按钮指示流体将居住的空间的力的方向。",
@@ -484,7 +498,7 @@
         },
         {
         "id": 1,
-        "visible": true,
+        "visible": false,
         "nom": "3d-場景-火星-unity-3d",
         "titol": "3D场景: 火星与Unity 3D",
         "tema": "Unity",
