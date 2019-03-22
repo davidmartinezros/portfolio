@@ -13,6 +13,66 @@
             "text": "中文"
         }
     ],
+    "knowledges": [
+        {
+            "group": "Back-end",
+            "list": [
+                {
+                    "theme": "Java",
+                    "value": "5"
+                },
+                {
+                    "theme": "Spring",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Spring-Boot",
+                    "value": "4"
+                },
+                {
+                    "theme": "Hibernate",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "group": "Front-end",
+            "list": [
+                {
+                    "theme": "Angular",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Ionic",
+                    "value": "1"
+                },
+                {
+                    "theme": "JSP",
+                    "value": "5"
+                },
+                {
+                    "theme": "Servlet",
+                    "value": "4"
+                },
+                {
+                    "theme": "Bootstrap",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "HTML",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "CSS",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Javascript",
+                    "value": "3.6"
+                }
+            ]
+        }
+    ],
     "TitleIndex": "Angular y Java | David, un Full Stack Developer e Ingeniero de Sofware",
     "SubtitleIndex": " | David, un Full Stack Developer e Ingeniero de Sofware",
     "TagAuthorIndex": "David Martínez Ros",

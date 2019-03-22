@@ -82,14 +82,42 @@
 				</div>
 			</div>
 			<hr class="style-one">
-			<div class="row skills-font pb-1 pt-4 text-center">
-				<div class="col-sm-6">
-					<h4 innerHtml="{{ 'Section2Text1' | translate }}"></h4>
-					<p innerHtml="{{ 'Section2Text2' | translate }}"></p>
-				</div>
-				<div class="col-sm-6">
-					<h4 innerHtml="{{ 'Section2Text3' | translate }}"></h4>
-					<p innerHtml="{{ 'Section2Text4' | translate }}"></p>
+			<div *ngIf="knowledges">
+				<div *ngFor="let k of objectKeys(knowledges); let i = index">
+					<div class="row text-center bar-rating" *ngIf="i%2===0">
+						<div class="col-xs-6 bar-rating-group-main">
+							<div class="bar-rating-group">
+								<h4 innerHtml="{{ knowledges[i].group }}"></h4>
+								<hr class="style-three">
+								<div *ngFor="let k of objectKeys(knowledges[i].list); let j = index">	
+									<div class="row">
+										<div class="col-xs-12 bar-rating-theme">
+											<u>{{ knowledges[i].list[j].theme }}</u>
+										</div>
+										<div class="col-xs-12 bar-rating-value">
+											<bar-rating [(rate)]="knowledges[i].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 bar-rating-group-main">
+							<div class="bar-rating-group">
+								<h4 innerHtml="{{ knowledges[i+1].group }}"></h4>
+								<hr class="style-three">
+								<div *ngFor="let k of objectKeys(knowledges[i+1].list); let j = index">	
+									<div class="row">
+										<div class="col-xs-12 bar-rating-theme">
+											<u>{{ knowledges[i+1].list[j].theme }}</u>
+										</div>
+										<div class="col-xs-12 bar-rating-value">
+											<bar-rating [(rate)]="knowledges[i+1].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row skills-font pb-1 text-center">

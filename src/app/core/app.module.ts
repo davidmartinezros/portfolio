@@ -34,6 +34,8 @@ import { LanguageService } from '../template/language.service';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { translateFactory } from './translate-universal-loader.service';
 import { HistoryComponent } from '../history/history.component';
+import { BarRatingModule } from 'ngx-bar-rating';
+import { KnowledgeService } from '../main/knowledge.service';
 
 const appRoutes: Routes = [
   {
@@ -110,6 +112,7 @@ const appRoutes: Routes = [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     PipesModule,
+    BarRatingModule,
     /*
     TranslateModule.forRoot({
       loader: {
@@ -126,7 +129,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService, LanguageService],
+  providers: [AuthService, AngularFireDatabase, BlogComponent, DashboardContactComponent, ProjectService, ExperienceService, LanguageService, KnowledgeService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

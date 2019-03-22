@@ -1,3 +1,42 @@
+/* Add application styles & imports to this file! */
+@import '~ngx-bar-rating/themes/br-default-theme.css';
+@import '~ngx-bar-rating/themes/br-bootstrap-theme.css';
+@import '~ngx-bar-rating/themes/br-horizontal-theme.css';
+@import '~ngx-bar-rating/themes/br-fontawesome-o-theme.css';
+
+.bar-rating {
+  padding: 10px 10px 10px 10px;
+}
+
+.bar-rating-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-rating-group-main {
+  padding: 10px 10px 10px 10px;
+}
+
+.bar-rating-group {
+  background-color: rgba(33, 33, 33, 0.5);
+  border: 1px solid rgba(0,0,0,.125);
+  border-width: 1px;
+  border-color: var(--my-blue);
+  border-radius: 3px;
+  padding-top: 10px;
+}
+
+.bar-rating-theme {
+  letter-spacing: 1px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 html {
   --background: white;
   --second-background: #343a40;
