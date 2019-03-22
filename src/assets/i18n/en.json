@@ -13,6 +13,167 @@
             "text": "中文"
         }
     ],
+    "knowledges": [
+        {
+            "group": "Back-end",
+            "list": [
+                {
+                    "theme": "Java",
+                    "value": "5"
+                },
+                {
+                    "theme": "Spring",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Spring-Boot",
+                    "value": "4"
+                },
+                {
+                    "theme": "Hibernate",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "group": "Front-end",
+            "list": [
+                {
+                    "theme": "Angular",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Ionic",
+                    "value": "1"
+                },
+                {
+                    "theme": "JSP",
+                    "value": "5"
+                },
+                {
+                    "theme": "Servlet",
+                    "value": "4"
+                },
+                {
+                    "theme": "Bootstrap",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "HTML",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "CSS",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Javascript",
+                    "value": "3.6"
+                }
+            ]
+        },
+        {
+            "group": "Databases",
+            "list": [
+                {
+                    "theme": "Oracle",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "SQL",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "MongoDB",
+                    "value": "3"
+                },
+                {
+                    "theme": "FireBase",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "group": "Servers",
+            "list": [
+                {
+                    "theme": "Tomcat",
+                    "value": "5"
+                },
+                {
+                    "theme": "Weblogic",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Apache",
+                    "value": "4.6"
+                }
+            ]
+        },
+        {
+            "group": "Operative systems",
+            "list": [
+                {
+                    "theme": "Windows",
+                    "value": "5"
+                },
+                {
+                    "theme": "Linux",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Android",
+                    "value": "4.6"
+                }
+            ]
+        },
+        {
+            "group": "Graphics",
+            "list": [
+                {
+                    "theme": "Adobe Photoshop",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Gimp",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Unity",
+                    "value": "3.6"
+                }
+            ]
+        },
+        {
+            "group": "Utilities",
+            "list": [
+                {
+                    "theme": "Maven",
+                    "value": "5"
+                },
+                {
+                    "theme": "Git",
+                    "value": "5"
+                },
+                {
+                    "theme": "npm",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "ng",
+                    "value": "4"
+                },
+                {
+                    "theme": "Postman",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Soap-UI",
+                    "value": "4.6"
+                }
+            ]
+        }
+    ],
     "TitleIndex": "Angular and Java | David, a Full Stack Developer and Software Engineer",
     "SubtitleIndex": " | David, a Full Stack Developer and Software Engineer",
     "TagAuthorIndex": "David Martinez Ros",

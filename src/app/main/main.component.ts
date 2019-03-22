@@ -5,6 +5,7 @@ import { DashboardContactComponent } from '../dashboard/dashboard-contact.compon
 import { ActivatedRoute } from '@angular/router';
 import { KnowledgeService } from './knowledge.service';
 import { Knowledge } from './knowledge';
+import { Subject } from 'rxjs';
 
 @Component({
     selector: 'app-main',
@@ -17,9 +18,15 @@ export class MainComponent {
 
     knowledges: Knowledge[];
 
+    public static updateStuff: Subject<any> = new Subject();
+
     constructor(public authService: AuthService,
         private knowledgeService: KnowledgeService,
         private dashboardContactComponent: DashboardContactComponent) {
+            MainComponent.updateStuff.subscribe(res => {
+                // here fire functions that fetch the data from the api
+                this.getKnowledges();
+            });
     }
 
     ngOnInit(): void {
