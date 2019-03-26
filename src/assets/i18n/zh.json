@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 30,
+        "visible": false,
+        "nom": "algolia-产品搜索引擎",
+        "titol": "Algolia项目: 产品搜索引擎",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/26/2019",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
+        "video": "https://www.youtube.com/embed/lN0-mnwyfrE",
+        "html": "Algolia的这个项目是由可配置小部件分隔的产品搜索引擎。 <br/> <br/>与bestbuy合作提供数据。 <br/> <br/>支持最新两个版本的Chrome，Edge浏览器，Safari和Firefox。",    
+        "repositori": "https://github.com/algolia/instantsearch.js/"
+        },
+        {
         "id": 29,
         "visible": true,
         "nom": "WebGL-的模拟流体的-JavaScript",

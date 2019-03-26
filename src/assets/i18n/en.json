@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 30,
+        "visible": false,
+        "nom": "algolia-product-search-engine",
+        "titol": "Project Algolia: Product Search engine",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/26/2019",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
+        "video": "https://www.youtube.com/embed/lN0-mnwyfrE",
+        "html": "This project by Algolia is a product search engine separated by configurable widgets. <br/> <br/> It works with bestbuy to feed data. <br/> <br/> Supports the last two versions of Chrome, Edge browsers , Safari and Firefox.",    
+        "repositori": "https://github.com/algolia/instantsearch.js/"
+        },
+        {
         "id": 29,
         "visible": true,
         "nom": "webgl-fluid-simulation-javascript",

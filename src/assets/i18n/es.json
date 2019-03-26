@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 30,
+        "visible": false,
+        "nom": "algolia-motor-buscador-productos",
+        "titol": "Proyecto Algolia: Motor de buscador de productos",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "03/26/2019",
+        "estat": "ACABADO",
+        "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
+        "video": "https://www.youtube.com/embed/lN0-mnwyfrE",
+        "html": "Este proyecto realizado por Algolia es un buscador de productos separado por widgets configurables.<br/><br/>Trabaja con bestbuy para nutrirse de datos.<br/><br/>Soporta las dos últimas versiones de los navegadores Chrome, Edge, Safari y Firefox.",    
+        "repositori": "https://github.com/algolia/instantsearch.js/"
+        },
+        {
         "id": 29,
         "visible": true,
         "nom": "webgl-simulacion-fluidos-javascript",
