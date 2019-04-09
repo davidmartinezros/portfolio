@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 31,
+        "visible": true,
+        "nom": "black-lotus-mtg-buscador-cartas",
+        "titol": "Proyecto Black Lotus: Buscador de cartas de MTG",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/09/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular7/black-lotus/",
+        "video": null,
+        "html": "Este proyecto es un buscador de cartas de Magic The Gathering (MTG), un juego de cartas muy extendido en todo el mundo.<br/><br/>Está realizado con Angular 7 y Angular-Cli.<br/><br/>Usa el <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
+        "repositori": "https://github.com/davidmartinezros/black-lotus/"
+        },
+        {
         "id": 30,
         "visible": false,
         "nom": "algolia-motor-buscador-productos",
@@ -659,7 +673,7 @@
         },
         {
         "id": 2,
-        "visible": true,
+        "visible": false,
         "nom": "ejemplo-fisico-unity-3d",
         "titol": "Ejemplo físico con Unity 3D",
         "tema": "Unity",
