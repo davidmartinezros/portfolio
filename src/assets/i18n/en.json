@@ -331,7 +331,7 @@
         "data": "04/10/2019",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
-        "video": "https://www.youtube.com/embed/EQouqxiSIuE",
+        "video": "https://www.youtube.com/embed/4hcAefILGUs",
         "html": "This project with the name <b>Art Web Design</b> is a web design template, which incorporates a side menu, a navigation bar, a footer and has the structure of pages and navigation that are loaded in the central part of the page according to what you choose in the menu.<br/><br/>It is made with <b>Angular 7</b>, <b>Angular-Cli</b> and <b>Angular Material</b>.",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
