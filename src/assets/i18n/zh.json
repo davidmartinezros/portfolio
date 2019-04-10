@@ -331,7 +331,7 @@
         "data": "04/10/2019",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/EQouqxiSIuE",
         "html": "这个名为<b>Art Web Design</b>的项目是一个网页设计模板，它包含一个侧面菜单，一个导航栏，一个页脚，并具有页面和导航的结构，这些页面和导航加载在中心部分。 根据您在菜单中选择的内容。<br/><br/>用<b>Angular 7</b>，<b>Angular-Cli</b>和<b>Angular Material</b>。",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
@@ -345,7 +345,7 @@
         "data": "04/09/2019",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/black-lotus/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/327sSXWQTQ4",
         "html": "该项目是Magic The Gathering（MTG）的卡片发现器，这是一种广泛传播到世界各地的纸牌游戏。<br/><br/>它由Angular 7和Angular-Cli制成。<br/><br/>使用<a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>。",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
         },

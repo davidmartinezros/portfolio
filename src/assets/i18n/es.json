@@ -331,7 +331,7 @@
         "data": "04/10/2019",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/EQouqxiSIuE",
         "html": "Este proyecto con el nombre <b>Art Web Design</b> es una plantilla de diseño web, que incorpora un menú lateral, una barra de navegación, un pie de página y cuenta con la estructura de páginas y navegación que se cargan en la parte central de la página según lo que escojas en el menú.<br/><br/>Está realizado con <b>Angular 7</b>, <b>Angular-Cli</b> y <b>Angular Material</b>.",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
@@ -345,7 +345,7 @@
         "data": "04/09/2019",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/black-lotus/",
-        "video": null,
+        "video": "https://www.youtube.com/embed/327sSXWQTQ4",
         "html": "Este proyecto es un buscador de cartas de Magic The Gathering (MTG), un juego de cartas muy extendido en todo el mundo.<br/><br/>Está realizado con Angular 7 y Angular-Cli.<br/><br/>Usa el <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
         },
