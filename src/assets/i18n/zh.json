@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 32,
+        "visible": true,
+        "nom": "艺术网页设计-设计模板",
+        "titol": "项目艺术网页设计: 网页设计模板",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/10/2019",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Angular7/art-web-design/",
+        "video": null,
+        "html": "这个名为<b>Art Web Design</b>的项目是一个网页设计模板，它包含一个侧面菜单，一个导航栏，一个页脚，并具有页面和导航的结构，这些页面和导航加载在中心部分。 根据您在菜单中选择的内容。<br/><br/>用<b>Angular 7</b>，<b>Angular-Cli</b>和<b>Angular Material</b>。",    
+        "repositori": "https://github.com/davidmartinezros/art-web-design/"
+        },
+        {
         "id": 31,
         "visible": true,
         "nom": "黑莲花-MTG-卡搜索",
@@ -631,7 +645,7 @@
         },
         {
         "id": 6,
-        "visible": true,
+        "visible": false,
         "nom": "將-json-文件關聯到-html-表格-angular",
         "titol": "使用Angular将json文件关联到html表格",
         "tema": "Angular",

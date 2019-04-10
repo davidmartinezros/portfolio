@@ -322,6 +322,20 @@
     "projects":
     [
         {
+        "id": 32,
+        "visible": true,
+        "nom": "art-web-design-design-template",
+        "titol": "Project Art Web Design: Web design template",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "04/10/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular7/art-web-design/",
+        "video": null,
+        "html": "This project with the name <b>Art Web Design</b> is a web design template, which incorporates a side menu, a navigation bar, a footer and has the structure of pages and navigation that are loaded in the central part of the page according to what you choose in the menu.<br/><br/>It is made with <b>Angular 7</b>, <b>Angular-Cli</b> and <b>Angular Material</b>.",    
+        "repositori": "https://github.com/davidmartinezros/art-web-design/"
+        },
+        {
         "id": 31,
         "visible": true,
         "nom": "black-lotus-mtg-cards-search",
@@ -631,7 +645,7 @@
         },
         {
         "id": 6,
-        "visible": true,
+        "visible": false,
         "nom": "bind-json-file-to-html-table-angular",
         "titol": "Bind json file to html table with Angular",
         "tema": "Angular",
