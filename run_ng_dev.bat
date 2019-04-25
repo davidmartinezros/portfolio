@@ -1,1 +1,1 @@
-ng build --prod --project=client && ng build --prod --project=server
+ng build --project=davidmartinezros && ng run davidmartinezros:server

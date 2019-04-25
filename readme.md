@@ -5,24 +5,21 @@ My Web Portfolio shows an introduction, my habilities, my experience, my project
 
 With Universal, so you have a browser and a server part of the project communicating between them.
 
-Documentation "How to convert your Angular 5 application to Universal": http://davidlearns.blogspot.com/2018/05/how-to-convert-your-angular-5-app-to.html
-
 ### Tools
-Angular 5 (JS + TypeScript), Bootstrap 4, Firebase, Audio, Translate, Universal
+Angular 7 (JS + TypeScript), Bootstrap 4, Firebase, Audio, Translate, Universal
 
 ### Requirements
 npm, angular-cli
 
 ### Build, Run, Deploy
 ```
-build:
-npm install
-npm install -g @angular/cli@1.4.4
+build for prod:
+npm run universal
 
 build for dev:
 run the file run_ng_dev.bat
 
-build for prod:
+build for prod (only the browser and server directories):
 run the file run_ng_prod.bat
 
 deploy on firebase: 

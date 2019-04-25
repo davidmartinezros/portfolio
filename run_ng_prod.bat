@@ -1,1 +1,1 @@
-ng build --prod --build-optimizer --project=client && ng build --prod --build-optimizer --project=server
+ng build --prod --project=davidmartinezros && ng run davidmartinezros:server
