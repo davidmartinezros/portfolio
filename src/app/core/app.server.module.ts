@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
 import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
-
-import { AppModule } from './app.module';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TemplateComponent } from '../template/template.component';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TransferState } from '@angular/platform-browser';
-import { HttpClient } from '@angular/common/http';
+import { AppModule } from './app.module';
 import { translateFactory } from './translate-universal-loader.service';
+
 
 @NgModule({
   imports: [

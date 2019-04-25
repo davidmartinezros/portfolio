@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Subject } from 'rxjs/Subject';
 import { Project } from '../projects/project';
 import { ProjectService } from '../projects/project.service';
-import { Subject }    from 'rxjs/Subject';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-history',

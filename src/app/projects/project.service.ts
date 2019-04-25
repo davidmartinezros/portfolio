@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
+import { Headers, Http } from '@angular/http';
 import { TranslateService } from '@ngx-translate/core';
-import { Headers, Http, Response } from '@angular/http';
-
 import 'rxjs/add/operator/toPromise';
-
 import { Project } from './project';
+
+
 
 @Injectable()
 export class ProjectService {
@@ -30,7 +30,7 @@ export class ProjectService {
 
     getTheTop20Projects(): Promise<Project[]> {
         return this.getProjects()
-            .then(projects => projects.filter(project => project.visible === true));
+            .then(projects => (projects && projects.length > 0)?projects.filter(project => project.visible === true):null);
     }
 
     getProjectsWithLang(lang): Promise<Project[]> {
@@ -45,17 +45,17 @@ export class ProjectService {
 
     getTypeProjects(tipus: string): Promise<Project[]> {
         return this.getProjects()
-             .then(projects => projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()));
+             .then(projects => (projects && projects.length > 0)?projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()):null);
     }
 
     getProjectById(id: number): Promise<Project> {
         return this.getProjects()
-             .then(projects => projects.find(project => project.id === id));
+             .then(projects => (projects && projects.length > 0)?projects.find(project => project.id === id):null);
     }
 
     getProjectByName(lang: string, nom: string): Promise<Project> {
         return this.getProjectsWithLang(lang)
-             .then(projects => projects.find(project => project.nom === nom));
+             .then(projects => (projects && projects.length > 0)?projects.find(project => project.nom === nom):null);
     }
 
     /*

@@ -1,10 +1,11 @@
 import { TranslateLoader } from '@ngx-translate/core';
-
-import { Observable } from 'rxjs';
-
-import * as translationEs from 'assets/i18n/es.json';
 import * as translationEn from 'assets/i18n/en.json';
+import * as translationEs from 'assets/i18n/es.json';
 import * as translationZh from 'assets/i18n/zh.json';
+import { Observable } from 'rxjs';
+import { of } from 'rxjs/Observable/of';
+
+
 
 const TRANSLATIONS = {
   es: translationEs,
@@ -18,7 +19,7 @@ export class TranslateUniversalLoader implements TranslateLoader {
   }
 
   public getTranslation(lang: string): Observable<any> {
-    return Observable.of(TRANSLATIONS[lang]);
+    return of(TRANSLATIONS[lang].default);
   }
 }
   

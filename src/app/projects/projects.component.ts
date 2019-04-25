@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Subject } from 'rxjs/Subject';
 import { Project } from './project';
 import { ProjectService } from './project.service';
-import { Subject }    from 'rxjs/Subject';
-import { TranslateService } from '@ngx-translate/core';
-import { TemplateComponent } from '../template/template.component';
 
 @Component({
     selector: 'app-projects',

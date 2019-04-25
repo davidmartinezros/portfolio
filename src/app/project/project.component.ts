@@ -1,10 +1,9 @@
-import { Component, Input } from '@angular/core';
-import { Project } from '../projects/project';
-import { Subject }    from 'rxjs/Subject';
+import { Component } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
-import { ProjectService } from '../projects/project.service';
 import { TranslateService } from '@ngx-translate/core';
-import { Title, Meta } from '@angular/platform-browser';
+import { Project } from '../projects/project';
+import { ProjectService } from '../projects/project.service';
 
 @Component({
     selector: 'app-project',

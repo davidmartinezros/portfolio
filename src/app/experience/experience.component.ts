@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ExperienceService } from './experience.service';
+import { Subject } from 'rxjs/Subject';
 import { Experience } from './experience';
-import { Subject }    from 'rxjs/Subject';
+import { ExperienceService } from './experience.service';
 
 @Component({
     selector: 'app-experience',
@@ -30,8 +30,6 @@ export class ExperienceComponent {
 
     getExperiences(): void {
         this.experienceService.getExperiences()
-            .then(experiences => 
-            { this.experiences = experiences }
-        );
+            .then(experiences => this.experiences = experiences );
     }
 }

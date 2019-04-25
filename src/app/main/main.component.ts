@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { AuthService } from '../firebase-auth/auth.service';
-import { TranslateService } from '@ngx-translate/core';
-import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
-import { ActivatedRoute } from '@angular/router';
-import { KnowledgeService } from './knowledge.service';
-import { Knowledge } from './knowledge';
 import { Subject } from 'rxjs';
+import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
+import { AuthService } from '../firebase-auth/auth.service';
+import { Knowledge } from './knowledge';
+import { KnowledgeService } from './knowledge.service';
 
 @Component({
     selector: 'app-main',
@@ -35,8 +33,6 @@ export class MainComponent {
 
     getKnowledges() {
         this.knowledgeService.getKnowledges()
-        .then(knowledges => 
-            { this.knowledges = knowledges }
-        );
+            .then(knowledges => this.knowledges = knowledges );
     }
 }

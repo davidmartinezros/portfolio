@@ -1,18 +1,15 @@
-import { Component, ViewChild, ElementRef, Inject } from '@angular/core';
-import { ActivatedRoute, RouterModule, Router } from '@angular/router';
-import { AuthService } from '../firebase-auth/auth.service';
+import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
+import { ActivatedRoute, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { ProjectsComponent } from '../projects/projects.component';
 import { ExperienceComponent } from '../experience/experience.component';
-import { LanguageService } from './language.service';
-import { Pipe } from '@angular/core';
-import { Language } from './language';
-import { Title, Meta } from '@angular/platform-browser';
-import { PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser, isPlatformServer } from '@angular/common';
-import { Location } from '@angular/common';
+import { AuthService } from '../firebase-auth/auth.service';
 import { HistoryComponent } from '../history/history.component';
 import { MainComponent } from '../main/main.component';
+import { ProjectsComponent } from '../projects/projects.component';
+import { Language } from './language';
+import { LanguageService } from './language.service';
 
 @Component({
     selector: 'app-template',

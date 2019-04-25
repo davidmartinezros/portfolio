@@ -12,7 +12,6 @@ import { readFileSync } from 'fs';
 (global as any).WebSocket = require('ws');
 (global as any).XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-
 // Faster server renders w/ Prod mode (dev mode never needed)
 enableProdMode();
 
@@ -34,7 +33,7 @@ const DIST_FOLDER = join(process.cwd(), 'dist');
 const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
-const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main.bundle');
+const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');
 
 // Express Engine
 import { ngExpressEngine } from '@nguniversal/express-engine';
@@ -55,6 +54,17 @@ app.engine('html', ngExpressEngine({
     provideModuleMap(LAZY_MODULE_MAP)
   ]
 }));
+
+// Load your engine
+/*
+app.engine('html', (filePath, options, callback) => {
+  options.engine(
+    filePath,
+    {req: options.req, res: options.res},
+    callback
+  );
+});
+*/
 
 app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));

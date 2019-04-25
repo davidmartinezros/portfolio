@@ -1,41 +1,37 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BrowserModule, BrowserTransferStateModule, TransferState } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { enableProdMode } from '@angular/core';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-// Routing
-import { Router } from '@angular/router';
+import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { TransferHttpCacheModule } from '@nguniversal/common';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 // Firebase
 import { AngularFireModule } from 'angularfire2';
-import { environment } from '../../environments/environment';
-import { AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AuthService } from '../firebase-auth/auth.service';
-import { FirebaseAuthComponent } from '../firebase-auth/firebase-auth.component';
-// My Components
-import { TemplateComponent } from '../template/template.component';
-import { MainComponent } from '../main/main.component';
+import { AngularFireDatabase } from 'angularfire2/database';
+import { BarRatingModule } from 'ngx-bar-rating';
+import { environment } from '../../environments/environment';
 import { BlogComponent } from '../blog/blog.component';
-import { ProjectsComponent } from '../projects/projects.component';
-import { ProjectComponent } from '../project/project.component';
-import { FormComponent } from '../form/form.component';
-import { DashboardComponent } from '../dashboard/dashboard.component';
 import { DashboardBlogComponent } from '../dashboard/dashboard-blog.component';
 import { DashboardContactComponent } from '../dashboard/dashboard-contact.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 import { ExperienceComponent } from '../experience/experience.component';
-import { ProjectService } from '../projects/project.service';
 import { ExperienceService } from '../experience/experience.service';
-import { PipesModule } from '../pipes/pipes.module';
-import { LanguageService } from '../template/language.service';
-import { TransferHttpCacheModule } from '@nguniversal/common';
-import { translateFactory } from './translate-universal-loader.service';
+import { AuthService } from '../firebase-auth/auth.service';
+import { FirebaseAuthComponent } from '../firebase-auth/firebase-auth.component';
+import { FormComponent } from '../form/form.component';
 import { HistoryComponent } from '../history/history.component';
-import { BarRatingModule } from 'ngx-bar-rating';
 import { KnowledgeService } from '../main/knowledge.service';
+import { MainComponent } from '../main/main.component';
+import { PipesModule } from '../pipes/pipes.module';
+import { ProjectComponent } from '../project/project.component';
+import { ProjectService } from '../projects/project.service';
+import { ProjectsComponent } from '../projects/projects.component';
+import { LanguageService } from '../template/language.service';
+// My Components
+import { TemplateComponent } from '../template/template.component';
+import { translateFactory } from './translate-universal-loader.service';
 
 const appRoutes: Routes = [
   {

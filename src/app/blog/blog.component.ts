@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { AuthService } from '../firebase-auth/auth.service';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { AuthService } from '../firebase-auth/auth.service';
 
 @Component({
     selector: 'app-blog',

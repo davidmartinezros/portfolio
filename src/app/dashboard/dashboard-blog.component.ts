@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { BlogComponent } from '../blog/blog.component';
-import { AuthService } from '../firebase-auth/auth.service';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
     selector: 'app-dashboard-blog',

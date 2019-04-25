@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
+import { Headers, Http } from '@angular/http';
 import { TranslateService } from '@ngx-translate/core';
-import { Headers, Http, Response } from '@angular/http';
-
 import 'rxjs/add/operator/toPromise';
-
 import { Language } from './language';
+
+
 
 @Injectable()
 export class LanguageService {
