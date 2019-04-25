@@ -331,7 +331,8 @@
         "data": "04/10/2019",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
-        "video": "https://www.youtube.com/embed/4hcAefILGUs",
+        "video": "4hcAefILGUs",
+        "videoImg": "//i.ytimg.com/vi/4hcAefILGUs/hqdefault.jpg",
         "html": "This project with the name <b>Art Web Design</b> is a web design template, which incorporates a side menu, a navigation bar, a footer and has the structure of pages and navigation that are loaded in the central part of the page according to what you choose in the menu.<br/><br/>It is made with <b>Angular 7</b>, <b>Angular-Cli</b> and <b>Angular Material</b>.",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
@@ -345,7 +346,8 @@
         "data": "04/09/2019",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular7/black-lotus/",
-        "video": "https://www.youtube.com/embed/327sSXWQTQ4",
+        "video": "327sSXWQTQ4",
+        "videoImg": "//i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
         "html": "This project is a card finder from Magic The Gathering (MTG), a card game widely spread around the world.<br/><br/>It is made with Angular 7 and Angular-Cli.<br/><br/>Use the <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
         },
@@ -359,7 +361,8 @@
         "data": "03/26/2019",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
-        "video": "https://www.youtube.com/embed/lN0-mnwyfrE",
+        "video": "lN0-mnwyfrE",
+        "videoImg": "//i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
         "html": "This project by Algolia is a product search engine separated by configurable widgets. <br/> <br/> It works with bestbuy to feed data. <br/> <br/> Supports the last two versions of Chrome, Edge browsers , Safari and Firefox.",    
         "repositori": "https://github.com/algolia/instantsearch.js/"
         },
@@ -373,7 +376,8 @@
         "data": "03/20/2019",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Javascript/webgl-fluid-simulation/",
-        "video": "https://www.youtube.com/embed/4j1_y3YDj2k",
+        "video": "4j1_y3YDj2k",
+        "videoImg": "//i.ytimg.com/vi/4j1_y3YDj2k/hqdefault.jpg",
         "html": "This project simulates the behavior of fluids with WebGL. <br/> <br/> It works on computers, mobile phones or tablets. <br/> <br/> It is done with <a href = 'https://www.javascript.com/' target ='_blank'>Javascript</a>. <br/> <br/> With the mouse or pad of the mobile or tablet you can generate fluids in the black area, which will follow the direction you indicate.",
         "repositori": "https://github.com/davidmartinezros/webgl-fluid-simulation/"
         },
@@ -387,7 +391,8 @@
         "data": "03/19/2019",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
-        "video": "https://www.youtube.com/embed/Mfi1SQ-frOs",
+        "video": "Mfi1SQ-frOs",
+        "videoImg": "//i.ytimg.com/vi/Mfi1SQ-frOs/hqdefault.jpg",
         "html": "This project simulates the behavior of fluids through the equation of <a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a> . <br/> <br/> It only works <b> from a computer </b>. <br/> <br/> It's done with <a href = 'https://www.javascript.com/' target = '_blank'>Javascript</a>. <br/> <br/> With the left button you indicate the shape and direction of the fluid and with the right button you indicate the direction of the force of the space where the fluid will inhabit.",
         "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
         },
@@ -401,7 +406,8 @@
         "data": "03/06/2019",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
-        "video": "https://www.youtube.com/embed/j5RxiofrpxA",
+        "video": "j5RxiofrpxA",
+        "videoImg": "//i.ytimg.com/vi/j5RxiofrpxA/hqdefault.jpg",
         "html": "This component loads a configurable menu from a json file, which we can modify and upload through the \"Select file\" button. <br/> <br/> It is made with <a href = 'https://angular.io/' target ='_blank'>Angular 7</a>, the latest version of <b>Angular</b>, and Angular-CLI.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-configurable-menu/"
         },
@@ -415,7 +421,8 @@
         "data": "07/28/2018",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular5/which-monument/",
-        "video": "https://www.youtube.com/embed/qhTHenMZqow",
+        "video": "qhTHenMZqow",
+        "videoImg": "//i.ytimg.com/vi/qhTHenMZqow/hqdefault.jpg",
         "html": "This project is divided into two parts: Frontend with <a href='https://angular.io/' target='_blank'>Angular 5</a> and Backend with <a href = 'https://www.java.com' target='_blank'>Java</a> and <a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>.<br/><br/>It consists of a REST Web Service that connects to the Image Comparison Engine with <a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>.<br/><br/>Thus, given your image entered on the screen, you will compare with the tagged and stored images and return the labels that most resemble the content of the image.",
         "repositori": "https://github.com/davidmartinezros/which-monument"
         },
@@ -429,7 +436,8 @@
         "data": "06/09/2018",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
-        "video": "https://www.youtube.com/embed/r3Oj2359fPU",
+        "video": "r3Oj2359fPU",
+        "videoImg": "//i.ytimg.com/vi/r3Oj2359fPU/hqdefault.jpg",
         "html": "This project is a background with geometries with which you can interact. <br/> <br/> It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
@@ -443,7 +451,8 @@
         "data": "06/03/2018",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
-        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "video": "8ta5tbhZVD4",
+        "videoImg": "//i.ytimg.com/vi/8ta5tbhZVD4/hqdefault.jpg",
         "html": "This project is a wallpaper with cubes with which you can interact. <br/> <br/> It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
@@ -457,7 +466,8 @@
         "data": "04/18/2018",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
-        "video": "https://www.youtube.com/embed/EjtESFUxgpU",
+        "video": "EjtESFUxgpU",
+        "videoImg": "//i.ytimg.com/vi/EjtESFUxgpU/hqdefault.jpg",
         "html": "This project is an artificial conversational unit, commonly called ChatBot.<br/><br/>Tell what you want and answer what you know.<br/><br/>It is made with <a href='https://angular.io/' target='_blank'>Angular 5</a> and <a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -471,7 +481,8 @@
         "data": "03/22/2018",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
+        "video": "MKeYoy6cDj4",
+        "videoImg": "//i.ytimg.com/vi/MKeYoy6cDj4/hqdefault.jpg",
         "html": "This project shows a scene of <b> Sea with dolphins </b> and other animals. <br/> <br/> Use the library <a href = 'https://threejs.org/' target = '_blank' >THREE.js</a>. <br/> <br/> You can move, rotate and translate the screen with the computer mouse or tactilely on mobile or tablet screens.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -485,7 +496,8 @@
         "data": "02/21/2018",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "video": "https://www.youtube.com/embed/Um1JFE1jN0E",
+        "video": "Um1JFE1jN0E",
+        "videoImg": "//i.ytimg.com/vi/Um1JFE1jN0E/hqdefault.jpg",
         "html": "This project shows a <b>3D mesh editor</b> for terrains with textures.<br/><br/>Use the library <a href = 'https://threejs.org/' target = '_blank'>THREE.js</a>.<br/> <br/> You can click on the elements of the mesh and you will see how they move. <br/> <br/> You can also move, rotate and move with the computer mouse or tactilely on mobile or tablet screens.",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
@@ -513,7 +525,8 @@
         "data": "04/13/2017",
         "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular2/myyme",
-        "video": "https://www.youtube.com/embed/LGhPmrAz-cQ",
+        "video": "LGhPmrAz-cQ",
+        "videoImg": "//i.ytimg.com/vi/LGhPmrAz-cQ/hqdefault.jpg",
         "html": "The goal of the project is to interact with a machine using <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Artificial Intelligence)</a>. <br/> <br/> It's done in <b>Java 8</b> with <b>Spring Boot 1.5</b> and <b>Angular 4</b> with <b>Bootstrap 3</b>. <br/> <br/> In the following link are explained the parts of the project and how they communicate <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
@@ -527,7 +540,8 @@
         "data": "04/13/2017",
         "estat": "PLANNING",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "video": "https://www.youtube.com/embed/X1sdpKoNN6A",
+        "video": "X1sdpKoNN6A",
+        "videoImg": "//i.ytimg.com/vi/X1sdpKoNN6A/hqdefault.jpg",
         "html": "This project is a 'remake' of the game Ghost'n Goblins taking advantage of the new technologies. <br/> <br/> My collaborators will be <a href = 'https://twitter.com/JordiViaVia' target = '_blank'>Jordi Via</a> and <a href='mailto:xavi.warrior.peace@gmail.com' target='_blank'> Xavi Guerrero </a>. <br/> <br/> <b> Soon it will be here! </ b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -541,7 +555,8 @@
         "data": "04/04/2017",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "video": "https://www.youtube.com/embed/2bb1o8wzNNw",
+        "video": "2bb1o8wzNNw",
+        "videoImg": "//i.ytimg.com/vi/2bb1o8wzNNw/hqdefault.jpg",
         "html": "This project is a <b> remake of the Snake game </b> that became very famous in the late 90s in mobile Nokia and others. <br/> <br/> In this version, you can move the snake in a 3D scene, a cube on X, Y and Z axes that you can capture to make the snake grow. <br/> <br/> Use the libraries <a href = 'http://glmatrix.net/' target = '_blank'>gl-matrix.js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -555,7 +570,8 @@
         "data": "03/29/2017",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "video": "https://www.youtube.com/embed/fS_eInYEo78",
+        "video": "fS_eInYEo78",
+        "videoImg": "//i.ytimg.com/vi/fS_eInYEo78/hqdefault.jpg",
         "html": "This example shows a 3D scene with some cubes that you can click and these change color and the camera follows them. <br/> <br/> The cubes are on the X axis and, when you click them, they propagate on the axis Z. The same thing happens when we click on the Y axis. <br/> <br/>Use the libraries <a href='http://glmatrix.net/' target='_blank'>gl-matrix. js</a> and <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -569,7 +585,8 @@
         "data": "12/08/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "video": "https://www.youtube.com/embed/qNqkQNnZ7tM",
+        "video": "qNqkQNnZ7tM",
+        "videoImg": "//i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
         "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
@@ -583,7 +600,8 @@
         "data": "11/06/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "video": "https://www.youtube.com/embed/Ubm8HhqhkwE",
+        "video": "Ubm8HhqhkwE",
+        "videoImg": "//i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
         "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show a <b> tree component </b> loaded from a json file with an ancestor and children structure.<br/> <br/> You can load any tree structure. <br/> <br/> You only have to download the sample json file, modify it and reload it.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
@@ -597,7 +615,8 @@
         "data": "10/30/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "video": "https://www.youtube.com/embed/XBscwm5PCxo",
+        "video": "XBscwm5PCxo",
+        "videoImg": "//i.ytimg.com/vi/XBscwm5PCxo/hqdefault.jpg",
         "html": "This example shows an abrupt terrain with textures and inside a small lake.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -611,7 +630,8 @@
         "data": "10/30/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "video": "https://www.youtube.com/embed/hI7a4HskMIw",
+        "video": "hI7a4HskMIw",
+        "videoImg": "//i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
         "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in <a href='https://angular.io/' target='_blank'>Angular 2</a> web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
@@ -625,7 +645,8 @@
         "data": "10/29/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "video": "https://www.youtube.com/embed/S88k_sR2hnU",
+        "video": "S88k_sR2hnU",
+        "videoImg": "//i.ytimg.com/vi/S88k_sR2hnU/hqdefault.jpg",
         "html": "This example shows a Dragon generated with the Blender 3D modeling tool that we can obtain in <a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>. <br/> <br/> This Dragon has animations created in Blender and I used one of them in the keyboard event.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -667,7 +688,8 @@
         "data": "10/18/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
-        "video": "https://www.youtube.com/embed/wVkcg-hKsfM",
+        "video": "wVkcg-hKsfM",
+        "videoImg": "//i.ytimg.com/vi/wVkcg-hKsfM/hqdefault.jpg",
         "html": "This example shows the screen divided in half. <br/> <br/> On the left side, we find a perspective camera that follows the character, always behind him. <br/> <br/> On the right side, we find a 'multiporpuse' camera that follows the character, recovering the position always behind him.",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -681,7 +703,8 @@
         "data": "10/18/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "video": "https://www.youtube.com/embed/2PRMTfO2T5U",
+        "video": "2PRMTfO2T5U",
+        "videoImg": "//i.ytimg.com/vi/2PRMTfO2T5U/hqdefault.jpg",
         "html": "In this example you can learn step by step to program your first web page. <br/> <br/> The steps are very well defined and it is easy to follow. <br/> <br/> In a couple of days you can have your project prepared. <br/> <br/> You can make the example in the following <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
@@ -695,7 +718,8 @@
         "data": "10/12/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "video": "https://www.youtube.com/embed/Cvs4Tmiq-f8",
+        "video": "Cvs4Tmiq-f8",
+        "videoImg": "//i.ytimg.com/vi/Cvs4Tmiq-f8/hqdefault.jpg",
         "html": "In this example you can move the camera by dragging the mouse and, with the arrow pointing upwards of the keyboard. <br/> <br/> You will throw the ball that will collide with the cube and the action will change the material of the two objects.",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -709,7 +733,8 @@
         "data": "10/11/2016",
         "estat": "FINISHED",
         "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "video": "https://www.youtube.com/embed/GDFbIJjk5ag",
+        "video": "GDFbIJjk5ag",
+        "videoImg": "//i.ytimg.com/vi/GDFbIJjk5ag/hqdefault.jpg",
         "html": "This example shows an imaginary futuristic landscape of the first inhabitant living on Mars. <br/> <br/> Pure science fiction and fantasy.",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }

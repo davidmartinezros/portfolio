@@ -21,7 +21,9 @@
         <div *ngIf="project.tema == 'Javascript'" class="ribbon ribbon-javascript">
           <span>{{project.tema}}</span>
         </div>
-        <iframe *ngIf="project.video" [src]="project.video | safeUrl" style="border-width: 0px"></iframe>
+        <!--<iframe *ngIf="project.video" [src]="project.video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
+        <div *ngIf="project.video" class="youtube-player" [id]="project.video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img [src]="project.videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div>
+        </div>
         <!--
         <video *ngIf="project.video" class="card-img-top" [src]="project.video" autoplay></video>
         -->
@@ -39,3 +41,4 @@
 		</div>
 	</div>
 </div>
+<img src onerror="reloadYoutube();">

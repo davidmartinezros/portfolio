@@ -331,7 +331,8 @@
         "data": "04/10/2019",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
-        "video": "https://www.youtube.com/embed/4hcAefILGUs",
+        "video": "4hcAefILGUs",
+        "videoImg": "//i.ytimg.com/vi/4hcAefILGUs/hqdefault.jpg",
         "html": "这个名为<b>Art Web Design</b>的项目是一个网页设计模板，它包含一个侧面菜单，一个导航栏，一个页脚，并具有页面和导航的结构，这些页面和导航加载在中心部分。 根据您在菜单中选择的内容。<br/><br/>用<b>Angular 7</b>，<b>Angular-Cli</b>和<b>Angular Material</b>。",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
@@ -345,7 +346,8 @@
         "data": "04/09/2019",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/black-lotus/",
-        "video": "https://www.youtube.com/embed/327sSXWQTQ4",
+        "video": "327sSXWQTQ4",
+        "videoImg": "//i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
         "html": "该项目是Magic The Gathering（MTG）的卡片发现器，这是一种广泛传播到世界各地的纸牌游戏。<br/><br/>它由Angular 7和Angular-Cli制成。<br/><br/>使用<a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>。",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
         },
@@ -359,7 +361,8 @@
         "data": "03/26/2019",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
-        "video": "https://www.youtube.com/embed/lN0-mnwyfrE",
+        "video": "lN0-mnwyfrE",
+        "videoImg": "//i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
         "html": "Algolia的这个项目是由可配置小部件分隔的产品搜索引擎。 <br/> <br/>与bestbuy合作提供数据。 <br/> <br/>支持最新两个版本的Chrome，Edge浏览器，Safari和Firefox。",    
         "repositori": "https://github.com/algolia/instantsearch.js/"
         },
@@ -373,7 +376,8 @@
         "data": "03/20/2019",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/webgl-fluid-simulation/",
-        "video": "https://www.youtube.com/embed/4j1_y3YDj2k",
+        "video": "4j1_y3YDj2k",
+        "videoImg": "//i.ytimg.com/vi/4j1_y3YDj2k/hqdefault.jpg",
         "html": "该项目使用WebGL模拟流体的行为。<br/> <br/>它适用于计算机，手机或平板电脑。<br/> <br/>用<a href ='https://www.javascript.com/' target ='_blank'>Javascript</a>。<br/> <br/>使用移动设备或平板电脑的鼠标或平板，您可以在黑色区域生成流体，这将按照您指示的方向生成。",
         "repositori": "https://github.com/davidmartinezros/webgl-fluid-simulation/"
         },
@@ -387,7 +391,8 @@
         "data": "03/19/2019",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
-        "video": "https://www.youtube.com/embed/Mfi1SQ-frOs",
+        "video": "Mfi1SQ-frOs",
+        "videoImg": "//i.ytimg.com/vi/Mfi1SQ-frOs/hqdefault.jpg",
         "html": "该项目通过<a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>等式模拟流体的行为 。<br/> <br/><b>它只能从电脑上运行</b>。<br/> <br/>用<a href ='https://www.javascript.com/' target = '_blank'>Javascript</a>。<br/> <br/>使用左按钮指示流体的形状和方向，使用右按钮指示流体将居住的空间的力的方向。",
         "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
         },
@@ -401,7 +406,8 @@
         "data": "03/06/2019",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
-        "video": "https://www.youtube.com/embed/j5RxiofrpxA",
+        "video": "j5RxiofrpxA",
+        "videoImg": "//i.ytimg.com/vi/j5RxiofrpxA/hqdefault.jpg",
         "html": "該組件從json文件加載可配置菜單，我們可以通過“選擇文件”按鈕修改和上傳。<br/><br/>用<a href ='https://angular.io/' target ='_blank'>Angular 7</a>，<b>Angular</b>的最新版本和Angular-CLI。",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-configurable-menu/"
         },
@@ -415,7 +421,8 @@
         "data": "07/28/2018",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular5/which-monument/",
-        "video": "https://www.youtube.com/embed/qhTHenMZqow",
+        "video": "qhTHenMZqow",
+        "videoImg": "//i.ytimg.com/vi/qhTHenMZqow/hqdefault.jpg",
         "html": "该项目分为两部分：前端有<a href='https://angular.io/' target='_blank'>Angular 5</a>，后端有<a href='https://www.java.com' target='_blank'>Java</a>和<a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>。<br/><br/>它包含一个REST Web服务，它使用<a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>连接到图像比较引擎。<br/><br/>因此，如果您在屏幕上输入图像，您将与标记和存储的图像进行比较，并返回最类似图像内容的标签。",
         "repositori": "https://github.com/davidmartinezros/which-monument"
         },
@@ -429,7 +436,8 @@
         "data": "06/09/2018",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
-        "video": "https://www.youtube.com/embed/r3Oj2359fPU",
+        "video": "r3Oj2359fPU",
+        "videoImg": "//i.ytimg.com/vi/r3Oj2359fPU/hqdefault.jpg",
         "html": "该项目是一种可与之互动的几何图形的壁纸。<br/><br/><a href='https://angular.io/' target='_blank'>Angular 5</a>和<a href='https://threejs.org/' target='_blank'>THREE.js</a>。",
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
@@ -443,7 +451,8 @@
         "data": "06/03/2018",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
-        "video": "https://www.youtube.com/embed/8ta5tbhZVD4",
+        "video": "8ta5tbhZVD4",
+        "videoImg": "//i.ytimg.com/vi/8ta5tbhZVD4/hqdefault.jpg",
         "html": "这个项目是一个可以与你互动的立方体壁纸。<br/><br/><a href='https://angular.io/' target='_blank'>Angular 5</a>和<a href ='https://threejs.org/ 'target ='_blank'>THREE.js</a>。",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
@@ -457,7 +466,8 @@
         "data": "04/18/2018",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
-        "video": "https://www.youtube.com/embed/EjtESFUxgpU",
+        "video": "EjtESFUxgpU",
+        "videoImg": "//i.ytimg.com/vi/EjtESFUxgpU/hqdefault.jpg",
         "html": "这个项目是一个人工会话单元，通常称为聊天机器人。<br/><br/>告诉你想要什么并回答你所知道的。<br/><br/>它由<a href='https://angular.io/' target='_blank'>Angular 5</a>和<a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>制成。",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -471,7 +481,8 @@
         "data": "03/22/2018",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
-        "video": "https://www.youtube.com/embed/MKeYoy6cDj4",
+        "video": "MKeYoy6cDj4",
+        "videoImg": "//i.ytimg.com/vi/MKeYoy6cDj4/hqdefault.jpg",
         "html": "该项目展示了<b>海洋与海豚</b>和其他动物的场景。<br/> <br/>使用图书馆<a href ='https://threejs.org/' target ='_blank' >THREE.js</a>。<br/> <br/>您可以使用电脑鼠标移动，旋转和移动屏幕，也可以在移动或平板电脑屏幕上触摸移动屏幕。",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -485,7 +496,8 @@
         "data": "02/21/2018",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
-        "video": "https://www.youtube.com/embed/Um1JFE1jN0E",
+        "video": "Um1JFE1jN0E",
+        "videoImg": "//i.ytimg.com/vi/Um1JFE1jN0E/hqdefault.jpg",
         "html": "该项目为具有纹理的地形显示<b>3D网格编辑器</b>。<br/><br/>使用库<a href ='https://threejs.org/' target ='_blank'>THREE.js</a>。<br/> <br/>你可以点击网格的元素，你会看到它们的移动方式。<br/> <br/>你也可以移动，旋转和移动电脑鼠标，或触摸移动或平板电脑屏幕。",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
@@ -513,7 +525,8 @@
         "data": "04/13/2017",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/myyme",
-        "video": "https://www.youtube.com/embed/LGhPmrAz-cQ",
+        "video": "LGhPmrAz-cQ",
+        "videoImg": "//i.ytimg.com/vi/LGhPmrAz-cQ/hqdefault.jpg",
         "html": "该项目的目标是使用<a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'> IA（人工智能）</a>与机器进行交互。<br/> <br/>这是在<b> Java 8 </b>中用<b> Boot Boot 1.5 </b>和<b> Angular 4 </b>用<b> Bootstrap 3 </b>完成的。<br/> <br/>在下面的链接中解释项目的各个部分以及它们如何交流<a href ='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>。",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
@@ -527,7 +540,8 @@
         "data": "04/13/2017",
         "estat": "規劃",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
-        "video": "https://www.youtube.com/embed/X1sdpKoNN6A",
+        "video": "X1sdpKoNN6A",
+        "videoImg": "//i.ytimg.com/vi/X1sdpKoNN6A/hqdefault.jpg",
         "html": "這個項目是Ghost'n Goblins遊戲利用新技術的“翻拍”。<br/> <br/>我的合作者將是<a href ='https://twitter.com/JordiViaVia' target ='_blank'>Jordi Via</a>和<a href='mailto:xavi.warrior.peace@gmail.com'> Xavi Guerrero </a> <br/> <br/> <b>很快就會在這裡！ </ b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -541,7 +555,8 @@
         "data": "04/04/2017",
         "estat": "加工",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
-        "video": "https://www.youtube.com/embed/2bb1o8wzNNw",
+        "video": "2bb1o8wzNNw",
+        "videoImg": "//i.ytimg.com/vi/2bb1o8wzNNw/hqdefault.jpg",
         "html": "這個項目是在90年代後期在移動諾基亞和其他公司中很有名的“蛇遊戲”的翻版。<br/> <br/>在這個版本中，你可以將蛇 <br/> <br/>一個3D場景，X，Y和Z軸上的立方體，你可以捕捉，使蛇成長。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>運行。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -555,7 +570,8 @@
         "data": "03/29/2017",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
-        "video": "https://www.youtube.com/embed/fS_eInYEo78",
+        "video": "fS_eInYEo78",
+        "videoImg": "//i.ytimg.com/vi/fS_eInYEo78/hqdefault.jpg",
         "html": "這個例子顯示了一個三維場景，你可以點擊一些立方體，這些立方體會改變顏色，相機跟隨它們。<br/> <br/>這些立方體在X軸上，當你點擊它們時，它們在軸上傳播 Z.同樣的事情發生在我們點擊Y軸時。<br/> <br/>使用库<a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a>和<a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>。",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -569,7 +585,8 @@
         "data": "12/08/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
-        "video": "https://www.youtube.com/embed/qNqkQNnZ7tM",
+        "video": "qNqkQNnZ7tM",
+        "videoImg": "//i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中<a href='https://angular.io/' target='_blank'>Angular 2</a>。",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
@@ -583,7 +600,8 @@
         "data": "11/06/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
-        "video": "https://www.youtube.com/embed/Ubm8HhqhkwE",
+        "video": "Ubm8HhqhkwE",
+        "videoImg": "//i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
@@ -597,7 +615,8 @@
         "data": "10/30/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
-        "video": "https://www.youtube.com/embed/XBscwm5PCxo",
+        "video": "XBscwm5PCxo",
+        "videoImg": "//i.ytimg.com/vi/XBscwm5PCxo/hqdefault.jpg",
         "html": "这个例子显示了一个具有纹理的突然地形，并且在一个小湖中。",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -611,7 +630,8 @@
         "data": "10/30/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
-        "video": "https://www.youtube.com/embed/hI7a4HskMIw",
+        "video": "hI7a4HskMIw",
+        "videoImg": "//i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
         "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在<a href='https://angular.io/' target='_blank'>Angular 2</a>網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>。",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
@@ -625,7 +645,8 @@
         "data": "10/29/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
-        "video": "https://www.youtube.com/embed/S88k_sR2hnU",
+        "video": "S88k_sR2hnU",
+        "videoImg": "//i.ytimg.com/vi/S88k_sR2hnU/hqdefault.jpg",
         "html": "此示例顯示了使用3D Blender建模工俱生成的Dragon，我們可以在<a href='https://free3d.com/3d-models/blender' target='_blank'> free3d.com </a>中獲取Dragon。 <br/> <br/>這個龍在Blender中創建了動畫，我在鍵盤事件中使用了其中的一個。",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -667,7 +688,8 @@
         "data": "10/18/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
-        "video": "https://www.youtube.com/embed/wVkcg-hKsfM",
+        "video": "wVkcg-hKsfM",
+        "videoImg": "//i.ytimg.com/vi/wVkcg-hKsfM/hqdefault.jpg",
         "html": "這個例子顯示屏幕被分成兩半。<br/> <br/>在左邊，我們發現一個跟在角色後面的透視相機，總是在他身後。<br/> <br/>在右邊， 我們發現一個跟隨角色的“多用途”攝像頭，總是在他身後恢復。",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -681,7 +703,8 @@
         "data": "10/18/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
-        "video": "https://www.youtube.com/embed/2PRMTfO2T5U",
+        "video": "2PRMTfO2T5U",
+        "videoImg": "//i.ytimg.com/vi/2PRMTfO2T5U/hqdefault.jpg",
         "html": "在這個例子中，你可以逐步地學習編程你的第一個網頁。<br/> <br/>這些步驟是非常明確的，很容易遵循。<br/> <br/>在幾天之內，你可以有 <br/> <br/>你可以在下面的例子中做一個例子<a href ='https://angular.io/docs/ts/latest/tutorial' target='_blank'>教程</a>。",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
@@ -695,7 +718,8 @@
         "data": "10/12/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
-        "video": "https://www.youtube.com/embed/Cvs4Tmiq-f8",
+        "video": "Cvs4Tmiq-f8",
+        "videoImg": "//i.ytimg.com/vi/Cvs4Tmiq-f8/hqdefault.jpg",
         "html": "在這個例子中，你可以通過拖動鼠標來移動攝像機，並且箭頭指向鍵盤上方。<br/> <br/>你會拋出碰撞立方體的球，動作會改變兩個物體的材質。",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -709,7 +733,8 @@
         "data": "10/11/2016",
         "estat": "整理",
         "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
-        "video": "https://www.youtube.com/embed/GDFbIJjk5ag",
+        "video": "GDFbIJjk5ag",
+        "videoImg": "//i.ytimg.com/vi/GDFbIJjk5ag/hqdefault.jpg",
         "html": "這個例子展示了第一個居住在火星上的未來派景觀。<br/> <br/>純粹的科幻和幻想。",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }
