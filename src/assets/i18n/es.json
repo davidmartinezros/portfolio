@@ -332,7 +332,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
         "video": "4hcAefILGUs",
-        "videoImg": "//i.ytimg.com/vi/4hcAefILGUs/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/4hcAefILGUs/hqdefault.jpg",
         "html": "Este proyecto con el nombre <b>Art Web Design</b> es una plantilla de diseño web, que incorpora un menú lateral, una barra de navegación, un pie de página y cuenta con la estructura de páginas y navegación que se cargan en la parte central de la página según lo que escojas en el menú.<br/><br/>Está realizado con <b>Angular 7</b>, <b>Angular-Cli</b> y <b>Angular Material</b>.",    
         "repositori": "https://github.com/davidmartinezros/art-web-design/"
         },
@@ -347,7 +347,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/black-lotus/",
         "video": "327sSXWQTQ4",
-        "videoImg": "//i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
         "html": "Este proyecto es un buscador de cartas de Magic The Gathering (MTG), un juego de cartas muy extendido en todo el mundo.<br/><br/>Está realizado con Angular 7 y Angular-Cli.<br/><br/>Usa el <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
         },
@@ -362,7 +362,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
         "video": "lN0-mnwyfrE",
-        "videoImg": "//i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
         "html": "Este proyecto realizado por Algolia es un buscador de productos separado por widgets configurables.<br/><br/>Trabaja con bestbuy para nutrirse de datos.<br/><br/>Soporta las dos últimas versiones de los navegadores Chrome, Edge, Safari y Firefox.",    
         "repositori": "https://github.com/algolia/instantsearch.js/"
         },
@@ -377,7 +377,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/webgl-fluid-simulation/",
         "video": "4j1_y3YDj2k",
-        "videoImg": "//i.ytimg.com/vi/4j1_y3YDj2k/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/4j1_y3YDj2k/hqdefault.jpg",
         "html": "Este proyecto simula el comportamiento de fluidos con WebGL.<br/><br/>Funciona tanto en ordenadores como móbiles o tablets.<br/><br/>Está realizado con <a href='https://www.javascript.com/' target='_blank'>Javascript</a>.<br/><br/>Con el mouse o el pad del móbil o tablet podrás generar fluidos en el area negra, que seguirá la dirección que indiques.",
         "repositori": "https://github.com/davidmartinezros/webgl-fluid-simulation/"
         },
@@ -392,7 +392,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/fluid-simulation-navier-stokes/",
         "video": "Mfi1SQ-frOs",
-        "videoImg": "//i.ytimg.com/vi/Mfi1SQ-frOs/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/Mfi1SQ-frOs/hqdefault.jpg",
         "html": "Este proyecto simula el comportamiento de fluidos a través de la ecuación de <a href='https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations' target='_blank'>Navier Stokes</a>.<br/><br/>Sólo funciona <b>desde ordenador</b>.<br/><br/>Está realizado con <a href='https://www.javascript.com/' target='_blank'>Javascript</a>.<br/><br/>Con el botón izquierdo indicas la forma y dirección del fluido y con el botón derecho indicas la dirección de la fuerza del espacio donde habitará el fluido.",
         "repositori": "https://github.com/davidmartinezros/fluid-simulation-navier-stokes/"
         },
@@ -407,7 +407,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-configurable-menu/",
         "video": "j5RxiofrpxA",
-        "videoImg": "//i.ytimg.com/vi/j5RxiofrpxA/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/j5RxiofrpxA/hqdefault.jpg",
         "html": "Este componente carga un menu configurable a partir de un fichero json, que podemos modificar y subir a través del botón \"Seleccionar fichero\".<br/><br/>Está realizado con <a href='https://angular.io/' target='_blank'>Angular 7</a>, la última versión de <b>Angular</b>, y Angular-CLI.",
         "repositori": "https://github.com/davidmartinezros/bind-json-array-to-configurable-menu/"
         },
@@ -422,7 +422,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular5/which-monument/",
         "video": "qhTHenMZqow",
-        "videoImg": "//i.ytimg.com/vi/qhTHenMZqow/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/qhTHenMZqow/hqdefault.jpg",
         "html": "Este proyecto se divide en dos partes: Frontend con <a href='https://angular.io/' target='_blank'>Angular 5</a> y Backend con <a href='https://www.java.com' target='_blank'>Java</a> y <a href='https://spring.io/projects/spring-boot' target='_blank'>Spring-Boot</a>.<br/><br/>Consiste en un Web Service REST que se conecta con Engine de Comparación de imágenes con <a href='https://www.tensorflow.org/' target='_blank'>TensorFlow</a>.<br/><br/>Así, dada tu imagen introducida en la pantalla, compararás con las imágenes etiquetadas y almacenadas y devolverá las etiquetas que se parezcan más al contenido de la imagen.",
         "repositori": "https://github.com/davidmartinezros/which-monument"
         },
@@ -437,7 +437,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/interactive-background-geometries-threejs/",
         "video": "r3Oj2359fPU",
-        "videoImg": "//i.ytimg.com/vi/r3Oj2359fPU/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/r3Oj2359fPU/hqdefault.jpg",
         "html": "Este proyecto es un fondo de pantalla con geometrías con los que se puede interaccionar.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/interactive-background-geometries-threejs"
         },
@@ -452,7 +452,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/background-cubes-threejs/",
         "video": "8ta5tbhZVD4",
-        "videoImg": "//i.ytimg.com/vi/8ta5tbhZVD4/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/8ta5tbhZVD4/hqdefault.jpg",
         "html": "Este proyecto es un fondo de pantalla con cubos con los que se puede interaccionar.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://threejs.org/' target='_blank'>THREE.js</a>.",
         "repositori": "https://github.com/davidmartinezros/background-cubes-threejs"
         },
@@ -467,7 +467,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular5/chatbot-myyme/",
         "video": "EjtESFUxgpU",
-        "videoImg": "//i.ytimg.com/vi/EjtESFUxgpU/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/EjtESFUxgpU/hqdefault.jpg",
         "html": "Este proyecto es una unidad de conversación artificial, comúnmente llamada ChatBot.<br/><br/>Dile lo que quieras y contestará lo que sabe.<br/><br/>Está hecho con <a href='https://angular.io/' target='_blank'>Angular 5</a> y <a href='https://dialogflow.com/' target='_blank'>DialogFlow</a>.",
         "repositori": "https://github.com/davidmartinezros/dialogflow-angular5"
         },
@@ -482,7 +482,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/3d-scene-at-sea/",
         "video": "MKeYoy6cDj4",
-        "videoImg": "//i.ytimg.com/vi/MKeYoy6cDj4/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/MKeYoy6cDj4/hqdefault.jpg",
         "html": "Este proyecto muestra una escena de <b>Mar con delfines</b> y otros animales.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes mover, rotar y desplazar la pantalla con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/3d-scene-at-sea"
         },
@@ -497,7 +497,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/editing-3d-mesh-terrain/",
         "video": "Um1JFE1jN0E",
-        "videoImg": "//i.ytimg.com/vi/Um1JFE1jN0E/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/Um1JFE1jN0E/hqdefault.jpg",
         "html": "Este proyecto muestra un <b>editor de mallas en 3D</b> para terrenos con texturas.<br/><br/>Usa la librería <a href='https://threejs.org/' target='_blank'>THREE.js</a>.<br/><br/>Puedes clicar en los elementos de la malla y verás como se desplazan.<br/><br/>También puedes mover, rotar y desplazar con el ratón del ordenador o táctilmente en pantallas de mòbil o tablet.",
         "repositori": "https://github.com/davidmartinezros/editing-3d-mesh-terrain"
         },
@@ -526,7 +526,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/myyme",
         "video": "LGhPmrAz-cQ",
-        "videoImg": "//i.ytimg.com/vi/LGhPmrAz-cQ/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/LGhPmrAz-cQ/hqdefault.jpg",
         "html": "El objetivo del proyecto es poder interactuar con una máquina mediante <a href='https://en.wikipedia.org/wiki/Artificial_intelligence' target='_blank'>IA (Inteligencia Artificial)</a>.<br/><br/> Está hecho en <b>Java 8</b> con <b>Spring Boot 1.5</b> y <b>Angular 4</b> con <b>Bootstrap 3</b>.<br/><br/>En el siguiente enlace están explicadas las partes del proyecto y cómo se comunican <a href='https://davidnez.wordpress.com/2017/11/14/el-deep-learning-separado-en-modulos/' target='_blank'>davidnez.wordpress.com</a>.",
         "repositori": "https://github.com/davidmartinezros/how-do-you-learn"
         },
@@ -541,7 +541,7 @@
         "estat": "PLANIFICANDO",
         "link": "https://davidmartinezros.com/3D/PersonMovement/",
         "video": "X1sdpKoNN6A",
-        "videoImg": "//i.ytimg.com/vi/X1sdpKoNN6A/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/X1sdpKoNN6A/hqdefault.jpg",
         "html": "Este proyecto es un 'remake' del juego Ghost'n Goblins aprovechando las ventajas de las nuevas tecnologías.<br/><br/>Mis colaboradores serán <a href='https://twitter.com/JordiViaVia' target='_blank'>Jordi Via</a> y <a href='mailto:xavi.warrior.peace@gmail.com'>Xavi Guerrero</a>.<br/><br/><b>¡Pronto llegará!</b>",
         "repositori": "https://github.com/davidmartinezros/PersonMovement"
         },
@@ -556,7 +556,7 @@
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/Angular2/TheSnakeGame/",
         "video": "2bb1o8wzNNw",
-        "videoImg": "//i.ytimg.com/vi/2bb1o8wzNNw/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/2bb1o8wzNNw/hqdefault.jpg",
         "html": "Este proyecto es un <b>remake del juego de la Serpiente</b> que se volvió muy famoso a finales de los 90 en móbiles Nokia y otros.<br/><br/>En esta versión, puede mover la serpiente en una escena 3D, un cubo en ejes X, Y y Z que puedes ir capturando para hacer crecer la serpiente.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld/tree/TheSnakeGame"
         },
@@ -571,7 +571,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/Mi3DWorld3/",
         "video": "fS_eInYEo78",
-        "videoImg": "//i.ytimg.com/vi/fS_eInYEo78/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/fS_eInYEo78/hqdefault.jpg",
         "html": "Este ejemplo muestra una escena 3D con algunos cubos que puedes clicar y estos cambian de color y la cámara los sigue.<br/><br/>Los cubos están en el eje X y, cuando los clicas, estos se propagan en el eje Z. Lo mismo ocurre cuando los clicamos en el eje Y.<br/><br/>Usa las librerías <a href='http://glmatrix.net/' target='_blank'>gl-matrix.js</a> y <a href='https://github.com/jagenjo/litegl.js' target='_blank'>litegl.js</a>.",
         "repositori": "https://github.com/davidmartinezros/Mi3DWorld"
         },
@@ -586,7 +586,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
         "video": "qNqkQNnZ7tM",
-        "videoImg": "//i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
         "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project"
         },
@@ -601,7 +601,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
         "video": "Ubm8HhqhkwE",
-        "videoImg": "//i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
         "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.<br/><br/>Puedes cargar cualquier estructura de árbol.<br/<br/>Solo tienes que descargar el fichero json de ejemplo, modificarlo y volver a cargarlo.",
         "repositori": "https://github.com/davidmartinezros/component-tree-project"
         },
@@ -616,7 +616,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/WaterProject/",
         "video": "XBscwm5PCxo",
-        "videoImg": "//i.ytimg.com/vi/XBscwm5PCxo/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/XBscwm5PCxo/hqdefault.jpg",
         "html": "Este ejemplo muestra un terreno abrupto con texturas y dentro un pequeño lago.",
         "repositori": "https://github.com/davidmartinezros/WaterProject"
         },
@@ -631,7 +631,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/components-animations-project",
         "video": "hI7a4HskMIw",
-        "videoImg": "//i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
         "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web <a href='https://angular.io/' target='_blank'>Angular 2</a>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project"
         },
@@ -646,7 +646,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/ImportingColladas/",
         "video": "S88k_sR2hnU",
-        "videoImg": "//i.ytimg.com/vi/S88k_sR2hnU/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/S88k_sR2hnU/hqdefault.jpg",
         "html": "Este ejemplo muestra un Dragón generado con la herramienta de modelado 3D Blender que podemos obtener en <a href='https://free3d.com/3d-models/blender' target='_blank'>free3d.com</a>.<br/><br/>Este Dragón tiene animaciones creadas en Blender y he usado una de ella en el evento del teclado.",
         "repositori": "https://github.com/davidmartinezros/ImportingColladas"
         },
@@ -689,7 +689,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/DifferentsCameras/",
         "video": "wVkcg-hKsfM",
-        "videoImg": "//i.ytimg.com/vi/wVkcg-hKsfM/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/wVkcg-hKsfM/hqdefault.jpg",
         "html": "Este ejemplo muestra la pantalla dividida por la mitad.<br/><br/>En el lado izquierdo, nos encontramos una cámara perspectiva que sigue al personaje, siempre detrás suyo.<br/><br/>En el lado derecho, nos encontramos una cámara 'multiporpuse' que sigue al personaje, recuperando la posición siempre detrás suyo.",
         "repositori": "https://github.com/davidmartinezros/CameraProject"
         },
@@ -704,7 +704,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular2/TourOfHeroesWithCliCRUD/",
         "video": "2PRMTfO2T5U",
-        "videoImg": "//i.ytimg.com/vi/2PRMTfO2T5U/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/2PRMTfO2T5U/hqdefault.jpg",
         "html": "En este ejemplo podrás aprender paso a paso a programar tu primera página web.<br/><br/>Los pasos están muy bien definidos y es sencillo de seguir.<br/><br/>En un par de días podrás tener tu proyecto preparado.<br/><br/>Puedes realizar el ejemplo en el siguiente <a href='https://angular.io/docs/ts/latest/tutorial' target='_blank'>tutorial</a>.",
         "repositori": "https://github.com/davidmartinezros/angular-tour-of-heroes-by-me-with-cli"
         },
@@ -719,7 +719,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/ComportamientoFisico/",
         "video": "Cvs4Tmiq-f8",
-        "videoImg": "//i.ytimg.com/vi/Cvs4Tmiq-f8/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/Cvs4Tmiq-f8/hqdefault.jpg",
         "html": "En este ejemplo puedes mover la cámara arrastrando el ratón y, con la flecha hacia arriba del teclado.<br/><br/>Lanzarás la pelota que colisionará con el cubo y la acción cambiará el material de los dos objetos.",
         "repositori": "https://github.com/davidmartinezros/ComportamientoFisico"
         },
@@ -734,7 +734,7 @@
         "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/MySceneWithMoreObjects/",
         "video": "GDFbIJjk5ag",
-        "videoImg": "//i.ytimg.com/vi/GDFbIJjk5ag/hqdefault.jpg",
+        "videoImg": "https://i.ytimg.com/vi/GDFbIJjk5ag/hqdefault.jpg",
         "html": "Este ejemplo muestra un paisaje futurista imaginario del primer habitante que vive en Marte.<br/><br/>Pura ciencia ficción y fantasía.",
         "repositori": "https://github.com/davidmartinezros/MiPrimerProyecto"
         }

@@ -1,8 +1,9 @@
 /* Add application styles & imports to this file! */
 /*@import '~ngx-bar-rating/themes/br-default-theme.css';*/
 /*@import '~ngx-bar-rating/themes/br-bootstrap-theme.css';*/
-@import '~ngx-bar-rating/themes/br-horizontal-theme.css';
+/*@import '~ngx-bar-rating/themes/br-horizontal-theme.css';*/
 /*@import '~ngx-bar-rating/themes/br-fontawesome-o-theme.css';*/
+@import '~ngx-bar-rating/themes/br-fontawesome-theme';
 
 .bar-rating {
   padding: 10px 10px 10px 10px;
