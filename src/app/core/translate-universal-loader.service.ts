@@ -5,8 +5,6 @@ import * as translationZh from 'assets/i18n/zh.json';
 import { Observable } from 'rxjs';
 import { of } from 'rxjs/Observable/of';
 
-
-
 const TRANSLATIONS = {
   es: translationEs,
   en: translationEn,

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { Headers } from '@angular/http';
 import { TranslateService } from '@ngx-translate/core';
 import 'rxjs/add/operator/toPromise';
 import { Experience } from './experience';
@@ -12,7 +12,6 @@ export class ExperienceService {
     private headers = new Headers({'Content-Type': 'application/json'});
 
     constructor(
-        private http: Http,
         private translate: TranslateService) { }
 
     getExperiences(): Promise<Experience[]> {
