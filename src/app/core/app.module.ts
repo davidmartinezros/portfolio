@@ -1,8 +1,8 @@
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
+import { BrowserModule, BrowserTransferStateModule, TransferState } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -31,7 +31,7 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { LanguageService } from '../template/language.service';
 // My Components
 import { TemplateComponent } from '../template/template.component';
-import { translateFactory } from './translate-universal-loader.service';
+import { TranslateBrowserLoader } from './translate-browser-loader.service';
 
 const appRoutes: Routes = [
   {
@@ -118,10 +118,19 @@ const appRoutes: Routes = [
       }
     })
     */
+    /*
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: translateFactory
+      }
+    })
+    */
+   TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: exportTranslateStaticLoader,
+        deps: [HttpClient, TransferState]
       }
     })
   ],
@@ -139,3 +148,7 @@ if (!/localhost/.test(document.location.host)) {
   enableProdMode();
 }
 */
+
+export function exportTranslateStaticLoader(http: HttpClient, transferState: TransferState) {
+  return new TranslateBrowserLoader('/assets/i18n/', '.json', transferState, http);
+}

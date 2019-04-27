@@ -4,7 +4,8 @@ import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader'
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TemplateComponent } from '../template/template.component';
 import { AppModule } from './app.module';
-import { translateFactory } from './translate-universal-loader.service';
+import { TransferState } from '@angular/platform-browser';
+import { TranslateServerLoader } from './translate-server-loader.service';
 
 
 @NgModule({
@@ -15,10 +16,19 @@ import { translateFactory } from './translate-universal-loader.service';
     ServerModule,
     ModuleMapLoaderModule,
     ServerTransferStateModule,
+    /*
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: translateFactory
+      }
+    })
+    */
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: translateFactory,
+        deps: [TransferState]
       }
     })
   ],
@@ -30,4 +40,8 @@ export class AppServerModule {
   constructor() {
     console.log('AppServerModule');
   }
+}
+
+export function translateFactory(transferState: TransferState) {
+  return new TranslateServerLoader('/assets/i18n', '.json', transferState);
 }
