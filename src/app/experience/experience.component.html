@@ -1,8 +1,8 @@
-<div *ngIf="experiences && experiences.length > 0">
+<div *ngIf="experiences">
   <div class="container-fluid">
     <section class="timeline">
       <ul>
-        <li *ngFor="let e of objectKeys(experiences)">
+        <li *ngFor="let e of experiences | keys">
           <div>
             <time class="job-date"><i class='job-lowlight fa fa-calendar'></i> <span class='job-highlight'>{{ experiences[e].dates }}</span> <i class='job-lowlight fa fa-location-arrow'></i> <span style="font-style: italic">{{ 'in' | translate }}</span> {{ experiences[e].lloc }}</time>
             <time class="job-name"><i class='job-lowlight fa fa-handshake-o'></i> {{ experiences[e].categoria }} <i class='job-lowlight fa fa-location-arrow'></i> <span style="font-style: italic">{{ 'at' | translate }}</span> <a [href]="experiences[e].linkClient | translate" target="_blank">{{ experiences[e].client }}</a></time>

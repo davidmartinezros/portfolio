@@ -82,14 +82,14 @@
 				</div>
 			</div>
 			<hr class="style-one">
-			<div *ngIf="knowledges && knowledges.length > 0">
-				<div *ngFor="let k of objectKeys(knowledges); let i = index">
+			<div *ngIf="knowledges">
+				<div *ngFor="let k of knowledges | keys; let i = index">
 					<div class="row text-center bar-rating" *ngIf="i%2===0">
 						<div class="col-xs-6 bar-rating-group-main">
 							<div *ngIf="knowledges[i]" class="bar-rating-group">
 								<h4 innerHtml="{{ knowledges[i].group }}"></h4>
 								<hr class="style-three">
-								<div *ngFor="let k of objectKeys(knowledges[i].list); let j = index">	
+								<div *ngFor="let k of knowledges[i].list | keys; let j = index">	
 									<div class="row">
 										<div class="col-xs-12 bar-rating-theme">
 											<u>{{ knowledges[i].list[j].theme }}</u>
@@ -105,7 +105,7 @@
 							<div *ngIf="knowledges[i+1]" class="bar-rating-group">
 								<h4 innerHtml="{{ knowledges[i+1].group }}"></h4>
 								<hr class="style-three">
-								<div *ngFor="let k of objectKeys(knowledges[i+1].list); let j = index">	
+								<div *ngFor="let k of knowledges[i+1].list | keys; let j = index">	
 									<div class="row">
 										<div class="col-xs-12 bar-rating-theme">
 											<u>{{ knowledges[i+1].list[j].theme }}</u>

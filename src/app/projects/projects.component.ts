@@ -11,8 +11,6 @@ import { ProjectService } from './project.service';
 
  export class ProjectsComponent {
 
-    objectKeys = Object.keys;
-
     projects: Project[];
 
     demo: string;
@@ -63,23 +61,25 @@ import { ProjectService } from './project.service';
         this.projectService.getTheTop20Projects()
             .then(projects => 
             {
-                this.projects = projects;
-                // Sets the urlMain
-                var ruta = "";
-                this.translate.get("UrlMain")
-                .toPromise()        
-                .then(urlMain => {
-                    // Sets the urlProject
-                    this.translate.get("UrlProject")
+                if(projects != null) {
+                    this.projects = projects;
+                    // Sets the urlMain
+                    var ruta = "";
+                    this.translate.get("UrlMain")
                     .toPromise()        
-                    .then(urlProject => {
-                        ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
-                        for(var p of projects) {
-                            p.urlProjecte = ruta + "/" + p.nom;
-                        }
+                    .then(urlMain => {
+                        // Sets the urlProject
+                        this.translate.get("UrlProject")
+                        .toPromise()        
+                        .then(urlProject => {
+                            ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                            for(var p of projects) {
+                                p.urlProjecte = ruta + "/" + p.nom;
+                            }
+                        })
                     })
-                })
-                .catch(this.handleError);
+                    .catch(this.handleError);
+                }
             }
         );
     }

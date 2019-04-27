@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { SafeHtmlPipe } from './safe.html.pipe';
 import { SafeStylePipe } from './safe.style.pipe';
 import { SafeUrlPipe } from './safe.url.pipe';
+import { KeysArrayPipe } from './keys.array.pipe';
 
 @NgModule({
   imports: [
@@ -11,12 +12,14 @@ import { SafeUrlPipe } from './safe.url.pipe';
   declarations: [
     SafeUrlPipe,
     SafeStylePipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    KeysArrayPipe
   ],
   exports: [
     SafeUrlPipe,
     SafeStylePipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    KeysArrayPipe
   ]
 })
 export class PipesModule { }

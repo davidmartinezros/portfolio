@@ -18,8 +18,6 @@ import { LanguageService } from './language.service';
 
 export class TemplateComponent {
 
-    objectKeys = Object.keys;
-
     languages: Language[];
 
     language;

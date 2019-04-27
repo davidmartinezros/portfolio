@@ -12,8 +12,6 @@ import { KnowledgeService } from './knowledge.service';
 
 export class MainComponent {
 
-    objectKeys = Object.keys;
-
     knowledges: Knowledge[];
 
     public static updateStuff: Subject<any> = new Subject();

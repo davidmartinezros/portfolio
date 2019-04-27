@@ -10,8 +10,6 @@ import { ExperienceService } from './experience.service';
 
 export class ExperienceComponent {
 
-    objectKeys = Object.keys;
-
     experiences: Experience[];
 
     public static updateStuff: Subject<any> = new Subject();

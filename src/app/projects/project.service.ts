@@ -30,7 +30,7 @@ export class ProjectService {
 
     getTheTop20Projects(): Promise<Project[]> {
         return this.getProjects()
-            .then(projects => (projects && projects.length > 0)?projects.filter(project => project.visible === true):null);
+            .then(projects => (projects.constructor === Array)?projects.filter(project => project.visible === true):null);
     }
 
     getProjectsWithLang(lang): Promise<Project[]> {
@@ -45,17 +45,17 @@ export class ProjectService {
 
     getTypeProjects(tipus: string): Promise<Project[]> {
         return this.getProjects()
-             .then(projects => (projects && projects.length > 0)?projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()):null);
+             .then(projects => (projects.constructor === Array)?projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()):null);
     }
 
     getProjectById(id: number): Promise<Project> {
         return this.getProjects()
-             .then(projects => (projects && projects.length > 0)?projects.find(project => project.id === id):null);
+             .then(projects => (projects.constructor === Array)?projects.find(project => project.id === id):null);
     }
 
     getProjectByName(lang: string, nom: string): Promise<Project> {
         return this.getProjectsWithLang(lang)
-             .then(projects => (projects && projects.length > 0)?projects.find(project => project.nom === nom):null);
+             .then(projects => (projects.constructor === Array)?projects.find(project => project.nom === nom):null);
     }
 
     /*
