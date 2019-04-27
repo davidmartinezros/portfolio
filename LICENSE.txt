@@ -4,7 +4,7 @@ Copyright for portions of project davidmartinezros/portfolio are held
 by Łukasz Kółko, 2017 as part of project https://github.com/twistezo/portfolio-old/.
 
 All other copyright for project davidmartinezros/portfolio are held 
-by David Martínez Ros, 2018.
+by David Martínez Ros, 2019.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
