@@ -1,7 +1,7 @@
 <div id="section4" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
-			<h3 class="pb-5" innerHtml ="{{ 'TitleProject' | translate }}"></h3>
+			<h3 innerHtml ="{{ 'TitleProject' | translate }}"></h3>
 			<div *ngIf="project" class="card text-center">
         <div *ngIf="project.tema == 'Angular'" class="ribbon ribbon-angular">
           <span>{{project.tema}}</span>
