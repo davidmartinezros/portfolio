@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 33,
+        "visible": true,
+        "nom": "三维立方体与-JavaScript-的",
+        "titol": "用Javascript的3D立方体项目",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "05/20/2019",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/Javascript/3d-cube-with-javascript/",
+        "video": "kpsNdMwMFIo",
+        "videoImg": "https://i.ytimg.com/vi/kpsNdMwMFIo/hqdefault.jpg",
+        "html": "此项目显示在浏览器的2D屏幕上投影的3D立方体。<br/> <br/>仅使用Javascript进行，不使用或具有任何外部依赖性。<br/> <br/>点击屏幕， 我们将在三个轴上旋转立方体。",    
+        "repositori": "https://github.com/davidmartinezros/3d-cube-with-javascript/"
+        },
+        {
         "id": 32,
         "visible": true,
         "nom": "艺术网页设计-设计模板",
@@ -695,7 +710,7 @@
         },
         {
         "id": 3,
-        "visible": true,
+        "visible": false,
         "nom": "我是如何學習-angular-的",
         "titol": "我是如何學習Angular的？",
         "tema": "Angular",

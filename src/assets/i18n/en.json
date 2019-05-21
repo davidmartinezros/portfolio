@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 33,
+        "visible": true,
+        "nom": "3d-cube-with-javascript",
+        "titol": "3D cube project with Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "05/20/2019",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Javascript/3d-cube-with-javascript/",
+        "video": "kpsNdMwMFIo",
+        "videoImg": "https://i.ytimg.com/vi/kpsNdMwMFIo/hqdefault.jpg",
+        "html": "This project shows a cube in 3D projected on the browser's 2D screen. <br/> <br/> It is made only with Javascript and does not use or have any external dependency. <br/> <br/> Clicking on the screen, we will rotate the cube in the three axes.",    
+        "repositori": "https://github.com/davidmartinezros/3d-cube-with-javascript/"
+        },
+        {
         "id": 32,
         "visible": true,
         "nom": "art-web-design-design-template",
@@ -329,7 +344,7 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "04/10/2019",
-        "estat": "TRABAJANDO",
+        "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular7/art-web-design/",
         "video": "4hcAefILGUs",
         "videoImg": "https://i.ytimg.com/vi/4hcAefILGUs/hqdefault.jpg",
@@ -695,7 +710,7 @@
         },
         {
         "id": 3,
-        "visible": true,
+        "visible": false,
         "nom": "how-did-i-learn-angular",
         "titol": "How did I learn Angular?",
         "tema": "Angular",

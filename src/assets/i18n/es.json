@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 33,
+        "visible": true,
+        "nom": "cubo-3d-con-javascript",
+        "titol": "Proyecto 3D cubo con Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "05/20/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Javascript/3d-cube-with-javascript/",
+        "video": "kpsNdMwMFIo",
+        "videoImg": "https://i.ytimg.com/vi/kpsNdMwMFIo/hqdefault.jpg",
+        "html": "Este proyecto muestra un cubo en 3D proyectado sobre la pantalla 2D del navegador.<br/><br/>Está realizado únicamente con Javascript y no usa ni tiene ninguna dependencia externa.<br/><br/>Clicando sobre la pantalla, rotaremos el cubo en los tres ejes.",    
+        "repositori": "https://github.com/davidmartinezros/3d-cube-with-javascript/"
+        },
+        {
         "id": 32,
         "visible": true,
         "nom": "art-web-design-modelo-diseño",
@@ -695,7 +710,7 @@
         },
         {
         "id": 3,
-        "visible": true,
+        "visible": false,
         "nom": "como-aprendi-angular",
         "titol": "¿Cómo aprendí Angular?",
         "tema": "Angular",

@@ -1,6 +1,6 @@
 .navbar {
-  font-size: 11px !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px !important;
+  font-family: 'Open Sans', sans-serif !important;
   background-color: var(--navbar-color);
   letter-spacing: 2px;
   font-weight: 400;

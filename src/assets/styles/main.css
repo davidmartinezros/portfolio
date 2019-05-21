@@ -180,14 +180,9 @@ h4 {
 	font-family: 'Muli', sans-serif;
 }
 
-#section1 {
-  padding-top: 100px;
+#section1, #section2, #section3, #section4, #section6 {
+  padding-top: 60px;
   padding-bottom: 40px;
-}
-
-#section2, #section3, #section4, #section6 {
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 #section6 {
