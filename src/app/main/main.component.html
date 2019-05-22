@@ -81,7 +81,7 @@
 					<img src="../../assets/images/git.svg" title="Git">
 				</div>
 			</div>
-			<hr class="style-one">
+			<hr class="style-one">			
 			<div *ngIf="knowledges">
 				<div *ngFor="let k of knowledges | keys; let i = index">
 					<div class="row text-center bar-rating" *ngIf="i%2===0">
@@ -95,7 +95,7 @@
 											<u>{{ knowledges[i].list[j].theme }}</u>
 										</div>
 										<div class="col-xs-12 bar-rating-value">
-											<bar-rating [(rate)]="knowledges[i].list[j].value" [max]="5" theme="fontawesome" [readOnly]="true"></bar-rating>
+											<bar-rating [(rate)]="knowledges[i].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
 										</div>
 									</div>
 								</div>
@@ -111,7 +111,7 @@
 											<u>{{ knowledges[i+1].list[j].theme }}</u>
 										</div>
 										<div class="col-xs-12 bar-rating-value">
-											<bar-rating [(rate)]="knowledges[i+1].list[j].value" [max]="5" theme="fontawesome" [readOnly]="true"></bar-rating>
+											<bar-rating [(rate)]="knowledges[i+1].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
 										</div>
 									</div>
 								</div>
