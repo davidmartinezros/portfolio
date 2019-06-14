@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 34,
+        "visible": true,
+        "nom": "portlets-arrastrables_con-javascript",
+        "titol": "Proyecto Portlets arrastrables con Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "06/14/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
+        "video": null,
+        "videoImg": null,
+        "html": "Este proyecto muestra una serie de portlets arrastrables e intercambiables entre ellos.<br/><br/>Funciona tanto en ordenador, como en dispositivo tablet o mòbil.",    
+        "repositori": "https://github.com/davidmartinezros/draggable-portlets-javascript/"
+        },
+        {
         "id": 33,
         "visible": true,
         "nom": "cubo-3d-con-javascript",
@@ -503,7 +518,7 @@
         },
         {
         "id": 21,
-        "visible": true,
+        "visible": false,
         "nom": "editor-mallas-3d-threejs",
         "titol": "Editor:  mallas 3D con Three.js",
         "tema": "Angular",

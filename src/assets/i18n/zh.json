@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 34,
+        "visible": true,
+        "nom": "可拖动的-Portlet-与-JavaScript-的",
+        "titol": "可拖动的Portlets项目使用Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "06/14/2019",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
+        "video": null,
+        "videoImg": null,
+        "html": "该项目在它们之间显示了一系列可拖动和可互换的portlet。 <br/> <br/>它适用于计算机，平板电脑或移动设备。",    
+        "repositori": "https://github.com/davidmartinezros/draggable-portlets-javascript/"
+        },
+        {
         "id": 33,
         "visible": true,
         "nom": "三维立方体与-JavaScript-的",
@@ -503,7 +518,7 @@
         },
         {
         "id": 21,
-        "visible": true,
+        "visible": false,
         "nom": "编辑器-3d-网格-threejs",
         "titol": "编辑器: 与Three.js的3D网格",
         "tema": "Angular",

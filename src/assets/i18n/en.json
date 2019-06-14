@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 34,
+        "visible": true,
+        "nom": "draggable-portlets-with-javascript",
+        "titol": "Draggable Portlets project with Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "06/14/2019",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
+        "video": null,
+        "videoImg": null,
+        "html": "This project shows a series of draggable and interchangeable portlets between them. <br/> <br/> It works both on a computer and on a tablet or mobile device.",    
+        "repositori": "https://github.com/davidmartinezros/draggable-portlets-javascript/"
+        },
+        {
         "id": 33,
         "visible": true,
         "nom": "3d-cube-with-javascript",
@@ -503,7 +518,7 @@
         },
         {
         "id": 21,
-        "visible": true,
+        "visible": false,
         "nom": "editor-3d-mesh-threejs",
         "titol": "Editor: 3D mesh with Three.js",
         "tema": "Angular",
