@@ -322,14 +322,29 @@
     "projects":
     [
         {
-        "id": 34,
+        "id": 35,
         "visible": true,
+        "nom": "可拖动的-Portlet-与-Angular-的",
+        "titol": "可拖动的Portlets项目使用Angular",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/14/2019",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-draggable-portlets/",
+        "video": "UK95WlM-GMc",
+        "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
+        "html": "该项目在它们之间显示了一系列可拖动和可互换的portlet。 <br/> <br/>它适用于计算机，平板电脑或移动设备。<br/> <br/>您还可以加载不同的配置文件来修改portlet。",    
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-draggable-portlets/"
+        },
+        {
+        "id": 34,
+        "visible": false,
         "nom": "可拖动的-Portlet-与-JavaScript-的",
         "titol": "可拖动的Portlets项目使用Javascript",
         "tema": "Javascript",
         "tipus": "Project",
         "data": "06/14/2019",
-        "estat": "WORKING",
+        "estat": "加工",
         "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",

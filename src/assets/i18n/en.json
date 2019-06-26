@@ -322,14 +322,29 @@
     "projects":
     [
         {
-        "id": 34,
+        "id": 35,
         "visible": true,
+        "nom": "draggable-portlets-with-angular",
+        "titol": "Draggable Portlets project with Angular",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/26/2019",
+        "estat": "WORKING",
+        "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-draggable-portlets/",
+        "video": "UK95WlM-GMc",
+        "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
+        "html": "This project shows a series of draggable and interchangeable portlets between them. <br/> <br/> It works both on a computer and on a tablet or mobile device.<br/> <br/> You can also load different configuration files to modify the portlets.",    
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-draggable-portlets/"
+        },
+        {
+        "id": 34,
+        "visible": false,
         "nom": "draggable-portlets-with-javascript",
         "titol": "Draggable Portlets project with Javascript",
         "tema": "Javascript",
         "tipus": "Project",
         "data": "06/14/2019",
-        "estat": "WORKING",
+        "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",

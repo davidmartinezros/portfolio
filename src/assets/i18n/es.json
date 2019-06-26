@@ -322,14 +322,29 @@
     "projects":
     [
         {
-        "id": 34,
+        "id": 35,
         "visible": true,
-        "nom": "portlets-arrastrables_con-javascript",
+        "nom": "portlets-arrastrables-con-angular",
+        "titol": "Proyecto Portlets arrastrables con Angular",
+        "tema": "Angular",
+        "tipus": "Project",
+        "data": "06/26/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-draggable-portlets/",
+        "video": "UK95WlM-GMc",
+        "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
+        "html": "Este proyecto muestra una serie de portlets arrastrables e intercambiables entre ellos.<br/><br/>Funciona tanto en ordenador, como en dispositivo tablet o mòbil.<br/><br/>También puedes cargar diferentes ficheros de configuración para modificar los portlets.",    
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-draggable-portlets/"
+        },
+        {
+        "id": 34,
+        "visible": false,
+        "nom": "portlets-arrastrables-con-javascript",
         "titol": "Proyecto Portlets arrastrables con Javascript",
         "tema": "Javascript",
         "tipus": "Project",
         "data": "06/14/2019",
-        "estat": "TRABAJANDO",
+        "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
