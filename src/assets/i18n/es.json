@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 36,
+        "visible": true,
+        "nom": "escapa-si-puedes-con-unity",
+        "titol": "Proyecto Escapa si puedes con Unity",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "11/22/2019",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/3D/Escapa-si-puedes-unity/",
+        "video": null,
+        "videoImg": null,
+        "html": "Este proyecto es un videojuego hecho con <b>Unity</b>, donde encontraréis una <b>NavMesh</b> para delimitar el area dónde pueden caminar los personajes, excluyendo los muros, y personajes animados con su <b>Animator Controller</b>. <br/><br/> La versión es sólo para PC.",    
+        "repositori": null
+        },
+        {
         "id": 35,
         "visible": true,
         "nom": "portlets-arrastrables-con-angular",
@@ -329,7 +344,7 @@
         "tema": "Angular",
         "tipus": "Project",
         "data": "06/26/2019",
-        "estat": "TRABAJANDO",
+        "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Angular7/bind-json-array-to-draggable-portlets/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
@@ -359,7 +374,7 @@
         "tema": "Javascript",
         "tipus": "Project",
         "data": "05/20/2019",
-        "estat": "TRABAJANDO",
+        "estat": "ACABADO",
         "link": "https://davidmartinezros.com/Javascript/3d-cube-with-javascript/",
         "video": "kpsNdMwMFIo",
         "videoImg": "https://i.ytimg.com/vi/kpsNdMwMFIo/hqdefault.jpg",
@@ -652,7 +667,7 @@
         },
         {
         "id": 10,
-        "visible": true,
+        "visible": false,
         "nom": "escena-naturaleza-agua-unity-3d",
         "titol": "Escena naturaleza: Agua con Unity 3D",
         "tema": "Unity",

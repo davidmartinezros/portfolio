@@ -322,6 +322,21 @@
     "projects":
     [
         {
+        "id": 36,
+        "visible": true,
+        "nom": "如果可以-请逃脱",
+        "titol": "如果可以使用Unity进行转义，请转义",
+        "tema": "Unity",
+        "tipus": "Project",
+        "data": "11/22/2019",
+        "estat": "加工",
+        "link": "https://davidmartinezros.com/3D/Escapa-si-puedes-unity/",
+        "video": null,
+        "videoImg": null,
+        "html": "该项目是由<b>Unity</b>制作的视频游戏，您将在其中找到<b>NavMesh</b>来定义角色可以行走的区域（不包括墙和带有<b>的动画角色） 动画控制器</b>。 <br/> <br/>该版本仅适用于PC。",    
+        "repositori": null
+        },
+        {
         "id": 35,
         "visible": true,
         "nom": "可拖动的-Portlet-与-Angular-的",
@@ -344,7 +359,7 @@
         "tema": "Javascript",
         "tipus": "Project",
         "data": "06/14/2019",
-        "estat": "加工",
+        "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/draggable-portlets-javascript/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
@@ -359,7 +374,7 @@
         "tema": "Javascript",
         "tipus": "Project",
         "data": "05/20/2019",
-        "estat": "加工",
+        "estat": "整理",
         "link": "https://davidmartinezros.com/Javascript/3d-cube-with-javascript/",
         "video": "kpsNdMwMFIo",
         "videoImg": "https://i.ytimg.com/vi/kpsNdMwMFIo/hqdefault.jpg",
@@ -652,7 +667,7 @@
         },
         {
         "id": 10,
-        "visible": true,
+        "visible": false,
         "nom": "自然場景-水-unity-3d",
         "titol": "自然风景: Unity 3D水",
         "tema": "Unity",
