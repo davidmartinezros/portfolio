@@ -331,8 +331,8 @@
         "data": "11/22/2019",
         "estat": "TRABAJANDO",
         "link": "https://davidmartinezros.com/3D/Escapa-si-puedes-unity/",
-        "video": null,
-        "videoImg": null,
+        "video": "xcvjXiSl05g",
+        "videoImg": "https://i.ytimg.com/vi/xcvjXiSl05g/hqdefault.jpg",
         "html": "Este proyecto es un videojuego hecho con <b>Unity</b>, donde encontraréis una <b>NavMesh</b> para delimitar el area dónde pueden caminar los personajes, excluyendo los muros, y personajes animados con su <b>Animator Controller</b>. <br/><br/> La versión es sólo para PC.",    
         "repositori": null
         },
