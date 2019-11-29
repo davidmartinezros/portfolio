@@ -32,7 +32,11 @@
     });
 
     // hide collapse navbar on click
-    $('.navbar-nav>li>.hide-on-click').on('click', function () {
+    $('.navbar-nav>li>a.hide-on-click').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+
+    $('.navbar-nav>li>select.hide-on-click').on('change', function () {
       $('.navbar-collapse').collapse('hide');
     });
 

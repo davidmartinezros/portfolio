@@ -12,7 +12,7 @@
 				<button class="nav-link hide-on-click" (click)="pauseTrack()"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>
 			</div>
 		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
@@ -43,12 +43,12 @@
 					</a>
 				</li>
 				<li class="nav-item margin-auto" *ngIf="languages">
-					<select [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
+					<select class="hide-on-click" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
 					</select>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="menu nav-link hide-on-click" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
