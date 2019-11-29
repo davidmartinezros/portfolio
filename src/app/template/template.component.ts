@@ -89,7 +89,7 @@ export class TemplateComponent {
             parent.playing = false;
         }, false);
         
-        this.sound.src = './assets/audio/bensound-anewbeginning.mp3';
+        this.sound.src = './assets/audio/song.mp3';
         this.sound.load();
     }
 
