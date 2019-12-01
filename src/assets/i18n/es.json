@@ -73,6 +73,27 @@
             ]
         },
         {
+            "group": "Motor de Juegos",
+            "list": [
+                {
+                    "theme": "Unity",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Blender",
+                    "value": "1"
+                },
+                {
+                    "theme": "Adobe Photoshop",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Gimp",
+                    "value": "4.6"
+                }                
+            ]
+        },
+        {
             "group": "Base de datos",
             "list": [
                 {
@@ -128,23 +149,6 @@
             ]
         },
         {
-            "group": "Gráficos",
-            "list": [
-                {
-                    "theme": "Adobe Photoshop",
-                    "value": "4.6"
-                },
-                {
-                    "theme": "Gimp",
-                    "value": "4.6"
-                },
-                {
-                    "theme": "Unity",
-                    "value": "3.6"
-                }
-            ]
-        },
-        {
             "group": "Utilidades",
             "list": [
                 {
@@ -156,12 +160,8 @@
                     "value": "5"
                 },
                 {
-                    "theme": "npm",
+                    "theme": "Node.js",
                     "value": "4.6"
-                },
-                {
-                    "theme": "ng",
-                    "value": "4"
                 },
                 {
                     "theme": "Postman",
@@ -174,11 +174,11 @@
             ]
         }
     ],
-    "TitleIndex": "Angular y Java | David, un Full Stack Developer e Ingeniero de Sofware",
+    "TitleIndex": "Angular, Java y Unity | David, un Full Stack Developer e Ingeniero de Sofware",
     "SubtitleIndex": " | David, un Full Stack Developer e Ingeniero de Sofware",
     "TagAuthorIndex": "David Martínez Ros",
-    "TagKeywordsIndex": "qué, cómo, qué es, encontrar, contratar, experto, experimentado, full stack developer, respuesta, fácil, david, martínez, ros, el mejor, portfolio, 2019, software, ingeniero, barcelona, españa, lo último, java, angular, node.js, spring",
-    "TagDescriptionIndex": "Cómo encontrar y contratar a un Ingeniero de Software? Qué es un Full Stack Developer? La respuesta es fácil ... David Martínez Ros, Ingeniero de Software y Full Stack Developer de Barcelona con lo último en Java, Angular, Node.js, Spring.",
+    "TagKeywordsIndex": "qué, cómo, qué es, encontrar, contratar, experto, experimentado, full stack developer, respuesta, fácil, david, martínez, ros, el mejor, portfolio, 2019, software, ingeniero, barcelona, españa, lo último, java, angular, unity, node.js, spring",
+    "TagDescriptionIndex": "Cómo encontrar y contratar a un Ingeniero de Software? Qué es un Full Stack Developer? La respuesta es fácil ... David Martínez Ros, Ingeniero de Software y Full Stack Developer de Barcelona con lo último en Java, Angular, Unity, Node.js, Spring.",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "full-stack-developer-ingeniero-software",
     "UrlHistory": "historial",

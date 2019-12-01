@@ -73,6 +73,27 @@
             ]
         },
         {
+            "group": "Game Engine",
+            "list": [
+                {
+                    "theme": "Unity",
+                    "value": "3.6"
+                },
+                {
+                    "theme": "Blender",
+                    "value": "1"
+                },
+                {
+                    "theme": "Adobe Photoshop",
+                    "value": "4.6"
+                },
+                {
+                    "theme": "Gimp",
+                    "value": "4.6"
+                }
+            ]
+        },
+        {
             "group": "Databases",
             "list": [
                 {
@@ -128,23 +149,6 @@
             ]
         },
         {
-            "group": "Graphics",
-            "list": [
-                {
-                    "theme": "Adobe Photoshop",
-                    "value": "4.6"
-                },
-                {
-                    "theme": "Gimp",
-                    "value": "4.6"
-                },
-                {
-                    "theme": "Unity",
-                    "value": "3.6"
-                }
-            ]
-        },
-        {
             "group": "Utilities",
             "list": [
                 {
@@ -174,11 +178,11 @@
             ]
         }
     ],
-    "TitleIndex": "Angular and Java | David, a Full Stack Developer and Software Engineer",
+    "TitleIndex": "Angular, Java and Unity | David, a Full Stack Developer and Software Engineer",
     "SubtitleIndex": " | David, a Full Stack Developer and Software Engineer",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "how, what, how to, what is, find, hire, senior, experienced, full stack developer, answer, easy, david, martinez, ros, the best, portfolio, 2019, software, engineer, barcelona, spain, latest, java, angular, node.js, spring",
-    "TagDescriptionIndex": "How to find and hire a Software Engineer? What is a Full Stack Developer? The answer is easy ... David Martinez Ros, A Software Engineer and Full Stack Developer from Barcelona with latest Java, Angular, Node.js, Spring.",
+    "TagKeywordsIndex": "how, what, how to, what is, find, hire, senior, experienced, full stack developer, answer, easy, david, martinez, ros, the best, portfolio, 2019, software, engineer, barcelona, spain, latest, java, angular, unity, node.js, spring",
+    "TagDescriptionIndex": "How to find and hire a Software Engineer? What is a Full Stack Developer? The answer is easy ... David Martinez Ros, A Software Engineer and Full Stack Developer from Barcelona with latest Java, Angular, Unity, Node.js, Spring.",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "full-stack-developer-software-engineer",
     "UrlHistory": "history",
@@ -520,7 +524,7 @@
         "id": 23,
         "visible": true,
         "nom": "chatbot-myyme-artificial-intelligence",
-        "titol": "ChatBot Myyme, an Artifical Intelligence",
+        "titol": "ChatBot Myyme, an Artificial Intelligence",
         "tema": "Angular",
         "tipus": "Project",
         "data": "04/18/2018",
