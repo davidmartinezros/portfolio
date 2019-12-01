@@ -160,12 +160,8 @@
                     "value": "5"
                 },
                 {
-                    "theme": "npm",
+                    "theme": "Node.js",
                     "value": "4.6"
-                },
-                {
-                    "theme": "ng",
-                    "value": "4"
                 },
                 {
                     "theme": "Postman",
