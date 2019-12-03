@@ -4,6 +4,8 @@ import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Project } from '../projects/project';
 import { ProjectService } from '../projects/project.service';
+import { Subject } from 'rxjs';
+import { TemplateComponent } from '../template/template.component';
 
 @Component({
     selector: 'app-project',
@@ -12,16 +14,29 @@ import { ProjectService } from '../projects/project.service';
 
  export class ProjectComponent {
 
+    private id: number;
     private nom: string;
     private lang: string;
     private sub: any;
     project: Project;
+
+    public static updateStuff: Subject<any> = new Subject();
     
     constructor(private route: ActivatedRoute,
                 private projectService: ProjectService,
                 private translate: TranslateService,
                 private titleService: Title,
                 private metaService: Meta) {
+        ProjectComponent.updateStuff.subscribe(res => {
+            this.sub = this.route.params.subscribe(params => {
+                this.lang = params['lang'];
+                this.nom = params['nom'];
+    
+                if(this.nom) {
+                    this.getProject();
+                }
+            });
+        });
     }
       
     ngOnInit(): void {
@@ -30,14 +45,28 @@ import { ProjectService } from '../projects/project.service';
             this.nom = params['nom'];
 
             if(this.nom) {
-                this.projectService.getProjectByName(this.lang, this.nom)
-                    .then(project => { 
-                        this.project = project;
-                        this.changeGoogleSearchItems();
-                    }
-                );
+                this.getProjectWithLang();
             }
         });
+    }
+
+    getProject() {
+        this.projectService.getProjectById(this.id)
+            .then(project => { 
+                this.project = project;
+                this.changeGoogleSearchItems();
+            }
+        );
+    }
+
+    getProjectWithLang() {
+        this.projectService.getProjectByNameWithLang(this.lang, this.nom)
+            .then(project => { 
+                this.project = project;
+                this.id = project.id;
+                this.changeGoogleSearchItems();
+            }
+        );
     }
 
     private changeGoogleSearchItems() {

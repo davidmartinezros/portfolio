@@ -58,13 +58,41 @@ import { ActivatedRoute } from '@angular/router';
             this.theme = this.theme.substr(0,1).toUpperCase() + this.theme.substr(1,this.theme.length);
 
             if(this.lang && this.theme) {
-                this.getProjects();
+                this.getProjectsWithLang();
             }
         });
     }
 
     getProjects(): void {
-        this.projectService.getProjectsByTheme(this.lang, this.theme)
+        this.projectService.getProjectsByTheme(this.theme)
+            .then(projects => {
+                if(projects != null) {
+                    this.projects = projects;
+                    // Sets the urlMain
+                    var ruta = "";
+                    this.translate.get("UrlMain")
+                    .toPromise()        
+                    .then(urlMain => {
+                        // Sets the urlProject
+                        this.translate.get("UrlProject")
+                        .toPromise()        
+                        .then(urlProject => {
+                            ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                            for(var p of projects) {
+                                p.urlProjecte = ruta + "/" + p.nom;
+                            }
+                            this.getTextLinks();
+                            this.changeGoogleSearchItems();
+                        })
+                    })
+                    .catch(this.handleError);
+                }
+            }
+        );
+    }
+
+    getProjectsWithLang(): void {
+        this.projectService.getProjectsByThemeWithLang(this.lang, this.theme)
             .then(projects => {
                 if(projects != null) {
                     this.projects = projects;

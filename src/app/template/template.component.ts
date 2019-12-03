@@ -11,7 +11,7 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { Language } from './language';
 import { LanguageService } from './language.service';
 import { ThemeComponent } from '../theme/theme.component';
-import { ThemeGroupComponent } from '../theme/themeGroup.component';
+import { ProjectComponent } from '../project/project.component';
 
 @Component({
     selector: 'app-template',
@@ -226,9 +226,9 @@ export class TemplateComponent {
 
         MainComponent.updateStuff.next(false);
         ProjectsComponent.updateStuff.next(false);
+        ProjectComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
         HistoryComponent.updateStuff.next(false);
-        ThemeGroupComponent.updateStuff.next(false);
         ThemeComponent.updateStuff.next(false);
         
         // Sets the rutaHistorial

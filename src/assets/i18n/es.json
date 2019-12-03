@@ -309,6 +309,7 @@
     ],
     "TitleProject": "PROYECTO",
     "UrlProject": "proyecto",
+    "TitleTechnology": "TECNOLOGÍA",
     "projectFields":
     {
         "tema": "Tema",

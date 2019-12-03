@@ -47,7 +47,12 @@ export class ProjectService {
              .then(projects => (projects.constructor === Array)?projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()):null);
     }
 
-    getProjectsByTheme(lang: string, tema: string): Promise<Project[]> {
+    getProjectsByTheme(tema: string): Promise<Project[]> {
+        return this.getProjects()
+             .then(projects => (projects.constructor === Array)?projects.filter(project => project.tema.toLowerCase() === tema.toLowerCase()):null);
+    }
+
+    getProjectsByThemeWithLang(lang: string, tema: string): Promise<Project[]> {
         return this.getProjectsWithLang(lang)
              .then(projects => (projects.constructor === Array)?projects.filter(project => project.tema.toLowerCase() === tema.toLowerCase()):null);
     }
@@ -57,7 +62,12 @@ export class ProjectService {
              .then(projects => (projects.constructor === Array)?projects.find(project => project.id === id):null);
     }
 
-    getProjectByName(lang: string, nom: string): Promise<Project> {
+    getProjectByName(nom: string): Promise<Project> {
+        return this.getProjects()
+             .then(projects => (projects.constructor === Array)?projects.find(project => project.nom === nom):null);
+    }
+
+    getProjectByNameWithLang(lang: string, nom: string): Promise<Project> {
         return this.getProjectsWithLang(lang)
              .then(projects => (projects.constructor === Array)?projects.find(project => project.nom === nom):null);
     }
