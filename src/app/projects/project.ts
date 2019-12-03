@@ -10,6 +10,7 @@ export class Project {
   html: string;
   repositori: string;
   urlProjecte: string;
+  urlGrup: string;
   
   public show: boolean = false;
   

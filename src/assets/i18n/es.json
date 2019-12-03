@@ -230,6 +230,7 @@
     "TextDemo": "Demo",
     "TextGit": "Git",
     "TextDetall": "Detalle",
+    "TextGrup": "Grupo",
     "experiences":
     [
         {
@@ -309,7 +310,9 @@
     ],
     "TitleProject": "PROYECTO",
     "UrlProject": "proyecto",
+    "UrlGroup": "grupo",
     "TitleTechnology": "TECNOLOGÍA",
+    "UrlTechnology": "tecnologia",
     "projectFields":
     {
         "tema": "Tema",

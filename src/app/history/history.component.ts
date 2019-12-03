@@ -14,10 +14,9 @@ import { ProjectService } from '../projects/project.service';
     projects: Project[];
 
     demo: string;
-
     git: string;
-
     detall: string;
+    grup: string;
 
     public static updateStuff: Subject<any> = new Subject();
 
@@ -55,6 +54,12 @@ import { ProjectService } from '../projects/project.service';
                 this.detall = detall;
             }
         );
+        this.translate.get("TextGrup")
+            .toPromise()        
+            .then(grup => {
+                this.grup = grup;
+            }
+        );
     }
 
     getProjects(): void {
@@ -65,6 +70,7 @@ import { ProjectService } from '../projects/project.service';
                     this.projects = projects;
                     // Sets the urlMain
                     var ruta = "";
+                    var rutaGrup = "";
                     this.translate.get("UrlMain")
                     .toPromise()        
                     .then(urlMain => {
@@ -72,10 +78,20 @@ import { ProjectService } from '../projects/project.service';
                         this.translate.get("UrlProject")
                         .toPromise()        
                         .then(urlProject => {
-                            ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
-                            for(var p of projects) {
-                                p.urlProjecte = ruta + "/" + p.nom;
-                            }
+                            this.translate.get("UrlGroup")
+                            .toPromise()        
+                            .then(urlGroup => {
+                                this.translate.get("UrlTechnology")
+                                .toPromise()        
+                                .then(urlTechnology => {
+                                    ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    for(var p of projects) {
+                                        p.urlProjecte = ruta + "/" + p.nom;
+                                        p.urlGrup = rutaGrup + "/" + p.tema.toLowerCase();
+                                    }
+                                });
+                            });
                         })
                     })
                     .catch(this.handleError);

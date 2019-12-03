@@ -230,6 +230,7 @@
     "TextDemo": "演示",
     "TextGit": "知識庫",
     "TextDetall": "詳情",
+    "TextGrup": "组",
     "experiences":
     [
         {
@@ -309,7 +310,9 @@
     ],
     "TitleProject": "项目",
     "UrlProject": "项目",
+    "UrlGroup": "组",
     "TitleTechnology": "技术",
+    "UrlTechnology": "技术",
     "projectFields":
     {
         "tema": "主題",

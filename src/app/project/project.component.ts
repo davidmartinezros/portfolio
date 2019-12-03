@@ -20,6 +20,10 @@ import { TemplateComponent } from '../template/template.component';
     private sub: any;
     project: Project;
 
+    demo: string;
+    git: string;
+    grup: string;
+
     public static updateStuff: Subject<any> = new Subject();
     
     constructor(private route: ActivatedRoute,
@@ -54,6 +58,24 @@ import { TemplateComponent } from '../template/template.component';
         this.projectService.getProjectById(this.id)
             .then(project => { 
                 this.project = project;
+                // Sets the urlMain
+                var rutaGrup = "";
+                this.translate.get("UrlMain")
+                .toPromise()        
+                .then(urlMain => {
+                    this.translate.get("UrlGroup")
+                    .toPromise()        
+                    .then(urlGroup => {
+                        this.translate.get("UrlTechnology")
+                        .toPromise()        
+                        .then(urlTechnology => {
+                            rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                            project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
+                        });
+                    })
+                })
+                .catch(this.handleError);
+                this.getTextLinks();
                 this.changeGoogleSearchItems();
             }
         );
@@ -64,7 +86,46 @@ import { TemplateComponent } from '../template/template.component';
             .then(project => { 
                 this.project = project;
                 this.id = project.id;
+                // Sets the urlMain
+                var rutaGrup = "";
+                this.translate.get("UrlMain")
+                .toPromise()        
+                .then(urlMain => {
+                    this.translate.get("UrlGroup")
+                    .toPromise()        
+                    .then(urlGroup => {
+                        this.translate.get("UrlTechnology")
+                        .toPromise()        
+                        .then(urlTechnology => {
+                            rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                            project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
+                        });
+                    })
+                })
+                .catch(this.handleError);
+                this.getTextLinks();
                 this.changeGoogleSearchItems();
+            }
+        );
+    }
+
+    getTextLinks() {
+        this.translate.get("TextDemo")
+            .toPromise()        
+            .then(demo => {
+                this.demo = demo;
+            }
+        );
+        this.translate.get("TextGit")
+            .toPromise()        
+            .then(git => {
+                this.git = git;
+            }
+        );
+        this.translate.get("TextGrup")
+            .toPromise()        
+            .then(grup => {
+                this.grup = grup;
             }
         );
     }
