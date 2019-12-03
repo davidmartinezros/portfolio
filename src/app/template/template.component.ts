@@ -10,6 +10,8 @@ import { MainComponent } from '../main/main.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { Language } from './language';
 import { LanguageService } from './language.service';
+import { ThemeComponent } from '../theme/theme.component';
+import { ThemeGroupComponent } from '../theme/themeGroup.component';
 
 @Component({
     selector: 'app-template',
@@ -226,6 +228,8 @@ export class TemplateComponent {
         ProjectsComponent.updateStuff.next(false);
         ExperienceComponent.updateStuff.next(false);
         HistoryComponent.updateStuff.next(false);
+        ThemeGroupComponent.updateStuff.next(false);
+        ThemeComponent.updateStuff.next(false);
         
         // Sets the rutaHistorial
         this.translate.get("UrlMain")

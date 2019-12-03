@@ -42,9 +42,14 @@ export class ProjectService {
         return this.getProjects();
     }
 
-    getTypeProjects(tipus: string): Promise<Project[]> {
-        return this.getProjects()
+    getProjectsByType(lang: string, tipus: string): Promise<Project[]> {
+        return this.getProjectsWithLang(lang)
              .then(projects => (projects.constructor === Array)?projects.filter(project => project.tipus.toLowerCase() === tipus.toLowerCase()):null);
+    }
+
+    getProjectsByTheme(lang: string, tema: string): Promise<Project[]> {
+        return this.getProjectsWithLang(lang)
+             .then(projects => (projects.constructor === Array)?projects.filter(project => project.tema.toLowerCase() === tema.toLowerCase()):null);
     }
 
     getProjectById(id: number): Promise<Project> {

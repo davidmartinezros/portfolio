@@ -32,11 +32,17 @@ import { LanguageService } from '../template/language.service';
 // My Components
 import { TemplateComponent } from '../template/template.component';
 import { TranslateBrowserLoader } from './translate-browser-loader.service';
+import { ThemeComponent } from '../theme/theme.component';
+import { ThemeGroupComponent } from '../theme/themeGroup.component';
 
 const appRoutes: Routes = [
   {
     path: ':urlMain',
     component: MainComponent
+  },
+  {
+    path: ':urlMain/:group/:technology/:lang/:theme',
+    component: ThemeGroupComponent
   },
   {
     path: ":urlMain/:urlProject/:lang/:nom",
@@ -94,7 +100,9 @@ const appRoutes: Routes = [
     DashboardBlogComponent,
     DashboardContactComponent,
     ExperienceComponent,
-    HistoryComponent
+    HistoryComponent,
+    ThemeGroupComponent,
+    ThemeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),

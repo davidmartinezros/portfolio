@@ -1,0 +1,93 @@
+<div *ngIf="projects">
+  <div class="container-fluid">
+    <div *ngFor="let key of projects | keys; let i = index">
+      <div *ngIf="i%2===0">
+        <div class="card-deck">
+            <!--
+              <app-project [project]="projects[i]"></app-project>
+              <app-project [project]="projects[i+1]"></app-project>
+            -->
+          <div *ngIf="projects[i]" class="card text-center">
+            <div *ngIf="projects[i].tema == 'Angular'" class="ribbon ribbon-angular">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <div *ngIf="projects[i].tema == 'Ionic'" class="ribbon ribbon-ionic">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <div *ngIf="projects[i].tema == 'Java'" class="ribbon ribbon-java">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <div *ngIf="projects[i].tema == 'Unity'" class="ribbon ribbon-unity">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <div *ngIf="projects[i].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <div *ngIf="projects[i].tema == 'Javascript'" class="ribbon ribbon-javascript">
+              <span>{{projects[i].tema}}</span>
+            </div>
+            <!--<iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
+            <div *ngIf="projects[i].video" class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+              <img [src]="projects[i].videoImg | safeUrl" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
+              <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
+            </div> 
+            <!--
+            <video *ngIf="projects[i].video" class="card-img-top" [src]="projects[i].video" autoplay></video>
+            -->
+            <img *ngIf="projects[i].imatge" class="card-img-top" [src]="projects[i].imatge">
+            <div class="card-body ">
+              <hr class="style-three">
+              <h4 class="card-title">{{projects[i].titol}}</h4>
+              <p class="card-text text-justify" innerHTML="{{projects[i].html}}"></p>
+            </div>
+            <div class="card-footer">
+              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ demo }}</a>
+              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ git }}</a>
+              <a *ngIf="projects[i].urlProjecte!=null" target="_blank" rel="noopener" [href]="projects[i].urlProjecte | safeUrl" class="boto btn btn-primary">{{ detall }}</a>
+            </div>
+          </div>
+          <div *ngIf="projects[i+1]" class="card text-center">
+            <div *ngIf="projects[i+1].tema == 'Angular'" class="ribbon ribbon-angular">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Ionic'" class="ribbon ribbon-ionic">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Java'" class="ribbon ribbon-java">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Unity'" class="ribbon ribbon-unity">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <div *ngIf="projects[i+1].tema == 'Javascript'" class="ribbon ribbon-javascript">
+              <span>{{projects[i+1].tema}}</span>
+            </div>
+            <!--<iframe *ngIf="projects[i+1].video" [src]="projects[i+1].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
+            <div *ngIf="projects[i+1].video" class="youtube-player" [attr.data-id]="projects[i+1].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+              <img [src]="projects[i+1].videoImg | safeUrl" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
+              <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
+            </div> 
+            <!--
+            <video *ngIf="projects[i+1].video" class="card-img-top" [src]="projects[i+1].video" autoplay></video>
+            -->
+            <img *ngIf="projects[i+1].imatge" class="card-img-top" [src]="projects[i+1].imatge">
+            <div class="card-body ">
+              <hr class="style-three">
+              <h4 class="card-title">{{projects[i+1].titol}}</h4>
+              <p class="card-text text-justify" innerHTML="{{projects[i+1].html}}"></p>
+            </div>
+            <div class="card-footer">
+              <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ demo }}</a>
+              <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="boto btn btn-primary" style="margin-right:10px;">{{ git }}</a>
+              <a *ngIf="projects[i+1].urlProjecte!=null" target="_blank" rel="noopener" [href]="projects[i+1].urlProjecte | safeUrl" class="boto btn btn-primary">{{ detall }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<img src onerror="if (typeof reloadYoutube === 'function') { reloadYoutube(); }">
