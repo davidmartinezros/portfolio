@@ -30,7 +30,7 @@
 					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
 				<li class="hidden-xs">
-					<a id="history-list" class="menu nav-link hide-on-click" [routerLink]="rutaHistorial">
+					<a class="menu nav-link hide-on-click" [routerLink]="rutaHistorial">
 						{{ 'TitleSection5' | translate }}
 					</a>
 				</li>
@@ -71,7 +71,7 @@
 </nav>
 
 <div>
-	<router-outlet></router-outlet>
+	<router-outlet (activate)="onActivate($event)"></router-outlet>
 	<div class="cookie-warning hidden">
 		<div class="cookie-warning-text text-justify">
 			{{ 'CookiesBottomTitle' | translate }}

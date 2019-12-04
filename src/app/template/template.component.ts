@@ -1,5 +1,5 @@
 import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID, APP_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
@@ -52,6 +52,12 @@ export class TemplateComponent {
         });
 
         this.getLanguanges();
+    }
+
+    onActivate(event: any) {
+        if (isPlatformBrowser(this.platformId)) {
+            window.scroll(0,0);
+        }
     }
 
     onClickSection(section) {
@@ -236,7 +242,7 @@ export class TemplateComponent {
             this.translate.get("UrlHistory")
             .toPromise()        
             .then(urlHistory => {
-                this.rutaHistorial = urlMain + "/" + urlHistory;
+                this.rutaHistorial = "/" + urlMain + "/" + urlHistory;
             })
         })
         .catch(this.handleError);

@@ -68,9 +68,9 @@ import { ProjectService } from './project.service';
             {
                 if(projects != null) {
                     this.projects = projects;
-                    // Sets the urlMain
                     var ruta = "";
                     var rutaGrup = "";
+                    // Sets the urlMain
                     this.translate.get("UrlMain")
                     .toPromise()        
                     .then(urlMain => {
@@ -84,15 +84,15 @@ import { ProjectService } from './project.service';
                                 this.translate.get("UrlTechnology")
                                 .toPromise()        
                                 .then(urlTechnology => {
-                                    ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
-                                    rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    ruta = "/" + urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    rutaGrup = "/" + urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                                     for(var p of projects) {
                                         p.urlProjecte = ruta + "/" + p.nom;
                                         p.urlGrup = rutaGrup + "/" + p.tema.toLowerCase();
                                     }
                                 });
                             });
-                        })
+                        });
                     })
                     .catch(this.handleError);
                 }

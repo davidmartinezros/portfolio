@@ -105,7 +105,7 @@ import { ActivatedRoute } from '@angular/router';
                         this.translate.get("UrlProject")
                         .toPromise()        
                         .then(urlProject => {
-                            ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                            ruta = "/" + urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
                             for(var p of projects) {
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }

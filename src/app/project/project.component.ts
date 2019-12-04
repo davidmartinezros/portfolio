@@ -97,7 +97,7 @@ import { TemplateComponent } from '../template/template.component';
                         this.translate.get("UrlTechnology")
                         .toPromise()        
                         .then(urlTechnology => {
-                            rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                            rutaGrup = "/" + urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                             project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
                         });
                     })

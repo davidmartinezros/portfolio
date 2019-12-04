@@ -84,8 +84,8 @@ import { ProjectService } from '../projects/project.service';
                                 this.translate.get("UrlTechnology")
                                 .toPromise()        
                                 .then(urlTechnology => {
-                                    ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
-                                    rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    ruta = "/" + urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
+                                    rutaGrup = "/" + urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                                     for(var p of projects) {
                                         p.urlProjecte = ruta + "/" + p.nom;
                                         p.urlGrup = rutaGrup + "/" + p.tema.toLowerCase();

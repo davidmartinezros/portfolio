@@ -36,8 +36,8 @@
         <td>
           <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl">{{ demo }}</a><br/>
           <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl">{{ git }}</a><br/>
-          <a *ngIf="projects[i].urlProjecte!=null" target="_blank" rel="noopener" [href]="projects[i].urlProjecte | safeUrl">{{ detall }}</a><br/>
-          <a *ngIf="projects[i].urlGrup!=null" target="_blank" rel="noopener" [href]="projects[i].urlGrup | safeUrl">{{ grup }}</a>
+          <a *ngIf="projects[i].urlProjecte!=null" [routerLink]="projects[i].urlProjecte">{{ detall }}</a><br/>
+          <a *ngIf="projects[i].urlGrup!=null" [routerLink]="projects[i].urlGrup">{{ grup }}</a>
         </td>
       </tr>
     </table>
