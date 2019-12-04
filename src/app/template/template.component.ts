@@ -12,6 +12,7 @@ import { Language } from './language';
 import { LanguageService } from './language.service';
 import { ThemeComponent } from '../theme/theme.component';
 import { ProjectComponent } from '../project/project.component';
+import { LanguageComponent } from './language.component';
 
 @Component({
     selector: 'app-template',
@@ -21,8 +22,6 @@ import { ProjectComponent } from '../project/project.component';
 export class TemplateComponent {
 
     languages: Language[];
-
-    language;
 
     loaded: boolean = false;
 
@@ -104,7 +103,7 @@ export class TemplateComponent {
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
-                userLang = this.language;
+                userLang = LanguageComponent.language;
             } else {
                 userLang = params['lang'];
             }
@@ -146,7 +145,7 @@ export class TemplateComponent {
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
-                userLang = this.language;
+                userLang = LanguageComponent.language;
             } else {
                 userLang = params['lang'];
             }
@@ -196,15 +195,13 @@ export class TemplateComponent {
 
         console.log(language);
 
-        console.log("Ara anem a cridar a this.translate.setDefaultLang(language); que al servidor dona error.");
-
         // this language will be used as a fallback when a translation isn't found in the current language
         this.translate.setDefaultLang(language);
 
         // the lang to use, if the lang isn't available, it will use the current loader to get them
         this.translate.use(language);
 
-        this.language = language;
+        LanguageComponent.language = language;
 
         this.changeMetaTagsSeo();
 
@@ -219,10 +216,10 @@ export class TemplateComponent {
         // this language will be used as a fallback when a translation isn't found in the current language
         this.translate.setDefaultLang(language);
         
-        // the lang to use, if the lang isn't available, it will use the current loader to get them
+        // the lang tLanguageComponento use, if the lang isn't available, it will use the current loader to get them
         this.translate.use(language);
     
-        this.language = language;
+        LanguageComponent.language = language;
 
         MainComponent.updateStuff.next(false);
         ProjectsComponent.updateStuff.next(false);
@@ -303,6 +300,10 @@ export class TemplateComponent {
             { this.languages = languages }
         );
     }
+
+    get language() {
+        return LanguageComponent.language;
+      }
 
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error); // for demo purposes only

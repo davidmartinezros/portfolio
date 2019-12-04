@@ -3,6 +3,7 @@ import { Headers } from '@angular/http';
 import { TranslateService } from '@ngx-translate/core';
 import 'rxjs/add/operator/toPromise';
 import { Project } from './project';
+import { LanguageComponent } from '../template/language.component';
 
 
 
@@ -38,6 +39,10 @@ export class ProjectService {
         
         // the lang to use, if the lang isn't available, it will use the current loader to get them
         this.translate.use(lang);
+
+        LanguageComponent.language = lang;
+
+        console.log(lang);
 
         return this.getProjects();
     }

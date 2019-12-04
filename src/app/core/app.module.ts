@@ -34,6 +34,7 @@ import { TemplateComponent } from '../template/template.component';
 import { TranslateBrowserLoader } from './translate-browser-loader.service';
 import { ThemeComponent } from '../theme/theme.component';
 import { ThemeGroupComponent } from '../theme/themeGroup.component';
+import { LanguageComponent } from '../template/language.component';
 
 const appRoutes: Routes = [
   {
@@ -92,6 +93,7 @@ const appRoutes: Routes = [
     FirebaseAuthComponent,
     MainComponent,
     BlogComponent,
+    LanguageComponent,
     TemplateComponent,
     ProjectsComponent,
     ProjectComponent,
