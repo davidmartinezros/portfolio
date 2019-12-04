@@ -17,9 +17,9 @@
             if (!isSkillsPlayed) {
                 animSkills();
             }
-            if (!isAnimCardsPlayed) {
+            /*if (!isAnimCardsPlayed) {
                 animCards();
-            }
+            }*/
             if (!isContactButtonPlayed) {
                 animContactButton();
             }
