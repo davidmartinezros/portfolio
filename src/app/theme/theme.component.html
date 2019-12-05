@@ -28,13 +28,13 @@
             </div>
             <!--<iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
             <div *ngIf="projects[i].video" class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-              <img [src]="projects[i].videoImg | safeUrl" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
+              <img [lazyLoad]="projects[i].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
               <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
             </div> 
             <!--
             <video *ngIf="projects[i].video" class="card-img-top" [src]="projects[i].video" autoplay></video>
             -->
-            <img *ngIf="projects[i].imatge" class="card-img-top" [src]="projects[i].imatge">
+            <img *ngIf="projects[i].imatge" class="card-img-top" [lazyLoad]="projects[i].imatge">
             <div class="card-body ">
               <hr class="style-three">
               <h4 class="card-title">{{projects[i].titol}}</h4>
@@ -67,13 +67,13 @@
             </div>
             <!--<iframe *ngIf="projects[i+1].video" [src]="projects[i+1].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
             <div *ngIf="projects[i+1].video" class="youtube-player" [attr.data-id]="projects[i+1].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-              <img [src]="projects[i+1].videoImg | safeUrl" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
+              <img [lazyLoad]="projects[i+1].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
               <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
             </div> 
             <!--
             <video *ngIf="projects[i+1].video" class="card-img-top" [src]="projects[i+1].video" autoplay></video>
             -->
-            <img *ngIf="projects[i+1].imatge" class="card-img-top" [src]="projects[i+1].imatge">
+            <img *ngIf="projects[i+1].imatge" class="card-img-top" [lazyLoad]="projects[i+1].imatge">
             <div class="card-body ">
               <hr class="style-three">
               <h4 class="card-title">{{projects[i+1].titol}}</h4>

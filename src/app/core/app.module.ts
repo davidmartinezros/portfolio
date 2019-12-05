@@ -29,6 +29,7 @@ import { ProjectComponent } from '../project/project.component';
 import { ProjectService } from '../projects/project.service';
 import { ProjectsComponent } from '../projects/projects.component';
 import { LanguageService } from '../template/language.service';
+import { LazyLoadImageModule, scrollPreset } from 'ng-lazyload-image';
 // My Components
 import { TemplateComponent } from '../template/template.component';
 import { TranslateBrowserLoader } from './translate-browser-loader.service';
@@ -119,6 +120,9 @@ const appRoutes: Routes = [
     AngularFireAuthModule,
     PipesModule,
     BarRatingModule,
+    LazyLoadImageModule.forRoot({
+      preset: scrollPreset // <-- tell LazyLoadImage that you want to use scrollPreset
+    }),
     /*
     TranslateModule.forRoot({
       loader: {

@@ -2,9 +2,9 @@
 import 'zone.js/dist/zone-node';
 import 'reflect-metadata';
 
-import { renderModuleFactory } from '@angular/platform-server';
 import { enableProdMode } from '@angular/core';
 
+import * as compression from 'compression';
 import * as express from 'express';
 import { join } from 'path';
 import { readFileSync } from 'fs';
@@ -17,6 +17,7 @@ enableProdMode();
 
 // Express server
 const app = express();
+app.use(compression());
 
 //app.urlencoded({extended: false});
 
