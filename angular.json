@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/ngx-bar-rating/themes/br-fontawesome-o-theme.css",
               "src/assets/styles/animations.css",
               "src/assets/styles/buttons.css",
               "src/assets/styles/cookie-warning.css",

@@ -10,7 +10,7 @@
         <div class="alert alert-danger" *ngIf="!authForm.controls['password'].valid && authForm.controls['password'].touched" style="font-size: 10px;">Mínimo 5 carácteres</div>
       </div>
       <div class="form-group row float-none">
-        <button type="submit" class="btn btn-primary" [disabled]="!authForm.valid">Entrar</button>
+        <button type="submit" class="btn btn-outline-primary btn-sm" [disabled]="!authForm.valid">Entrar</button>
       </div>
       <div class="form-group row float-none">
         <div class="alert alert-danger" *ngIf="authService.loginFailed" style="font-size: 10px;">Mal inicio de sesión o contraseña</div>

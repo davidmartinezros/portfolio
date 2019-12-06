@@ -21,10 +21,10 @@
 }
 
 .card-footer {
-    /*background-color: var(--second-background);*/
-    border-width: 0px;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    background-color: rgba(36, 53, 53, 0.5);
+    /*border: 1px solid var(--my-blue);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .form-control:hover {

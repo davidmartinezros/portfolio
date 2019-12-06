@@ -12,7 +12,8 @@
 				<button class="nav-link hide-on-click" (click)="pauseTrack()"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>
 			</div>
 		</div>
-		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
+			aria-controls="collapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
@@ -29,7 +30,7 @@
 				<li class="nav-item">
 					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
-				<li class="hidden-xs">
+				<li class="d-none d-sm-block">
 					<a class="menu nav-link hide-on-click" [routerLink]="rutaHistorial">
 						{{ 'TitleSection5' | translate }}
 					</a>
@@ -57,7 +58,7 @@
 						</div>
 					</div>
 				</li>
-				<li class="nav-item margin-auto hidden-xs" *ngIf="isLoadedTrack()">
+				<li class="nav-item margin-auto d-none d-sm-block" *ngIf="isLoadedTrack()">
 					<div class="music" *ngIf="!isPlayingTrack()">
 						<button title="PLAY" class="nav-link hide-on-click" (click)="playTrack()"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
 					</div>
@@ -77,7 +78,7 @@
 			{{ 'CookiesBottomTitle' | translate }}
 			<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
 			<div class="row mx-auto justify-content-center pt-3">
-				<button class="btn btn-primary btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
+				<button class="btn btn-outline-primary btn-sm btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
 			</div>
 		</div>
 	</div>

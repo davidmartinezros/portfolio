@@ -38,8 +38,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   border-radius: 3px;
+  /*
   margin-left: 20px;
   margin-right: 20px;
+  */
 }
 
 html {
@@ -119,7 +121,7 @@ a.menu:hover {
 }
 
 a.boto, a.boto:link, a.boto:focus {
-  color: black;
+  /*color: black;*/
   text-decoration: none;
 }
 

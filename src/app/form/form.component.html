@@ -13,7 +13,7 @@
 			<div class="alert alert-danger" *ngIf="!rForm.controls['text'].valid && rForm.controls['text'].touched">{{ 'FormFieldDesc3' | translate }}</div>
 		</div>
 		<div class="text-right">
-			<button type="submit" class="btn btn-primary btn-footer" [disabled]="!rForm.valid">{{ 'FormButton' | translate }}</button>
+			<button type="submit" class="btn btn-outline-primary btn-footer" [disabled]="!rForm.valid">{{ 'FormButton' | translate }}</button>
 		</div>
 	</form>
 </div>
