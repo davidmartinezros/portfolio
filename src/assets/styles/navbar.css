@@ -18,8 +18,8 @@
 }
 
 .barra-menu {
-  margin-right: 5px;
-  width: 95%;
+  margin-right: 0px;
+  width: 97%;
 }
 
 .margin-auto {
@@ -40,7 +40,7 @@
 
 .musicDiv {
   border: 0px;
-  padding-right: 5px;
+  padding-right: 0px;
   padding-left: 0px;
 }
 
@@ -58,8 +58,10 @@
 }
 
 .navbar-toggler {
-  margin-right: 0px;
-  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 14px;
 }
 .blinker {
   animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
