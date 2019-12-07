@@ -33,6 +33,8 @@ export class TemplateComponent {
 
     rutaHistorial: string;
 
+    borderColorMusic: string ='var(--navbar-hover-color)';
+
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         public authService: AuthService,
         private translate: TranslateService,
@@ -185,15 +187,17 @@ export class TemplateComponent {
         return this.playing;
     }
 
-    playTrack() {
+    playTrack(element) {
         if(this.sound) {
             this.sound.play();
+            this.borderColorMusic='var(--second-color)';
         }
     }
 
     pauseTrack() {
         if(this.sound) {
             this.sound.pause();
+            this.borderColorMusic='var(--navbar-hover-color)';
         }
     }
 

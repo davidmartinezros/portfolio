@@ -27,15 +27,21 @@
 }
 
 .margin-auto select {
-  background-color: var(--navbar-hover-color) !important;
-  border: 1px solid var(--second-color);
+  background-color: var(--navbar-color) !important;
+  border: 1px solid var(--navbar-hover-color);
   color: white;
   font-size: 11px !important;
   font-family: 'Roboto', sans-serif !important;
   letter-spacing: 2px;
   font-weight: 400;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: .25rem; 
+}
+
+.margin-auto select:hover, .margin-auto select:active, .margin-auto select:focus {
+  border: 1px solid var(--second-color);
+  background-color: var(--navbar-hover-color) !important;
 }
 
 .musicDiv {
@@ -45,9 +51,14 @@
 }
 
 .music button {
-  border: 1px solid var(--second-color);
-  background: var(--navbar-hover-color);
-  color: var(--first-color);
+  border: 1px solid var(--navbar-hover-color);
+  background: var(--navbar-color);
+  color: rgba(255,255,255,.5);
+  border-radius: .25rem;  
+}
+
+.music button:hover, .music button:active, .music button:focus {
+  border: 1px solid rgba(255,255,255,.1);
 }
 
 .navbar-brand {
@@ -62,6 +73,7 @@
   margin-bottom: 10px;
   margin-right: 5px;
   font-size: 14px;
+  /*border: 1px solid var(--second-color);*/
 }
 .blinker {
   animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;

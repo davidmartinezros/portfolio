@@ -1,4 +1,4 @@
-.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:visited, .btn-outline-primary.disabled {
+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:visited, .btn-outline-primary:disabled {
     /*background-color: var(--second-color) !important;*/
     border-color: var(--second-color) !important;
     letter-spacing: 1px !important;
