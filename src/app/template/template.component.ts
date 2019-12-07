@@ -33,7 +33,7 @@ export class TemplateComponent {
 
     rutaHistorial: string;
 
-    borderColorMusic: string ='var(--navbar-hover-color)';
+    borderColorMusic: string ='rgba(255,255,255,.1)';
 
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         public authService: AuthService,
@@ -197,7 +197,7 @@ export class TemplateComponent {
     pauseTrack() {
         if(this.sound) {
             this.sound.pause();
-            this.borderColorMusic='var(--navbar-hover-color)';
+            this.borderColorMusic='rgba(255,255,255,.1)';
         }
     }
 
