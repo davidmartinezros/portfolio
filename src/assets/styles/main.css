@@ -140,6 +140,28 @@ a.footer:hover {
   text-decoration: underline;
 }
 
+select, select:link, select:focus {
+  color: var(--my-blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+select:hover {
+  color: var(--second-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+select.menu, select.menu:link, select.menu:focus {
+  color: var(--my-blue);
+  text-decoration: none;
+}
+
+select.menu:hover {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
 p {
   font-family: "Lato", Calibri, Arial, sans-serif;
 	font-size: 16px;

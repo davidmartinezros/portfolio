@@ -43,8 +43,8 @@
 						{{ 'TitleSection7' | translate }}
 					</a>
 				</li>
-				<li class="nav-item margin-auto" *ngIf="languages">
-					<select class="hide-on-click" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
+				<li class="nav-item paddings-10 margin-auto" *ngIf="languages">
+					<select class="menu nav-link hide-on-click" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
 					</select>
 				</li>
