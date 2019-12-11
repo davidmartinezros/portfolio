@@ -141,14 +141,30 @@ a.footer:hover {
 }
 
 select, select:link, select:focus {
-  color: var(--my-blue);
-  text-decoration: underline;
+  color: transparent;
+  border-color: transparent;
+  text-decoration: none;
   cursor: pointer;
 }
 
 select:hover {
-  color: var(--second-color);
-  text-decoration: underline;
+  color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button, button:link, button:focus {
+  color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: transparent;
+  border-color: transparent;
+  text-decoration: none;
   cursor: pointer;
 }
 

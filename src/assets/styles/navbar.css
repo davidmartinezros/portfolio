@@ -7,7 +7,7 @@
   padding: 0px;
 }
 
-.navbar li a {
+.navbar li a.menu {
   color: var(--white-text-color) !important;
   line-height: 34px;
 }
@@ -17,7 +17,7 @@
   line-height: 34px;
 }
 
-.navbar li a:hover, li a.active {
+.navbar li a.menu:hover, li a.menu.active {
   background-color: var(--navbar-hover-color) !important;
   box-shadow: inset 0 -4px 0 0 var(--second-color);
 }
@@ -49,20 +49,21 @@
   background-color: var(--navbar-hover-color) !important;
 }
 
-.musicDiv {
+.music-div {
   border: 0px;
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.music button {
+.button-music {
   border: 1px solid rgba(255,255,255,.1);
   background: var(--navbar-color);
   color: rgba(255,255,255,.5);
-  border-radius: .25rem;  
+  border-radius: .25rem;
+  display: inline;
 }
 
-.music button:hover, .music button:active, .music button:focus {
+.button-music:hover, .button-music:active, .button-music:focus {
   border: 1px solid var(--second-color) !important;
   background-color: var(--navbar-hover-color) !important;
 }
@@ -79,8 +80,8 @@
   margin-bottom: 10px;
   margin-right: 5px;
   font-size: 14px;
-  /*border: 1px solid var(--second-color);*/
 }
+
 .blinker {
   animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
   color: var(--white-text-color);

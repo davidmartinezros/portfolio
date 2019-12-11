@@ -4,12 +4,12 @@
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
-		<div class="navbar-toggler musicDiv" *ngIf="isLoadedTrack()">
-			<div class="music" *ngIf="!isPlayingTrack()">
-				<button class="nav-link hide-on-click" (click)="playTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
+		<div class="navbar-toggler music-div" *ngIf="isLoadedTrack()">
+			<div *ngIf="!isPlayingTrack()">
+				<a class="button-music nav-link hide-on-click" (click)="playTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-play"></i> <i class="fa fa-music"></i></a>
 			</div>
-			<div class="music" *ngIf="isPlayingTrack()">
-				<button class="nav-link hide-on-click" (click)="pauseTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>
+			<div *ngIf="isPlayingTrack()">
+				<a class="button-music nav-link hide-on-click" (click)="pauseTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></a>
 			</div>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
@@ -59,11 +59,11 @@
 					</div>
 				</li>
 				<li class="nav-item margin-auto d-none d-sm-block" *ngIf="isLoadedTrack()">
-					<div class="music" *ngIf="!isPlayingTrack()">
-						<button title="PLAY" class="nav-link hide-on-click" (click)="playTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-play"></i> <i class="fa fa-music"></i></button>
+					<div *ngIf="!isPlayingTrack()">
+						<a title="PLAY" class="button-music nav-link hide-on-click" (click)="playTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-play"></i> <i class="fa fa-music"></i></a>
 					</div>
-					<div class="music" *ngIf="isPlayingTrack()">
-						<button title="PAUSE" class="nav-link hide-on-click" (click)="pauseTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></button>	
+					<div *ngIf="isPlayingTrack()">
+						<a title="PAUSE" class="button-music nav-link hide-on-click" (click)="pauseTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></a>	
 					</div>
 				</li>
 			</ul>
