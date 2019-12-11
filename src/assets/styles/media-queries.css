@@ -4,6 +4,9 @@
     .card {
         margin-bottom: 15px;
     }
+    .card-deck {
+        padding-bottom: 0px !important;
+    }
     .scale-in-ver-center {
         display: none;
     }
