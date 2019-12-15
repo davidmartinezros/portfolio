@@ -7,9 +7,7 @@ import { HistoryRoutingModule } from "./history.rounting.module";
 import { HistoryComponent } from "./history.component";
 
 @NgModule({
-    declarations: [
-      HistoryComponent
-    ],
+    declarations: [HistoryComponent],
     imports: [
       CommonModule,
       PipesModule,

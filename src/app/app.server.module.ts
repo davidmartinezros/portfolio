@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
 import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TemplateComponent } from '../template/template.component';
+import { TemplateComponent } from './template/template.component';
 import { AppModule } from './app.module';
 import { TransferState } from '@angular/platform-browser';
-import { TranslateServerLoader } from './translate-server-loader.service';
+import { TranslateServerLoader } from './core/translate-server-loader.service';
 
 
 @NgModule({

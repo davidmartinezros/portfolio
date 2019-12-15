@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { Subject } from 'rxjs/Subject';
 import { ActivatedRoute } from '@angular/router';
-import { TemplateComponent } from '../template/template.component';
 
 @Component({
     selector: 'app-themeGroup',

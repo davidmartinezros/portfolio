@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { TranslateService } from '@ngx-translate/core';
 import 'rxjs/add/operator/toPromise';
 import { Knowledge } from './knowledge';
@@ -10,10 +10,10 @@ import { Knowledge } from './knowledge';
 export class KnowledgeService {
     
     //private projectsUrl = './assets/i18n/es.json';  // URL to web api
-    private headers = new Headers({'Content-Type': 'application/json'});
+    private headers = new HttpHeaders({'Content-Type': 'application/json'});
 
     constructor(
-        private http: Http,
+        private http: HttpClient,
         private translate: TranslateService) { }
 
     getKnowledges(): Promise<Knowledge[]> {

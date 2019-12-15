@@ -20,7 +20,10 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
       ThemeRoutingModule
     ],
     providers: [],
-    exports: [ThemeGroupComponent]
+    exports: [
+      ThemeGroupComponent,
+      ThemeComponent
+    ]
   })
   
   export class ThemeModule {

@@ -5,15 +5,13 @@ import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { DashboardComponent } from "./dashboard.component";
 import { DashboardRoutingModule } from "./dashboard.rounting.module";
-import { DashboardBlogComponent } from "./dashboard-blog.component";
 import { DashboardContactComponent } from "./dashboard-contact.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
     declarations: [
       DashboardComponent,
-      DashboardBlogComponent,
-      DashboardContactComponent,
+      DashboardContactComponent
     ],
     imports: [
       CommonModule,
@@ -24,7 +22,11 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
       ReactiveFormsModule,
       DashboardRoutingModule
     ],
-    providers: []
+    providers: [],
+    exports: [
+      DashboardComponent,
+      DashboardContactComponent
+    ]
   })
   
   export class DashboardModule {

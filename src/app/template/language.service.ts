@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Headers } from '@angular/http';
+import { HttpHeaders } from '@angular/common/http';
 import { TranslateService } from '@ngx-translate/core';
 import 'rxjs/add/operator/toPromise';
 import { Language } from './language';
@@ -10,7 +10,7 @@ import { Language } from './language';
 export class LanguageService {
     
     //private projectsUrl = './assets/i18n/es.json';  // URL to web api
-    private headers = new Headers({'Content-Type': 'application/json'});
+    private headers = new HttpHeaders({'Content-Type': 'application/json'});
 
     constructor(
         private translate: TranslateService) { }

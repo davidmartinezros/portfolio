@@ -18,7 +18,9 @@ import { ProjectRoutingModule } from "./project.rounting.module";
       ProjectRoutingModule
     ],
     providers: [],
-    exports: [ProjectComponent]
+    exports: [
+      ProjectComponent
+    ]
   })
   
   export class ProjectModule {
