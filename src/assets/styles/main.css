@@ -258,8 +258,10 @@ hr.style-two {
 }
 
 .my-photo {
-  width: 280px;
+  width: 282px;
+  height: 523px;
   border: 1px solid white;
+  margin: 0 auto;
 }
 
 .centered-element {

@@ -27,6 +27,7 @@ import { TemplateComponent } from './template/template.component';
 import { TranslateBrowserLoader } from './core/translate-browser-loader.service';
 import { LanguageComponent } from './template/language.component';
 import { AppRoutingModule } from './app.routing.module';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AppRoutingModule } from './app.routing.module';
     TemplateComponent,
     ProjectsComponent,
     FormComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),
