@@ -25,6 +25,7 @@ export class ImageComponent {
         let img = new PIXI.Sprite.from("assets/images/foto.png");
         img.width = 280;
         img.height = 521;
+
         this.pApp.stage.addChild(img);
 
         let depthMap = new PIXI.Sprite.from("assets/images/foto-map.png");
@@ -37,6 +38,12 @@ export class ImageComponent {
             displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
             displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
         };
+
+        window.ontouchmove = function(e) {
+            var touch = e.touches[0];
+            displacementFilter.scale.x = (window.innerWidth / 2 - touch.pageX) /20;
+            displacementFilter.scale.y = (window.innerHeight / 2 - touch.pageY) /20;
+        }
 
     }
 
