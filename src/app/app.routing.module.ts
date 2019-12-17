@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule, PreloadAllModules, PreloadingStrategy, Route } from '@angular/router';
-import { MainComponent } from './main/main.component';
-import { Observable, of } from 'rxjs';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
 const appRoutes: Routes = [
     {
       path: ':urlMain',
-      component: MainComponent
+      /*component: MainComponent*/
+      loadChildren: () => import("./main/main.module").then(m => m.MainModule),
     },
     {
       path: ':urlMain/:group/:technology/:lang/:theme',
