@@ -239,19 +239,24 @@
             "text2": "此投资组合及其所有内容的创建者。 自欺欺人!"
         },
         {
-            "image": "assets/images/carousel1.jpg",
-            "text1": "La Casa Batlló",
-            "text2": "安东尼·高迪（AntoniGaudí）的现代派建筑，在格拉西亚大道（Passeig deGràcia）具有丰富的色彩。"
+            "image": "assets/images/angular.jpg",
+            "text1": "我的专案",
+            "theme": "Angular"
         },
         {
-            "image": "assets/images/carousel2.jpg",
-            "text1": "Pont del Bisbe",
-            "text2": "位于巴塞罗那哥特区的Carrere del Bisbe。"
+            "image": "assets/images/java.jpg",
+            "text1": "我的专案",
+            "theme": "Java"
         },
         {
-            "image": "assets/images/carousel3.jpg",
-            "text1": "La Sagrada Família",
-            "text2": "安东尼·高迪神庙，巴塞罗那市的象征。"
+            "image": "assets/images/javascript.jpg",
+            "text1": "我的专案",
+            "theme": "Javascript"
+        },
+        {
+            "image": "assets/images/unity.jpg",
+            "text1": "我的专案",
+            "theme": "Unity"
         }
     ],
     "experiences":

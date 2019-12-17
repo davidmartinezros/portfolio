@@ -1,9 +1,14 @@
-<ngb-carousel style="border: 1px solid white;" *ngIf="images" [showNavigationArrows]="false" [pauseOnHover]="false" [interval]=5000 [showNavigationIndicators]="false">
+<ngb-carousel style="border: 1px solid white;" *ngIf="images" [showNavigationArrows]="false" [pauseOnHover]="true" [interval]=5000 [showNavigationIndicators]="false">
     <ng-template ngbSlide *ngFor="let image of images; let i = index">
         <img class="w-100" id="banner-{{6 - i}}" [src]="image.image" alt="Random slide">
         <div class="carousel-caption" style="background-color: rgba(0,0,0,.7); padding: 5px; border: 1px solid black;">
-            <h4 style="background-color: rgba(99,99,99,0.5); color: orange">{{ image.text1 }}</h4>
-            <p>{{ image.text2 }}</p>
+            <h4 *ngIf="image.text1" style="background-color: rgba(99,99,99,0.5); color: orange">{{ image.text1 }}</h4>
+            <p *ngIf="image.text2">{{ image.text2 }}</p>
+            <div *ngIf="image.theme">
+                <div *ngFor="let project of projects | filterProject: {tema: image.theme}; let i = index;">
+                    <a *ngIf="i == 0 || i == 1" class="nav-link" [routerLink]="project.urlProjecte" routerLinkActive="active">{{ project.titol }}</a>
+                </div>
+            </div>
         </div>
     </ng-template>
 </ngb-carousel>
