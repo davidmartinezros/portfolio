@@ -6,6 +6,7 @@ import { TranslateModule } from "@ngx-translate/core";
 import { PipesModule } from "../pipes/pipes.module";
 import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { ProjectService } from "../projects/project.service";
 
 @NgModule({
     declarations: [
@@ -19,7 +20,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
       LazyLoadImageModule,
       ThemeRoutingModule
     ],
-    providers: [],
+    providers: [ ProjectService ],
     exports: [
       ThemeGroupComponent,
       ThemeComponent
