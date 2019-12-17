@@ -1,6 +1,6 @@
 <div id="section1" class="container-fluid">
 	<div class="row">
-		<div class="col-sm-10 col-lg-7 mx-auto">
+		<div class="col-sm-10 col-lg-8 mx-auto">
 			<div class="alert alert-success text-center" *ngIf="authService.currentEmail">
 				<h4 class="mb-0">
 					Has iniciado sesión como
@@ -11,7 +11,7 @@
 			</div>
 			<h3 innerHtml ="{{ 'TitleSection1' | translate }}"></h3>
 			<div class="row mt-5">
-				<div class="col-sm-8">
+				<div class="col-sm-7">
 					<div class="text-justify">
 						<p innerHtml="{{ 'Section1Text1' | translate }}"></p>
 						<p innerHtml="{{ 'Section1Text2' | translate }}"></p>
@@ -41,11 +41,9 @@
 						<h4 style="padding-top:20px;padding-bottom: 30px" innerHtml="{{ 'Section1Text9' | translate }}"></h4>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="mx-auto">
-						<!--<img lazyLoad="assets/images/foto.jpg" class="my-photo" title="David Martínez Ros">-->
-						<app-image></app-image>
-					</div>
+				<div class="col-sm-5">
+					<!--<img lazyLoad="assets/images/foto.jpg" class="my-photo" title="David Martínez Ros">-->
+					<app-carousel></app-carousel>
 				</div>
 			</div>
 		</div>

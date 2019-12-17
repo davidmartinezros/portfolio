@@ -18,8 +18,6 @@ export class ImageComponent {
 
         this.pApp = new PIXI.Application({ width: 280, height: 521 }); // this creates our pixi application
 
-        this.pApp.view.border = "1px solid white";
-
         this.pixiContainer.nativeElement.appendChild(this.pApp.view); // this places our pixi application onto the viewable document
 
         let img = new PIXI.Sprite.from("assets/images/foto.png");
@@ -38,12 +36,13 @@ export class ImageComponent {
             displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
             displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
         };
-
+        /*
         window.ontouchmove = function(e) {
             var touch = e.touches[0];
             displacementFilter.scale.x = (window.innerWidth / 2 - touch.pageX) /20;
             displacementFilter.scale.y = (window.innerHeight / 2 - touch.pageY) /20;
         }
+        */
 
     }
 

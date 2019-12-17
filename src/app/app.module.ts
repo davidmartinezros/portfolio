@@ -28,6 +28,9 @@ import { TranslateBrowserLoader } from './core/translate-browser-loader.service'
 import { LanguageComponent } from './template/language.component';
 import { AppRoutingModule } from './app.routing.module';
 import { ImageComponent } from './image/image.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselService } from './carousel/carousel.service';
 
 @NgModule({
   declarations: [
@@ -38,9 +41,11 @@ import { ImageComponent } from './image/image.component';
     ProjectsComponent,
     FormComponent,
     ExperienceComponent,
-    ImageComponent
+    ImageComponent,
+    CarouselComponent
   ],
   imports: [
+    NgbModule,
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),
     BrowserTransferStateModule,
     TransferHttpCacheModule,
@@ -63,7 +68,7 @@ import { ImageComponent } from './image/image.component';
     }),
     AppRoutingModule
   ],
-  providers: [AuthService, AngularFireDatabase, ProjectService, ExperienceService, LanguageService, KnowledgeService],
+  providers: [AuthService, AngularFireDatabase, ProjectService, ExperienceService, LanguageService, KnowledgeService, CarouselService],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

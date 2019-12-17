@@ -231,6 +231,29 @@
     "TextGit": "Git",
     "TextDetall": "Detalle",
     "TextGrup": "Grupo",
+    "images":
+    [
+        {
+            "image": "assets/images/foto.jpg",
+            "text1": "David Martínez Ros",
+            "text2": "El creador de este Portfolio y todo su contenido. ¡Yo mismo de postureo!"
+        },
+        {
+            "image": "assets/images/carousel1.jpg",
+            "text1": "La Casa Batlló",
+            "text2": "Edificio modernista de Antoni Gaudí con mucho colorido en el Passeig de Gràcia."
+        },
+        {
+            "image": "assets/images/carousel2.jpg",
+            "text1": "Pont del Bisbe",
+            "text2": "Situado en el carrer del Bisbe en el barrio del gótico de Barcelona."
+        },
+        {
+            "image": "assets/images/carousel3.jpg",
+            "text1": "La Sagrada Família",
+            "text2": "Templo de Antoni Gaudí, emblema de la ciudad de Barcelona."
+        }
+    ],
     "experiences":
     [
         {
