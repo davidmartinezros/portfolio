@@ -14,8 +14,6 @@ import { TemplateComponent } from './template/template.component';
 import { TranslateBrowserLoader } from './core/translate-browser-loader.service';
 import { LanguageComponent } from './template/language.component';
 import { AppRoutingModule } from './app.routing.module';
-import { ImageComponent } from './image/image.component';
-import { CarouselService } from './carousel/carousel.service';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
@@ -26,7 +24,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     LanguageComponent,
     TemplateComponent,
-    ImageComponent,
     FirebaseAuthComponent
   ],
   imports: [
