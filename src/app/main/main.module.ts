@@ -19,6 +19,8 @@ import { environment } from "../../environments/environment.prod";
 import { AngularFireDatabase } from "angularfire2/database";
 import { AuthService } from "../firebase-auth/auth.service";
 import { CarouselService } from "../carousel/carousel.service";
+import { ExperienceService } from "../experience/experience.service";
+import { ProjectService } from "../projects/project.service";
 
 @NgModule({
     declarations: [
@@ -41,8 +43,8 @@ import { CarouselService } from "../carousel/carousel.service";
       MainRoutingModule,
       BarRatingModule
     ],
-    providers: [KnowledgeService, AuthService, AngularFireDatabase, CarouselService],
-    exports: [MainComponent],
+    providers: [ KnowledgeService, AuthService, AngularFireDatabase, CarouselService, ExperienceService, ProjectService ],
+    exports: [ MainComponent ],
   })
   
   export class MainModule {

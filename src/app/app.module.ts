@@ -4,10 +4,8 @@ import { BrowserModule, BrowserTransferStateModule, TransferState } from '@angul
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { AngularFireDatabase } from 'angularfire2/database';
-import { ExperienceService } from './experience/experience.service';
 import { AuthService } from './firebase-auth/auth.service';
 import { PipesModule } from './pipes/pipes.module';
-import { ProjectService } from './projects/project.service';
 import { LanguageService } from './template/language.service';
 import { LazyLoadImageModule, scrollPreset } from 'ng-lazyload-image';
 import { TemplateComponent } from './template/template.component';
@@ -49,7 +47,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
-  providers: [ AuthService, AngularFireDatabase, ProjectService, ExperienceService, LanguageService ],
+  providers: [ AuthService, AngularFireDatabase, LanguageService ],
   bootstrap: [TemplateComponent]  // main (first) component
 })
 

@@ -5,9 +5,10 @@ import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { HistoryRoutingModule } from "./history.rounting.module";
 import { HistoryComponent } from "./history.component";
+import { ProjectService } from "../projects/project.service";
 
 @NgModule({
-    declarations: [HistoryComponent],
+    declarations: [ HistoryComponent ],
     imports: [
       CommonModule,
       PipesModule,
@@ -15,8 +16,8 @@ import { HistoryComponent } from "./history.component";
       LazyLoadImageModule,
       HistoryRoutingModule
     ],
-    providers: [],
-    exports: [HistoryComponent]
+    providers: [ ProjectService ],
+    exports: [ HistoryComponent ]
   })
   
   export class HistoryModule {
