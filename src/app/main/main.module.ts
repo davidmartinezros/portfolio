@@ -31,8 +31,6 @@ import { ProjectService } from "../projects/project.service";
       FormComponent
     ],
     imports: [
-      AngularFireModule.initializeApp(environment.firebase),
-      AngularFireAuthModule,
       FormsModule,
       ReactiveFormsModule,
       NgbModule,

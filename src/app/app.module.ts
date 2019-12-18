@@ -7,7 +7,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
 import { AuthService } from './firebase-auth/auth.service';
 import { PipesModule } from './pipes/pipes.module';
 import { LanguageService } from './template/language.service';
-import { LazyLoadImageModule, scrollPreset } from 'ng-lazyload-image';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { TemplateComponent } from './template/template.component';
 import { TranslateBrowserLoader } from './core/translate-browser-loader.service';
 import { LanguageComponent } from './template/language.component';
@@ -34,9 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TransferHttpCacheModule,
     HttpClientModule,
     PipesModule,
-    LazyLoadImageModule.forRoot({
-      preset: scrollPreset
-    }),
+    LazyLoadImageModule,
     TranslateModule.forRoot({
         loader: {
           provide: TranslateLoader,

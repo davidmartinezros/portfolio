@@ -5,13 +5,10 @@ import { ProjectService } from "../projects/project.service";
 import { Project } from "../projects/project";
 import { TranslateService } from "@ngx-translate/core";
 
-declare var PIXI: any; // instead of importing pixi like some tutorials say to do use declare
-
 @Component({
     selector: 'app-carousel',
     templateUrl: '../carousel/carousel.component.html'
 })
-
 
 export class CarouselComponent {
 
