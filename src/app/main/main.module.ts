@@ -19,10 +19,6 @@ import { CarouselService } from "../carousel/carousel.service";
 import { ExperienceService } from "../experience/experience.service";
 import { ProjectService } from "../projects/project.service";
 
-function loadImage({ imagePath }: LoadImageProps) {
-  return [imagePath];
-}
-
 @NgModule({
     declarations: [
       MainComponent,
@@ -50,4 +46,8 @@ function loadImage({ imagePath }: LoadImageProps) {
     constructor() {
       console.log('MainComponent');
     }
+  }
+
+  export function loadImage({ imagePath }: LoadImageProps) {
+    return [imagePath];
   }
