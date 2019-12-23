@@ -71,36 +71,12 @@ export class TemplateComponent {
         if (isPlatformBrowser(this.platformId)) {
             // Client only code.
             this.loadLanguage();
-            this.loadMusic();
+            //this.loadMusic();
          }
          if (isPlatformServer(this.platformId)) {
            // Server only code.
            this.loadServerLanguage();
          }
-    }
-
-    loadMusic() {
-        this.sound = new Audio();
-        this.sound.autoplay = false;
-        this.sound.preload = 'auto';
-        this.sound.autobuffer = true;
-
-        let parent = this;
-
-        this.sound.addEventListener('loadeddata', function() {
-            parent.loaded = true;
-        }, false);
-
-        this.sound.addEventListener('play', function() {
-            parent.playing = true;
-        }, false);
-
-        this.sound.addEventListener('pause', function() {
-            parent.playing = false;
-        }, false);
-        
-        this.sound.src = './assets/audio/song.mp3';
-        this.sound.load();
     }
 
     loadLanguage() {
@@ -181,15 +157,19 @@ export class TemplateComponent {
     }
 
     isLoadedTrack() {
-        return this.loaded;
+        return !this.sound ||this.loaded;
     }
 
     isPlayingTrack() {
         return this.playing;
     }
 
-    playTrack(element) {
+    playTrack() {
         if(this.sound) {
+            this.sound.play();
+            this.borderColorMusic='var(--second-color)';
+        } else {
+            this.loadMusic();
             this.sound.play();
             this.borderColorMusic='var(--second-color)';
         }
@@ -200,6 +180,30 @@ export class TemplateComponent {
             this.sound.pause();
             this.borderColorMusic='rgba(255,255,255,.1)';
         }
+    }
+
+    loadMusic() {
+        this.sound = new Audio();
+        this.sound.autoplay = false;
+        this.sound.preload = 'auto';
+        this.sound.autobuffer = true;
+
+        let parent = this;
+
+        this.sound.addEventListener('loadeddata', function() {
+            parent.loaded = true;
+        }, false);
+
+        this.sound.addEventListener('play', function() {
+            parent.playing = true;
+        }, false);
+
+        this.sound.addEventListener('pause', function() {
+            parent.playing = false;
+        }, false);
+        
+        this.sound.src = './assets/audio/song.mp3';
+        this.sound.load();
     }
 
     public changeServerLanguage(language) {
