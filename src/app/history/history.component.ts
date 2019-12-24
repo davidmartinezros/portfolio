@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs/Subject';
 import { Project } from '../projects/project';
 import { ProjectService } from '../projects/project.service';
+import { isPlatformBrowser } from '@angular/common';
+
+declare function reloadYoutube(): any;
 
 @Component({
     selector: 'app-history',
@@ -21,6 +24,7 @@ import { ProjectService } from '../projects/project.service';
     public static updateStuff: Subject<any> = new Subject();
 
     constructor(
+        @Inject(PLATFORM_ID) private platformId: Object,
         private projectService: ProjectService,
         private translate: TranslateService) {
             HistoryComponent.updateStuff.subscribe(res => {
@@ -33,6 +37,12 @@ import { ProjectService } from '../projects/project.service';
     ngOnInit(): void {
         this.getProjects();
         this.getTextLinks();
+    }
+
+    ngAfterContentInit(): void {
+        if (isPlatformBrowser(this.platformId)) {
+            reloadYoutube();
+        }
     }
 
     getTextLinks() {

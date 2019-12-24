@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs/Subject';
 import { Project } from '../projects/project';
 import { ProjectService } from '../projects/project.service';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
+import { isPlatformBrowser } from '@angular/common';
+
+declare function reloadYoutube(): any;
 
 @Component({
     selector: 'app-theme',
@@ -27,6 +30,7 @@ import { ActivatedRoute } from '@angular/router';
     public static updateStuff: Subject<any> = new Subject();
 
     constructor(
+        @Inject(PLATFORM_ID) private platformId: Object,
         private route: ActivatedRoute,
         private projectService: ProjectService,
         private translate: TranslateService,
@@ -61,6 +65,12 @@ import { ActivatedRoute } from '@angular/router';
                 this.getProjectsWithLang();
             }
         });
+    }
+
+    ngAfterContentInit(): void {
+        if (isPlatformBrowser(this.platformId)) {
+            reloadYoutube();
+        }
     }
 
     getProjects(): void {

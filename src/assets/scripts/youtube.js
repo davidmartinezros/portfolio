@@ -1,14 +1,9 @@
 function reloadYoutube() {
     setTimeout(() => {
-      //var v = document.getElementsByClassName("youtube-player");
       var v = document.querySelectorAll(".youtube-player");
-      //console.log("v:" + v);
-      //console.log("v.length:" + v.length);
       for (var n = 0; n < v.length; n++) {
-        //console.log("v[n].id:" + v[n].id);
         v[n].onclick = function () {
           var iframe = document.createElement("iframe");
-          //console.log("this.dataset.id:" + this.dataset.id);
           iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info);
           iframe.setAttribute("frameborder", "0");
           iframe.setAttribute("id", "youtube-iframe-" + this.dataset.id);
@@ -22,6 +17,6 @@ function reloadYoutube() {
           this.appendChild(iframe);
         }
       }
-      console.log("timeout 500ms reloadYoutube");
-    }, 500);
+      console.log("timeout 100ms reloadYoutube");
+    }, 100);
   }

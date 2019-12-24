@@ -187,6 +187,13 @@ p {
   text-shadow: none;
 }
 
+/*
+p::first-letter {
+  font-size: 200%;
+  color: orange;
+}
+*/
+
 h3:after {
 	position: absolute;
 	content: "";
@@ -224,13 +231,12 @@ h4 {
 	font-family: 'Muli', sans-serif;
 }
 
-#section1, #section2, #section3, #section4, #section6 {
+#section1 {
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
-#section6 {
-  padding-bottom: 120px;
+#section1, #section2, #section3, #section4, #section6 {
+  padding-bottom: 40px;
 }
 
 #blog, #dashboard {

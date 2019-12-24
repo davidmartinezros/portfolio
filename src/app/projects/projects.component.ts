@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs/Subject';
 import { Project } from './project';
 import { ProjectService } from './project.service';
+import { isPlatformBrowser } from '@angular/common';
+
+declare function reloadYoutube(): any;
 
 @Component({
     selector: 'app-projects',
@@ -21,6 +24,7 @@ import { ProjectService } from './project.service';
     public static updateStuff: Subject<any> = new Subject();
 
     constructor(
+        @Inject(PLATFORM_ID) private platformId: Object,
         private projectService: ProjectService,
         private translate: TranslateService) {
             ProjectsComponent.updateStuff.subscribe(res => {
@@ -33,6 +37,12 @@ import { ProjectService } from './project.service';
     ngOnInit(): void {
         this.getProjects();
         this.getTextLinks();
+    }
+
+    ngAfterContentInit(): void {
+        if (isPlatformBrowser(this.platformId)) {
+            reloadYoutube();
+        }
     }
 
     getTextLinks() {
