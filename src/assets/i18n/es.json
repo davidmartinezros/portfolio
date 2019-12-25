@@ -231,6 +231,7 @@
     "TextGit": "Git",
     "TextDetall": "Detalle",
     "TextGrup": "Grupo",
+    "TextMeGustas": "Me Gustas",
     "images":
     [
         {
@@ -344,6 +345,7 @@
     "projectFields":
     {
         "tema": "Tema",
+        "meGustas": "Me Gustas",
         "tipus": "Tipo",
         "data": "Fecha",
         "estat": "Estado",

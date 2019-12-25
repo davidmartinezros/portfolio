@@ -4,6 +4,7 @@
       <tr>
         <th>{{ 'projectFields.captura' | translate}}</th>
         <th>{{ 'projectFields.tema' | translate}}</th>
+        <th>{{ 'projectFields.meGustas' | translate}}</th>
         <th>{{ 'projectFields.tipus' | translate}}</th>
         <th>{{ 'projectFields.estat' | translate}}</th>
         <th>{{ 'projectFields.data' | translate}}</th>
@@ -23,6 +24,9 @@
         </td>
         <td *ngIf="projects[i]" class="text-center">
           <span>{{projects[i].tema}}</span>
+        </td>
+        <td *ngIf="projects[i]" class="text-center">
+          <a (click)="likeDislikeProject(projects[i])" style="text-align: right"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
         </td>
         <td *ngIf="projects[i]" class="text-center">
             <span>{{projects[i].tipus}}</span>

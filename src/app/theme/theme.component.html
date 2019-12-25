@@ -39,6 +39,7 @@
             <img *ngIf="projects[i].imatge" class="card-img-top" [lazyLoad]="projects[i].imatge">
             <div class="card-body ">
               <hr class="style-three">
+              <a (click)="likeDislikeProject(projects[i])" style="text-align: right"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
               <h4 class="card-title">{{projects[i].titol}}</h4>
               <p class="card-text text-justify" innerHTML="{{projects[i].html}}"></p>
             </div>
@@ -80,6 +81,7 @@
             <img *ngIf="projects[i+1].imatge" class="card-img-top" [lazyLoad]="projects[i+1].imatge">
             <div class="card-body ">
               <hr class="style-three">
+              <a (click)="likeDislikeProject(projects[i+1])" style="text-align: right"><span class="styleTextBlue">{{ projects[i+1].likes }} {{ meGustas }}</span> <span [(class)]="projects[i+1].styleLike"><i class="fa fa-heart"></i></span></a>
               <h4 class="card-title">{{projects[i+1].titol}}</h4>
               <p class="card-text text-justify" innerHTML="{{projects[i+1].html}}"></p>
             </div>

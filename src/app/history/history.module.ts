@@ -6,6 +6,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { HistoryRoutingModule } from "./history.rounting.module";
 import { HistoryComponent } from "./history.component";
 import { ProjectService } from "../projects/project.service";
+import { ProjectFirebaseService } from "../projects/project.firebase.service";
 
 @NgModule({
     declarations: [ HistoryComponent ],
@@ -16,7 +17,7 @@ import { ProjectService } from "../projects/project.service";
       LazyLoadImageModule,
       HistoryRoutingModule
     ],
-    providers: [ ProjectService ],
+    providers: [ ProjectService, ProjectFirebaseService ],
     exports: [ HistoryComponent ]
   })
   

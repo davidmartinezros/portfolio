@@ -18,6 +18,7 @@ import { AuthService } from "../firebase-auth/auth.service";
 import { CarouselService } from "../carousel/carousel.service";
 import { ExperienceService } from "../experience/experience.service";
 import { ProjectService } from "../projects/project.service";
+import { ProjectFirebaseService } from "../projects/project.firebase.service";
 
 @NgModule({
     declarations: [
@@ -38,7 +39,7 @@ import { ProjectService } from "../projects/project.service";
       MainRoutingModule,
       BarRatingModule
     ],
-    providers: [ KnowledgeService, AuthService, AngularFireDatabase, CarouselService, ExperienceService, ProjectService ],
+    providers: [ KnowledgeService, AuthService, AngularFireDatabase, CarouselService, ExperienceService, ProjectService, ProjectFirebaseService ],
     exports: [ MainComponent ],
   })
   

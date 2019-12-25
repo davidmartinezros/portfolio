@@ -7,6 +7,7 @@ import { PipesModule } from "../pipes/pipes.module";
 import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { ProjectService } from "../projects/project.service";
+import { ProjectFirebaseService } from "../projects/project.firebase.service";
 
 @NgModule({
     declarations: [
@@ -20,7 +21,7 @@ import { ProjectService } from "../projects/project.service";
       LazyLoadImageModule,
       ThemeRoutingModule
     ],
-    providers: [ ProjectService ],
+    providers: [ ProjectService, ProjectFirebaseService ],
     exports: [
       ThemeGroupComponent,
       ThemeComponent

@@ -6,8 +6,15 @@ import { ProjectService } from '../projects/project.service';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
+import { ProjectFirebaseService } from '../projects/project.firebase.service';
 
 declare function reloadYoutube(): any;
+
+declare function createCookie(name, value, days): any;
+
+declare function readCookie(name): any;
+
+declare function eraseCookie(name): any;
 
 @Component({
     selector: 'app-theme',
@@ -24,6 +31,7 @@ declare function reloadYoutube(): any;
     demo: string;
     git: string;
     detall: string;
+    meGustas: string;
 
     projects: Project[];
 
@@ -35,7 +43,8 @@ declare function reloadYoutube(): any;
         private projectService: ProjectService,
         private translate: TranslateService,
         private titleService: Title,
-        private metaService: Meta) {
+        private metaService: Meta,
+        private projectFirebaseService: ProjectFirebaseService) {
 
             ThemeComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
@@ -73,6 +82,27 @@ declare function reloadYoutube(): any;
         }
     }
 
+    likeDislikeProject(project) {
+        if (isPlatformBrowser(this.platformId)) {
+            let key = "projectsLikes." + project.id;
+            if(readCookie(key)) {
+                eraseCookie(key);
+                project.estaVotat = false;
+                project.styleLike = "styleLikeWhite";
+                project.likes--;
+                this.projectFirebaseService.updateProject(project.id, project.likes);
+                //console.log("white");
+            } else {
+                createCookie(key, 'voted', 365);
+                project.estaVotat = true;
+                project.styleLike = "styleLikeOrange";
+                project.likes++;
+                this.projectFirebaseService.updateProject(project.id, project.likes);
+                //console.log("orange");
+            }
+        }
+    }
+
     getProjects(): void {
         this.projectService.getProjectsByTheme(this.theme)
             .then(projects => {
@@ -89,6 +119,8 @@ declare function reloadYoutube(): any;
                         .then(urlProject => {
                             ruta = urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
                             for(var p of projects) {
+                                this.getProjectLikes(p);
+                                this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
                             this.getTextLinks();
@@ -117,6 +149,8 @@ declare function reloadYoutube(): any;
                         .then(urlProject => {
                             ruta = "/" + urlMain + "/" + urlProject + "/" + this.translate.getDefaultLang().toLowerCase();
                             for(var p of projects) {
+                                this.getProjectLikes(p);
+                                this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
                             this.getTextLinks();
@@ -127,6 +161,32 @@ declare function reloadYoutube(): any;
                 }
             }
         );
+    }
+
+    getProjectLikes(project) {
+        return this.projectFirebaseService.getProject(project.id)
+        .valueChanges()
+        .subscribe(
+            likes => {
+                if (likes) {
+                    project.likes = likes;
+                } else {
+                    project.likes = 0;
+                }
+        });
+    }
+
+    loadProjectStyle(project) {
+        if (isPlatformBrowser(this.platformId)) {
+            let key = "projectsLikes." + project.id;
+            if(readCookie(key)) {
+                project.estaVotat = true;
+                project.styleLike = "styleLikeOrange";
+            } else {
+                project.estaVotat = true;
+                project.styleLike = "styleLikeWhite";
+            }
+        }
     }
 
     getTextLinks() {
@@ -146,6 +206,12 @@ declare function reloadYoutube(): any;
             .toPromise()        
             .then(detall => {
                 this.detall = detall;
+            }
+        );
+        this.translate.get("TextMeGustas")
+            .toPromise()        
+            .then(meGustas => {
+                this.meGustas = meGustas;
             }
         );
     }

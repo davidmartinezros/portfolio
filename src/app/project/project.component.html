@@ -34,6 +34,7 @@
         <img *ngIf="project.imatge" class="card-img-top" [lazyLoad]="project.imatge">
         <div class="card-body">
           <hr class="style-three">
+          <a (click)="likeDislikeProject(project)" style="text-align: right"><span class="styleTextBlue">{{ project.likes }} {{ meGustas }}</span> <span [(class)]="project.styleLike"><i class="fa fa-heart"></i></span></a>
           <h4 class="card-title">{{project.titol}}</h4>
           <p class="card-text text-justify" innerHTML="{{project.html}}"></p>
         </div>

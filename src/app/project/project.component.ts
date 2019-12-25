@@ -6,8 +6,15 @@ import { Project } from '../projects/project';
 import { ProjectService } from '../projects/project.service';
 import { Subject } from 'rxjs';
 import { isPlatformBrowser } from '@angular/common';
+import { ProjectFirebaseService } from '../projects/project.firebase.service';
 
 declare function reloadYoutube(): any;
+
+declare function createCookie(name, value, days): any;
+
+declare function readCookie(name): any;
+
+declare function eraseCookie(name): any;
 
 @Component({
     selector: 'app-project',
@@ -25,6 +32,7 @@ declare function reloadYoutube(): any;
     demo: string;
     git: string;
     grup: string;
+    meGustas: string;
 
     public static updateStuff: Subject<any> = new Subject();
     
@@ -33,7 +41,8 @@ declare function reloadYoutube(): any;
                 private projectService: ProjectService,
                 private translate: TranslateService,
                 private titleService: Title,
-                private metaService: Meta) {
+                private metaService: Meta,
+                private projectFirebaseService: ProjectFirebaseService) {
         ProjectComponent.updateStuff.subscribe(res => {
             this.sub = this.route.params.subscribe(params => {
                 this.lang = params['lang'];
@@ -63,6 +72,26 @@ declare function reloadYoutube(): any;
         }
     }
     
+    likeDislikeProject(project) {
+        if (isPlatformBrowser(this.platformId)) {
+            let key = "projectsLikes." + project.id;
+            if(readCookie(key)) {
+                eraseCookie(key);
+                project.estaVotat = false;
+                project.styleLike = "styleLikeWhite";
+                project.likes--;
+                this.projectFirebaseService.updateProject(project.id, project.likes);
+                //console.log("white");
+            } else {
+                createCookie(key, 'voted', 365);
+                project.estaVotat = true;
+                project.styleLike = "styleLikeOrange";
+                project.likes++;
+                this.projectFirebaseService.updateProject(project.id, project.likes);
+                //console.log("orange");
+            }
+        }
+    }
 
     getProject() {
         this.projectService.getProjectById(this.id)
@@ -79,6 +108,8 @@ declare function reloadYoutube(): any;
                         this.translate.get("UrlTechnology")
                         .toPromise()        
                         .then(urlTechnology => {
+                            this.getProjectLikes(project);
+                            this.loadProjectStyle(project);
                             rutaGrup = urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                             project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
                         });
@@ -107,6 +138,8 @@ declare function reloadYoutube(): any;
                         this.translate.get("UrlTechnology")
                         .toPromise()        
                         .then(urlTechnology => {
+                            this.getProjectLikes(project);
+                            this.loadProjectStyle(project);
                             rutaGrup = "/" + urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                             project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
                         });
@@ -117,6 +150,32 @@ declare function reloadYoutube(): any;
                 this.changeGoogleSearchItems();
             }
         );
+    }
+
+    getProjectLikes(project) {
+        return this.projectFirebaseService.getProject(project.id)
+        .valueChanges()
+        .subscribe(
+            likes => {
+                if (likes) {
+                    project.likes = likes;
+                } else {
+                    project.likes = 0;
+                }
+        });
+    }
+
+    loadProjectStyle(project) {
+        if (isPlatformBrowser(this.platformId)) {
+            let key = "projectsLikes." + project.id;
+            if(readCookie(key)) {
+                project.estaVotat = true;
+                project.styleLike = "styleLikeOrange";
+            } else {
+                project.estaVotat = true;
+                project.styleLike = "styleLikeWhite";
+            }
+        }
     }
 
     getTextLinks() {
@@ -136,6 +195,12 @@ declare function reloadYoutube(): any;
             .toPromise()        
             .then(grup => {
                 this.grup = grup;
+            }
+        );
+        this.translate.get("TextMeGustas")
+            .toPromise()        
+            .then(meGustas => {
+                this.meGustas = meGustas;
             }
         );
     }

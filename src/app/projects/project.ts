@@ -12,6 +12,12 @@ export class Project {
   urlProjecte: string;
   urlGrup: string;
   
+  likes: number;
+
+  styleLike: string = "gray";
+
+  public estaVotat: boolean = false;
+  
   public show: boolean = false;
   
 }

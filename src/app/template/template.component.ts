@@ -48,7 +48,10 @@ export class TemplateComponent {
 
         router.events.subscribe((val) => {
             if(location.path() != ''){
-                this.ruta = location.path().substring(0,location.path().substring(1).indexOf('/') + 1);
+                this.ruta = location.path()
+                    .substring(0,
+                        location.path().substring(1).indexOf('/')==-1?
+                            location.path().length:(location.path().substring(1).indexOf('/') + 1));
             } else {
                 this.ruta = 'full-stack-developer-software-engineer'
             }
@@ -320,6 +323,9 @@ export class TemplateComponent {
     get language() {
         return LanguageComponent.language;
       }
+     set language(language) {
+        LanguageComponent.language = language;
+     }
 
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error); // for demo purposes only

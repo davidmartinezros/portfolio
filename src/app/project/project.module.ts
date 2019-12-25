@@ -6,6 +6,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { ProjectComponent } from "./project.component";
 import { ProjectRoutingModule } from "./project.rounting.module";
 import { ProjectService } from "../projects/project.service";
+import { ProjectFirebaseService } from "../projects/project.firebase.service";
 
 @NgModule({
     declarations: [
@@ -18,7 +19,7 @@ import { ProjectService } from "../projects/project.service";
       LazyLoadImageModule,
       ProjectRoutingModule
     ],
-    providers: [ ProjectService ],
+    providers: [ ProjectService, ProjectFirebaseService ],
     exports: [
       ProjectComponent
     ]

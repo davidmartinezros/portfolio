@@ -41,3 +41,16 @@ hr.style-three {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--my-blue), rgba(0, 0, 0, 0));
     width: 70%;
 }
+
+.styleLikeWhite {
+    color: white;
+}
+
+.styleLikeOrange {
+    color: var(--second-color);
+}
+
+.styleTextBlue {
+    color: var(--my-blue);
+    padding-right: 10px;
+}
