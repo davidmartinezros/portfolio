@@ -1,19 +1,15 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs/Subject';
-import { first, take } from 'rxjs/operators';
 import { Project } from './project';
 import { ProjectService } from './project.service';
 import { isPlatformBrowser } from '@angular/common';
 import { ProjectFirebaseService } from './project.firebase.service';
+import { ProjectContentComponent } from '../project-content/project.content.component';
 
 declare function reloadYoutube(): any;
 
-declare function createCookie(name, value, days): any;
-
 declare function readCookie(name): any;
-
-declare function eraseCookie(name): any;
 
 @Component({
     selector: 'app-projects',
@@ -42,73 +38,18 @@ declare function eraseCookie(name): any;
             ProjectsComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
                 this.getProjects();
-                this.getTextLinks();
+                ProjectContentComponent.updateStuff.next(false);
             });
     }
       
     ngOnInit(): void {
         this.getProjects();
-        this.getTextLinks();
     }
 
     ngAfterContentInit(): void {
         if (isPlatformBrowser(this.platformId)) {
             reloadYoutube();
         }
-    }
-
-    likeDislikeProject(project) {
-        if (isPlatformBrowser(this.platformId)) {
-            let key = "projectsLikes." + project.id;
-            if(readCookie(key)) {
-                eraseCookie(key);
-                project.estaVotat = false;
-                project.styleLike = "styleLikeWhite";
-                project.likes--;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("white");
-            } else {
-                createCookie(key, 'voted', 365);
-                project.estaVotat = true;
-                project.styleLike = "styleLikeOrange";
-                project.likes++;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("orange");
-            }
-        }
-    }
-
-    getTextLinks() {
-        this.translate.get("TextDemo")
-            .toPromise()        
-            .then(demo => {
-                this.demo = demo;
-            }
-        );
-        this.translate.get("TextGit")
-            .toPromise()        
-            .then(git => {
-                this.git = git;
-            }
-        );
-        this.translate.get("TextDetall")
-            .toPromise()        
-            .then(detall => {
-                this.detall = detall;
-            }
-        );
-        this.translate.get("TextGrup")
-            .toPromise()        
-            .then(grup => {
-                this.grup = grup;
-            }
-        );
-        this.translate.get("TextMeGustas")
-            .toPromise()        
-            .then(meGustas => {
-                this.meGustas = meGustas;
-            }
-        );
     }
 
     getProjects(): void {

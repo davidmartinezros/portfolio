@@ -15,7 +15,7 @@
         <td>
             <!--<iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
             <div *ngIf="projects[i].video" style="padding: 2px;">
-              <div class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:400px;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+              <div class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:380px;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
                 <img [lazyLoad]="projects[i].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
                 <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
               </div>

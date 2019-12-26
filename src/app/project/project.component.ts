@@ -7,14 +7,11 @@ import { ProjectService } from '../projects/project.service';
 import { Subject } from 'rxjs';
 import { isPlatformBrowser } from '@angular/common';
 import { ProjectFirebaseService } from '../projects/project.firebase.service';
+import { ProjectContentComponent } from '../project-content/project.content.component';
 
 declare function reloadYoutube(): any;
 
-declare function createCookie(name, value, days): any;
-
 declare function readCookie(name): any;
-
-declare function eraseCookie(name): any;
 
 @Component({
     selector: 'app-project',
@@ -28,11 +25,6 @@ declare function eraseCookie(name): any;
     private lang: string;
     private sub: any;
     project: Project;
-
-    demo: string;
-    git: string;
-    grup: string;
-    meGustas: string;
 
     public static updateStuff: Subject<any> = new Subject();
     
@@ -50,6 +42,7 @@ declare function eraseCookie(name): any;
     
                 if(this.nom) {
                     this.getProject();
+                    ProjectContentComponent.updateStuff.next(false);
                 }
             });
         });
@@ -69,27 +62,6 @@ declare function eraseCookie(name): any;
     ngAfterContentInit(): void {
         if (isPlatformBrowser(this.platformId)) {
             reloadYoutube();
-        }
-    }
-    
-    likeDislikeProject(project) {
-        if (isPlatformBrowser(this.platformId)) {
-            let key = "projectsLikes." + project.id;
-            if(readCookie(key)) {
-                eraseCookie(key);
-                project.estaVotat = false;
-                project.styleLike = "styleLikeWhite";
-                project.likes--;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("white");
-            } else {
-                createCookie(key, 'voted', 365);
-                project.estaVotat = true;
-                project.styleLike = "styleLikeOrange";
-                project.likes++;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("orange");
-            }
         }
     }
 
@@ -116,7 +88,6 @@ declare function eraseCookie(name): any;
                     })
                 })
                 .catch(this.handleError);
-                this.getTextLinks();
                 this.changeGoogleSearchItems();
             }
         );
@@ -146,7 +117,6 @@ declare function eraseCookie(name): any;
                     })
                 })
                 .catch(this.handleError);
-                this.getTextLinks();
                 this.changeGoogleSearchItems();
             }
         );
@@ -176,33 +146,6 @@ declare function eraseCookie(name): any;
                 project.styleLike = "styleLikeWhite";
             }
         }
-    }
-
-    getTextLinks() {
-        this.translate.get("TextDemo")
-            .toPromise()        
-            .then(demo => {
-                this.demo = demo;
-            }
-        );
-        this.translate.get("TextGit")
-            .toPromise()        
-            .then(git => {
-                this.git = git;
-            }
-        );
-        this.translate.get("TextGrup")
-            .toPromise()        
-            .then(grup => {
-                this.grup = grup;
-            }
-        );
-        this.translate.get("TextMeGustas")
-            .toPromise()        
-            .then(meGustas => {
-                this.meGustas = meGustas;
-            }
-        );
     }
 
     private changeGoogleSearchItems() {

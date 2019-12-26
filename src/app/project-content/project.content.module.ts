@@ -3,32 +3,29 @@ import { TranslateModule } from "@ngx-translate/core";
 import { PipesModule } from "../pipes/pipes.module";
 import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { ProjectComponent } from "./project.component";
-import { ProjectRoutingModule } from "./project.rounting.module";
-import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
-import { ProjectContentModule } from "../project-content/project.content.module";
+import { ProjectContentComponent } from "./project.content.component";
+import { RouterModule } from "@angular/router";
 
 @NgModule({
     declarations: [
-      ProjectComponent
+      ProjectContentComponent
     ],
     imports: [
       CommonModule,
       PipesModule,
       TranslateModule,
       LazyLoadImageModule,
-      ProjectRoutingModule,
-      ProjectContentModule
+      RouterModule
     ],
-    providers: [ ProjectService, ProjectFirebaseService ],
+    providers: [ ProjectFirebaseService ],
     exports: [
-      ProjectComponent
+      ProjectContentComponent
     ]
   })
   
-  export class ProjectModule {
+  export class ProjectContentModule {
     constructor() {
-      console.log('ProjectModule');
+      console.log('ProjectContentModule');
     }
   }

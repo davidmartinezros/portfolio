@@ -19,6 +19,7 @@ import { CarouselService } from "../carousel/carousel.service";
 import { ExperienceService } from "../experience/experience.service";
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
+import { ProjectContentModule } from "../project-content/project.content.module";
 
 @NgModule({
     declarations: [
@@ -37,7 +38,8 @@ import { ProjectFirebaseService } from "../projects/project.firebase.service";
       TranslateModule,
       LazyLoadImageModule.forRoot({ loadImage }),
       MainRoutingModule,
-      BarRatingModule
+      BarRatingModule,
+      ProjectContentModule
     ],
     providers: [ KnowledgeService, AuthService, AngularFireDatabase, CarouselService, ExperienceService, ProjectService, ProjectFirebaseService ],
     exports: [ MainComponent ],

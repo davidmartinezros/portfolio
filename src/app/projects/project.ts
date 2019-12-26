@@ -1,4 +1,5 @@
 export class Project {
+  
   id: number;
   visible: boolean;
   nom: string;
@@ -7,17 +8,18 @@ export class Project {
   titol: string;
   data: string;
   link: string;
+  video: string;
+  videoImg: string;
+  imatge: string;
   html: string;
   repositori: string;
   urlProjecte: string;
   urlGrup: string;
-  
+  /* likes */
   likes: number;
-
-  styleLike: string = "gray";
-
-  public estaVotat: boolean = false;
-  
-  public show: boolean = false;
+  styleLike: string;
+  estaVotat: boolean = false;
+  /* show */
+  show: boolean = false;
   
 }

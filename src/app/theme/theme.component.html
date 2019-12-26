@@ -3,94 +3,11 @@
     <div *ngFor="let key of projects | keys; let i = index">
       <div *ngIf="i%2===0">
         <div class="card-deck">
-            <!--
-              <app-project [project]="projects[i]"></app-project>
-              <app-project [project]="projects[i+1]"></app-project>
-            -->
-          <div *ngIf="projects[i]" class="card text-center">
-            <div *ngIf="projects[i].tema == 'Angular'" class="ribbon ribbon-angular">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <div *ngIf="projects[i].tema == 'Ionic'" class="ribbon ribbon-ionic">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <div *ngIf="projects[i].tema == 'Java'" class="ribbon ribbon-java">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <div *ngIf="projects[i].tema == 'Unity'" class="ribbon ribbon-unity">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <div *ngIf="projects[i].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <div *ngIf="projects[i].tema == 'Javascript'" class="ribbon ribbon-javascript">
-              <span>{{projects[i].tema}}</span>
-            </div>
-            <!--<iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
-            <div *ngIf="projects[i].video" style="padding: 2px;">
-              <div class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-                <img [lazyLoad]="projects[i].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
-                <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
-              </div>
-            </div>
-            <!--
-            <video *ngIf="projects[i].video" class="card-img-top" [src]="projects[i].video" autoplay></video>
-            -->
-            <img *ngIf="projects[i].imatge" class="card-img-top" [lazyLoad]="projects[i].imatge">
-            <div class="card-body ">
-              <hr class="style-three">
-              <a (click)="likeDislikeProject(projects[i])" style="text-align: right"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
-              <h4 class="card-title">{{projects[i].titol}}</h4>
-              <p class="card-text text-justify" innerHTML="{{projects[i].html}}"></p>
-            </div>
-            <div class="card-footer">
-              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;"><i class="fa fa-play"></i> {{ demo }}</a>
-              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;">{{ git }}</a>
-              <a *ngIf="projects[i].urlProjecte!=null" [routerLink]="projects[i].urlProjecte" class="boto btn btn-outline-primary btn-sm">{{ detall }}</a>
-            </div>
-          </div>
-          <div *ngIf="projects[i+1]" class="card text-center">
-            <div *ngIf="projects[i+1].tema == 'Angular'" class="ribbon ribbon-angular">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+1].tema == 'Ionic'" class="ribbon ribbon-ionic">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+1].tema == 'Java'" class="ribbon ribbon-java">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+1].tema == 'Unity'" class="ribbon ribbon-unity">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+1].tema == 'Google Trends'" class="ribbon ribbon-googletrends">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <div *ngIf="projects[i+1].tema == 'Javascript'" class="ribbon ribbon-javascript">
-              <span>{{projects[i+1].tema}}</span>
-            </div>
-            <!--<iframe *ngIf="projects[i+1].video" [src]="projects[i+1].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
-            <div *ngIf="projects[i+1].video" style="padding: 2px;">
-              <div class="youtube-player" [attr.data-id]="projects[i+1].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-                <img [lazyLoad]="projects[i+1].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: -100%;">
-                <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
-              </div>
-            </div>
-            <!--
-            <video *ngIf="projects[i+1].video" class="card-img-top" [src]="projects[i+1].video" autoplay></video>
-            -->
-            <img *ngIf="projects[i+1].imatge" class="card-img-top" [lazyLoad]="projects[i+1].imatge">
-            <div class="card-body ">
-              <hr class="style-three">
-              <a (click)="likeDislikeProject(projects[i+1])" style="text-align: right"><span class="styleTextBlue">{{ projects[i+1].likes }} {{ meGustas }}</span> <span [(class)]="projects[i+1].styleLike"><i class="fa fa-heart"></i></span></a>
-              <h4 class="card-title">{{projects[i+1].titol}}</h4>
-              <p class="card-text text-justify" innerHTML="{{projects[i+1].html}}"></p>
-            </div>
-            <div class="card-footer">
-              <a *ngIf="projects[i+1].link!=null" target="_blank" rel="noopener" [href]="projects[i+1].link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;"><i class="fa fa-play"></i> {{ demo }}</a>
-              <a *ngIf="projects[i+1].repositori!=null" target="_blank" rel="noopener" [href]="projects[i+1].repositori | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;">{{ git }}</a>
-              <a *ngIf="projects[i+1].urlProjecte!=null" [routerLink]="projects[i+1].urlProjecte" class="boto btn btn-outline-primary btn-sm">{{ detall }}</a>
-            </div>
-          </div>
+
+          <app-project-content *ngIf="projects[i]" [project]="projects[i]" class="card text-center"></app-project-content>
+
+          <app-project-content *ngIf="projects[i+1]" [project]="projects[i+1]" class="card text-center"></app-project-content>
+
         </div>
       </div>
     </div>

@@ -1,49 +1,11 @@
 <div id="section1" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
-			<h3 innerHtml ="{{ 'TitleProject' | translate }}"></h3>
-			<div *ngIf="project" class="card text-center">
-        <div *ngIf="project.tema == 'Angular'" class="ribbon ribbon-angular">
-          <span>{{project.tema}}</span>
-        </div>
-        <div *ngIf="project.tema == 'Ionic'" class="ribbon ribbon-ionic">
-          <span>{{project.tema}}</span>
-        </div>
-        <div *ngIf="project.tema == 'Java'" class="ribbon ribbon-java">
-          <span>{{project.tema}}</span>
-        </div>
-        <div *ngIf="project.tema == 'Unity'" class="ribbon ribbon-unity">
-          <span>{{project.tema}}</span>
-        </div>
-        <div *ngIf="project.tema == 'Google Trends'" class="ribbon ribbon-googletrends">
-          <span>{{project.tema}}</span>
-        </div>
-        <div *ngIf="project.tema == 'Javascript'" class="ribbon ribbon-javascript">
-          <span>{{project.tema}}</span>
-        </div>
-        <!--<iframe *ngIf="project.video" [src]="project.video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
-        <div *ngIf="project.video" style="padding: 2px;">
-          <div class="youtube-player" [attr.data-id]="project.video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-            <img [lazyLoad]="project.videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
-            <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('https://i.imgur.com/TxzC70f.png') no-repeat;"></div>
-          </div>
-        </div>
-        <!--
-        <video *ngIf="project.video" class="card-img-top" [src]="project.video" autoplay></video>
-        -->
-        <img *ngIf="project.imatge" class="card-img-top" [lazyLoad]="project.imatge">
-        <div class="card-body">
-          <hr class="style-three">
-          <a (click)="likeDislikeProject(project)" style="text-align: right"><span class="styleTextBlue">{{ project.likes }} {{ meGustas }}</span> <span [(class)]="project.styleLike"><i class="fa fa-heart"></i></span></a>
-          <h4 class="card-title">{{project.titol}}</h4>
-          <p class="card-text text-justify" innerHTML="{{project.html}}"></p>
-        </div>
-        <div class="card-footer">
-          <a *ngIf="project.link!=null" target="_blank" rel="noopener" [href]="project.link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;"><i class="fa fa-play"></i> {{ demo }}</a>
-          <a *ngIf="project.repositori!=null" target="_blank" rel="noopener" [href]="project.repositori | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;">{{ git }}</a>
-          <a *ngIf="project.urlGrup!=null" [routerLink]="project.urlGrup" class="boto btn btn-outline-primary btn-sm">{{ grup }}</a>
-        </div>
-      </div>
-		</div>
+
+      <h3 innerHtml ="{{ 'TitleProject' | translate }}"></h3>
+
+      <app-project-content *ngIf="project" [project]="project" class="card text-center"></app-project-content>
+      
+    </div>
 	</div>
 </div>

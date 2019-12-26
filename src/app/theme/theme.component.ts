@@ -7,14 +7,11 @@ import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
 import { ProjectFirebaseService } from '../projects/project.firebase.service';
+import { ProjectContentComponent } from '../project-content/project.content.component';
 
 declare function reloadYoutube(): any;
 
-declare function createCookie(name, value, days): any;
-
 declare function readCookie(name): any;
-
-declare function eraseCookie(name): any;
 
 @Component({
     selector: 'app-theme',
@@ -27,11 +24,6 @@ declare function eraseCookie(name): any;
     private theme: string;
     private lang: string;
     private sub: any;
-
-    demo: string;
-    git: string;
-    detall: string;
-    meGustas: string;
 
     projects: Project[];
 
@@ -57,6 +49,7 @@ declare function eraseCookie(name): any;
         
                     if(this.lang && this.theme) {
                         this.getProjects();
+                        ProjectContentComponent.updateStuff.next(false);
                     }
                 });
             });
@@ -82,27 +75,6 @@ declare function eraseCookie(name): any;
         }
     }
 
-    likeDislikeProject(project) {
-        if (isPlatformBrowser(this.platformId)) {
-            let key = "projectsLikes." + project.id;
-            if(readCookie(key)) {
-                eraseCookie(key);
-                project.estaVotat = false;
-                project.styleLike = "styleLikeWhite";
-                project.likes--;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("white");
-            } else {
-                createCookie(key, 'voted', 365);
-                project.estaVotat = true;
-                project.styleLike = "styleLikeOrange";
-                project.likes++;
-                this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("orange");
-            }
-        }
-    }
-
     getProjects(): void {
         this.projectService.getProjectsByTheme(this.theme)
             .then(projects => {
@@ -123,7 +95,6 @@ declare function eraseCookie(name): any;
                                 this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
-                            this.getTextLinks();
                             this.changeGoogleSearchItems();
                         })
                     })
@@ -153,7 +124,6 @@ declare function eraseCookie(name): any;
                                 this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
-                            this.getTextLinks();
                             this.changeGoogleSearchItems();
                         })
                     })
@@ -187,33 +157,6 @@ declare function eraseCookie(name): any;
                 project.styleLike = "styleLikeWhite";
             }
         }
-    }
-
-    getTextLinks() {
-        this.translate.get("TextDemo")
-            .toPromise()        
-            .then(demo => {
-                this.demo = demo;
-            }
-        );
-        this.translate.get("TextGit")
-            .toPromise()        
-            .then(git => {
-                this.git = git;
-            }
-        );
-        this.translate.get("TextDetall")
-            .toPromise()        
-            .then(detall => {
-                this.detall = detall;
-            }
-        );
-        this.translate.get("TextMeGustas")
-            .toPromise()        
-            .then(meGustas => {
-                this.meGustas = meGustas;
-            }
-        );
     }
 
     private changeGoogleSearchItems() {

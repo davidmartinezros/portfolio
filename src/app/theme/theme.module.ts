@@ -8,6 +8,7 @@ import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
+import { ProjectContentModule } from "../project-content/project.content.module";
 
 @NgModule({
     declarations: [
@@ -19,12 +20,12 @@ import { ProjectFirebaseService } from "../projects/project.firebase.service";
       PipesModule,
       TranslateModule,
       LazyLoadImageModule,
-      ThemeRoutingModule
+      ThemeRoutingModule,
+      ProjectContentModule
     ],
     providers: [ ProjectService, ProjectFirebaseService ],
     exports: [
-      ThemeGroupComponent,
-      ThemeComponent
+      ThemeGroupComponent
     ]
   })
   
