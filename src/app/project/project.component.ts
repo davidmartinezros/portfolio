@@ -152,12 +152,17 @@ declare function readCookie(name): any;
         if(this.project) {
 
             // Sets the <title></title>
-            this.translate.get("SubtitleIndex")
+            this.translate.get("SubtitleIndex1")
             .toPromise()        
-            .then(subtitle => {
-                this.titleService.setTitle(this.project.titol + subtitle);
-                this.metaService.updateTag({ name: 'og:title', content: this.project.titol + subtitle });
-                this.metaService.updateTag({ name: 'twitter:title', content: this.project.titol + subtitle });
+            .then(subtitle1 => {
+                this.translate.get("SubtitleIndex2")
+                .toPromise()        
+                .then(subtitle2 => {
+                    var title = subtitle1 + this.project.titol + subtitle2;
+                    this.titleService.setTitle(title);
+                    this.metaService.updateTag({ name: 'og:title', content: title });
+                    this.metaService.updateTag({ name: 'twitter:title', content: title });
+                })
             })
             .catch(this.handleError);
 
