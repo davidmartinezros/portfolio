@@ -140,10 +140,10 @@ declare function readCookie(name): any;
             let key = "projectsLikes." + project.id;
             if(readCookie(key)) {
                 project.estaVotat = true;
-                project.styleLike = "styleLikeOrange";
+                project.styleLike = "styleLikeOrange meGustasLink";
             } else {
                 project.estaVotat = true;
-                project.styleLike = "styleLikeWhite";
+                project.styleLike = "styleLikeWhite meGustasLink";
             }
         }
     }

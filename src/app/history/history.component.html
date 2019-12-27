@@ -26,7 +26,7 @@
           <span>{{projects[i].tema}}</span>
         </td>
         <td *ngIf="projects[i]" class="text-center">
-          <a (click)="likeDislikeProject(projects[i])" style="text-align: right"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
+          <a (click)="likeDislikeProject(projects[i])"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
         </td>
         <td *ngIf="projects[i]" class="text-center">
             <span>{{projects[i].tipus}}</span>

@@ -54,3 +54,11 @@ hr.style-three {
     color: var(--my-blue);
     padding-right: 10px;
 }
+
+.styleTextBlue:hover {
+    text-decoration: underline;
+}
+
+.meGustasLink:hover {
+    color: orange;
+}

@@ -46,14 +46,14 @@ declare function eraseCookie(name): any;
             if(readCookie(key)) {
                 eraseCookie(key);
                 project.estaVotat = false;
-                project.styleLike = "styleLikeWhite";
+                project.styleLike = "styleLikeWhite meGustasLink";
                 project.likes--;
                 this.projectFirebaseService.updateProject(project.id, project.likes);
                 //console.log("white");
             } else {
                 createCookie(key, 'voted', 365);
                 project.estaVotat = true;
-                project.styleLike = "styleLikeOrange";
+                project.styleLike = "styleLikeOrange meGustasLink";
                 project.likes++;
                 this.projectFirebaseService.updateProject(project.id, project.likes);
                 //console.log("orange");
