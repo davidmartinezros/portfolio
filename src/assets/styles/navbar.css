@@ -23,8 +23,14 @@
 }
 
 .barra-menu {
-  margin-right: 0px;
-  width: 97%;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .barra-menu {
+    margin-right: 0px;
+    width: 97%;
+  }
 }
 
 .margin-auto {
