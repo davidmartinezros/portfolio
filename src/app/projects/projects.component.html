@@ -1,14 +1,12 @@
 <div *ngIf="projects">
-  <div class="container-fluid">
-    <div *ngFor="let key of projects | keys; let i = index">
-      <div *ngIf="i%2===0">
-        <div class="card-deck">
-            
-              <app-project-content *ngIf="projects[i]" [project]="projects[i]" class="card text-center"></app-project-content>
+  <div *ngFor="let key of projects | keys; let i = index">
+    <div *ngIf="i%2===0">
+      <div class="card-deck">
+          
+        <app-project-content *ngIf="projects[i]" [project]="projects[i]" class="card text-center"></app-project-content>
 
-              <app-project-content *ngIf="projects[i+1]" [project]="projects[i+1]" class="card text-center"></app-project-content>
+        <app-project-content *ngIf="projects[i+1]" [project]="projects[i+1]" class="card text-center"></app-project-content>
 
-        </div>
       </div>
     </div>
   </div>

@@ -95,7 +95,7 @@ declare function readCookie(name): any;
                                 this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
-                            this.changeGoogleSearchItems();
+                            this.changeMetaTagsSeo();
                         })
                     })
                     .catch(this.handleError);
@@ -124,7 +124,7 @@ declare function readCookie(name): any;
                                 this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
                             }
-                            this.changeGoogleSearchItems();
+                            this.changeMetaTagsSeo();
                         })
                     })
                     .catch(this.handleError);
@@ -159,7 +159,7 @@ declare function readCookie(name): any;
         }
     }
 
-    private changeGoogleSearchItems() {
+    private changeMetaTagsSeo() {
         if(this.theme) {
 
             // Sets the <title></title>

@@ -1,5 +1,5 @@
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule, BrowserTransferStateModule, TransferState } from '@angular/platform-browser';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -17,10 +17,12 @@ import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 import { FirebaseAuthComponent } from './firebase-auth/firebase-auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MusicComponent } from './music/music.component';
 
 @NgModule({
   declarations: [
     LanguageComponent,
+    MusicComponent,
     TemplateComponent,
     FirebaseAuthComponent
   ],
@@ -44,9 +46,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     }),
     AppRoutingModule
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   providers: [ AuthService, AngularFireDatabase, LanguageService ],
-  bootstrap: [TemplateComponent]  // main (first) component
+  bootstrap: [ TemplateComponent ]  // main (first) component
 })
 
 export class AppModule {
@@ -54,11 +55,6 @@ export class AppModule {
     console.log('AppModule');
   }
 }
-/*
-if (!/localhost/.test(document.location.host)) {
-  enableProdMode();
-}
-*/
 
 export function exportTranslateStaticLoader(http: HttpClient, transferState: TransferState) {
   return new TranslateBrowserLoader('/assets/i18n/', '.json', transferState, http);

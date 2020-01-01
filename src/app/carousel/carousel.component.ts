@@ -41,7 +41,6 @@ export class CarouselComponent {
                 if(projects != null) {
                     this.projects = projects;
                     var ruta = "";
-                    var rutaGrup = "";
                     // Sets the urlMain
                     this.translate.get("UrlMain")
                     .toPromise()        

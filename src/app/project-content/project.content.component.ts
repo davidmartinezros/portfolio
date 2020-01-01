@@ -39,6 +39,24 @@ declare function eraseCookie(name): any;
     ngOnInit(): void {
         this.getTextLinks();
     }
+
+    getProjectStyle() {
+        let style = "";
+        if(this.project.tema == "Angular") {
+            style = "ribbon ribbon-angular";
+        } else if(this.project.tema == "Ionic") {
+            style = "ribbon ribbon-ionic";
+        } else if(this.project.tema == "Java") {
+            style = "ribbon ribbon-java";
+        } else if(this.project.tema == "Unity") {
+            style = "ribbon ribbon-unity";
+        } else if(this.project.tema == "Google Trends") {
+            style = "ribbon ribbon-googletrends";
+        } else if(this.project.tema == "Javascript") {
+            style = "ribbon ribbon-javascript";
+        }
+        return style;
+    }
     
     likeDislikeProject(project) {
         if (isPlatformBrowser(this.platformId)) {

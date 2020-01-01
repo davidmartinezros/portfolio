@@ -3,6 +3,7 @@ import { Subject } from 'rxjs';
 import { AuthService } from '../firebase-auth/auth.service';
 import { Knowledge } from './knowledge';
 import { KnowledgeService } from './knowledge.service';
+import { CarouselComponent } from '../carousel/carousel.component';
 
 @Component({
     selector: 'app-main',
@@ -20,6 +21,7 @@ export class MainComponent {
             MainComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
                 this.getKnowledges();
+                CarouselComponent.updateStuff.next(false);
             });
     }
 

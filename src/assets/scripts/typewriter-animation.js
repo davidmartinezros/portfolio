@@ -20,7 +20,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 value: function setText(newText) {
                     var _this = this;
 
-                    var oldText = this.el.innerText;
+                    var oldText = this.el?this.el.innerText:"";
                     var length = Math.max(oldText.length, newText.length);
                     var promise = new Promise(function (resolve) {
                         return _this.resolve = resolve;
@@ -64,7 +64,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                             output += from;
                         }
                     }
-                    this.el.innerHTML = output;
+                    if(this.el) {
+                        this.el.innerHTML = output;
+                    }
                     if (complete === this.queue.length) {
                         this.resolve();
                     } else {
@@ -89,10 +91,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         var counter = 0;
         var next = function next() {
-            fx.setText(phrases[counter]).then(function () {
-                setTimeout(next, 2000);
-            });
-            counter = (counter + 1) % phrases.length;
+            if(!el) {
+                el = document.querySelector('.text');
+                fx = new TextScramble(el);
+                setTimeout(next, 500);
+            } else {
+                fx.setText(phrases[counter]).then(function () {
+                    setTimeout(next, 2000);
+                });
+                counter = (counter + 1) % phrases.length;
+            }
         };
 
         next();

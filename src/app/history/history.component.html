@@ -39,7 +39,7 @@
         </td>
         <td>
           <h4 style="margin-top: 0px">{{projects[i].titol}}</h4>
-          <p class="text-justify" innerHTML="{{projects[i].html}}"></p>
+          <p class="text-justify" [innerHTML]="projects[i].html | safeHtml"></p>
         </td>
         <td>
           <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl">{{ demo }}</a><br/>

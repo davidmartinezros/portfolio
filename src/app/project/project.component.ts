@@ -88,7 +88,7 @@ declare function readCookie(name): any;
                     })
                 })
                 .catch(this.handleError);
-                this.changeGoogleSearchItems();
+                this.changeMetaTagsSeo();
             }
         );
     }
@@ -117,7 +117,7 @@ declare function readCookie(name): any;
                     })
                 })
                 .catch(this.handleError);
-                this.changeGoogleSearchItems();
+                this.changeMetaTagsSeo();
             }
         );
     }
@@ -148,7 +148,7 @@ declare function readCookie(name): any;
         }
     }
 
-    private changeGoogleSearchItems() {
+    private changeMetaTagsSeo() {
         if(this.project) {
 
             // Sets the <title></title>

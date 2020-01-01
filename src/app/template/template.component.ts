@@ -1,10 +1,9 @@
 import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
-import { Component, Inject, PLATFORM_ID, APP_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ExperienceComponent } from '../experience/experience.component';
-import { AuthService } from '../firebase-auth/auth.service';
 import { HistoryComponent } from '../history/history.component';
 import { MainComponent } from '../main/main.component';
 import { ProjectsComponent } from '../projects/projects.component';
@@ -13,7 +12,7 @@ import { LanguageService } from './language.service';
 import { ThemeComponent } from '../theme/theme.component';
 import { ProjectComponent } from '../project/project.component';
 import { LanguageComponent } from './language.component';
-import { CarouselComponent } from '../carousel/carousel.component';
+import { AuthService } from '../firebase-auth/auth.service';
 
 @Component({
     selector: 'app-template',
@@ -24,24 +23,16 @@ export class TemplateComponent {
 
     languages: Language[];
 
-    loaded: boolean = false;
-
-    playing: boolean = false;
-
-    sound: any;
-
     ruta: string;
 
     rutaHistorial: string;
 
-    borderColorMusic: string ='rgba(255,255,255,.1)';
-
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
-        public authService: AuthService,
         private translate: TranslateService,
         private route: ActivatedRoute,
         private location: Location,
         private router: Router,
+        private authService: AuthService,
         private languageService: LanguageService,
         private titleService: Title,
         private metaService: Meta) {
@@ -74,20 +65,16 @@ export class TemplateComponent {
         if (isPlatformBrowser(this.platformId)) {
             // Client only code.
             this.loadLanguage();
-            //this.loadMusic();
-         }
-         if (isPlatformServer(this.platformId)) {
+        }
+        if (isPlatformServer(this.platformId)) {
            // Server only code.
            this.loadServerLanguage();
-         }
+        }
     }
 
     loadLanguage() {
+
         var userLang = "";
-
-        //console.log(this.route);
-
-        //console.log(this.route.queryParams);
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -95,8 +82,6 @@ export class TemplateComponent {
             } else {
                 userLang = params['lang'];
             }
-
-            console.log("queryParams:" + userLang);
 
             if(!userLang || userLang == "") {
                 userLang = navigator.language;
@@ -118,18 +103,12 @@ export class TemplateComponent {
             } else {
                 this.changeLanguage("en");
             }
-
-            console.log('complete loadLanguage');
-
         });
     }
 
     loadServerLanguage() {
+
         var userLang = "";
-
-        //console.log(this.route);
-
-        //console.log(this.route.queryParams);
         
         this.route.queryParams.subscribe(params => {
             if(!params['lang'] || params['lang'] == "") {
@@ -137,8 +116,6 @@ export class TemplateComponent {
             } else {
                 userLang = params['lang'];
             }
-
-            console.log("queryParams:" + userLang);
 
             if(userLang) {
                 userLang = userLang.toLowerCase();
@@ -153,118 +130,61 @@ export class TemplateComponent {
             } else {
                 this.changeLanguage("en");
             }
-
-            console.log('complete loadLanguage');
-
         });
-    }
-
-    isLoadedTrack() {
-        return !this.sound ||this.loaded;
-    }
-
-    isPlayingTrack() {
-        return this.playing;
-    }
-
-    playTrack() {
-        if(this.sound) {
-            this.sound.play();
-            this.borderColorMusic='var(--second-color)';
-        } else {
-            this.loadMusic();
-            this.sound.play();
-            this.borderColorMusic='var(--second-color)';
-        }
-    }
-
-    pauseTrack() {
-        if(this.sound) {
-            this.sound.pause();
-            this.borderColorMusic='rgba(255,255,255,.1)';
-        }
-    }
-
-    loadMusic() {
-        this.sound = new Audio();
-        this.sound.autoplay = false;
-        this.sound.preload = 'auto';
-        this.sound.autobuffer = true;
-
-        let parent = this;
-
-        this.sound.addEventListener('loadeddata', function() {
-            parent.loaded = true;
-        }, false);
-
-        this.sound.addEventListener('play', function() {
-            parent.playing = true;
-        }, false);
-
-        this.sound.addEventListener('pause', function() {
-            parent.playing = false;
-        }, false);
-        
-        this.sound.src = './assets/audio/song.mp3';
-        this.sound.load();
     }
 
     public changeServerLanguage(language) {
 
         console.log(language);
 
-        // this language will be used as a fallback when a translation isn't found in the current language
-        this.translate.setDefaultLang(language);
+        if(!LanguageComponent.language || LanguageComponent.language != language) {
 
-        // the lang to use, if the lang isn't available, it will use the current loader to get them
-        this.translate.use(language);
+            this.translate.setDefaultLang(language);
+            this.translate.use(language);
 
-        LanguageComponent.language = language;
+            LanguageComponent.language = language;
 
-        this.changeMetaTagsSeo();
-
-        console.log('changeServerLanguage');
-        
+            this.changeMetaTagsSeo();
+        }
     }
 
     public changeLanguage(language) {
 
         console.log(language);
-    
-        // this language will be used as a fallback when a translation isn't found in the current language
-        this.translate.setDefaultLang(language);
-        
-        // the lang tLanguageComponento use, if the lang isn't available, it will use the current loader to get them
-        this.translate.use(language);
-    
-        LanguageComponent.language = language;
 
-        MainComponent.updateStuff.next(false);
-        ProjectsComponent.updateStuff.next(false);
-        ProjectComponent.updateStuff.next(false);
-        ExperienceComponent.updateStuff.next(false);
-        HistoryComponent.updateStuff.next(false);
-        ThemeComponent.updateStuff.next(false);
-        CarouselComponent.updateStuff.next(false);
+        if(!LanguageComponent.language || LanguageComponent.language != language) {
+
+            this.translate.setDefaultLang(language);
+            this.translate.use(language);
         
-        // Sets the rutaHistorial
-        this.translate.get("UrlMain")
-        .toPromise()        
-        .then(urlMain => {
+            LanguageComponent.language = language;
+
+            MainComponent.updateStuff.next(false);
+            ProjectsComponent.updateStuff.next(false);
+            ProjectComponent.updateStuff.next(false);
+            ExperienceComponent.updateStuff.next(false);
+            HistoryComponent.updateStuff.next(false);
+            ThemeComponent.updateStuff.next(false);
+            
             // Sets the rutaHistorial
-            this.translate.get("UrlHistory")
+            this.translate.get("UrlMain")
             .toPromise()        
-            .then(urlHistory => {
-                this.rutaHistorial = "/" + urlMain + "/" + urlHistory;
+            .then(urlMain => {
+                // Sets the rutaHistorial
+                this.translate.get("UrlHistory")
+                .toPromise()        
+                .then(urlHistory => {
+                    this.rutaHistorial = "/" + urlMain + "/" + urlHistory;
+                })
             })
-        })
-        .catch(this.handleError);
+            .catch(this.handleError);
 
-        this.getLanguanges();
+            this.getLanguanges();
 
-        this.changeMetaTagsSeo();        
+            this.changeMetaTagsSeo();
+        }
     }
-
+    
     changeMetaTagsSeo() {
         // Sets the <title></title>
         this.translate.get("TitleIndex")
@@ -315,17 +235,17 @@ export class TemplateComponent {
 
     getLanguanges(): void {
         this.languageService.getLanguages()
-            .then(languages => 
-            { this.languages = languages }
-        );
+            .then(languages => this.languages = languages )
+            .catch(this.handleError);
     }
 
     get language() {
         return LanguageComponent.language;
-      }
-     set language(language) {
+    }
+    
+    set language(language) {
         LanguageComponent.language = language;
-     }
+    }
 
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error); // for demo purposes only

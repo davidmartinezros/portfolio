@@ -47,7 +47,7 @@ import { ProjectContentModule } from "../project-content/project.content.module"
   
   export class MainModule {
     constructor() {
-      console.log('MainComponent');
+      //console.log('MainComponent');
     }
   }
 

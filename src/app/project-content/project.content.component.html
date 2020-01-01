@@ -1,19 +1,4 @@
-<div *ngIf="project.tema == 'Angular'" class="ribbon ribbon-angular">
-    <span>{{project.tema}}</span>
-</div>
-<div *ngIf="project.tema == 'Ionic'" class="ribbon ribbon-ionic">
-    <span>{{project.tema}}</span>
-</div>
-<div *ngIf="project.tema == 'Java'" class="ribbon ribbon-java">
-    <span>{{project.tema}}</span>
-</div>
-<div *ngIf="project.tema == 'Unity'" class="ribbon ribbon-unity">
-    <span>{{project.tema}}</span>
-</div>
-<div *ngIf="project.tema == 'Google Trends'" class="ribbon ribbon-googletrends">
-    <span>{{project.tema}}</span>
-</div>
-<div *ngIf="project.tema == 'Javascript'" class="ribbon ribbon-javascript">
+<div *ngIf="project.tema" [class]="getProjectStyle()">
     <span>{{project.tema}}</span>
 </div>
 <!--<iframe *ngIf="project.video" [src]="project.video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
@@ -31,7 +16,7 @@
     <hr class="style-three">
     <a (click)="likeDislikeProject(project)"><span class="styleTextBlue">{{ project.likes }} {{ meGustas }}</span> <span [(class)]="project.styleLike"><i class="fa fa-heart"></i></span></a>
     <h4 class="card-title">{{project.titol}}</h4>
-    <p class="card-text text-justify" innerHTML="{{project.html}}"></p>
+    <p class="card-text text-justify" [innerHTML]="project.html | safeHtml"></p>
 </div>
 <div class="card-footer">
     <a *ngIf="project.link!=null" target="_blank" rel="noopener" [href]="project.link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:10px;"><i class="fa fa-play"></i> {{ demo }}</a>
