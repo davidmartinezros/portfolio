@@ -123,6 +123,7 @@ declare function readCookie(name): any;
                                 this.getProjectLikes(p);
                                 this.loadProjectStyle(p);
                                 p.urlProjecte = ruta + "/" + p.nom;
+                                p.urlGrup = null;
                             }
                             this.changeMetaTagsSeo();
                         })

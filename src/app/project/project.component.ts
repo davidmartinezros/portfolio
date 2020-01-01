@@ -111,13 +111,14 @@ declare function readCookie(name): any;
                         .then(urlTechnology => {
                             this.getProjectLikes(project);
                             this.loadProjectStyle(project);
+                            project.urlProjecte = null;
                             rutaGrup = "/" + urlMain + "/" + urlGroup + "/" + urlTechnology + "/" + this.translate.getDefaultLang().toLowerCase();
                             project.urlGrup = rutaGrup + "/" + project.tema.toLowerCase();
+                            this.changeMetaTagsSeo();
                         });
                     })
                 })
                 .catch(this.handleError);
-                this.changeMetaTagsSeo();
             }
         );
     }
