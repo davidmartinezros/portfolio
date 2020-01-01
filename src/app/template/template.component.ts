@@ -32,7 +32,7 @@ export class TemplateComponent {
         private route: ActivatedRoute,
         private location: Location,
         private router: Router,
-        private authService: AuthService,
+        public authService: AuthService,
         private languageService: LanguageService,
         private titleService: Title,
         private metaService: Meta) {
