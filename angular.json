@@ -54,7 +54,8 @@
               "src/assets/scripts/jarallax.js",
               "src/assets/scripts/navigate.js",
               "src/assets/scripts/typewriter-animation.js",
-              "src/assets/scripts/youtube.js"
+              "src/assets/scripts/youtube.js",
+              "src/assets/scripts/google_analytics.js"
             ],
             "es5BrowserSupport": true
           },
