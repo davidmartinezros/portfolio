@@ -7,7 +7,7 @@ import { enableProdMode } from '@angular/core';
 import * as compression from 'compression';
 import * as express from 'express';
 import { join } from 'path';
-import { readFileSync } from 'fs';
+//import { readFileSync } from 'fs';
 
 (global as any).WebSocket = require('ws');
 (global as any).XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
@@ -31,7 +31,7 @@ const PASSWORD_CERTIFICATE = process.env.PASSWORD_CERTIFICATE;
 const DIST_FOLDER = join(process.cwd(), 'dist');
 
 // Our index.html we'll use as our template
-const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
+//const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');

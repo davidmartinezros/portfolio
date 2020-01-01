@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { Routes, RouterModule, NoPreloading } from '@angular/router';
 
 const appRoutes: Routes = [
     {
@@ -50,11 +50,23 @@ export class AppCustomPreloader implements PreloadingStrategy {
   }
 }
 */
+/*
+export class AppPreloadingStrategy implements PreloadingStrategy {
+    preload(route: Route, load: Function): Observable<any> {
+        const loadRoute = (delay) => delay
+            ? timer(150).pipe(flatMap(_ => load()))
+            : load();
+        return route.data && route.data.preload 
+            ? loadRoute(route.data.delay)
+            : of(null);
+      }
+}
+*/
 @NgModule({
   imports: [
     RouterModule.forRoot(appRoutes, {
       /*enableTracing: true, */// <-- debugging purposes only
-      preloadingStrategy: PreloadAllModules,
+      preloadingStrategy: NoPreloading,
       scrollPositionRestoration: 'enabled',
       anchorScrolling: 'enabled',
       scrollOffset: [0, 64],
