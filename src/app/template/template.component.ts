@@ -137,52 +137,46 @@ export class TemplateComponent {
 
         console.log(language);
 
-        if(!LanguageComponent.language || LanguageComponent.language != language) {
+        this.translate.setDefaultLang(language);
+        this.translate.use(language);
 
-            this.translate.setDefaultLang(language);
-            this.translate.use(language);
+        LanguageComponent.language = language;
 
-            LanguageComponent.language = language;
-
-            this.changeMetaTagsSeo();
-        }
+        this.changeMetaTagsSeo();
     }
 
     public changeLanguage(language) {
 
         console.log(language);
 
-        if(!LanguageComponent.language || LanguageComponent.language != language) {
+        this.translate.setDefaultLang(language);
+        this.translate.use(language);
+    
+        LanguageComponent.language = language;
 
-            this.translate.setDefaultLang(language);
-            this.translate.use(language);
+        MainComponent.updateStuff.next(false);
+        ProjectsComponent.updateStuff.next(false);
+        ProjectComponent.updateStuff.next(false);
+        ExperienceComponent.updateStuff.next(false);
+        HistoryComponent.updateStuff.next(false);
+        ThemeComponent.updateStuff.next(false);
         
-            LanguageComponent.language = language;
-
-            MainComponent.updateStuff.next(false);
-            ProjectsComponent.updateStuff.next(false);
-            ProjectComponent.updateStuff.next(false);
-            ExperienceComponent.updateStuff.next(false);
-            HistoryComponent.updateStuff.next(false);
-            ThemeComponent.updateStuff.next(false);
-            
+        // Sets the rutaHistorial
+        this.translate.get("UrlMain")
+        .toPromise()        
+        .then(urlMain => {
             // Sets the rutaHistorial
-            this.translate.get("UrlMain")
+            this.translate.get("UrlHistory")
             .toPromise()        
-            .then(urlMain => {
-                // Sets the rutaHistorial
-                this.translate.get("UrlHistory")
-                .toPromise()        
-                .then(urlHistory => {
-                    this.rutaHistorial = "/" + urlMain + "/" + urlHistory;
-                })
+            .then(urlHistory => {
+                this.rutaHistorial = "/" + urlMain + "/" + urlHistory;
             })
-            .catch(this.handleError);
+        })
+        .catch(this.handleError);
 
-            this.getLanguanges();
+        this.getLanguanges();
 
-            this.changeMetaTagsSeo();
-        }
+        this.changeMetaTagsSeo();
     }
     
     changeMetaTagsSeo() {
