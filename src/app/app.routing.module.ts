@@ -33,12 +33,12 @@ const appRoutes: Routes = [
     },
     {
       path: '',
-      redirectTo: '/full-stack-developer-software-engineer',
+      redirectTo: '/portfolio-full-stack-developer-software-engineer',
       pathMatch: 'prefix'
     },
     {
       path: '**',
-      redirectTo: '/full-stack-developer-software-engineer',
+      redirectTo: '/portfolio-full-stack-developer-software-engineer',
       pathMatch: 'prefix'
     }
   ];

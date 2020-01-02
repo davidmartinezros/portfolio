@@ -72,21 +72,20 @@ app.set('views', join(DIST_FOLDER, 'browser'));
 
 // Our page routes
 export const routes: string[] = [
-  'full-stack-developer-ingeniero-software',
-  'full-stack-developer-ingeniero-software/proyecto/:lang/:nom',
-  'full-stack-developer-ingeniero-software/grupo/tecnologia/:lang/:theme',
-  'full-stack-developer-software-engineer',
-  'full-stack-developer-software-engineer/project/:lang/:nom',
-  'full-stack-developer-software-engineer/group/technology/:lang/:theme',
-  `${encodeURIComponent('全栈开发的软件工程师')}`,
-  `${encodeURIComponent('全栈开发的软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`, 
-  `${encodeURIComponent('全栈开发的软件工程师')}/${encodeURIComponent('组')}/${encodeURIComponent('技术')}/:lang/:theme`,
-  'full-stack-developer-ingeniero-software/historial',
-  'full-stack-developer-software-engineer/history',
-  `${encodeURIComponent('全栈开发的软件工程师')}/${encodeURIComponent('記錄')}`,
-  'full-stack-developer-software-engineer/dashboard',
-  'full-stack-developer-software-engineer/dashboard/contact',
-  'full-stack-developer-software-engineer/dashboard/blog'
+  'portfolio-full-stack-developer-ingeniero-software',
+  'portfolio-full-stack-developer-ingeniero-software/proyecto/:lang/:nom',
+  'portfolio-full-stack-developer-ingeniero-software/grupo/tecnologia/:lang/:theme',
+  'portfolio-full-stack-developer-software-engineer',
+  'portfolio-full-stack-developer-software-engineer/project/:lang/:nom',
+  'portfolio-full-stack-developer-software-engineer/group/technology/:lang/:theme',
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}`,
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`, 
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('组')}/${encodeURIComponent('技术')}/:lang/:theme`,
+  'portfolio-full-stack-developer-ingeniero-software/historial',
+  'portfolio-full-stack-developer-software-engineer/history',
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('記錄')}`,
+  'portfolio-full-stack-developer-software-engineer/dashboard',
+  'portfolio-full-stack-developer-software-engineer/dashboard/contact'
 ];
 
 app.get('/', (req, res) => {

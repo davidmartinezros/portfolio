@@ -44,7 +44,7 @@ export class TemplateComponent {
                         location.path().substring(1).indexOf('/')==-1?
                             location.path().length:(location.path().substring(1).indexOf('/') + 1));
             } else {
-                this.ruta = 'full-stack-developer-software-engineer'
+                this.ruta = 'portfolio-full-stack-developer-software-engineer'
             }
         });
 
