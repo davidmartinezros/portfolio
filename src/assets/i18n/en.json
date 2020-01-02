@@ -192,7 +192,7 @@
     "TitleSection7": "Admin",
     "Section1Text1": "I'm David, a Full Stack Developer with extensive experience in software engineering at all levels.",
     "Section1Text2": "I have more than 14 years of professional experience and 6 years of university training, where I have studied computer engineering and multimedia engineering.",
-    "Section1Text3": "I have participated in large projects of leading companies in Barcelona, such as the <a href='https://www.upf.edu/' target='_blank'>Pompeu Fabra University</a>, the <a href='https://web.gencat.cat/ca/inici' target='_blank'>Generalitat de Catalunya</a>, the <a href='http://www.diba.cat/es' target='_blank'>Diputació de Barcelona</a>, the <a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banco de Sabadell</a> and <a href='http://www.grifols.es/es/web/spain/our_company' target='_blank'>Grifols</a>, among many others.",
+    "Section1Text3": "I have participated in large projects of leading companies in Barcelona, such as the <a href='https://www.upf.edu/' target='_blank'>Pompeu Fabra University</a>, the <a href='https://web.gencat.cat/ca/inici' target='_blank'>Generalitat de Catalunya</a>, the <a href='http://www.diba.cat/es' target='_blank'>Diputació de Barcelona</a>, the <a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banc de Sabadell</a> and <a href='http://www.grifols.es/es/web/spain/our_company' target='_blank'>Grifols</a>, among many others.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>Do you need help for your project?</a>",
     "Section1Text5": "If you are looking for the definition of <b class='job-highlight'>creativity</b> in the wiki, you will see that it is:",
     "Section1Text6": "\" <i class='job-highlight'>... the ability to generate new ideas or concepts, from new associations between known ideas and concepts, which usually produce original solutions ...</i> \"",
@@ -328,7 +328,7 @@
         {
             "dates": "2005 - 2006",
             "lloc": "Sabadell",
-            "client": "Banco Sabadell",
+            "client": "Banc Sabadell",
             "linkClient": "https://www.bancsabadell.com/cs/Satellite/SabAtl/",
             "categoria": "Department Coordinator",
             "description":

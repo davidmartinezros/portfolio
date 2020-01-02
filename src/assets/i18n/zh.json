@@ -192,7 +192,7 @@
     "TitleSection7": "ADMIN",
     "Section1Text1": "我是David，一位在各級軟件工程方面擁有豐富經驗的全棧開發人員.",
     "Section1Text2": "我有14年以上的專業經驗和6年的大學培訓經歷，曾經學習計算機工程和多媒體工程.",
-    "Section1Text3": "我曾参加过巴塞罗那领先公司的重大项目，如: <a href='https://www.upf.edu/' target='_blank'>Universitat Pompeu Fabra</a>，<a href = 'https://web.gencat.cat/ca/inici' target ='_blank'>Generalitat de Catalunya</a>，<a href ='http://www.diba.cat/en' target='_blank'>Diputació de Barcelona</a>，<a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banco de Sabadell</a>和<a href ='http://www.grifols.es/es/web/spain/our_company' target ='_blank'>Grifols</a>等等.",
+    "Section1Text3": "我曾参加过巴塞罗那领先公司的重大项目，如: <a href='https://www.upf.edu/' target='_blank'>Universitat Pompeu Fabra</a>，<a href = 'https://web.gencat.cat/ca/inici' target ='_blank'>Generalitat de Catalunya</a>，<a href ='http://www.diba.cat/en' target='_blank'>Diputació de Barcelona</a>，<a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banc de Sabadell</a>和<a href ='http://www.grifols.es/es/web/spain/our_company' target ='_blank'>Grifols</a>等等.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>你需要項目幫助嗎?</a>",
     "Section1Text5": "如果您在维基中寻找<b class ='job-highlight'>创造力</b>的定义, 您会发现它是:",
     "Section1Text6": "\"<i class='job-highlight'> ...产生新思想或新概念的能力, 思想与已知概念之间的新关联, 这些通常会产生原创的解决方案...</i> \"",
@@ -328,7 +328,7 @@
         {
             "dates": "2005 - 2006",
             "lloc": "Sabadell",
-            "client": "Banco Sabadell",
+            "client": "Banc Sabadell",
             "linkClient": "https://www.bancsabadell.com/cs/Satellite/SabAtl/",
             "categoria": "部门协调员",
             "description":
