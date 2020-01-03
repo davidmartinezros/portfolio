@@ -7,12 +7,13 @@
 		<div class="navbar-toggler music-div">
 			<app-music></app-music>
 		</div>
-		<button class="navbar-toggler padding-navbar-button" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
+		<button class="navbar-toggler padding-navbar-button color-navbar-button" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
 			aria-controls="collapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
 			<ul class="navbar-nav ml-auto">
+				<hr class="style-three d-block d-sm-none">
 				<li class="nav-item">
 					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
@@ -43,6 +44,7 @@
 						<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
 					</select>
 				</li>
+				<hr class="style-three d-block d-sm-none">
 				<li class="nav-item">
 					<a class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>

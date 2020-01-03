@@ -65,7 +65,7 @@
   border: 1px solid rgba(255,255,255,.1);
   background: var(--navbar-color);
   color: rgba(255,255,255,.5);
-  border-radius: .25rem;
+  /*border-radius: .25rem;*/
   display: inline;
 }
 
@@ -86,10 +86,19 @@
   margin-bottom: 10px;
   margin-right: 5px;
   font-size: 14px;
+  border-radius: 0px;
 }
 
 .padding-navbar-button {
   padding: 5px 10px 6px 10px;
+}
+
+.color-navbar-button {
+  border: 1px solid rgba(255,255,255,.1);
+}
+
+.color-navbar-button:hover, .color-navbar-button:active, .color-navbar-button:focus {
+  border: 1px solid var(--second-color) !important;
 }
 
 .blinker {
