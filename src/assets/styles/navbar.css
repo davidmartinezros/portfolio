@@ -98,7 +98,7 @@
 }
 
 .color-navbar-button:hover, .color-navbar-button:active, .color-navbar-button:focus {
-  border: 1px solid var(--second-color) !important;
+  border: 1px solid orange !important;
 }
 
 .blinker {
