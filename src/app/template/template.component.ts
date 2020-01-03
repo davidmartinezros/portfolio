@@ -14,6 +14,8 @@ import { ProjectComponent } from '../project/project.component';
 import { LanguageComponent } from './language.component';
 import { AuthService } from '../firebase-auth/auth.service';
 
+declare var $: any;
+
 @Component({
     selector: 'app-template',
     templateUrl: '../template/template.component.html'
@@ -57,8 +59,8 @@ export class TemplateComponent {
         }
     }
 
-    onClickSection(section) {
-        this.router.navigate([this.ruta], {fragment: section});
+    onClickSection() {
+        $('.navbar-collapse').collapse('hide');
     }
 
     ngOnInit() {

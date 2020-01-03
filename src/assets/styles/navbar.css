@@ -88,6 +88,10 @@
   font-size: 14px;
 }
 
+.padding-navbar-button {
+  padding: 5px 10px 6px 10px;
+}
+
 .blinker {
   animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
   color: var(--white-text-color);
@@ -125,6 +129,7 @@
   vertical-align: middle;
   font-size: 5px !important;
   color: var(--second-color);
+  padding-right: 5px;
 }
 
 .dropdown {

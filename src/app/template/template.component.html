@@ -7,31 +7,31 @@
 		<div class="navbar-toggler music-div">
 			<app-music></app-music>
 		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
+		<button class="navbar-toggler padding-navbar-button" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
 			aria-controls="collapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
+					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section2">{{ 'TitleSection2' | translate }}</a>
+					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section2">{{ 'TitleSection2' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section3">{{ 'TitleSection3' | translate }}</a>
+					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section3">{{ 'TitleSection3' | translate }}</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
+					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 				</li>
 				<li class="d-none d-sm-block">
-					<a class="menu nav-link hide-on-click" [routerLink]="rutaHistorial">
+					<a class="menu nav-link" [routerLink]="rutaHistorial">
 						{{ 'TitleSection5' | translate }}
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="menu nav-link hide-on-click" [routerLink]="ruta" fragment="section6">{{ 'TitleSection6' | translate }}</a>
+					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section6">{{ 'TitleSection6' | translate }}</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.authenticated">
 					<a class="menu nav-link" routerLink="portfolio-full-stack-developer-software-engineer/dashboard" routerLinkActive="active">
@@ -39,7 +39,7 @@
 					</a>
 				</li>
 				<li class="nav-item paddings-10 margin-auto" *ngIf="languages">
-					<select class="menu nav-link hide-on-click" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
+					<select class="menu nav-link" (change)="onClickSection()" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
 						<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
 					</select>
 				</li>
