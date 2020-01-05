@@ -25,5 +25,24 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "projects",
+      "urls": [
+        "https://davidmartinezros.com/web/**",
+        "https://davidmartinezros.com/3D/**",
+        "https://davidmartinezros.com/Javascript/**",
+        "https://davidmartinezros.com/Angular2/**",
+        "https://davidmartinezros.com/Angular5/**",
+        "https://davidmartinezros.com/Angular7/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 10,
+        "maxAge": "1d",
+        "timeout": "5s",
+        "strategy": "freshness"
+      }
+    }
   ]
 }

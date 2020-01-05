@@ -34,12 +34,12 @@ const appRoutes: Routes = [
     {
       path: '',
       redirectTo: '/portfolio-full-stack-developer-software-engineer',
-      pathMatch: 'prefix'
+      pathMatch: 'full'
     },
     {
       path: '**',
       redirectTo: '/portfolio-full-stack-developer-software-engineer',
-      pathMatch: 'prefix'
+      pathMatch: 'full'
     }
   ];
 
