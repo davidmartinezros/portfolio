@@ -12,9 +12,10 @@
 <video *ngIf="project.video" class="card-img-top" [src]="project.video" autoplay></video>
 -->
 <img *ngIf="project.imatge" class="card-img-top" [lazyLoad]="project.imatge">
-<div class="card-body">
-    <hr class="style-three">
+<div class="card-likes">
     <a (click)="likeDislikeProject(project)"><span class="styleTextBlue">{{ project.likes }} {{ meGustas }}</span> <span [(class)]="project.styleLike"><i class="fa fa-heart"></i></span></a>
+</div>
+<div class="card-body">
     <h4 class="card-title">{{project.titol}}</h4>
     <p class="card-text text-justify" [innerHTML]="project.html | safeHtml"></p>
 </div>

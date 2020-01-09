@@ -17,7 +17,19 @@
 }
 
 .card-body {
-    padding-top: 5px;
+    padding-top: 0px;
+    /*
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(36, 36, 53, 0.5);
+    */
+}
+
+.card-likes {
+    margin-left: 7px;
+    margin-right: 7px;
+    border: 1px solid var(--my-blue);
+    background-color: rgba(36, 53, 53, 0.5);
 }
 
 .card-footer {
@@ -28,7 +40,7 @@
 }
 
 .card-img-top {
-    padding: 5px;
+    padding: 8px;
 }
 
 .form-control:hover {
