@@ -16,14 +16,6 @@ import { TranslateServerLoader } from './core/translate-server-loader.service';
     ServerModule,
     ModuleMapLoaderModule,
     ServerTransferStateModule,
-    /*
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: translateFactory
-      }
-    })
-    */
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

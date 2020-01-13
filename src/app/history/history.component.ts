@@ -63,14 +63,12 @@ declare function eraseCookie(name): any;
                 project.styleLike = "styleLikeWhite meGustasLink";
                 project.likes--;
                 this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("white");
             } else {
                 createCookie(key, 'voted', 365);
                 project.estaVotat = true;
                 project.styleLike = "styleLikeOrange meGustasLink";
                 project.likes++;
                 this.projectFirebaseService.updateProject(project.id, project.likes);
-                //console.log("orange");
             }
         }
     }

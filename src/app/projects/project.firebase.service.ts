@@ -10,7 +10,6 @@ export class ProjectFirebaseService {
         private af: AngularFireDatabase) { }
 
     updateProject(projectId, newValue): void {
-        //console.log(newValue);
         this.getProject(projectId)
             .set(newValue);   
     }

@@ -4,16 +4,27 @@ const webpack = require('webpack');
 module.exports = {
   entry: {  server: './server.ts' },
   resolve: { extensions: ['.js', '.ts'] },
+  optimization: {
+    minimize: false
+  },
   target: 'node',
   // this makes sure we include node_modules and other 3rd party libraries
-  externals: [/(node_modules|main\..*\.js)/],
+  externals: {
+    './dist/server/main': 'require("./server/main")'
+  },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
   },
   module: {
     rules: [
-      { test: /\.ts$/, loader: 'ts-loader' }
+      { test: /\.ts$/, loader: 'ts-loader' },
+      {
+        // Mark files inside `@angular/core` as using SystemJS style dynamic imports.
+        // Removing this will cause deprecation warnings to appear.
+        test: /(\\|\/)@angular(\\|\/)core(\\|\/).+\.js$/,
+        parser: { system: true },
+      }
     ]
   },
   plugins: [

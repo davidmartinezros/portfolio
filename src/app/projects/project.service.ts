@@ -42,8 +42,6 @@ export class ProjectService {
 
         LanguageComponent.language = lang;
 
-        console.log(lang);
-
         return this.getProjects();
     }
 

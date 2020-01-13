@@ -1,25 +1,12 @@
-// These are important and needed before anything else
 import 'zone.js/dist/zone-node';
-import 'reflect-metadata';
 
-import { enableProdMode } from '@angular/core';
-
-import * as compression from 'compression';
 import * as express from 'express';
-import { join } from 'path';
-//import { readFileSync } from 'fs';
-
-(global as any).WebSocket = require('ws');
-(global as any).XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-
-// Faster server renders w/ Prod mode (dev mode never needed)
-enableProdMode();
+import {join} from 'path';
+import * as compression from 'compression';
 
 // Express server
 const app = express();
 app.use(compression());
-
-//app.urlencoded({extended: false});
 
 const PORT = process.env.PORT || 4000;
 const HTTPS_PORT = process.env.HTTPS_PORT || 4443;
@@ -28,27 +15,12 @@ const KEY_CERTIFICATE = process.env.KEY_CERTIFICATE;
 const CRT_CERTIFICATE = process.env.CRT_CERTIFICATE;
 const PASSWORD_CERTIFICATE = process.env.PASSWORD_CERTIFICATE;
 
-const DIST_FOLDER = join(process.cwd(), 'dist');
-
-// Our index.html we'll use as our template
-//const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
+const DIST_FOLDER = join(process.cwd(), 'dist/browser');
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
-const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');
+const {AppServerModuleNgFactory, LAZY_MODULE_MAP, ngExpressEngine, provideModuleMap} = require('./dist/server/main');
 
-// Express Engine
-import { ngExpressEngine } from '@nguniversal/express-engine';
-
-// Import module map for lazy loading
-import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
-/*
-app.engine('html', (_, options, callback) => {
-  const opts = { document: template, url: options.req.url };
-
-  renderModuleFactory(AppServerModuleNgFactory, opts)
-    .then(html => callback(null, html));
-});
-*/
+// Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
 app.engine('html', ngExpressEngine({
   bootstrap: AppServerModuleNgFactory,
   providers: [
@@ -56,49 +28,28 @@ app.engine('html', ngExpressEngine({
   ]
 }));
 
-// Load your engine
-/*
-app.engine('html', (filePath, options, callback) => {
-  options.engine(
-    filePath,
-    {req: options.req, res: options.res},
-    callback
-  );
-});
-*/
-
 app.set('view engine', 'html');
-app.set('views', join(DIST_FOLDER, 'browser'));
+app.set('views', DIST_FOLDER);
 
 // Our page routes
 export const routes: string[] = [
+  '/',
   'portfolio-full-stack-developer-ingeniero-software',
   'portfolio-full-stack-developer-ingeniero-software/proyecto/:lang/:nom',
   'portfolio-full-stack-developer-ingeniero-software/grupo/tecnologia/:lang/:theme',
   'portfolio-full-stack-developer-software-engineer',
   'portfolio-full-stack-developer-software-engineer/project/:lang/:nom',
   'portfolio-full-stack-developer-software-engineer/group/technology/:lang/:theme',
-  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}`,
-  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`, 
-  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('组')}/${encodeURIComponent('技术')}/:lang/:theme`,
+  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}`,
+  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('é¡¹ç›®')}/:lang/:nom`, 
+  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('ç»„')}/${encodeURIComponent('æŠ€æœ¯')}/:lang/:theme`,
   'portfolio-full-stack-developer-ingeniero-software/historial',
   'portfolio-full-stack-developer-software-engineer/history',
-  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('記錄')}`,
+  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('è¨˜éŒ„')}`,
   'portfolio-full-stack-developer-software-engineer/dashboard',
   'portfolio-full-stack-developer-software-engineer/dashboard/contact'
 ];
-
-app.get('/', (req, res) => {
-  console.log('--------------------------------- nova peticio ---');
-  console.log('accept-language:' + req.headers["accept-language"]);
-  console.log('user-agent:' + req.headers["user-agent"]);
-  console.log('cookie:' + req.headers["cookie"]);
-  console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
-  console.time(`GET: ${req.originalUrl}`);
-  res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
-  console.timeEnd(`GET: ${req.originalUrl}`);
-});
-
+   
 routes.forEach(route => {
   app.get(`/${route}`, (req, res) => {
     console.log('--------------------------------- nova peticio ---');
@@ -107,9 +58,10 @@ routes.forEach(route => {
     console.log('cookie:' + req.headers["cookie"]);
     console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
     console.time(`GET: ${req.originalUrl}`);
-    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
+    res.render('index', { req });
     console.timeEnd(`GET: ${req.originalUrl}`);
   });
+  
   app.get(`/${route}/*`, (req, res) => {
     console.log('--------------------------------- nova peticio ---');
     console.log('accept-language:' + req.headers["accept-language"]);
@@ -117,22 +69,15 @@ routes.forEach(route => {
     console.log('cookie:' + req.headers["cookie"]);
     console.log('idioma request:' + req.query.lang + '|url request:' + req.originalUrl);
     console.time(`GET: ${req.originalUrl}`);
-    res.render(join(DIST_FOLDER, 'browser', 'index.html'), { req, res } );
+    res.render('index', { req });
     console.timeEnd(`GET: ${req.originalUrl}`);
   });
 });
 
 // Server static files from /browser
-app.get('/web', express.static(join(DIST_FOLDER, 'browser'), { 'index': false }));
+app.get('/web', express.static(DIST_FOLDER, { 'index': false }));
 
-app.get('/**', express.static(join(DIST_FOLDER, 'browser')));
-
-// All other routes must be resolved if exist
-/*
-app.get('*', function(req, res) {
-  res.render(join(req.url), { req });
-});
-*/
+app.get('/**', express.static(DIST_FOLDER));
 
 var http = require('http');
 
