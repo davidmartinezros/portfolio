@@ -36,7 +36,7 @@
         function removeAnimSkills() {
             $('.skill-logo').removeClass('scale-in-center');
         };
-
+        /*
         var isAnimCardsPlayed = false;
         function animCards() {
             if ($('.card').isInViewport()) {
@@ -48,7 +48,7 @@
         function removeAnimCards() {
             $('.card').removeClass('scale-in-center');
         };
-
+        */
         var isContactButtonPlayed = false;
         function animContactButton() {
             if ($('footer').isInViewport()) {

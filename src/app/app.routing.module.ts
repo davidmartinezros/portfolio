@@ -7,34 +7,35 @@ const appRoutes: Routes = [
       path: ':urlMain',
       /*component: MainComponent*/
       loadChildren: () => import("./main/main.module").then(m => m.MainModule),
-      data: { preload: true, delay:10000 }
+      data: { preload: true }
+      /*loadChildren:  './main/main.module#MainModule',*/
     },
     {
       path: ':urlMain/:group/:technology/:lang/:theme',
       /*component: ThemeGroupComponent,*/
       loadChildren: () => import("./theme/theme.module").then(m => m.ThemeModule),
-      data: { preload: true, delay:10000 }
+      data: { preload: true }
       /*loadChildren:  './theme/theme.module#ThemeModule',*/
     },
     {
       path: ':urlMain/:urlProject/:lang/:nom',
       /*component: ProjectComponent*/
       loadChildren: () => import('./project/project.module').then(m => m.ProjectModule),
-      data: { preload: true, delay:10000 }
+      data: { preload: true }
       /*loadChildren:  './project/project.module#ProjectModule',*/
     },
     {
       path: ':urlMain/dashboard',
       /*component: DashboardComponent,*/
       loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule),
-      data: { preload: true, delay:10000 }
+      data: { preload: true }
       /*loadChildren:  './dashboard/dashboard.module#DashboardModule',*/
     },
     {
       path: ':urlMain/:urlHistory',
       /*component: HistoryComponent*/
       loadChildren: () => import('./history/history.module').then(m => m.HistoryModule),
-      data: { preload: true, delay:10000 }
+      data: { preload: true }
       /*loadChildren:  './history/history.module#HistoryModule',*/
     },
     {

@@ -92,6 +92,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var counter = 0;
         var next = function next() {
             if(!el) {
+                console.log("reloadTextScramble");
                 el = document.querySelector('.text');
                 fx = new TextScramble(el);
                 setTimeout(next, 500);

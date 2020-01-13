@@ -17,6 +17,6 @@ function reloadYoutube() {
           this.appendChild(iframe);
         }
       }
-      //console.log("timeout 100ms reloadYoutube");
+      console.log("timeout 100ms reloadYoutube");
     }, 100);
   }
