@@ -1,7 +1,7 @@
 <div id="section1" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
-			<div class="alert alert-success text-center" *ngIf="authService.currentEmail">
+			<div *ngIf="authService.currentEmail" class="alert alert-success text-center">
 				<h4 class="mb-0">
 					Has iniciado sesión como
 					<span style="font-weight: bold">
@@ -77,8 +77,8 @@
 				</div>
 			</div>
 			<hr class="style-one">			
-			<div *ngIf="knowledges">
-				<div *ngFor="let k of knowledges | keys; let i = index">
+			<ng-container *ngIf="knowledges">
+				<ng-container *ngFor="let k of knowledges | keys; let i = index">
 					<div class="row text-center bar-rating" *ngIf="i%2===0">
 						<div class="col-6 bar-rating-group-main">
 							<div *ngIf="knowledges[i]" class="container bar-rating-group">
@@ -113,8 +113,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</ng-container>
+			</ng-container>
 		</div>
 	</div>
 </div>
@@ -125,11 +125,7 @@
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
 			<h3 innerHtml ="{{ 'TitleSection3' | translate }}"></h3>
-			<app-experience>
-				<div class="centered-element">
-					<div class="loader"></div>
-				</div>
-			</app-experience>
+			<app-experience></app-experience>
 		</div>
 	</div>
 </div>
@@ -140,11 +136,7 @@
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
 			<h3 innerHtml ="{{ 'TitleSection4' | translate }}"></h3>
-			<app-projects>
-				<div class="centered-element">
-					<div class="loader"></div>
-				</div>
-			</app-projects>
+			<app-projects></app-projects>
 		</div>
 	</div>
 </div>
@@ -155,11 +147,7 @@
 	<div class="row">
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
 			<h3 innerHtml ="{{ 'TitleSection6' | translate }}"></h3>
-			<app-form>
-				<div class="centered-element">
-					<div class="loader"></div>
-				</div>
-			</app-form>
+			<app-form></app-form>
 		</div>
 	</div>
 </div>

@@ -26,8 +26,8 @@
 }
 
 .card-likes {
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: 1px solid var(--my-blue);
     background-color: rgba(36, 53, 53, 0.5);
 }

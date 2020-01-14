@@ -1,8 +1,8 @@
-<div *ngIf="isLoadedTrack()">
-  <div *ngIf="!isPlayingTrack()">
+<ng-container *ngIf="isLoadedTrack()">
+  <ng-container *ngIf="!isPlayingTrack()">
     <a title="PLAY" class="button-music nav-link" (click)="playTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-play"></i> <i class="fa fa-music"></i></a>
-  </div>
-  <div *ngIf="isPlayingTrack()">
+  </ng-container>
+  <ng-container *ngIf="isPlayingTrack()">
     <a title="PAUSE" class="button-music nav-link" (click)="pauseTrack()" [ngStyle]="{'borderColor': borderColorMusic}"><i class="fa fa-pause"></i> <i class="fa fa-music"></i></a>	
-  </div>
-</div>
+  </ng-container>
+</ng-container>
