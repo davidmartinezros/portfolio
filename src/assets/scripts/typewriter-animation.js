@@ -91,17 +91,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         var counter = 0;
         var next = function next() {
-            if(!el) {
-                console.log("reloadTextScramble");
-                el = document.querySelector('.text');
-                fx = new TextScramble(el);
-                setTimeout(next, 500);
-            } else {
-                fx.setText(phrases[counter]).then(function () {
-                    setTimeout(next, 2000);
-                });
-                counter = (counter + 1) % phrases.length;
-            }
+            fx.setText(phrases[counter]).then(function () {
+                setTimeout(next, 2000);
+            });
+            counter = (counter + 1) % phrases.length;
         };
 
         next();
