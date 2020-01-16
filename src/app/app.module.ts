@@ -19,6 +19,7 @@ import { FirebaseAuthComponent } from './firebase-auth/firebase-auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MusicComponent } from './music/music.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { MatProgressBarModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     HttpClientModule,
     PipesModule,
     LazyLoadImageModule,
+    MatProgressBarModule,
     TranslateModule.forRoot({
         loader: {
           provide: TranslateLoader,

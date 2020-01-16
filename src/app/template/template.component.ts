@@ -1,7 +1,7 @@
 import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, NavigationStart, NavigationEnd, NavigationCancel } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ExperienceComponent } from '../experience/experience.component';
 import { HistoryComponent } from '../history/history.component';
@@ -22,6 +22,8 @@ declare var $: any;
 })
 
 export class TemplateComponent {
+
+    loading: boolean = true;
 
     languages: Language[];
 
@@ -72,6 +74,21 @@ export class TemplateComponent {
            // Server only code.
            this.loadServerLanguage();
         }
+    }
+
+    ngAfterViewInit() {
+        this.router.events
+            .subscribe((event) => {
+                if(event instanceof NavigationStart) {
+                    this.loading = true;
+                }
+                else if (
+                    event instanceof NavigationEnd || 
+                    event instanceof NavigationCancel
+                    ) {
+                    this.loading = false;
+                }
+            });
     }
 
     loadLanguage() {

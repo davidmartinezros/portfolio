@@ -5,6 +5,8 @@
 @import '~ngx-bar-rating/themes/br-fontawesome-o-theme.css';
 /*@import '~ngx-bar-rating/themes/br-fontawesome-theme';*/
 
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
 .bar-rating {
   padding: 10px 10px 10px 10px;
 }
@@ -229,6 +231,32 @@ h4 {
 	line-height: 20px;
 	color: #788699;
 	font-family: 'Muli', sans-serif;
+}
+
+mat-progress-bar .mat-progress-bar-buffer {
+  background: #ccc;
+}
+
+mat-progress-bar .mat-progress-bar-fill::after {
+  background-color: var(--second-background);
+}
+
+.loading-text {
+  text-align: center;
+  color:#ccc;
+}
+
+.loading-div {
+  top: 50%;
+  left: 50%;
+  width:30em;
+  height:6em;
+  margin-top: -3em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid orange;
+  background-color: var(--navbar-color);
+  position:fixed;
+  z-index: 5000;
 }
 
 #section1 {

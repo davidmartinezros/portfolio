@@ -62,9 +62,31 @@
 		</div>
 	</div>
 </nav>
-
-<div>
+<div *ngIf="loading" class="loading-div">
+	<h2 class="loading-text">Loading...</h2>
+	<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</div>			
+<ng-container *ngIf="!loading">
 	<router-outlet (activate)="onActivate($event)"></router-outlet>
+	<footer class="text-center">
+		<div class="overlay-up-icon-div">
+			<a href="" id="back-to-top" data-toggle="tooltip">
+				<i class="fa fa-angle-double-up overlay-up-icon"></i>
+			</a>
+		</div>
+		<div class="container copyrights">
+			&copy; davidmartinezros.com, 2020 <span class="rights-text">{{ 'RightsText' | translate }}</span>
+		</div>
+		<div class="contact-text">
+			{{ 'ContactText1' | translate }}<br/>
+			{{ 'ContactText2' | translate }}		
+		</div>
+		<div class="pt-3">
+			<a class="footer" href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
+			<a class="footer" href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
+			<a class="footer" href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
+		</div>
+	</footer>
 	<div class="cookie-warning hidden">
 		<div class="cookie-warning-text text-justify">
 			{{ 'CookiesBottomTitle' | translate }}
@@ -74,23 +96,4 @@
 			</div>
 		</div>
 	</div>
-</div>
-<footer class="text-center">
-	<div class="overlay-up-icon-div">
-		<a href="" id="back-to-top" data-toggle="tooltip">
-			<i class="fa fa-angle-double-up overlay-up-icon"></i>
-		</a>
-	</div>
-	<div class="container copyrights">
-		&copy; davidmartinezros.com, 2020 <span class="rights-text">{{ 'RightsText' | translate }}</span>
-	</div>
-	<div class="contact-text">
-		{{ 'ContactText1' | translate }}<br/>
-		{{ 'ContactText2' | translate }}		
-	</div>
-	<div class="pt-3">
-		<a class="footer" href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
-		<a class="footer" href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
-		<a class="footer" href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
-	</div>
-</footer>
+</ng-container>
