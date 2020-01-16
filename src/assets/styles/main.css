@@ -246,13 +246,18 @@ mat-progress-bar .mat-progress-bar-fill::after {
   color:#ccc;
 }
 
+.loading-bar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .loading-div {
   top: 50%;
   left: 50%;
-  width:30em;
+  width:90%;
   height:6em;
   margin-top: -3em; /*set to a negative number 1/2 of your height*/
-  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  margin-left: -45%; /*set to a negative number 1/2 of your width*/
   border: 1px solid orange;
   background-color: var(--navbar-color);
   position:fixed;
