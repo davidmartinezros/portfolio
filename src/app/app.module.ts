@@ -18,7 +18,6 @@ import { environment } from '../environments/environment';
 import { FirebaseAuthComponent } from './firebase-auth/firebase-auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MusicComponent } from './music/music.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
 import { MatProgressBarModule } from '@angular/material';
 
 @NgModule({
@@ -47,8 +46,7 @@ import { MatProgressBarModule } from '@angular/material';
           deps: [HttpClient, TransferState]
         }
     }),
-    AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    AppRoutingModule
   ],
   providers: [ AuthService, AngularFireDatabase, LanguageService ],
   bootstrap: [ TemplateComponent ]  // main (first) component

@@ -3,7 +3,7 @@
 </div>
 <div *ngIf="project.video" class="youtube-player" [attr.data-id]="project.video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="position: relative;padding-bottom: 56.23%;height: 0;overflow: hidden;max-width: 100%;background: #000;margin: 5px;">
     <img [lazyLoad]="project.videoImg" style="bottom: 0;display: block;left: 0;margin: auto;max-width: 100%;width: 100%;position: absolute;right: 0;top: 0;border: none;height: auto;cursor: pointer;-webkit-transition: .4s all;-o-transition: .4s all;-moz-transition: .4s all;transition: .4s all;">
-    <div style="height: 72px;width: 72px;left: 50%;top: 50%;margin-left: -36px;margin-top: -36px;position: absolute;background: url('../../assets/images/startButton.png') no-repeat;cursor: pointer;"></div>
+    <div lazyLoad="../../assets/images/startButton.png" style="height: 72px;width: 72px;left: 50%;top: 50%;margin-left: -36px;margin-top: -36px;position: absolute;cursor: pointer;"></div>
 </div>
 <img *ngIf="project.imatge" class="card-img-top" [lazyLoad]="project.imatge">
 <div class="card-likes">
