@@ -1,7 +1,7 @@
 import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute, Router, NavigationStart, NavigationEnd, NavigationCancel } from '@angular/router';
+import { ActivatedRoute, Router, NavigationStart, NavigationEnd, NavigationCancel, NavigationError, Event } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ExperienceComponent } from '../experience/experience.component';
 import { HistoryComponent } from '../history/history.component';
@@ -16,6 +16,8 @@ import { AuthService } from '../firebase-auth/auth.service';
 
 declare var $: any;
 
+declare function loadWords(): any;
+
 @Component({
     selector: 'app-template',
     templateUrl: '../template/template.component.html'
@@ -23,7 +25,7 @@ declare var $: any;
 
 export class TemplateComponent {
 
-    loading: boolean = true;
+    loaded: boolean;
 
     languages: Language[];
 
@@ -41,7 +43,19 @@ export class TemplateComponent {
         private titleService: Title,
         private metaService: Meta) {
 
-        router.events.subscribe((val) => {
+        this.router.events.subscribe((event: Event) => {
+            //loading
+            if(event instanceof NavigationStart) {
+                this.loaded = false;
+            }
+            else if (
+                event instanceof NavigationEnd || 
+                event instanceof NavigationCancel ||
+                event instanceof NavigationError
+                ) {
+                this.loaded = true;
+            }
+            //ruta
             if(location.path() != ''){
                 this.ruta = location.path()
                     .substring(0,
@@ -55,7 +69,13 @@ export class TemplateComponent {
         this.getLanguanges();
     }
 
-    onActivate(event: any) {
+    ngAfterContentInit(): void {
+        if (isPlatformBrowser(this.platformId)) {
+            loadWords();
+        }
+    }
+
+    onActivate(event: Event) {
         if (isPlatformBrowser(this.platformId)) {
             window.scroll(0,0);
         }
@@ -74,21 +94,6 @@ export class TemplateComponent {
            // Server only code.
            this.loadServerLanguage();
         }
-    }
-
-    ngAfterViewInit() {
-        this.router.events
-            .subscribe((event) => {
-                if(event instanceof NavigationStart) {
-                    this.loading = true;
-                }
-                else if (
-                    event instanceof NavigationEnd || 
-                    event instanceof NavigationCancel
-                    ) {
-                    this.loading = false;
-                }
-            });
     }
 
     loadLanguage() {
