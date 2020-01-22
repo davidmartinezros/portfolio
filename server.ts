@@ -39,12 +39,12 @@ export const routes: string[] = [
   'portfolio-full-stack-developer-software-engineer',
   'portfolio-full-stack-developer-software-engineer/project/:lang/:nom',
   'portfolio-full-stack-developer-software-engineer/group/technology/:lang/:theme',
-  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}`,
-  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('é¡¹ç›®')}/:lang/:nom`, 
-  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('ç»„')}/${encodeURIComponent('æŠ€æœ¯')}/:lang/:theme`,
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}`,
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('项目')}/:lang/:nom`, 
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('组')}/${encodeURIComponent('技术')}/:lang/:theme`,
   'portfolio-full-stack-developer-ingeniero-software/historial',
   'portfolio-full-stack-developer-software-engineer/history',
-  `${encodeURIComponent('é¡¹ç›®ç»„åˆå…¨æ ˆå¼€å‘äººå‘˜è½¯ä»¶å·¥ç¨‹å¸ˆ')}/${encodeURIComponent('è¨˜éŒ„')}`,
+  `${encodeURIComponent('项目组合全栈开发人员软件工程师')}/${encodeURIComponent('記錄')}`,
   'portfolio-full-stack-developer-software-engineer/dashboard',
   'portfolio-full-stack-developer-software-engineer/dashboard/contact'
 ];
