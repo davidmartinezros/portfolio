@@ -115,6 +115,7 @@ a:hover, a:focus {
 a.menu, a.menu:link {
   color: var(--my-blue);
   text-decoration: none;
+  text-align: center;
 }
 
 a.menu:hover, a.menu:focus {
