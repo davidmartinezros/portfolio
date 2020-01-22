@@ -4,6 +4,7 @@
 
 .job-desc {
   line-height: 170%;
+  text-align: justify;
 }
 
 .job-highlight {
@@ -15,14 +16,13 @@
 }
 
 .job-date, .job-name, .job-desc {
-  color: var(--white-text-color);
+  color: #ccc;
 }
 
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .timeline ul {

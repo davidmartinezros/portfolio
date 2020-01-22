@@ -1,5 +1,5 @@
 .navbar {
-  font-size: 13px !important;
+  font-size: 1em !important;
   font-family: 'Open Sans', sans-serif !important;
   background-color: var(--navbar-color);
   letter-spacing: 2px;
@@ -8,12 +8,12 @@
 }
 
 .navbar li a.menu {
-  color: var(--white-text-color) !important;
+  /*color: var(--white-text-color) !important;*/
   line-height: 34px;
 }
 
 .navbar li select {
-  color: var(--white-text-color) !important;
+  /*color: var(--white-text-color) !important;*/
   line-height: 34px;
 }
 

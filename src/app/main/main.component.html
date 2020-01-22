@@ -12,34 +12,32 @@
 			<h3 innerHtml ="{{ 'TitleSection1' | translate }}"></h3>
 			<div class="row">
 				<div class="col-sm-7">
-					<div class="text-justify">
-						<p innerHtml="{{ 'Section1Text1' | translate }}"></p>
-						<p innerHtml="{{ 'Section1Text2' | translate }}"></p>
-						<p innerHtml="{{ 'Section1Text3' | translate }}"></p>
-						<h4 style="padding-top:20px;padding-bottom: 20px" innerHtml="{{ 'Section1Text4' | translate }}"></h4>
-						<p innerHtml="{{ 'Section1Text5' | translate }}"></p>
-						<p style="font-size: 20px" innerHtml="{{ 'Section1Text6' | translate }}"></p>
-						<div style="border: 1px solid var(--my-blue); margin: auto; width: 80%; padding: 10px;">
-									<p>
-										<span class='porposal-text'>
-											<u>{{ 'Section1Text7.1' | translate }}</u>
-										</span>
-										<span class='icon-light' style="float: right;">
-											<i class='icon fa fa-lightbulb-o'></i>
-										</span>
-									</p>
+					<p innerHtml="{{ 'Section1Text1' | translate }}"></p>
+					<p innerHtml="{{ 'Section1Text2' | translate }}"></p>
+					<p innerHtml="{{ 'Section1Text3' | translate }}"></p>
+					<h4 style="padding-top:20px;padding-bottom: 20px" innerHtml="{{ 'Section1Text4' | translate }}"></h4>
+					<p innerHtml="{{ 'Section1Text5' | translate }}"></p>
+					<p style="font-size: 1.5em" innerHtml="{{ 'Section1Text6' | translate }}"></p>
+					<div style="border: 1px solid var(--my-blue); margin: auto; width: 80%; padding: 10px;">
+								<p>
+									<span class='porposal-text'>
+										<u>{{ 'Section1Text7.1' | translate }}</u>
+									</span>
+									<span class='icon-light' style="float: right;">
+										<i class='icon fa fa-lightbulb-o'></i>
+									</span>
+								</p>
+								<div style="padding-left: 20px">
+									<b class='job-lowlight'>"{{ 'Section1Text7.2' | translate }}"</b>
+									<span style="color:var(--my-blue)">= {{ '{' }}</span>
 									<div style="padding-left: 20px">
-										<b class='job-lowlight'>"{{ 'Section1Text7.2' | translate }}"</b>
-										<span style="color:var(--my-blue)">= {{ '{' }}</span>
-										<div style="padding-left: 20px">
-											<b>"{{ 'Section1Text7.3' | translate}}"</b>
-										</div>
-										<span style="color:var(--my-blue)">{{ '}' }};</span>
+										<b>"{{ 'Section1Text7.3' | translate}}"</b>
 									</div>
-						</div>
-						<p style="margin-top: 20px" innerHtml="{{ 'Section1Text8' | translate }}"></p>
-						<h4 style="padding-top:20px;padding-bottom: 20px" innerHtml="{{ 'Section1Text9' | translate }}"></h4>
+									<span style="color:var(--my-blue)">{{ '}' }};</span>
+								</div>
 					</div>
+					<p style="margin-top: 20px" innerHtml="{{ 'Section1Text8' | translate }}"></p>
+					<h4 style="padding-top:20px;padding-bottom: 20px" innerHtml="{{ 'Section1Text9' | translate }}"></h4>
 				</div>
 				<div class="col-sm-5">
 					<!--<img lazyLoad="assets/images/foto.jpg" class="my-photo" title="David Martínez Ros">-->
@@ -79,7 +77,7 @@
 			<hr class="style-one">			
 			<ng-container *ngIf="knowledges">
 				<ng-container *ngFor="let k of knowledges | keys; let i = index">
-					<div class="row text-center bar-rating" *ngIf="i%2===0">
+					<div class="row bar-rating" *ngIf="i%2===0">
 						<div class="col-6 bar-rating-group-main">
 							<div *ngIf="knowledges[i]" class="container bar-rating-group">
 								<h4 innerHtml="{{ knowledges[i].group }}"></h4>

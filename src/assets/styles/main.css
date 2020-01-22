@@ -68,15 +68,15 @@ html {
 body {
   background-color: var(--second-background);
   color: var(--white-text-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Lato", Calibri, Arial, sans-serif;
   text-shadow: 0 -1px rgba(0,0,0,0.6);
   margin-bottom: 110px;
-  font-size: 13px !important;
+  font-size: 1em !important;
   font-weight: 400 !important;
 }
 
-.btn, .form-control {
-  font-size: 12px !important;
+/*.btn, */.form-control {
+  font-size: 1em !important;
 }
 
 .job-date {
@@ -182,7 +182,7 @@ select.menu:hover {
 
 p {
   font-family: "Lato", Calibri, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 1.4;
   text-align: justify;
   color: #ccc;
@@ -215,19 +215,19 @@ h3 {
 	padding: 0 0 0 20px;
 	font-weight: normal;
 	color: white;
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: "Lato", Calibri, Arial, sans-serif;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
 	position: relative;
-	font-size: 30px;
+	font-size: 2.5em;
 	line-height: 40px;
 }
 
 h4 {
   margin: 1em 0 0.5em 0;
 	font-weight: 600;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: "Lato", Calibri, Arial, sans-serif;
 	position: relative;
-	font-size: 18px;
+	font-size: 1.2em;
 	line-height: 20px;
 	color: #788699;
 	font-family: 'Muli', sans-serif;
