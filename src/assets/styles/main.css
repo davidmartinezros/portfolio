@@ -100,44 +100,44 @@ body {
   border: 1px solid white;
 }
 
-a, a:link, a:focus {
+a, a:link {
   color: var(--my-blue);
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
-a:hover {
+a:hover, a:focus {
   color: var(--second-color);
   text-decoration: underline;
   cursor: pointer;
 }
 
-a.menu, a.menu:link, a.menu:focus {
+a.menu, a.menu:link {
   color: var(--my-blue);
   text-decoration: none;
 }
 
-a.menu:hover {
+a.menu:hover, a.menu:focus {
   color: var(--second-color);
   text-decoration: none;
 }
 
-a.boto, a.boto:link, a.boto:focus {
+a.boto, a.boto:link {
   /*color: black;*/
   text-decoration: none;
 }
 
-a.boto:hover {
+a.boto:hover, a.boto:focus {
   color: black;
   text-decoration: none;
 }
 
-a.footer, a.footer:link, a.footer:focus {
+a.footer, a.footer:link {
   color: white;
   text-decoration: underline;
 }
 
-a.footer:hover {
+a.footer:hover, a.footer:focus {
   color: var(--second-color);
   text-decoration: underline;
 }
