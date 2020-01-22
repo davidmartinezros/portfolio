@@ -3,8 +3,8 @@
 }
 
 .job-desc {
-  line-height: 170%;
   text-align: justify;
+  font-size: 0.8em;
 }
 
 .job-highlight {
