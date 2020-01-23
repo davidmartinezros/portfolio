@@ -36,10 +36,8 @@
 					<li class="nav-item">
 						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
 					</li>
-					<li class="d-none d-sm-block">
-						<a class="menu nav-link" [routerLink]="rutaHistorial">
-							{{ 'TitleSection5' | translate }}
-						</a>
+					<li class="nav-item">
+						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="rutaHistorial">{{ 'TitleSection5' | translate }}</a>
 					</li>
 					<li class="nav-item">
 						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section6">{{ 'TitleSection6' | translate }}</a>
@@ -92,13 +90,13 @@
 			<a class="footer" href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github"></i></a>
 		</div>
 	</footer>
-	<div class="cookie-warning hidden">
-		<div class="cookie-warning-text">
-			{{ 'CookiesBottomTitle' | translate }}
-			<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
-			<div class="row mx-auto justify-content-center pt-3">
-				<button class="btn btn-outline-primary btn-sm btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
-			</div>
+</ng-template>
+<div class="cookie-warning hidden">
+	<div class="cookie-warning-text">
+		{{ 'CookiesBottomTitle' | translate }}
+		<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
+		<div class="row mx-auto justify-content-center pt-3">
+			<button class="btn btn-outline-primary btn-sm btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
 		</div>
 	</div>
-</ng-template>
+</div>
