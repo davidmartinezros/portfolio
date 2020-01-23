@@ -8,88 +8,9 @@
 	</div>	
 </ng-template>
 <ng-template #templateContent>
-	<nav class="nav navbar navbar-dark navbar-expand-md ml-auto fixed-top">
-		<div class="container barra-menu">
-			<span class="navbar-brand" href="#" routerLink="main">
-				<span class="blinker">_</span>
-				<span class="text"></span>
-			</span>
-			<div class="navbar-toggler music-div">
-				<app-music></app-music>
-			</div>
-			<button class="navbar-toggler padding-navbar-button color-navbar-button" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
-				aria-controls="collapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="collapsingNavbar2">
-				<ul class="navbar-nav ml-auto">
-					<hr class="style-three d-block d-sm-none">
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
-					</li>
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section2">{{ 'TitleSection2' | translate }}</a>
-					</li>
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section3">{{ 'TitleSection3' | translate }}</a>
-					</li>
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section4">{{ 'TitleSection4' | translate }}</a>
-					</li>
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="rutaHistorial">{{ 'TitleSection5' | translate }}</a>
-					</li>
-					<li class="nav-item">
-						<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section6">{{ 'TitleSection6' | translate }}</a>
-					</li>
-					<li class="nav-item" *ngIf="authService.authenticated">
-						<a class="menu nav-link" routerLink="portfolio-full-stack-developer-software-engineer/dashboard" routerLinkActive="active">
-							{{ 'TitleSection7' | translate }}
-						</a>
-					</li>
-					<li class="nav-item paddings-10 margin-auto" *ngIf="languages">
-						<select class="menu nav-link" (change)="onClickSection()" [(ngModel)]="language" (change)="changeLanguage($event.target.value)">
-							<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
-						</select>
-					</li>
-					<hr class="style-three d-block d-sm-none">
-					<li class="nav-item">
-						<a class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fa fa-sign-in" aria-hidden="true"></i>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-							<div class="container-fluid">
-								<app-firebase-auth></app-firebase-auth>
-							</div>
-						</div>
-					</li>
-					<li class="nav-item margin-auto d-none d-sm-block">
-						<app-music></app-music>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<app-menu></app-menu>
 	<router-outlet (activate)="onActivate($event)"></router-outlet>
-	<footer class="text-center">
-		<div class="overlay-up-icon-div">
-			<a href="" id="back-to-top" data-toggle="tooltip">
-				<i class="fa fa-angle-double-up overlay-up-icon"></i>
-			</a>
-		</div>
-		<div class="container copyrights">
-			&copy; davidmartinezros.com, 2020 <span class="rights-text">{{ 'RightsText' | translate }}</span>
-		</div>
-		<div class="contact-text">
-			{{ 'ContactText1' | translate }}<br/>
-			{{ 'ContactText2' | translate }}		
-		</div>
-		<div class="pt-3">
-			<a class="footer" href="mailto:davidnezan@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
-			<a class="footer" href="https://www.linkedin.com/in/davidmartinezros/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
-			<a class="footer" href="http://github.com/davidmartinezros" target="_blank" rel="noopener">Github <i class="icon fa fa-github"></i></a>
-		</div>
-	</footer>
+	<app-footer></app-footer>
 </ng-template>
 <div class="cookie-warning hidden">
 	<div class="cookie-warning-text">

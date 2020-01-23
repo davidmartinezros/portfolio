@@ -3,7 +3,7 @@ import { HttpHeaders } from '@angular/common/http';
 import { TranslateService } from '@ngx-translate/core';
 import 'rxjs/add/operator/toPromise';
 import { Project } from './project';
-import { LanguageComponent } from '../template/language.component';
+import { LanguageComponent } from '../menu/language.component';
 
 
 
