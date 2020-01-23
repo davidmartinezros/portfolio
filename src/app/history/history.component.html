@@ -1,57 +1,19 @@
-<ng-container *ngIf="projects">
-  <div class="container-fluid" style="margin-top: 100px; margin-bottom: 100px">
-    <div class="row">
-      <div class="col-12">
-        <table class="historyTable">
-          <tr>
-            <th>{{ 'projectFields.captura' | translate}}</th>
-            <th>{{ 'projectFields.tema' | translate}}</th>
-            <th>{{ 'projectFields.meGustas' | translate}}</th>
-            <th>{{ 'projectFields.tipus' | translate}}</th>
-            <th>{{ 'projectFields.estat' | translate}}</th>
-            <th>{{ 'projectFields.data' | translate}}</th>
-            <th>{{ 'projectFields.descripcio' | translate}}</th>
-            <th>{{ 'projectFields.links' | translate}}</th>
-          </tr>
-          <tr *ngFor="let key of projects | keys; let i = index">
-            <td>
-                <!--<iframe *ngIf="projects[i].video" [src]="projects[i].video | safeUrl" frameborder="0" allowfullscreen></iframe>-->
-                <div *ngIf="projects[i].video" style="padding: 2px;">
-                  <div class="youtube-player" [attr.data-id]="projects[i].video" data-related="0" data-control="1" data-info="0" data-fullscreen="1" style="width:380px;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-                    <img [lazyLoad]="projects[i].videoImg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
-                    <div lazyLoad="../../assets/images/startButton.png" style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute;"></div>
-                  </div>
-                </div>
-                <img *ngIf="projects[i].imatge" class="card-img-top" [lazyLoad]="projects[i].imatge">
-            </td>
-            <td *ngIf="projects[i]" class="text-center">
-              <span>{{projects[i].tema}}</span>
-            </td>
-            <td *ngIf="projects[i]" class="text-center">
-              <a (click)="likeDislikeProject(projects[i])"><span class="styleTextBlue">{{ projects[i].likes }} {{ meGustas }}</span> <span [(class)]="projects[i].styleLike"><i class="fa fa-heart"></i></span></a>
-            </td>
-            <td *ngIf="projects[i]" class="text-center">
-                <span>{{projects[i].tipus}}</span>
-            </td>
-            <td *ngIf="projects[i]" class="text-center">
-              <span>{{projects[i].estat}}</span>
-            </td>
-            <td *ngIf="projects[i]" class="text-center">
-              <span>{{projects[i].data}}</span>
-            </td>
-            <td>
-              <h4 style="margin-top: 0px">{{projects[i].titol}}</h4>
-              <p [innerHTML]="projects[i].html | safeHtml"></p>
-            </td>
-            <td>
-              <a *ngIf="projects[i].link!=null" target="_blank" rel="noopener" [href]="projects[i].link | safeUrl">{{ demo }}</a><br/>
-              <a *ngIf="projects[i].repositori!=null" target="_blank" rel="noopener" [href]="projects[i].repositori | safeUrl">{{ git }}</a><br/>
-              <a *ngIf="projects[i].urlProjecte!=null" [routerLink]="projects[i].urlProjecte">{{ detall }}</a><br/>
-              <a *ngIf="projects[i].urlGrup!=null" [routerLink]="projects[i].urlGrup">{{ grup }}</a>
-            </td>
-          </tr>
-        </table>
-      </div>
+<div id="section1" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
+      <h3 innerHtml ="{{ 'TitleHistory' | translate }}"></h3>
+      <p innerHtml ="{{ 'SubtitleHistory' | translate }}"></p>
+      <ng-container *ngIf="projects">
+        <ng-container *ngFor="let key of projects | keys; let i = index">
+          <div *ngIf="i%2===0" class="card-deck">
+              
+            <app-project-content *ngIf="projects[i]" [project]="projects[i]" class="card text-center"></app-project-content>
+
+            <app-project-content *ngIf="projects[i+1]" [project]="projects[i+1]" class="card text-center"></app-project-content>
+
+          </div>
+        </ng-container>
+      </ng-container>
     </div>
   </div>
-</ng-container>
+</div>

@@ -182,13 +182,16 @@
     "TagDescriptionIndex": "Portfolio. See my projects. Full Stack Web Developer. Front-end & Back-end Web Developer. Tech stack: Angular, Java, JavaScript, Python, Unity.",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "portfolio-full-stack-developer-software-engineer",
-    "UrlHistory": "history",
     "TitleSection1": "About me",
     "TitleSection2": "Habilities",
+    "SubtitleSection2": "It shows all the skills that I have acquired during my professional experience.",
     "TitleSection3": "Experience",
+    "SubtitleSection3": "It shows professional experiences for 14 years to the present.",
     "TitleSection4": "Projects",
-    "TitleSection5": "Record",
+    "SubtitleSection4": "It shows the 20 most relevant projects I've done.",
+    "TitleSection5": "History",
     "TitleSection6": "Contact",
+    "SubtitleSection6": "Contact me for any project or collaboration.",
     "TitleSection7": "Admin",
     "Section1Text1": "I'm David, a Full Stack Developer with extensive experience in software engineering at all levels.",
     "Section1Text2": "I have more than 14 years of professional experience and 6 years of university training, where I have studied computer engineering and multimedia engineering.",
@@ -341,11 +344,15 @@
             ]
         }
     ],
-    "TitleProject": "PROJECT",
+    "TitleProject": "Project",
     "UrlProject": "project",
     "UrlGroup": "group",
-    "TitleTechnology": "TECHNOLOGY",
+    "TitleTechnology": "Technology",
+    "SubtitleTechnology": "It shows all the projects that I have done of the technology in question.",
     "UrlTechnology": "technology",
+    "TitleHistory": "History",
+    "SubtitleHistory": "It shows all the projects that I have developed.",
+    "UrlHistory": "history",
     "projectFields":
     {
         "tema": "Theme",
@@ -448,21 +455,6 @@
         "videoImg": "https://i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
         "html": "This project is a card finder from Magic The Gathering (MTG), a card game widely spread around the world.<br/><br/>It is made with Angular 7 and Angular-Cli.<br/><br/>Use the <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
-        },
-        {
-        "id": 30,
-        "visible": false,
-        "nom": "algolia-product-search-engine",
-        "titol": "Project Algolia: Product Search engine",
-        "tema": "Javascript",
-        "tipus": "Project",
-        "data": "03/26/2019",
-        "estat": "FINISHED",
-        "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
-        "video": "lN0-mnwyfrE",
-        "videoImg": "https://i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
-        "html": "This project by Algolia is a product search engine separated by configurable widgets. <br/> <br/> It works with bestbuy to feed data. <br/> <br/> Supports the last two versions of Chrome, Edge browsers , Safari and Firefox.",    
-        "repositori": "https://github.com/algolia/instantsearch.js/"
         },
         {
         "id": 29,

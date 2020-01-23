@@ -182,13 +182,16 @@
     "TagDescriptionIndex": "Portfolio. Mira mis proyectos. Full Stack Web Developer. Front-end & Back-end Web Developer. Tech stack: Angular, Java, JavaScript, Python, Unity.",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "portfolio-full-stack-developer-ingeniero-software",
-    "UrlHistory": "historial",
     "TitleSection1": "Sobre mí",
     "TitleSection2": "Habilidades",
+    "SubtitleSection2": "Muestra todas las habilidades que he ido adquiriendo durante mi experiencia profesional.",
     "TitleSection3": "Experiencia",
+    "SubtitleSection3": "Muestra las experiencias profesionales desde hace 14 años hasta la actualidad.",
     "TitleSection4": "Proyectos",
+    "SubtitleSection4": "Muestra los 20 proyectos más relevantes que he realizado.",
     "TitleSection5": "Historial",
     "TitleSection6": "Contacto",
+    "SubtitleSection6": "Contacta conmigo para cualquier proyecto o colaboración.",
     "TitleSection7": "Admin",
     "Section1Text1": "Soy David, un Full Stack Developer con amplia experiencia en la ingeniería de software a todos los niveles.",
     "Section1Text2": "Cuento con más de 14 años de experiencia profesional y 6 años de formación universitaria, donde he cursado ingeniería informática e ingeniería multimedia.",
@@ -341,11 +344,15 @@
             ]
         }
     ],
-    "TitleProject": "PROYECTO",
+    "TitleProject": "Proyecto",
     "UrlProject": "proyecto",
     "UrlGroup": "grupo",
-    "TitleTechnology": "TECNOLOGÍA",
+    "TitleTechnology": "Tecnología",
+    "SubtitleTechnology": "Muestra todos los proyectos que he realizado de la tecnología en cuestión.",
     "UrlTechnology": "tecnologia",
+    "TitleHistory": "Historial",
+    "SubtitleHistory": "Muestra todos los proyectos que he desarrollado.",
+    "UrlHistory": "historial",
     "projectFields":
     {
         "tema": "Tema",
@@ -448,21 +455,6 @@
         "videoImg": "https://i.ytimg.com/vi/327sSXWQTQ4/hqdefault.jpg",
         "html": "Este proyecto es un buscador de cartas de Magic The Gathering (MTG), un juego de cartas muy extendido en todo el mundo.<br/><br/>Está realizado con Angular 7 y Angular-Cli.<br/><br/>Usa el <a href='https://github.com/MagicTheGathering/mtg-sdk-typescript/blob/master/README.md' target='_blank'>Mtg-Sdk-Typescript</a>.",    
         "repositori": "https://github.com/davidmartinezros/black-lotus/"
-        },
-        {
-        "id": 30,
-        "visible": false,
-        "nom": "algolia-motor-buscador-productos",
-        "titol": "Proyecto Algolia: Motor de buscador de productos",
-        "tema": "Javascript",
-        "tipus": "Project",
-        "data": "03/26/2019",
-        "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Javascript/instant-search-demo/",
-        "video": "lN0-mnwyfrE",
-        "videoImg": "https://i.ytimg.com/vi/lN0-mnwyfrE/hqdefault.jpg",
-        "html": "Este proyecto realizado por Algolia es un buscador de productos separado por widgets configurables.<br/><br/>Trabaja con bestbuy para nutrirse de datos.<br/><br/>Soporta las dos últimas versiones de los navegadores Chrome, Edge, Safari y Firefox.",    
-        "repositori": "https://github.com/algolia/instantsearch.js/"
         },
         {
         "id": 29,
