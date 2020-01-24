@@ -25,25 +25,25 @@ function eraseCookie(name) {
     createCookie(name, "", -1);
 }
 
-(function () {
-    $(document).ready(function () {
-        var cookieWarningName = 'cookie-warning';
+function loadWarning() {
+    console.log("loadWarning");
+    var cookieWarningName = 'cookie-warning';
 
-        if (readCookie(cookieWarningName) != 1) {
-            showCookieWarning();
-            hideOnClickCookieWarning();
-        }
+    if (readCookie(cookieWarningName) != 1) {
+        showCookieWarning();
+        hideOnClickCookieWarning();
+    }
+}
 
-        function hideOnClickCookieWarning() {
-            $('.btn-cookie-warning').on('click', function () {
-                $('.cookie-warning').addClass('hidden');
-                createCookie(cookieWarningName, 1, 30);
-            });
-        }
-
-        function showCookieWarning() {
-            $('.cookie-warning').removeClass('hidden');
-        }
-
+function hideOnClickCookieWarning() {
+    console.log("hideOnClickCookieWarning");
+    $('.btn-cookie-warning').on('click', function () {
+        $('.cookie-warning').addClass('hidden');
+        createCookie(cookieWarningName, 1, 30);
     });
-})();
+}
+
+function showCookieWarning() {
+    console.log("showCookieWarning");
+    $('.cookie-warning').removeClass('hidden');
+}

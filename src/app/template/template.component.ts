@@ -2,9 +2,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationCancel, NavigationError } from '@angular/router';
 
-declare var $: any;
-
-declare function loadWords(): any;
+declare function loadWarning(): any;
 
 @Component({
     selector: 'app-template',
@@ -17,6 +15,10 @@ export class TemplateComponent {
 
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         private router: Router) {
+
+    }
+
+    ngOnInit() {
         this.router.events.subscribe((event: Event) => {
             //loading
             if(event instanceof NavigationStart) {
@@ -32,6 +34,12 @@ export class TemplateComponent {
         });
     }
 
+    ngAfterViewInit() {
+        if (isPlatformBrowser(this.platformId)) {
+            loadWarning();
+        }
+    }
+    
     onActivate(event: Event) {
         if (isPlatformBrowser(this.platformId)) {
             window.scroll(0,0);
