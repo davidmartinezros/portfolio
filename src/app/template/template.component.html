@@ -9,8 +9,12 @@
 </ng-template>
 <ng-template #templateContent>
 	<app-menu></app-menu>
-	<router-outlet (activate)="onActivate($event)"></router-outlet>
-	<app-footer></app-footer>
+	<div [@routeAnimations]="getAnimationData(outlet)">
+		<router-outlet #outlet="outlet" (activate)="onActivate($event)"></router-outlet>
+	</div>
+	<div style="position: relative">
+		<app-footer></app-footer>
+	</div>
 </ng-template>
 <div class="cookie-warning hidden">
 	<div class="cookie-warning-text">

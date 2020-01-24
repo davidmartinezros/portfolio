@@ -61,7 +61,6 @@ html {
   --timeline-background: var(--second-background);
   --timeline-item: #434A54;
   --timeline-highlight: var(--second-color);
-  position: relative;
   overflow-x: hidden;
 }
 
@@ -70,7 +69,7 @@ body {
   color: var(--white-text-color);
   font-family: "Lato", Calibri, Arial, sans-serif;
   text-shadow: 0 -1px rgba(0,0,0,0.6);
-  margin-bottom: 110px;
+  /*margin-bottom: 110px;*/
   font-size: 1em !important;
   font-weight: 400 !important;
 }
@@ -265,8 +264,17 @@ mat-progress-bar .mat-progress-bar-fill::after {
   z-index: 5000;
 }
 
+#section-alone {
+  padding-top: 40px;
+  margin-bottom: 250px;
+}
+
 #section1 {
   padding-top: 40px;
+}
+
+#section6 {
+  margin-bottom: 230px;
 }
 
 #section1, #section2, #section3, #section4, #section6 {

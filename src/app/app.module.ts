@@ -12,6 +12,7 @@ import { environment } from '../environments/environment';
 import { MatProgressBarModule } from '@angular/material';
 import { MenuModule } from './menu/menu.module';
 import { FooterModule } from './footer/footer.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FooterModule } from './footer/footer.module';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     BrowserModule.withServerTransition({appId: 'davidmartinezros.com'}),
+    BrowserAnimationsModule,
     BrowserTransferStateModule,
     TransferHttpCacheModule,
     HttpClientModule,

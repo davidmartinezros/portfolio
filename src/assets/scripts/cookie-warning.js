@@ -26,24 +26,19 @@ function eraseCookie(name) {
 }
 
 function loadWarning() {
-    console.log("loadWarning");
-    var cookieWarningName = 'cookie-warning';
-
-    if (readCookie(cookieWarningName) != 1) {
+    if (readCookie('cookie-warning') != 1) {
         showCookieWarning();
         hideOnClickCookieWarning();
     }
 }
 
 function hideOnClickCookieWarning() {
-    console.log("hideOnClickCookieWarning");
     $('.btn-cookie-warning').on('click', function () {
         $('.cookie-warning').addClass('hidden');
-        createCookie(cookieWarningName, 1, 30);
+        createCookie('cookie-warning', 1, 30);
     });
 }
 
 function showCookieWarning() {
-    console.log("showCookieWarning");
     $('.cookie-warning').removeClass('hidden');
 }
