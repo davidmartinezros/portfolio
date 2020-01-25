@@ -1,7 +1,7 @@
-import { isPlatformBrowser, isPlatformServer, Location } from '@angular/common';
+import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute, Router, Event } from '@angular/router';
+import { ActivatedRoute, Event } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ExperienceComponent } from '../experience/experience.component';
 import { HistoryComponent } from '../history/history.component';
@@ -34,24 +34,10 @@ export class MenuComponent {
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
         private translate: TranslateService,
         private route: ActivatedRoute,
-        private location: Location,
-        private router: Router,
         public authService: AuthService,
         private languageService: LanguageService,
         private titleService: Title,
         private metaService: Meta) {
-
-        this.router.events.subscribe((event: Event) => {
-            //ruta
-            if(location.path() != ''){
-                this.ruta = location.path()
-                    .substring(0,
-                        location.path().substring(1).indexOf('/')==-1?
-                            location.path().length:(location.path().substring(1).indexOf('/') + 1));
-            } else {
-                this.ruta = 'portfolio-full-stack-developer-software-engineer'
-            }
-        });
 
         this.getLanguanges();
     }
@@ -177,6 +163,7 @@ export class MenuComponent {
         .toPromise()        
         .then(urlMain => {
             // Sets the rutaHistorial
+            this.ruta = "/" + urlMain;
             this.translate.get("UrlHistory")
             .toPromise()        
             .then(urlHistory => {

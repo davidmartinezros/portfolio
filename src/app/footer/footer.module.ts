@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { TranslateModule } from "@ngx-translate/core";
 import { CommonModule } from "@angular/common";
 import { FooterComponent } from "./footer.component";
+import { RouterModule } from "@angular/router";
 
 @NgModule({
     declarations: [ 
@@ -9,7 +10,8 @@ import { FooterComponent } from "./footer.component";
     ],
     imports: [
       CommonModule,
-      TranslateModule
+      TranslateModule,
+      RouterModule
     ],
     providers: [ ],
     exports: [ FooterComponent ]

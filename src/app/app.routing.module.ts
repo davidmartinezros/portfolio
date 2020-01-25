@@ -56,6 +56,7 @@ const appRoutes: Routes = [
       /*enableTracing: true, */// <-- debugging purposes only
       preloadingStrategy: CustomPreloadingStrategy,
       scrollPositionRestoration: 'enabled',
+      onSameUrlNavigation: 'reload',
       anchorScrolling: 'enabled',
       scrollOffset: [0, 64],
     }

@@ -10,7 +10,7 @@
 <ng-template #templateContent>
 	<app-menu></app-menu>
 	<div [@routeAnimations]="getAnimationData(outlet)">
-		<router-outlet #outlet="outlet" (activate)="onActivate($event)"></router-outlet>
+		<router-outlet #outlet="outlet"></router-outlet>
 	</div>
 	<div style="position: relative">
 		<app-footer></app-footer>
