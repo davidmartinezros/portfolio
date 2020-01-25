@@ -1,6 +1,6 @@
 <div>
-  <a *ngIf="showAll" [class]="getStyle('All')" (click)="selectOption('All')">All</a>
-  <a *ngIf="showBest20" [class]="getStyle('Best20')" (click)="selectOption('Best20')">Best 20</a>
+  <a *ngIf="!isThemeGroup" [class]="getStyle('All')" (click)="selectOption('All')">All</a>
+  <a *ngIf="!isThemeGroup" [class]="getStyle('Best20')" (click)="selectOption('Best20')">Best 20</a>
   <a [class]="getStyle('Angular')" (click)="selectOption('Angular')">Angular</a>
   <a [class]="getStyle('Java')" (click)="selectOption('Java')">Java</a>
   <a [class]="getStyle('Javascript')" (click)="selectOption('Javascript')">Javascript</a>

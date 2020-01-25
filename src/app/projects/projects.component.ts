@@ -19,8 +19,7 @@ declare function readCookie(name): any;
  export class ProjectsComponent {
 
     @Input() filter: string;
-    @Input() showAll: boolean;
-    @Input() showBest20: boolean;
+    @Input() isThemeGroup: boolean;
     @Output() theme = new EventEmitter<string>();
 
     isAll = true;
@@ -149,7 +148,11 @@ declare function readCookie(name): any;
                                         this.getProjectLikes(p);
                                         this.loadProjectStyle(p);
                                         p.urlProjecte = ruta + "/" + p.nom;
-                                        p.urlGrup = rutaGrup + "/" + p.tema.toLowerCase();
+                                        if(this.isThemeGroup) {
+                                            p.urlGrup = null;
+                                        } else {
+                                            p.urlGrup = rutaGrup + "/" + p.tema.toLowerCase();
+                                        }
                                     }
                                 });
                             });
