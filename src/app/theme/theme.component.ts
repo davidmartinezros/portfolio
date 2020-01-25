@@ -25,8 +25,8 @@ import { ProjectContentComponent } from '../project-content/project.content.comp
         });
 
         ThemeComponent.updateStuff.subscribe(res => {
-                // here fire functions that fetch the data from the api
-                this.sub = this.route.params.subscribe(params => {
+            // here fire functions that fetch the data from the api
+            this.sub = this.route.params.subscribe(params => {
                 this.lang = params['lang'];
                 this.theme = params['theme'];
                 this.theme = this.theme.substr(0,1).toUpperCase() + this.theme.substr(1,this.theme.length);

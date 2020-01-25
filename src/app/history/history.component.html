@@ -3,18 +3,7 @@
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
       <h3 innerHtml ="{{ 'TitleHistory' | translate }}"></h3>
       <p innerHtml ="{{ 'SubtitleHistory' | translate }}"></p>
-      <!--ng-container *ngIf="projects">
-        <ng-container *ngFor="let key of projects | keys; let i = index">
-          <div *ngIf="i%2===0" class="card-deck">
-              
-            <app-project-content *ngIf="projects[i]" [project]="projects[i]" class="card text-center"></app-project-content>
-
-            <app-project-content *ngIf="projects[i+1]" [project]="projects[i+1]" class="card text-center"></app-project-content>
-
-          </div>
-        </ng-container>
-      </!--ng-container-->
-      <app-projects filter="All"></app-projects>
+      <app-projects filter="All" [showAll]="true" [showBest20]="true"></app-projects>
     </div>
   </div>
 </div>

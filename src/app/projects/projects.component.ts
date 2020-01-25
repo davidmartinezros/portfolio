@@ -19,6 +19,8 @@ declare function readCookie(name): any;
  export class ProjectsComponent {
 
     @Input() filter: string;
+    @Input() showAll: boolean;
+    @Input() showBest20: boolean;
     @Output() theme = new EventEmitter<string>();
 
     isAll = true;
@@ -41,14 +43,13 @@ declare function readCookie(name): any;
             ProjectsComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
                 //this.getProjects();
-                this.selectOption(this.filter);
+                this.initOption(this.filter);
                 ProjectContentComponent.updateStuff.next(false);
             });
     }
       
     ngOnInit(): void {
-        //this.getProjects();
-        this.selectOption(this.filter);
+        this.initOption(this.filter);
     }
 
     ngAfterContentInit(): void {
@@ -58,6 +59,11 @@ declare function readCookie(name): any;
     }
 
     selectOption(filter) {
+        this.theme.emit(filter);
+        this.initOption(filter);
+    }
+
+    initOption(filter) {
         this.filter = filter;
         if(filter == 'All') {
             this.isAll = true;
@@ -107,7 +113,7 @@ declare function readCookie(name): any;
             this.isJavascript = false;
             this.isUnity = true;
             this.isGoogleTrends = false;
-        } else if(filter == 'Google Trends') {
+        } else if(filter == 'Google trends') {
             this.isAll = false;
             this.isBest20 = false;
             this.isAngular = false;
@@ -116,7 +122,6 @@ declare function readCookie(name): any;
             this.isUnity = false;
             this.isGoogleTrends = true;
         }
-        this.theme.emit(filter);
         this.projectService.getFilteredProjects(filter)
             .then(projects => 
             {
@@ -169,7 +174,7 @@ declare function readCookie(name): any;
             return this.isJavascript ? "activeGroup": "linkGroup";
         } else if(filter == 'Unity') {
             return this.isUnity ? "activeGroup": "linkGroup";
-        } else if(filter == 'GoogleTrends') {
+        } else if(filter == 'Google trends') {
             return this.isGoogleTrends ? "activeGroup": "linkGroup";
         }
     }
