@@ -18,15 +18,17 @@ declare function readCookie(name): any;
 
  export class ProjectsComponent {
 
+    isAll = true;
+    isBest20 = false;
+    isAngular = false;
+    isJava = false;
+    isJavascript = false;
+    isUnity = false;
+    isGoogleTrends = false;
+
+    filterOption: string;
+
     projects: Project[];
-
-    evaluatingProject: Project;
-
-    demo: string;
-    git: string;
-    detall: string;
-    grup: string;
-    meGustas: string;
 
     public static updateStuff: Subject<any> = new Subject();
 
@@ -37,13 +39,15 @@ declare function readCookie(name): any;
         private projectFirebaseService: ProjectFirebaseService) {
             ProjectsComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
-                this.getProjects();
+                //this.getProjects();
+                this.selectOption('Best20');
                 ProjectContentComponent.updateStuff.next(false);
             });
     }
       
     ngOnInit(): void {
-        this.getProjects();
+        //this.getProjects();
+        this.selectOption('Best20');
     }
 
     ngAfterContentInit(): void {
@@ -52,8 +56,66 @@ declare function readCookie(name): any;
         }
     }
 
-    getProjects(): void {
-        this.projectService.getTheTop20Projects()
+    selectOption(filter) {
+        this.filterOption = filter;
+        if(filter == 'All') {
+            this.isAll = true;
+            this.isBest20 = false;
+            this.isAngular = false;
+            this.isJava = false;
+            this.isJavascript = false;
+            this.isUnity = false;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Best20') {
+            this.isAll = false;
+            this.isBest20 = true;
+            this.isAngular = false;
+            this.isJava = false;
+            this.isJavascript = false;
+            this.isUnity = false;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Angular') {
+            this.isAll = false;
+            this.isBest20 = false;
+            this.isAngular = true;
+            this.isJava = false;
+            this.isJavascript = false;
+            this.isUnity = false;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Java') {
+            this.isAll = false;
+            this.isBest20 = false;
+            this.isAngular = false;
+            this.isJava = true;
+            this.isJavascript = false;
+            this.isUnity = false;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Javascript') {
+            this.isAll = false;
+            this.isBest20 = false;
+            this.isAngular = false;
+            this.isJava = false;
+            this.isJavascript = true;
+            this.isUnity = false;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Unity') {
+            this.isAll = false;
+            this.isBest20 = false;
+            this.isAngular = false;
+            this.isJava = false;
+            this.isJavascript = false;
+            this.isUnity = true;
+            this.isGoogleTrends = false;
+        } else if(filter == 'Google Trends') {
+            this.isAll = false;
+            this.isBest20 = false;
+            this.isAngular = false;
+            this.isJava = false;
+            this.isJavascript = false;
+            this.isUnity = false;
+            this.isGoogleTrends = true;
+        }
+        this.projectService.getFilteredProjects(filter)
             .then(projects => 
             {
                 if(projects != null) {
@@ -90,6 +152,24 @@ declare function readCookie(name): any;
                 }
             }
         )
+    }
+
+    getStyle(filter) {
+        if(filter == 'All') {
+            return this.isAll ? "activeGroup": "linkGroup";
+        } else if(filter == 'Best20') {
+            return this.isBest20 ? "activeGroup": "linkGroup";
+        } else if(filter == 'Angular') {
+            return this.isAngular ? "activeGroup": "linkGroup";
+        } else if(filter == 'Java') {
+            return this.isJava ? "activeGroup": "linkGroup";
+        } else if(filter == 'Javascript') {
+            return this.isJavascript ? "activeGroup": "linkGroup";
+        } else if(filter == 'Unity') {
+            return this.isUnity ? "activeGroup": "linkGroup";
+        } else if(filter == 'GoogleTrends') {
+            return this.isGoogleTrends ? "activeGroup": "linkGroup";
+        }
     }
 
     getProjectLikes(project) {

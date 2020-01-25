@@ -16,6 +16,16 @@ export class ProjectService {
     constructor(
         private translate: TranslateService) { }
 
+    getFilteredProjects(filter): Promise<Project[]> {
+        if(filter == 'All') {
+            return this.getProjects();
+        } else if(filter == 'Best20') {
+            return this.getTheTop20Projects();
+        } else {
+            return this.getProjectsByTheme(filter);
+        }
+    }
+
     getProjects(): Promise<Project[]> {
         return this.translate.get("projects")
             .toPromise()

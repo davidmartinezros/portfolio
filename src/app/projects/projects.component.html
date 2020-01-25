@@ -1,4 +1,14 @@
+<div>
+  <a [class]="getStyle('All')" (click)="selectOption('All')">All</a>
+  <a [class]="getStyle('Best20')" (click)="selectOption('Best20')">Best 20</a>
+  <a [class]="getStyle('Angular')" (click)="selectOption('Angular')">Angular</a>
+  <a [class]="getStyle('Java')" (click)="selectOption('Java')">Java</a>
+  <a [class]="getStyle('Javascript')" (click)="selectOption('Javascript')">Javascript</a>
+  <a [class]="getStyle('Unity')" (click)="selectOption('Unity')">Unity</a>
+  <a [class]="getStyle('GoogleTrends')" (click)="selectOption('Google Trends')">Google Trends</a>
+</div>
 <ng-container *ngIf="projects">
+  <p innerHtml ="{{ 'TextShowing' | translate }} {{ projects.length }} {{ 'TextProjectsFiltered' | translate }} {{ filterOption }}."></p>
   <ng-container *ngFor="let key of projects | keys; let i = index">
     <div *ngIf="i%2===0" class="card-deck">
         
