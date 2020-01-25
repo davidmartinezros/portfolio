@@ -9,7 +9,6 @@ import { KnowledgeService } from "./knowledge.service";
 import { CarouselComponent } from "../carousel/carousel.component";
 import { BarRatingModule } from "ngx-bar-rating";
 import { ExperienceComponent } from "../experience/experience.component";
-import { ProjectsComponent } from "../projects/projects.component";
 import { FormComponent } from "../form/form.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -19,14 +18,13 @@ import { CarouselService } from "../carousel/carousel.service";
 import { ExperienceService } from "../experience/experience.service";
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
-import { ProjectContentModule } from "../project-content/project.content.module";
+import { ProjectsModule } from "../projects/projects.module";
 
 @NgModule({
     declarations: [
       MainComponent,
       CarouselComponent,
       ExperienceComponent,
-      ProjectsComponent,
       FormComponent
     ],
     imports: [
@@ -39,7 +37,7 @@ import { ProjectContentModule } from "../project-content/project.content.module"
       LazyLoadImageModule.forRoot({ loadImage }),
       MainRoutingModule,
       BarRatingModule,
-      ProjectContentModule
+      ProjectsModule
     ],
     providers: [ KnowledgeService, AuthService, AngularFireDatabase, CarouselService, ExperienceService, ProjectService, ProjectFirebaseService ],
     exports: [ MainComponent ],

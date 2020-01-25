@@ -8,7 +8,7 @@
   <a [class]="getStyle('GoogleTrends')" (click)="selectOption('Google Trends')">Google Trends</a>
 </div>
 <ng-container *ngIf="projects">
-  <p innerHtml ="{{ 'TextShowing' | translate }} {{ projects.length }} {{ 'TextProjectsFiltered' | translate }} {{ filterOption }}."></p>
+  <p innerHtml ="{{ 'TextShowing' | translate }} {{ projects.length }} {{ 'TextProjectsFiltered' | translate }} {{ filter }}."></p>
   <ng-container *ngFor="let key of projects | keys; let i = index">
     <div *ngIf="i%2===0" class="card-deck">
         

@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, EventEmitter, PLATFORM_ID, Input, Output } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs/Subject';
 import { Project } from './project';
@@ -18,6 +18,9 @@ declare function readCookie(name): any;
 
  export class ProjectsComponent {
 
+    @Input() filter: string;
+    @Output() theme = new EventEmitter<string>();
+
     isAll = true;
     isBest20 = false;
     isAngular = false;
@@ -25,8 +28,6 @@ declare function readCookie(name): any;
     isJavascript = false;
     isUnity = false;
     isGoogleTrends = false;
-
-    filterOption: string;
 
     projects: Project[];
 
@@ -40,14 +41,14 @@ declare function readCookie(name): any;
             ProjectsComponent.updateStuff.subscribe(res => {
                 // here fire functions that fetch the data from the api
                 //this.getProjects();
-                this.selectOption('Best20');
+                this.selectOption(this.filter);
                 ProjectContentComponent.updateStuff.next(false);
             });
     }
       
     ngOnInit(): void {
         //this.getProjects();
-        this.selectOption('Best20');
+        this.selectOption(this.filter);
     }
 
     ngAfterContentInit(): void {
@@ -57,7 +58,7 @@ declare function readCookie(name): any;
     }
 
     selectOption(filter) {
-        this.filterOption = filter;
+        this.filter = filter;
         if(filter == 'All') {
             this.isAll = true;
             this.isBest20 = false;
@@ -115,6 +116,7 @@ declare function readCookie(name): any;
             this.isUnity = false;
             this.isGoogleTrends = true;
         }
+        this.theme.emit(filter);
         this.projectService.getFilteredProjects(filter)
             .then(projects => 
             {

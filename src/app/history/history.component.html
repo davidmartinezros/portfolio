@@ -3,7 +3,7 @@
 		<div class="col-sm-10 col-lg-8 col-xl-7 mx-auto">
       <h3 innerHtml ="{{ 'TitleHistory' | translate }}"></h3>
       <p innerHtml ="{{ 'SubtitleHistory' | translate }}"></p>
-      <ng-container *ngIf="projects">
+      <!--ng-container *ngIf="projects">
         <ng-container *ngFor="let key of projects | keys; let i = index">
           <div *ngIf="i%2===0" class="card-deck">
               
@@ -13,7 +13,8 @@
 
           </div>
         </ng-container>
-      </ng-container>
+      </!--ng-container-->
+      <app-projects filter="All"></app-projects>
     </div>
   </div>
 </div>

@@ -7,7 +7,7 @@ import { HistoryRoutingModule } from "./history.rounting.module";
 import { HistoryComponent } from "./history.component";
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
-import { ProjectContentModule } from "../project-content/project.content.module";
+import { ProjectsModule } from "../projects/projects.module";
 
 @NgModule({
     declarations: [ HistoryComponent ],
@@ -17,7 +17,7 @@ import { ProjectContentModule } from "../project-content/project.content.module"
       TranslateModule,
       LazyLoadImageModule,
       HistoryRoutingModule,
-      ProjectContentModule
+      ProjectsModule
     ],
     providers: [ ProjectService, ProjectFirebaseService ],
     exports: [ HistoryComponent ]
