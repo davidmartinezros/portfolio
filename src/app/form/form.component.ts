@@ -18,6 +18,8 @@ export class FormComponent implements OnInit {
     title: number;
     text: string;
 
+    sended = false;
+
     messages$;
 
     constructor(private fb: FormBuilder, private af: AngularFireDatabase, public authService: AuthService) {
@@ -39,6 +41,7 @@ export class FormComponent implements OnInit {
         this.text = message.text;
         this.pushToFirebase(message);
         this.rForm.reset();
+        this.sended = true;
     }
 
     pushToFirebase(message: any): void {

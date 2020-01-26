@@ -27,8 +27,9 @@ function eraseCookie(name) {
 
 function loadWarning() {
     if (readCookie('cookie-warning') != 1) {
-        showCookieWarning();
         hideOnClickCookieWarning();
+    } else {
+        $('.cookie-warning').addClass('hidden');
     }
 }
 
@@ -37,8 +38,4 @@ function hideOnClickCookieWarning() {
         $('.cookie-warning').addClass('hidden');
         createCookie('cookie-warning', 1, 30);
     });
-}
-
-function showCookieWarning() {
-    $('.cookie-warning').removeClass('hidden');
 }

@@ -1,5 +1,5 @@
 import { isPlatformBrowser, isPlatformServer } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, EventEmitter, PLATFORM_ID, Output } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Event } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
@@ -25,10 +25,11 @@ declare function loadWords(): any;
 
 export class MenuComponent {
 
+    @Output() langLoaded = new EventEmitter<boolean>();
+
     languages: Language[];
 
     ruta: string;
-
     rutaHistorial: string;
 
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
@@ -45,6 +46,7 @@ export class MenuComponent {
     ngAfterContentInit(): void {
         if (isPlatformBrowser(this.platformId)) {
             loadWords();
+            this.langLoaded.emit(true);
         }
     }
 
@@ -236,6 +238,7 @@ export class MenuComponent {
     }
     
     set language(language) {
+        console.log(language);
         LanguageComponent.language = language;
     }
 

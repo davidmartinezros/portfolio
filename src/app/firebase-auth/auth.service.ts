@@ -89,8 +89,8 @@ export class AuthService {
   //// Anonymous Auth ////
   anonymousLogin() {
     return this.afAuth.auth.signInAnonymously()
-    .then((user) => {
-      this.authState = user
+    .then((credential) => {
+      this.authState = credential.user
       this.updateUserData()
     })
     .catch(error => console.log(error));
@@ -99,8 +99,8 @@ export class AuthService {
   //// Email/Password Auth ////
   emailSignUp(email:string, password:string) {
     return this.afAuth.auth.createUserWithEmailAndPassword(email, password)
-      .then((user) => {
-        this.authState = user
+      .then((credential) => {
+        this.authState = credential.user
         this.updateUserData()
       })
       .catch(error => console.log(error));
@@ -108,8 +108,8 @@ export class AuthService {
 
   emailLogin(email:string, password:string) {
      return this.afAuth.auth.signInWithEmailAndPassword(email, password)
-       .then((user) => {
-         this.authState = user
+       .then((credential) => {
+         this.authState = credential.user
          this.updateUserData()
        })
        .catch(error => console.log(error));
@@ -137,11 +137,12 @@ export class AuthService {
   // Writes user name and email to realtime db
   // useful if your app displays information about users or for admin features
     let path = `users/${this.currentUserId}`; // Endpoint on firebase
+    console.log(this.authState);
     let data = {
                   email: this.authState.email,
                   name: this.authState.displayName
                 }
-
+    console.log(data);
     this.db.object(path).update(data)
     .catch(error => console.log(error));
 

@@ -15,5 +15,6 @@
 		<div class="text-right">
 			<button type="submit" class="btn btn-outline-primary btn-footer" [disabled]="!rForm.valid">{{ 'FormButton' | translate }}</button>
 		</div>
+		<div *ngIf="sended">{{ 'MessageSended' | translate }}</div>
 	</form>
 </div>

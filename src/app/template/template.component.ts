@@ -1,9 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationCancel, NavigationError, RouterOutlet } from '@angular/router';
 import { trigger, transition, style, animate, query, animateChild, group } from '@angular/animations';
-
-declare function loadWarning(): any;
 
 @Component({
     selector: 'app-template',
@@ -40,10 +38,13 @@ declare function loadWarning(): any;
 
 export class TemplateComponent {
 
-    loaded: boolean;
+    loaded: boolean = false;
+
+    langLoaded: boolean = false;
 
     constructor(@Inject(PLATFORM_ID) private platformId: Object,
-        private router: Router) {
+        private router: Router,
+        private cdRef : ChangeDetectorRef) {
 
     }
 
@@ -63,10 +64,12 @@ export class TemplateComponent {
         });
     }
 
-    ngAfterViewInit() {
-        if (isPlatformBrowser(this.platformId)) {
-            loadWarning();
-        }
+    ngAfterViewChecked() {
+        this.cdRef.detectChanges();
+    }
+
+    setLangLoaded(langLoaded) {
+        this.langLoaded = langLoaded;
     }
 
     getAnimationData(outlet: RouterOutlet) {

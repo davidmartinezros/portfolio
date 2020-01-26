@@ -13,5 +13,6 @@ export class DashboardContactComponent {
     constructor(private af: AngularFireDatabase) {
         
         this.messages$ = this.af.list('messages', ref => ref.limitToFirst(100)).valueChanges();
+        
     }
 }
