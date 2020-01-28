@@ -4,13 +4,13 @@ import { PipesModule } from "../pipes/pipes.module";
 import { CommonModule } from "@angular/common";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { RouterModule } from "@angular/router";
-import { ProjectsComponent } from "./projects.component";
-import { ProjectContentModule } from "../project-content/project.content.module";
-import { ProjectService } from "./project.service";
+import { KnowledgeComponent } from "./knowledge.component";
+import { KnowledgeService } from "./knowledge.service";
+import { BarRatingModule } from "ngx-bar-rating";
 
 @NgModule({
     declarations: [
-      ProjectsComponent
+        KnowledgeComponent
     ],
     imports: [
       CommonModule,
@@ -18,16 +18,16 @@ import { ProjectService } from "./project.service";
       TranslateModule,
       LazyLoadImageModule,
       RouterModule,
-      ProjectContentModule
+      BarRatingModule
     ],
-    providers: [ ProjectService ],
+    providers: [ KnowledgeService ],
     exports: [
-      ProjectsComponent
+        KnowledgeComponent
     ]
   })
   
-  export class ProjectsModule {
+  export class KnowledgeModule {
     constructor() {
-      console.log('ProjectsModule');
+      console.log('KnowledgeModule');
     }
   }

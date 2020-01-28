@@ -1,0 +1,59 @@
+<div class="row pb-4">
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/linux.svg" title="Linux">
+  </div>
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/unity.svg" title="Unity">
+  </div>
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/java.svg" title="Java">
+  </div>
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/angular.svg" title="Angular">
+  </div>
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/android.svg" title="Android">
+  </div>
+  <div class="col-sm-2 mx-auto skill-logo">
+    <img lazyLoad="../../assets/images/git.svg" title="Git">
+  </div>
+</div>
+<hr class="style-one">			
+<ng-container *ngIf="knowledges">
+  <ng-container *ngFor="let k of knowledges | keys; let i = index">
+    <div class="row bar-rating" *ngIf="i%2===0">
+      <div class="col-6 bar-rating-group-main">
+        <div *ngIf="knowledges[i]" class="container bar-rating-group">
+          <h4 innerHtml="{{ knowledges[i].group }}"></h4>
+          <hr class="style-three">
+          <div *ngFor="let k of knowledges[i].list | keys; let j = index">	
+            <div class="row">
+              <div class="col-12 bar-rating-theme">
+                <u>{{ knowledges[i].list[j].theme }}</u>
+              </div>
+              <div class="col-12 bar-rating-value">
+                <bar-rating [(rate)]="knowledges[i].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 bar-rating-group-main">
+        <div *ngIf="knowledges[i+1]" class="container bar-rating-group">
+          <h4 innerHtml="{{ knowledges[i+1].group }}"></h4>
+          <hr class="style-three">
+          <div *ngFor="let k of knowledges[i+1].list | keys; let j = index">	
+            <div class="row">
+              <div class="col-12 bar-rating-theme">
+                <u>{{ knowledges[i+1].list[j].theme }}</u>
+              </div>
+              <div class="col-12 bar-rating-value">
+                <bar-rating [(rate)]="knowledges[i+1].list[j].value" [max]="5" theme="fontawesome-o" [readOnly]="true"></bar-rating>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</ng-container>

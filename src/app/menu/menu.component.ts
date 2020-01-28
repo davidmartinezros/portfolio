@@ -1,7 +1,7 @@
-import { isPlatformBrowser, isPlatformServer } from '@angular/common';
+import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, EventEmitter, PLATFORM_ID, Output } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute, Event } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { ExperienceComponent } from '../experience/experience.component';
 import { HistoryComponent } from '../history/history.component';
@@ -46,14 +46,8 @@ export class MenuComponent {
     ngAfterContentInit(): void {
         if (isPlatformBrowser(this.platformId)) {
             loadWords();
-            this.langLoaded.emit(true);
         }
-    }
-
-    onActivate(event: Event) {
-        if (isPlatformBrowser(this.platformId)) {
-            window.scroll(0,0);
-        }
+        this.langLoaded.emit(true);
     }
 
     onClickSection() {
@@ -61,14 +55,7 @@ export class MenuComponent {
     }
 
     ngOnInit() {
-        if (isPlatformBrowser(this.platformId)) {
-            // Client only code.
-            this.loadLanguage();
-        }
-        if (isPlatformServer(this.platformId)) {
-           // Server only code.
-           this.loadServerLanguage();
-        }
+        this.loadLanguage();
     }
 
     loadLanguage() {
@@ -82,10 +69,9 @@ export class MenuComponent {
                 userLang = params['lang'];
             }
 
-            if(!userLang || userLang == "") {
-                userLang = navigator.language;
-                if(userLang.startsWith("zh")) {
-                    userLang = "zh";
+            if (isPlatformBrowser(this.platformId)) {
+                if(!userLang || userLang == "") {
+                    userLang = navigator.language;
                 }
             }
 
@@ -103,45 +89,6 @@ export class MenuComponent {
                 this.changeLanguage("en");
             }
         });
-    }
-
-    loadServerLanguage() {
-
-        var userLang = "";
-        
-        this.route.queryParams.subscribe(params => {
-            if(!params['lang'] || params['lang'] == "") {
-                userLang = LanguageComponent.language;
-            } else {
-                userLang = params['lang'];
-            }
-
-            if(userLang) {
-                userLang = userLang.toLowerCase();
-            }
-
-            if(userLang && userLang.length > 2) {
-                userLang = userLang.substring(0,2);
-            }
-
-            if(userLang == "es" || userLang == "en" || userLang == "zh") {
-                this.changeLanguage(userLang);
-            } else {
-                this.changeLanguage("en");
-            }
-        });
-    }
-
-    public changeServerLanguage(language) {
-
-        console.log(language);
-
-        this.translate.setDefaultLang(language);
-        this.translate.use(language);
-
-        LanguageComponent.language = language;
-
-        this.changeMetaTagsSeo();
     }
 
     public changeLanguage(language) {
@@ -238,7 +185,6 @@ export class MenuComponent {
     }
     
     set language(language) {
-        console.log(language);
         LanguageComponent.language = language;
     }
 

@@ -1,4 +1,3 @@
-import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationCancel, NavigationError, RouterOutlet } from '@angular/router';
 import { trigger, transition, style, animate, query, animateChild, group } from '@angular/animations';
@@ -74,12 +73,6 @@ export class TemplateComponent {
 
     getAnimationData(outlet: RouterOutlet) {
         return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
-    }
-    
-    onActivate(event: Event) {
-        if (isPlatformBrowser(this.platformId)) {
-            window.scroll(0,0);
-        }
     }
 
 }
