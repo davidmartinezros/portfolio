@@ -1,5 +1,3 @@
-'use strict';
-
 function readCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -26,11 +24,13 @@ function eraseCookie(name) {
 }
 
 function loadWarning() {
-    if (readCookie('cookie-warning') != 1) {
-        hideOnClickCookieWarning();
-    } else {
-        $('.cookie-warning').addClass('hidden');
-    }
+    setTimeout(() => {
+        if (readCookie('cookie-warning') != 1) {
+            showCookieWarning();
+            hideOnClickCookieWarning();
+        }
+        console.log("timeout 1000ms loadWarning");
+    }, 1000);
 }
 
 function hideOnClickCookieWarning() {
@@ -38,4 +38,8 @@ function hideOnClickCookieWarning() {
         $('.cookie-warning').addClass('hidden');
         createCookie('cookie-warning', 1, 30);
     });
+}
+
+function showCookieWarning() {
+    $('.cookie-warning').removeClass('hidden');
 }

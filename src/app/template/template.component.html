@@ -15,14 +15,13 @@
 	<div style="position: relative">
 		<app-footer></app-footer>
 	</div>
-	<div *ngIf="langLoaded" class="cookie-warning">
+	<div class="cookie-warning hidden">
 		<div class="cookie-warning-text">
 			{{ 'CookiesBottomTitle' | translate }}
 			<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
 			<div class="row mx-auto justify-content-center pt-3">
 				<button class="btn btn-outline-primary btn-sm btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
 			</div>
-			<img src onerror="loadWarning()"/>
 		</div>
 	</div>
 </ng-template>

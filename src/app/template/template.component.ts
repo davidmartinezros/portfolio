@@ -1,6 +1,9 @@
 import { Component, Inject, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationCancel, NavigationError, RouterOutlet } from '@angular/router';
 import { trigger, transition, style, animate, query, animateChild, group } from '@angular/animations';
+import { isPlatformBrowser } from '@angular/common';
+
+declare function loadWarning(): any;
 
 @Component({
     selector: 'app-template',
@@ -61,6 +64,12 @@ export class TemplateComponent {
                 this.loaded = true;
             }
         });
+    }
+
+    ngAfterContentInit(): void {
+        if (isPlatformBrowser(this.platformId)) {
+            loadWarning();
+        }
     }
 
     ngAfterViewChecked() {
