@@ -1,5 +1,5 @@
 <app-menu (langLoaded)="setLangLoaded($event)"></app-menu>
-<ng-container *ngIf="loaded && langLoaded; then templateContent else loadingDiv"></ng-container>
+<ng-container *ngIf="loaded && langLoaded && loadedAppModule == 2; then templateContent else loadingDiv"></ng-container>
 <ng-template #loadingDiv>
 	<div class="loading-div">
 		<h2 class="loading-text">Loading...</h2>

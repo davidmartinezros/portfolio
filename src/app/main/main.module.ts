@@ -34,6 +34,5 @@ import { FormModule } from "../form/form.module";
   
 export class MainModule {
   constructor() {
-    console.log('MainModule');
   }
 }

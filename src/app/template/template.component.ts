@@ -40,6 +40,8 @@ declare function loadWarning(): any;
 
 export class TemplateComponent {
 
+    static loadedAppModule: number = 0;
+
     loaded: boolean = false;
 
     langLoaded: boolean = false;
@@ -82,6 +84,10 @@ export class TemplateComponent {
 
     getAnimationData(outlet: RouterOutlet) {
         return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+    }
+
+    get loadedAppModule() {
+        return TemplateComponent.loadedAppModule;
     }
 
 }

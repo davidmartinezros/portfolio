@@ -12,6 +12,7 @@ import { AngularFireDatabase } from "angularfire2/database";
 import { AuthService } from "../firebase-auth/auth.service";
 import { RouterModule } from "@angular/router";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { TemplateComponent } from "../template/template.component";
 
 @NgModule({
     declarations: [ 
@@ -36,5 +37,6 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
   export class MenuModule {
     constructor() {
       console.log('MenuModule');
+      TemplateComponent.loadedAppModule++;
     }
   }

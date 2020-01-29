@@ -26,8 +26,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserTransferStateModule,
     TransferHttpCacheModule,
     HttpClientModule,
-    MenuModule,
-    FooterModule,
     MatProgressBarModule,
     TranslateModule.forRoot({
         loader: {
@@ -36,10 +34,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
           deps: [HttpClient, TransferState]
         }
     }),
-    AppRoutingModule
+    AppRoutingModule,
+    MenuModule,
+    FooterModule
   ],
   providers: [ ],
-  bootstrap: [ TemplateComponent ]  // main (first) component
+  bootstrap: [ TemplateComponent ]
 })
 
 export class AppModule {
