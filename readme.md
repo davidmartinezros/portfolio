@@ -1,4 +1,5 @@
 ## Portfolio
+Portfolio of a Full Stack Web Developer.
 
 ### Description
 My Web Portfolio shows an introduction, my habilities, my experience, my projects, a contact form and an admin area (only accessible with authorization). You can browse the portfolio while the music plays and try to click the background and gets a surprise! ;)
@@ -6,14 +7,14 @@ My Web Portfolio shows an introduction, my habilities, my experience, my project
 With Universal, so you have a browser and a server part of the project communicating between them.
 
 ### Tools
-Angular 7 (JS + TypeScript), Bootstrap 4, Firebase, Audio, Translate, Universal
+Angular 8 (JS + TypeScript), AngularMaterial, Bootstrap 4, Firebase, Audio, Translate, Universal, LazyLoad
 
 ### Requirements
 npm, angular-cli
 
 ### Build, Run, Deploy
 ```
-build for prod:
+build for prod and run on localhost:4000
 npm run universal
 
 build for dev:
@@ -29,7 +30,7 @@ run on port 4200:
 ng serve
 
 run with universal on port 4000:
-npm run universal
+node dist/server.js
 ```
 
 ### Configuration file
