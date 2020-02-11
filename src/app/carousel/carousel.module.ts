@@ -28,7 +28,6 @@ import { PipesModule } from "../pipes/pipes.module";
   
   export class CarouselModule {
     constructor() {
-      console.log('CarouselModule');
     }
   }
 

@@ -22,6 +22,5 @@ import { ReactiveFormsModule, FormsModule } from "@angular/forms";
   
   export class FormModule {
     constructor() {
-      console.log('FormModule');
     }
   }

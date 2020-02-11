@@ -1,48 +1,52 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CustomPreloadingStrategy } from './core/custom.preloading.strategy.service';
+import { TemplateWebComponent } from './template-web/template-web.component';
 
 const appRoutes: Routes = [
     {
+      path: '',
+      loadChildren: () => import('./intro/intro.module').then(m => m.IntroModule),
+      data: { preload: true, animation: 'IntroPage' }
+    },
+    {
       path: ':urlMain',
-      /*component: MainComponent*/
-      loadChildren: () => import("./main/main.module").then(m => m.MainModule),
-      data: { preload: true, animation: 'MainPage' }
-      /*loadChildren:  './main/main.module#MainModule',*/
+      component: TemplateWebComponent,
+      //loadChildren: () => import("./template-web/template-web.module").then(m => m.TemplateWebModule),
+      //data: { preload: true, animation: 'MainPage' },
+      children:[
+        {
+          path: '',
+          loadChildren: () => import("./main/main.module").then(m => m.MainModule),
+          data: { preload: true, animation: 'MainPage' }
+        },
+        {
+          path: ':group/:technology/:lang/:theme',
+          loadChildren: () => import("./theme/theme.module").then(m => m.ThemeModule),
+          data: { preload: true, animation: 'ThemePage' }
+        },
+        {
+          path: ':urlProject/:lang/:nom',
+          loadChildren: () => import('./project/project.module').then(m => m.ProjectModule),
+          data: { preload: true, animation: 'ProjectPage' }
+        },
+        {
+          path: 'dashboard',
+          loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule),
+          data: { preload: true, animation: 'DashboardPage' }
+        },
+        {
+          path: ':urlHistory',
+          loadChildren: () => import('./history/history.module').then(m => m.HistoryModule),
+          data: { preload: true, animation: 'HistoryPage' }
+        }
+      ]
     },
-    {
-      path: ':urlMain/:group/:technology/:lang/:theme',
-      /*component: ThemeGroupComponent,*/
-      loadChildren: () => import("./theme/theme.module").then(m => m.ThemeModule),
-      data: { preload: true, animation: 'ThemePage' }
-      /*loadChildren:  './theme/theme.module#ThemeModule',*/
-    },
-    {
-      path: ':urlMain/:urlProject/:lang/:nom',
-      /*component: ProjectComponent*/
-      loadChildren: () => import('./project/project.module').then(m => m.ProjectModule),
-      data: { preload: true, animation: 'ProjectPage' }
-      /*loadChildren:  './project/project.module#ProjectModule',*/
-    },
-    {
-      path: ':urlMain/dashboard',
-      /*component: DashboardComponent,*/
-      loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule),
-      data: { preload: true, animation: 'DashboardPage' }
-      /*loadChildren:  './dashboard/dashboard.module#DashboardModule',*/
-    },
-    {
-      path: ':urlMain/:urlHistory',
-      /*component: HistoryComponent*/
-      loadChildren: () => import('./history/history.module').then(m => m.HistoryModule),
-      data: { preload: true, animation: 'HistoryPage' }
-      /*loadChildren:  './history/history.module#HistoryModule',*/
-    },
-    {
+    /*{
       path: '',
       redirectTo: '/portfolio-full-stack-developer-software-engineer',
       pathMatch: 'full'
-    },
+    },*/
     {
       path: '**',
       redirectTo: '/portfolio-full-stack-developer-software-engineer',

@@ -28,6 +28,5 @@ import { ProjectService } from "./project.service";
   
   export class ProjectsModule {
     constructor() {
-      console.log('ProjectsModule');
     }
   }

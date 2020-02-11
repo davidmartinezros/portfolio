@@ -1,0 +1,189 @@
+import * as THREE from 'three';
+import { Injectable, ElementRef, OnDestroy, NgZone } from '@angular/core';
+
+declare var OrbitControls: any;
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EngineService implements OnDestroy {
+
+  private start = Date.now();
+
+  private canvas: HTMLCanvasElement;
+  private renderer: THREE.WebGLRenderer;
+  private camera: THREE.PerspectiveCamera;
+  private scene: THREE.Scene;
+  private light: THREE.AmbientLight;
+  private directionalLight: THREE.DirectionalLight;
+  private ms_Controls;
+
+  private material: THREE.ShaderMaterial;
+
+  private SEPARATION = 120;
+  private AMOUNTX = 300;
+  private AMOUNTY = 70;
+  private particles
+  private particle;
+  private count = 0;
+
+  private frameId: number = null;
+
+  public constructor(private ngZone: NgZone) {}
+
+  public ngOnDestroy() {
+    if (this.frameId != null) {
+      cancelAnimationFrame(this.frameId);
+    }
+  }
+
+  createScene(canvas: ElementRef<HTMLCanvasElement>): void {
+    // The first step is to get the reference of the canvas element from our HTML document
+    this.canvas = canvas.nativeElement;
+
+    this.renderer = new THREE.WebGLRenderer({
+      canvas: this.canvas,
+      alpha: true,    // transparent background
+      antialias: true // smooth edges
+    });
+    this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+    // create the scene
+    this.scene = new THREE.Scene();
+
+    this.camera = new THREE.PerspectiveCamera(55.0, window.innerWidth / window.innerHeight, 0.5, 3000000);
+		this.camera.position.set(0, 250, -450);
+    
+    // soft white light
+    this.light = new THREE.AmbientLight( 0x404040 );
+    this.light.position.z = 10;
+    this.scene.add(this.light);
+
+    // Add light
+		this.directionalLight = new THREE.DirectionalLight(0xffff55, 1);
+		this.directionalLight.position.set(-600, 300, 600);
+    this.scene.add(this.directionalLight);
+    
+    // Initialize Orbit control		
+		this.ms_Controls = new OrbitControls(this.camera, this.renderer.domElement);
+		this.ms_Controls.userPan = false;
+		this.ms_Controls.userPanSpeed = 0.0;
+		this.ms_Controls.maxDistance = 5000.0;
+		this.ms_Controls.maxPolarAngle = Math.PI * 0.495;
+
+    this.createObjects();
+
+  }
+
+  createObjects(): void {
+
+    this.particles = new Array();
+
+    var PI2 = Math.PI * 2;
+
+    var materialParticle = new THREE.SpriteMaterial( { color: 0x666666, opacity: 1.0 } );
+
+    var i = 0;
+
+    for ( var ix = 0; ix < this.AMOUNTX; ix ++ ) {
+
+      for ( var iy = 0; iy < this.AMOUNTY; iy ++ ) {
+
+        this.particle = this.particles[ i ++ ] = new THREE.Sprite( materialParticle );
+        this.particle.position.x = ix * this.SEPARATION - ( ( this.AMOUNTX * this.SEPARATION ) / 2 );
+        this.particle.position.z = iy * this.SEPARATION - ( ( this.AMOUNTY * this.SEPARATION ) / 2 );
+        this.scene.add( this.particle );
+
+      }
+
+    }
+
+    // sphere with fire
+    this.material = new THREE.ShaderMaterial( {
+
+      uniforms: {
+        tExplosion: {
+          type: "t",
+          value: new THREE.TextureLoader().load('assets/textures/explosion.png'),
+        },
+        time: {
+          type: "f",
+          value: 0.0
+        }
+      },
+      vertexShader: document.getElementById( 'vertexShader' ).textContent,
+      fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+    
+    } );
+    
+    let mesh = new THREE.Mesh(
+        new THREE.IcosahedronGeometry( 40, 4 ),
+        this.material
+    );
+    mesh.translateY(150);
+    this.scene.add( mesh );
+
+    this.camera.lookAt(mesh.position);
+
+  }
+  
+  animate(): void {
+    // We have to run this outside angular zones,
+    // because it could trigger heavy changeDetection cycles.
+    this.ngZone.runOutsideAngular(() => {
+      if (document.readyState !== 'loading') {
+        this.render();
+      } else {
+        window.addEventListener('DOMContentLoaded', () => {
+          this.render();
+        });
+      }
+
+      window.addEventListener('resize', () => {
+        this.resize();
+      });
+    });
+  }
+
+  render() {
+    this.frameId = requestAnimationFrame(() => {
+      this.render();
+    });
+
+    this.material.uniforms[ 'time' ].value = .00025 * ( Date.now() - this.start );
+
+    var i = 0;
+
+    for ( var ix = 0; ix < this.AMOUNTX; ix ++ ) {
+
+      for ( var iy = 0; iy < this.AMOUNTY; iy ++ ) {
+
+        this.particle = this.particles[ i++ ];
+        this.particle.position.y = ( Math.sin( ( ix + this.count ) * 0.3 ) * 50 ) +
+          ( Math.sin( ( iy + this.count ) * 0.5 ) * 50 );
+          this.particle.scale.x = this.particle.scale.y = ( Math.sin( ( ix + this.count ) * 0.3 ) + 1 ) * 4 +
+          ( Math.sin( ( iy + this.count ) * 0.5 ) + 1 ) * 4;
+
+      }
+
+    }
+
+    this.count += 0.1;
+
+    this.ms_Controls.update();
+
+    this.renderer.render(this.scene, this.camera);
+  }
+
+  resize() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    this.camera.aspect = width / height;
+    this.camera.updateProjectionMatrix();
+    //console.log(width + height);
+    this.renderer.setSize( width, height );
+    this.render();
+  }
+
+}

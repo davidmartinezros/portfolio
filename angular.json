@@ -24,6 +24,7 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
+              "src/assets/styles/intro.scss",
               "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/ngx-bar-rating/themes/br-fontawesome-o-theme.css",
@@ -41,13 +42,14 @@
               "src/assets/styles/corner-ribbon.css"
             ],
             "scripts": [
+              "node_modules/three/build/three.min.js",
+              "src/assets/scripts/OrbitControls.js",
+              "src/assets/scripts/particles.js",
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/tether/dist/js/tether.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/requirejs/require.js",
-              "src/assets/scripts/particles.js",
-              "src/assets/scripts/particles-loader.js",
               "src/assets/scripts/check-is-on-viewport.js",
               "src/assets/scripts/cookie-warning.js",
               "src/assets/scripts/experience.js",

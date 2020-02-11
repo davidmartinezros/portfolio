@@ -5,7 +5,9 @@
     "baseUrl": "./",
     "module": "commonjs",
     "types": [
-      "node"
+      "node",
+      "webgl2",
+      "offscreencanvas"
     ]
   },
   "exclude": [

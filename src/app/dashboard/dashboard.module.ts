@@ -6,6 +6,8 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { DashboardRoutingModule } from "./dashboard.rounting.module";
 import { DashboardContactComponent } from "./dashboard-contact.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { IntroComponent } from "../intro/intro.component";
+import { TemplateWebComponent } from "../template-web/template-web.component";
 
 @NgModule({
     declarations: [
@@ -29,5 +31,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
   export class DashboardModule {
     constructor() {
       console.log('DashboardModule');
+      IntroComponent.loadedAppModule++;
+      TemplateWebComponent.loadedAppModule++;
     }
   }

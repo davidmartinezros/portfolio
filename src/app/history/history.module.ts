@@ -8,6 +8,8 @@ import { HistoryComponent } from "./history.component";
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
 import { ProjectsModule } from "../projects/projects.module";
+import { IntroComponent } from "../intro/intro.component";
+import { TemplateWebComponent } from "../template-web/template-web.component";
 
 @NgModule({
     declarations: [ HistoryComponent ],
@@ -26,5 +28,7 @@ import { ProjectsModule } from "../projects/projects.module";
   export class HistoryModule {
     constructor() {
       console.log('HistoryModule');
+      IntroComponent.loadedAppModule++;
+      TemplateWebComponent.loadedAppModule++;
     }
   }

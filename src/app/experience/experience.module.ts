@@ -5,6 +5,7 @@ import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { ExperienceComponent } from "./experience.component";
 import { ExperienceService } from "./experience.service";
+import { IntroComponent } from "../intro/intro.component";
 
 @NgModule({
     declarations: [
@@ -24,6 +25,5 @@ import { ExperienceService } from "./experience.service";
   
   export class ExperienceModule {
     constructor() {
-      console.log('ExperienceModule');
     }
   }

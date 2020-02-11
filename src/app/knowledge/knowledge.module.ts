@@ -28,6 +28,5 @@ import { BarRatingModule } from "ngx-bar-rating";
   
   export class KnowledgeModule {
     constructor() {
-      console.log('KnowledgeModule');
     }
   }

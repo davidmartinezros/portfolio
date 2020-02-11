@@ -10,9 +10,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 import { MatProgressBarModule } from '@angular/material';
-import { MenuModule } from './menu/menu.module';
-import { FooterModule } from './footer/footer.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TemplateWebModule } from './template-web/template-web.module';
 
 @NgModule({
   declarations: [
@@ -35,8 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         }
     }),
     AppRoutingModule,
-    MenuModule,
-    FooterModule
+    TemplateWebModule
   ],
   providers: [ ],
   bootstrap: [ TemplateComponent ]

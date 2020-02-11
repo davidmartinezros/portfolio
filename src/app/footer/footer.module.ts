@@ -3,7 +3,7 @@ import { TranslateModule } from "@ngx-translate/core";
 import { CommonModule } from "@angular/common";
 import { FooterComponent } from "./footer.component";
 import { RouterModule } from "@angular/router";
-import { TemplateComponent } from "../template/template.component";
+import { TemplateWebComponent } from "../template-web/template-web.component";
 
 @NgModule({
     declarations: [ 
@@ -21,6 +21,6 @@ import { TemplateComponent } from "../template/template.component";
   export class FooterModule {
     constructor() {
       console.log('FooterModule');
-      TemplateComponent.loadedAppModule++;
+      TemplateWebComponent.loadedAppModule++;
     }
   }

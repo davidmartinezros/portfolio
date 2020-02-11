@@ -12,6 +12,8 @@ import { CarouselModule } from "../carousel/carousel.module";
 import { KnowledgeModule } from "../knowledge/knowledge.module";
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { FormModule } from "../form/form.module";
+import { IntroComponent } from "../intro/intro.component";
+import { TemplateWebComponent } from "../template-web/template-web.component";
 
 @NgModule({
     declarations: [
@@ -34,5 +36,8 @@ import { FormModule } from "../form/form.module";
   
 export class MainModule {
   constructor() {
+    console.log('MainModule');
+    IntroComponent.loadedAppModule++;
+    TemplateWebComponent.loadedAppModule++;
   }
 }

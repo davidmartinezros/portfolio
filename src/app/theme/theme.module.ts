@@ -8,6 +8,8 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { ProjectService } from "../projects/project.service";
 import { ProjectFirebaseService } from "../projects/project.firebase.service";
 import { ProjectsModule } from "../projects/projects.module";
+import { IntroComponent } from "../intro/intro.component";
+import { TemplateWebComponent } from "../template-web/template-web.component";
 
 @NgModule({
     declarations: [
@@ -30,5 +32,7 @@ import { ProjectsModule } from "../projects/projects.module";
   export class ThemeModule {
     constructor() {
       console.log('ThemeModule');
+      IntroComponent.loadedAppModule++;
+      TemplateWebComponent.loadedAppModule++;
     }
   }

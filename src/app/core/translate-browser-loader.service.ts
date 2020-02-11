@@ -1,6 +1,5 @@
 import {Observable} from "rxjs/Observable";
 import {TranslateLoader} from '@ngx-translate/core';
-
 import {makeStateKey, StateKey, TransferState} from '@angular/platform-browser';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient} from '@angular/common/http';

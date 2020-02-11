@@ -1,0 +1,28 @@
+<div id="particles-js"></div>
+<app-menu (langLoaded)="setLangLoaded($event)"></app-menu>
+<ng-container *ngIf="langLoaded && loadedAppModule == 6; then templateContent else loadingDiv"></ng-container>
+<ng-template #loadingDiv>
+	<div class="loading-div">
+		<h2 class="loading-text">Loading...</h2>
+		<div class="loading-bar">
+			<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+		</div>
+	</div>	
+</ng-template>
+<ng-template #templateContent>
+	<div [@routeAnimations]="getAnimationData(outlet)">
+		<router-outlet #outlet="outlet"></router-outlet>
+	</div>
+	<div style="position: relative">
+		<app-footer></app-footer>
+	</div>
+	<div class="cookie-warning hidden">
+		<div class="cookie-warning-text">
+			{{ 'CookiesBottomTitle' | translate }}
+			<a [href]="'CookiesLink' | translate" target="_blank" rel="noopener">{{ 'CookiesTextLink' | translate }}</a>
+			<div class="row mx-auto justify-content-center pt-3">
+				<button class="btn btn-outline-primary btn-sm btn-cookie-warning">{{ 'CookiesBottomButton' | translate }}</button>
+			</div>
+		</div>
+	</div>
+</ng-template>

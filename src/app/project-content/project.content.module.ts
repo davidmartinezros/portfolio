@@ -26,6 +26,5 @@ import { RouterModule } from "@angular/router";
   
   export class ProjectContentModule {
     constructor() {
-      console.log('ProjectContentModule');
     }
   }

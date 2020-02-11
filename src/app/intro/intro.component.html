@@ -1,0 +1,13 @@
+<ng-container *ngIf="loadedAppModule == 4; then templateContent else loadingDiv"></ng-container>
+<ng-template #loadingDiv>
+	<div class="loading-div">
+		<h2 class="loading-text">Loading...</h2>
+		<div class="loading-bar">
+			<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+		</div>
+	</div>	
+</ng-template>
+<ng-template #templateContent>
+    <app-engine></app-engine>
+    <app-ui></app-ui>
+</ng-template>

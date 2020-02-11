@@ -15,12 +15,14 @@ export class MainComponent {
     public static updateStuff: Subject<any> = new Subject();
 
     constructor(public authService: AuthService) {
-            MainComponent.updateStuff.subscribe(res => {
-                // here fire functions that fetch the data from the api
-                KnowledgeComponent.updateStuff.next(false);
-                CarouselComponent.updateStuff.next(false);
-                ExperienceComponent.updateStuff.next(false);
-            });
+
+        MainComponent.updateStuff.subscribe(res => {
+            // here fire functions that fetch the data from the api
+            KnowledgeComponent.updateStuff.next(false);
+            CarouselComponent.updateStuff.next(false);
+            ExperienceComponent.updateStuff.next(false);
+        });
+
     }
 
 }

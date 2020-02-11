@@ -29,6 +29,5 @@ import { ProjectContentModule } from "../project-content/project.content.module"
   
   export class ProjectModule {
     constructor() {
-      console.log('ProjectModule');
     }
   }

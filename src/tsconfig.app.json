@@ -5,7 +5,9 @@
     "baseUrl": "./",
     "module": "esNext",
     "types": [
-      "node"
+      "node",
+      "webgl2",
+      "offscreencanvas"
     ]
   },
   "exclude": [
