@@ -54,7 +54,7 @@ export class EngineService implements OnDestroy {
     this.scene = new THREE.Scene();
 
     this.camera = new THREE.PerspectiveCamera(55.0, window.innerWidth / window.innerHeight, 0.5, 3000000);
-		this.camera.position.set(0, 250, -450);
+		this.camera.position.set(350, 100, -450);
     
     // soft white light
     this.light = new THREE.AmbientLight( 0x404040 );
@@ -193,9 +193,8 @@ export class EngineService implements OnDestroy {
 
     this.camera.aspect = width / height;
     this.camera.updateProjectionMatrix();
-    //console.log(width + height);
+    
     this.renderer.setSize( width, height );
-    this.render();
   }
 
 }
