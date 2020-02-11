@@ -43,6 +43,7 @@
             ],
             "scripts": [
               "node_modules/three/build/three.min.js",
+              "src/assets/scripts/LavaShader.js",
               "src/assets/scripts/OrbitControls.js",
               "src/assets/scripts/particles.js",
               "node_modules/jquery/dist/jquery.min.js",
@@ -82,7 +83,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
+                  "maximumWarning": "4mb",
                   "maximumError": "5mb"
                 }
               ]

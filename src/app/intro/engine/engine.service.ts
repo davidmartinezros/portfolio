@@ -3,6 +3,8 @@ import { Injectable, ElementRef, OnDestroy, NgZone } from '@angular/core';
 
 declare var OrbitControls: any;
 
+declare var LavaShader: any;
+
 @Injectable({
   providedIn: 'root'
 })
@@ -111,8 +113,8 @@ export class EngineService implements OnDestroy {
           value: 0.0
         }
       },
-      vertexShader: document.getElementById( 'vertexShader' ).textContent,
-      fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+      vertexShader: LavaShader.vertexShader,
+      fragmentShader: LavaShader.fragmentShader
     
     } );
     
