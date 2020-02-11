@@ -3,7 +3,7 @@ import { EngineService } from './engine.service';
 import { isPlatformBrowser } from '@angular/common';
 
 @Component({
-  selector: 'app-engine',
+  selector: 'app-3d-intro',
   templateUrl: './engine.component.html'
 })
 export class EngineComponent implements OnInit {

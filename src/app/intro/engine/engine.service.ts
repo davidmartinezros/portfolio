@@ -23,10 +23,10 @@ export class EngineService implements OnDestroy {
   private material: THREE.ShaderMaterial;
 
   private SEPARATION = 120;
-  private AMOUNTX = 300;
+  private AMOUNTX = 70;
   private AMOUNTY = 70;
-  private particles
-  private particle;
+  private particles: THREE.Sprite[];
+  private particle: THREE.Sprite;
   private count = 0;
 
   private frameId: number = null;
@@ -83,7 +83,7 @@ export class EngineService implements OnDestroy {
 
     var PI2 = Math.PI * 2;
 
-    var materialParticle = new THREE.SpriteMaterial( { color: 0x666666, opacity: 1.0 } );
+    var materialParticle = new THREE.SpriteMaterial( { color: 0x2aabd2, opacity: 1.0 } );
 
     var i = 0;
 
@@ -91,8 +91,9 @@ export class EngineService implements OnDestroy {
 
       for ( var iy = 0; iy < this.AMOUNTY; iy ++ ) {
 
-        this.particle = this.particles[ i ++ ] = new THREE.Sprite( materialParticle );
+        this.particle = this.particles[ i ++ ] = new THREE.Sprite( materialParticle.clone() );
         this.particle.position.x = ix * this.SEPARATION - ( ( this.AMOUNTX * this.SEPARATION ) / 2 );
+        this.particle.position.y = -200;
         this.particle.position.z = iy * this.SEPARATION - ( ( this.AMOUNTY * this.SEPARATION ) / 2 );
         this.scene.add( this.particle );
 
@@ -161,9 +162,18 @@ export class EngineService implements OnDestroy {
       for ( var iy = 0; iy < this.AMOUNTY; iy ++ ) {
 
         this.particle = this.particles[ i++ ];
-        this.particle.position.y = ( Math.sin( ( ix + this.count ) * 0.3 ) * 50 ) +
+        this.particle.position.y = -200 + ( Math.sin( ( ix + this.count ) * 0.3 ) * 50 ) +
           ( Math.sin( ( iy + this.count ) * 0.5 ) * 50 );
-          this.particle.scale.x = this.particle.scale.y = ( Math.sin( ( ix + this.count ) * 0.3 ) + 1 ) * 4 +
+        if(this.particle.position.y >= -110) {
+          this.particle.material.color = new THREE.Color(0x925f01);
+        } else if(this.particle.position.y > -140 && this.particle.position.y < -110) {
+          this.particle.material.color = new THREE.Color("orange");
+        } else if(this.particle.position.y > -170 && this.particle.position.y < -140) {
+          this.particle.material.color = new THREE.Color(0xf85d09);
+        } else {
+          this.particle.material.color = new THREE.Color(0x2aabd2);
+        }
+        this.particle.scale.x = this.particle.scale.y = ( Math.sin( ( ix + this.count ) * 0.3 ) + 1 ) * 4 +
           ( Math.sin( ( iy + this.count ) * 0.5 ) + 1 ) * 4;
 
       }
