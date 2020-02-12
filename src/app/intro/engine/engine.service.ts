@@ -48,7 +48,7 @@ export class EngineService implements OnDestroy {
       alpha: true,    // transparent background
       antialias: true // smooth edges
     });
-    this.renderer.setSize(window.innerWidth, window.innerHeight);
+    this.renderer.setSize(window.innerWidth, window.innerHeight, false);
 
     // create the scene
     this.scene = new THREE.Scene();
@@ -194,7 +194,7 @@ export class EngineService implements OnDestroy {
     this.camera.aspect = width / height;
     this.camera.updateProjectionMatrix();
     
-    this.renderer.setSize( width, height );
+    this.renderer.setSize( width, height, false );
   }
 
 }
