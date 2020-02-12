@@ -22,9 +22,9 @@
   }
   
   .ui-container {
-    bottom: 100px;
+    //bottom: 100px;
     position: absolute;
-    //top:30%;
+    top:42%;
     width: 100%;
   }
 
@@ -38,7 +38,7 @@
     text-align: center;
     border:1px solid white;
     background-color: rgba(33, 33, 33, 0.5);
-    padding:30px;
+    padding:20px;
   
     * {
       z-index: 10;
