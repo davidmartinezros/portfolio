@@ -29,13 +29,17 @@ export class EngineService implements OnDestroy {
   private particle: THREE.Sprite;
   private count = 0;
 
-  private frameId: number = null;
+  private static frameId: number = null;
 
   public constructor(private ngZone: NgZone) {}
 
   public ngOnDestroy() {
-    if (this.frameId != null) {
-      cancelAnimationFrame(this.frameId);
+    EngineService.ngOnDestroy();
+  }
+
+  public static ngOnDestroy() {
+    if (EngineService.frameId != null) {
+      cancelAnimationFrame(EngineService.frameId);
     }
   }
 
@@ -149,7 +153,7 @@ export class EngineService implements OnDestroy {
   }
 
   render() {
-    this.frameId = requestAnimationFrame(() => {
+    EngineService.frameId = requestAnimationFrame(() => {
       this.render();
     });
 

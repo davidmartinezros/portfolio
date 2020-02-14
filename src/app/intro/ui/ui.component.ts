@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EngineService } from '../engine/engine.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-ui',
@@ -6,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UiComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  navigateInto(){
+    EngineService.ngOnDestroy();
+    // Create Book logic
+    this.router.navigate(['/portfolio-full-stack-developer-software-engineer']);
   }
 
 }
