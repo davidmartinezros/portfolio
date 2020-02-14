@@ -21,7 +21,7 @@
   
   .ui-container {
     position: absolute;
-    top:42%;
+    bottom:15%;
     width: 100%;
   }
 
@@ -44,7 +44,8 @@
    text-align: center;
    padding: 10px;
    font-size: .75em;
- 
+   touch-action: none;
+
    * {
      z-index: 10;
    }
