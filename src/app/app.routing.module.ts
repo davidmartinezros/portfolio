@@ -12,8 +12,6 @@ const appRoutes: Routes = [
     {
       path: ':urlMain',
       component: TemplateWebComponent,
-      //loadChildren: () => import("./template-web/template-web.module").then(m => m.TemplateWebModule),
-      //data: { preload: true, animation: 'MainPage' },
       children:[
         {
           path: '',

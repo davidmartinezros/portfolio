@@ -25,11 +25,15 @@ function eraseCookie(name) {
 
 function loadWarning() {
     setTimeout(() => {
-        if (readCookie('cookie-warning') != 1) {
-            showCookieWarning();
-            hideOnClickCookieWarning();
-        }
         console.log("timeout 1000ms loadWarning");
+        if($('.cookie-warning')) {
+            if (readCookie('cookie-warning') != 1) {
+                showCookieWarning();
+                hideOnClickCookieWarning();
+            }
+        } else {
+            loadWarning();
+        }
     }, 1000);
 }
 
