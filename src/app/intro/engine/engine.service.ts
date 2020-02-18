@@ -29,6 +29,10 @@ export class EngineService implements OnDestroy {
   private particle: THREE.Sprite;
   private count = 0;
 
+  private marsMesh: THREE.Mesh;
+  private moonMesh: THREE.Mesh;
+  private venusMesh: THREE.Mesh;
+
   private static frameId: number = null;
 
   public constructor(private ngZone: NgZone) {}
@@ -56,6 +60,8 @@ export class EngineService implements OnDestroy {
 
     // create the scene
     this.scene = new THREE.Scene();
+ 
+    this.scene.fog = new THREE.Fog(0xffffff, 3000, 100000);
 
     this.camera = new THREE.PerspectiveCamera(55.0, window.innerWidth / window.innerHeight, 0.5, 3000000);
 		this.camera.position.set(350, 100, -450);
@@ -132,6 +138,39 @@ export class EngineService implements OnDestroy {
 
     this.camera.lookAt(mesh.position);
 
+    var geometry1   = new THREE.SphereGeometry(1000, 32, 32);
+    var material1  = new THREE.MeshBasicMaterial();
+    material1.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_mars_little.jpg');
+    material1.side  = THREE.BackSide;
+    this.marsMesh = new THREE.Mesh(geometry1, material1);
+    this.marsMesh.position.x = -40000;
+    this.marsMesh.position.y = 5000;
+    this.marsMesh.position.z = 20000;
+
+    this.scene.add(this.marsMesh);
+
+    var geometry2   = new THREE.SphereGeometry(1000, 32, 32);
+    var material2  = new THREE.MeshBasicMaterial();
+    material2.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_venus_surface_little.jpg');
+    material2.side  = THREE.BackSide;
+    this.venusMesh = new THREE.Mesh(geometry2, material2);
+    this.venusMesh.position.x = -50000;
+    this.venusMesh.position.y = 8000;
+    this.venusMesh.position.z = 10000;
+
+    this.scene.add(this.venusMesh);
+
+    var geometry3   = new THREE.SphereGeometry(1000, 32, 32);
+    var material3  = new THREE.MeshBasicMaterial();
+    material3.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_moon_little.jpg');
+    material3.side  = THREE.BackSide;
+    this.moonMesh = new THREE.Mesh(geometry3, material3);
+    this.moonMesh.position.x = 1000;
+    this.moonMesh.position.y = 2500;
+    this.moonMesh.position.z = 25000;
+
+    this.scene.add(this.moonMesh);
+
   }
   
   animate(): void {
@@ -181,6 +220,10 @@ export class EngineService implements OnDestroy {
           ( Math.sin( ( iy + this.count ) * 0.5 ) + 1 ) * 4;
 
       }
+
+      //this.moonMesh.rotateX(0.00001);
+      //this.moonMesh.rotateY(0.00001);
+      //this.moonMesh.rotateZ(0.00001);
 
     }
 
