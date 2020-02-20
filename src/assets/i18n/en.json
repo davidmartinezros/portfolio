@@ -369,6 +369,21 @@
     "projects":
     [
         {
+        "id": 37,
+        "visible": true,
+        "nom": "app-3d-three-template-with-angular",
+        "titol": "Component app3d-three-template with Angular and Three.js",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "02/20/2020",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com",
+        "video": "dwwOPy1s4fQ",
+        "videoImg": "https://i.ytimg.com/vi/dwwOPy1s4fQ/hqdefault.jpg",
+        "html": "Component <b>app3d-three-template</b> that, using <b>Angular</b>, <b>Angular-cli</b> and <b>Three.js</b> technologies, generates a template to easily add 3D content to your Angular Web.<br/><br/>It is published in <a href='https://www.npmjs.com/package/app3d-three-template' target='_blank'>https://www.npmjs.com/package/app3d-three-template</a>.",    
+        "repositori": "https://github.com/davidmartinezros/app-3d-three-template"
+        },
+        {
         "id": 36,
         "visible": true,
         "nom": "escape-if-you-can-with-unity",
@@ -490,7 +505,7 @@
         },
         {
         "id": 27,
-        "visible": true,
+        "visible": false,
         "nom": "bind-json-array-to-configurable-menu-angular",
         "titol": "Component bind json array to configurable menu with Angular",
         "tema": "Angular",

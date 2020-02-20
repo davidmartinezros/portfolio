@@ -369,6 +369,21 @@
     "projects":
     [
         {
+        "id": 37,
+        "visible": true,
+        "nom": "app-3d-three-template-与-angular",
+        "titol": "零件app3d-three-template与Angular和Three.js",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "02/20/2020",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com",
+        "video": "dwwOPy1s4fQ",
+        "videoImg": "https://i.ytimg.com/vi/dwwOPy1s4fQ/hqdefault.jpg",
+        "html": "组件<b>app3d-three-template</b>，它使用<b>Angular</b>，<b>Angular-cli</b>和<b>Three.js</b>技术生成一个 模板可轻松将3D内容添加到Angular Web中。<br/> <br/>它发布在<a href ='https://www.npmjs.com/package/app3d-three-template' target ='_blank'>https://www.npmjs.com/package/app3d-three-template</a>。",    
+        "repositori": "https://github.com/davidmartinezros/app-3d-three-template"
+        },
+        {
         "id": 36,
         "visible": true,
         "nom": "如果可以-请逃脱",
@@ -490,7 +505,7 @@
         },
         {
         "id": 27,
-        "visible": true,
+        "visible": false,
         "nom": "结合-JSON-阵列到可配置菜单-angular",
         "titol": "组件使用Angular将json数组绑定到可配置菜单",
         "tema": "Angular",

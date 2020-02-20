@@ -369,6 +369,21 @@
     "projects":
     [
         {
+        "id": 37,
+        "visible": true,
+        "nom": "app-3d-three-template-con-angular",
+        "titol": "Componente app3d-three-template con Angular y Three.js",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "02/20/2020",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com",
+        "video": "dwwOPy1s4fQ",
+        "videoImg": "https://i.ytimg.com/vi/dwwOPy1s4fQ/hqdefault.jpg",
+        "html": "Component <b>app3d-three-template</b> que, usando las tecnologías <b>Angular</b>, <b>Angular-cli</b> y <b>Three.js</b>, genera un template para poder añadir, de forma fácil, contenido 3D a tu Web Angular.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app3d-three-template' target='_blank'>https://www.npmjs.com/package/app3d-three-template</a>.",    
+        "repositori": "https://github.com/davidmartinezros/app-3d-three-template"
+        },
+        {
         "id": 36,
         "visible": true,
         "nom": "escapa-si-puedes-con-unity",
@@ -376,7 +391,7 @@
         "tema": "Unity",
         "tipus": "Project",
         "data": "11/22/2019",
-        "estat": "TRABAJANDO",
+        "estat": "ACABADO",
         "link": "https://davidmartinezros.com/3D/Escapa-si-puedes-unity/",
         "video": "xcvjXiSl05g",
         "videoImg": "https://i.ytimg.com/vi/xcvjXiSl05g/hqdefault.jpg",
@@ -490,7 +505,7 @@
         },
         {
         "id": 27,
-        "visible": true,
+        "visible": false,
         "nom": "asociar-json-array-a-menu-configurable-angular",
         "titol": "Componente que asocia un fichero json a un menu configurable con Angular",
         "tema": "Angular",
