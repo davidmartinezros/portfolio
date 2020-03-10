@@ -369,6 +369,21 @@
     "projects":
     [
         {
+        "id": 38,
+        "visible": true,
+        "nom": "app-draggable-portlets-template",
+        "titol": "Componente app-draggable-portlets-template con Angular",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "03/10/2020",
+        "estat": "TRABAJANDO",
+        "link": "https://next.plnkr.co/edit/REhfoeZ3CaoYOneY?open=lib%2Fapp.ts&deferRun=1",
+        "video": "UK95WlM-GMc",
+        "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
+        "html": "Component <b>app-3d-three-template-con-angular</b> que, usando las tecnologías <b>Angular</b> y <b>Angular-cli</b>, genera un template para poder añadir, de forma fácil, portlets arrastrables.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app-draggable-portlets-template' target='_blank'>https://www.npmjs.com/package/app-draggable-portlets-template</a>.",    
+        "repositori": "https://github.com/davidmartinezros/bind-json-array-to-draggable-portlets"
+        },
+        {
         "id": 37,
         "visible": true,
         "nom": "app-3d-three-template-con-angular",
@@ -377,8 +392,7 @@
         "tipus": "Component",
         "data": "02/20/2020",
         "estat": "TRABAJANDO",
-        "link": "https://davidmartinezros.com",
-        "video": "dwwOPy1s4fQ",
+        "imatge": "../../assets/images/projecte37.png",
         "videoImg": "https://i.ytimg.com/vi/dwwOPy1s4fQ/hqdefault.jpg",
         "html": "Component <b>app3d-three-template</b> que, usando las tecnologías <b>Angular</b>, <b>Angular-cli</b> y <b>Three.js</b>, genera un template para poder añadir, de forma fácil, contenido 3D a tu Web Angular.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app3d-three-template' target='_blank'>https://www.npmjs.com/package/app3d-three-template</a>.",    
         "repositori": "https://github.com/davidmartinezros/app-3d-three-template"
