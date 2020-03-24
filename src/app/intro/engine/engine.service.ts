@@ -140,7 +140,7 @@ export class EngineService implements OnDestroy {
 
     var geometry1   = new THREE.SphereGeometry(1000, 32, 32);
     var material1  = new THREE.MeshBasicMaterial();
-    material1.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_mars_little.jpg');
+    material1.map   = new THREE.TextureLoader().load('assets/textures/2k_mars_little.jpg');
     material1.side  = THREE.BackSide;
     this.marsMesh = new THREE.Mesh(geometry1, material1);
     this.marsMesh.position.x = -40000;
@@ -151,7 +151,7 @@ export class EngineService implements OnDestroy {
 
     var geometry2   = new THREE.SphereGeometry(1000, 32, 32);
     var material2  = new THREE.MeshBasicMaterial();
-    material2.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_venus_surface_little.jpg');
+    material2.map   = new THREE.TextureLoader().load('assets/textures/2k_venus_surface_little.jpg');
     material2.side  = THREE.BackSide;
     this.venusMesh = new THREE.Mesh(geometry2, material2);
     this.venusMesh.position.x = -50000;
@@ -162,7 +162,7 @@ export class EngineService implements OnDestroy {
 
     var geometry3   = new THREE.SphereGeometry(1000, 32, 32);
     var material3  = new THREE.MeshBasicMaterial();
-    material3.map   = THREE.ImageUtils.loadTexture('assets/textures/2k_moon_little.jpg');
+    material3.map   = new THREE.TextureLoader().load('assets/textures/2k_moon_little.jpg');
     material3.side  = THREE.BackSide;
     this.moonMesh = new THREE.Mesh(geometry3, material3);
     this.moonMesh.position.x = 1000;
