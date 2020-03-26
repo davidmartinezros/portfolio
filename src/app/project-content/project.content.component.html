@@ -14,8 +14,8 @@
     <p class="card-text" [innerHTML]="project.html | safeHtml"></p>
 </div>
 <div class="card-footer">
-    <a *ngIf="project.link!=null" target="_blank" rel="noopener" [href]="project.link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:5px;"><i class="fa fa-play"></i> {{ demo }}</a>
-    <a *ngIf="project.repositori!=null" target="_blank" rel="noopener" [href]="project.repositori | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:5px;">{{ git }}</a>
-    <a *ngIf="project.urlProjecte!=null" [routerLink]="project.urlProjecte" class="boto btn btn-outline-primary btn-sm" style="margin-right:5px;">{{ detall }}</a>
+    <a *ngIf="project.link!=null" target="_blank" rel="noopener" [href]="project.link | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:3px;"><i class="fa fa-play"></i> {{ demo }}</a>
+    <a *ngIf="project.repositori!=null" target="_blank" rel="noopener" [href]="project.repositori | safeUrl" class="boto btn btn-outline-primary btn-sm" style="margin-right:3px;">{{ git }}</a>
+    <a *ngIf="project.urlProjecte!=null" [routerLink]="project.urlProjecte" class="boto btn btn-outline-primary btn-sm" style="margin-right:3px;">{{ detall }}</a>
     <a *ngIf="project.urlGrup!=null" [routerLink]="project.urlGrup" class="boto btn btn-outline-primary btn-sm">{{ grup }}</a>
 </div>

@@ -37,6 +37,8 @@
     /*border: 1px solid var(--my-blue);*/
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .card-img-top {
