@@ -141,7 +141,7 @@ time {
 
 @media screen and (max-width: 950px) {
   .timeline ul li div {
-    width: 300px;
+    width: 330px;
   }
   .timeline ul li:nth-child(even) div {
     left: -339px;
@@ -154,7 +154,7 @@ time {
     margin-left: 0px;
   }
   .timeline ul li div {
-    width: 300px;
+    width: 330px;
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
