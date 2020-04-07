@@ -376,8 +376,8 @@
         "tema": "Angular",
         "tipus": "Component",
         "data": "03/10/2020",
-        "estat": "TRABAJANDO",
-        "link": "https://next.plnkr.co/edit/REhfoeZ3CaoYOneY?preview",
+        "estat": "加工",
+        "link": "https://davidmartinezros.github.io/DraggablePortletsTemplateDemo/",
         "video": "dwwOPy1s4fQ",
         "videoImg": "https://i.ytimg.com/vi/dwwOPy1s4fQ/hqdefault.jpg",
         "html": "组件<b>app-3d-three-template-with-angular</b>，它使用<b>Angular</b>和<b>Angular-cli</b>技术，生成要添加的模板 ，可轻松拖动的Portlet。<br/><br/>它发布在<a href='https://www.npmjs.com/package/app-draggable-portlets-template' target='_blank'>https://www.npmjs.com/package/app-draggable-portlets-template</a>。",    
@@ -391,8 +391,8 @@
         "tema": "Angular",
         "tipus": "Component",
         "data": "02/20/2020",
-        "estat": "TRABAJANDO",
-        "link": "https://plnkr.co/edit/bdkshJFzhwmLNdgO?preview",
+        "estat": "加工",
+        "link": "https://davidmartinezros.github.io/3dThreeTemplateDemo/",
         "video": "Hz9Wz00X554",
         "videoImg": "https://i.ytimg.com/vi/Hz9Wz00X554/hqdefault.jpg",
         "html": "组件<b>app3d-three-template</b>，它使用<b>Angular</b>，<b>Angular-cli</b>和<b>Three.js</b>技术生成一个 模板可轻松将3D内容添加到Angular Web中。<br/> <br/>它发布在<a href ='https://www.npmjs.com/package/app3d-three-template' target ='_blank'>https://www.npmjs.com/package/app3d-three-template</a>。",    
@@ -706,11 +706,11 @@
         "tipus": "Component",
         "data": "12/08/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "link": "https://davidmartinezros.com/Angular9/component-divs-project/",
         "video": "qNqkQNnZ7tM",
         "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中<a href='https://angular.io/' target='_blank'>Angular 2</a>。",
-        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        "repositori": "https://github.com/davidmartinezros/component-divs-project2"
         },
         {
         "id": 11,
@@ -721,11 +721,11 @@
         "tipus": "Component",
         "data": "11/06/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "link": "https://davidmartinezros.com/Angular9/component-tree-project/",
         "video": "Ubm8HhqhkwE",
         "videoImg": "https://i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
         "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示從具有祖先和子結構的json文件加載的<b>樹組件</br><br/>你可以加载任何树结构。<br/><br/>你只需要下载样本json文件，修改它并重新加载它。",
-        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        "repositori": "https://github.com/davidmartinezros/component-tree-project2"
         },
         {
         "id": 10,
@@ -751,11 +751,11 @@
         "tipus": "Component",
         "data": "10/30/2016",
         "estat": "整理",
-        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "link": "https://davidmartinezros.com/Angular9/components-animations-project",
         "video": "hI7a4HskMIw",
         "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
         "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在<a href='https://angular.io/' target='_blank'>Angular 2</a>網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>。",
-        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        "repositori": "https://github.com/davidmartinezros/components-animations-project2"
         },
         {
         "id": 8,

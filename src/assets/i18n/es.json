@@ -377,7 +377,7 @@
         "tipus": "Component",
         "data": "03/10/2020",
         "estat": "TRABAJANDO",
-        "link": "https://next.plnkr.co/edit/REhfoeZ3CaoYOneY?preview",
+        "link": "https://davidmartinezros.github.io/DraggablePortletsTemplateDemo/",
         "video": "UK95WlM-GMc",
         "videoImg": "https://i.ytimg.com/vi/UK95WlM-GMc/hqdefault.jpg",
         "html": "Component <b>app-3d-three-template-con-angular</b> que, usando las tecnologías <b>Angular</b> y <b>Angular-cli</b>, genera un template para poder añadir, de forma fácil, portlets arrastrables.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app-draggable-portlets-template' target='_blank'>https://www.npmjs.com/package/app-draggable-portlets-template</a>.",    
@@ -392,7 +392,7 @@
         "tipus": "Component",
         "data": "02/20/2020",
         "estat": "TRABAJANDO",
-        "link": "https://plnkr.co/edit/bdkshJFzhwmLNdgO?preview",
+        "link": "https://davidmartinezros.github.io/3dThreeTemplateDemo/",
         "video": "Hz9Wz00X554",
         "videoImg": "https://i.ytimg.com/vi/Hz9Wz00X554/hqdefault.jpg",
         "html": "Component <b>app3d-three-template</b> que, usando las tecnologías <b>Angular</b>, <b>Angular-cli</b> y <b>Three.js</b>, genera un template para poder añadir, de forma fácil, contenido 3D a tu Web Angular.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app3d-three-template' target='_blank'>https://www.npmjs.com/package/app3d-three-template</a>.",    
@@ -706,11 +706,11 @@
         "tipus": "Component",
         "data": "12/08/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/component-divs-project/",
+        "link": "https://davidmartinezros.com/Angular9/component-divs-project/",
         "video": "qNqkQNnZ7tM",
         "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
         "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
-        "repositori": "https://github.com/davidmartinezros/component-divs-project"
+        "repositori": "https://github.com/davidmartinezros/component-divs-project2"
         },
         {
         "id": 11,
@@ -721,11 +721,11 @@
         "tipus": "Component",
         "data": "11/06/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/component-tree-project/",
+        "link": "https://davidmartinezros.com/Angular9/component-tree-project/",
         "video": "Ubm8HhqhkwE",
         "videoImg": "https://i.ytimg.com/vi/Ubm8HhqhkwE/hqdefault.jpg",
         "html": "Muestra un <b>componente árbol</b> cargado desde un fichero json con una estructura de antepasados e hijos.<br/><br/>Puedes cargar cualquier estructura de árbol.<br/<br/>Solo tienes que descargar el fichero json de ejemplo, modificarlo y volver a cargarlo.",
-        "repositori": "https://github.com/davidmartinezros/component-tree-project"
+        "repositori": "https://github.com/davidmartinezros/component-tree-project2"
         },
         {
         "id": 10,
@@ -751,11 +751,11 @@
         "tipus": "Component",
         "data": "10/30/2016",
         "estat": "ACABADO",
-        "link": "https://davidmartinezros.com/Angular2/components-animations-project",
+        "link": "https://davidmartinezros.com/Angular9/components-animations-project",
         "video": "hI7a4HskMIw",
         "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
         "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web <a href='https://angular.io/' target='_blank'>Angular 2</a>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
-        "repositori": "https://github.com/davidmartinezros/components-animations-project"
+        "repositori": "https://github.com/davidmartinezros/components-animations-project2"
         },
         {
         "id": 8,
