@@ -709,7 +709,7 @@
         "link": "https://davidmartinezros.com/Angular9/component-divs-project/",
         "video": "qNqkQNnZ7tM",
         "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
-        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
+        "html": "Muestra algunos <b>componentes divs</b> cargados desde un fichero json con título, contenido y estilos.<br/><br/>Estos divs son <b>arrastrables</b> y <b>dropables</b> y los puedes usar con el componente <b>app-div-node</b> en otras aplicaciones <a href='https://angular.io/' target='_blank'>Angular</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project2"
         },
         {
@@ -754,7 +754,7 @@
         "link": "https://davidmartinezros.com/Angular9/components-animations-project",
         "video": "hI7a4HskMIw",
         "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
-        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web <a href='https://angular.io/' target='_blank'>Angular 2</a>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "Muestra algunas <b>animaciones en componentes html</b> que puedes usar en páginas web <a href='https://angular.io/' target='_blank'>Angular</a>.<br/><br/>El código que ha inspirado mi proyecto es <a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project2"
         },
         {

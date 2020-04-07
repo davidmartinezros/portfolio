@@ -709,7 +709,7 @@
         "link": "https://davidmartinezros.com/Angular9/component-divs-project/",
         "video": "qNqkQNnZ7tM",
         "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
-        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中<a href='https://angular.io/' target='_blank'>Angular 2</a>。",
+        "html": "這個項目是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示一些從標題，內容和样式的json文件加載的div組件。<br/> <br/>這些div是<b>可拖動的</ b>和<b> dropables </b>，您可以將它們與<b> app-div-node </b>組件一起使用在其他应用程序中<a href='https://angular.io/' target='_blank'>Angular</a>。",
         "repositori": "https://github.com/davidmartinezros/component-divs-project2"
         },
         {
@@ -754,7 +754,7 @@
         "link": "https://davidmartinezros.com/Angular9/components-animations-project",
         "video": "hI7a4HskMIw",
         "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
-        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在<a href='https://angular.io/' target='_blank'>Angular 2</a>網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>。",
+        "html": "這個例子是用<a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>開發的。<br/> <br/>顯示你可以在<a href='https://angular.io/' target='_blank'>Angular</a>網頁中使用的<html>組件中的<b>動畫</b>。<br/> <br/>啟動我的項目的代碼是<a href ='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>。",
         "repositori": "https://github.com/davidmartinezros/components-animations-project2"
         },
         {

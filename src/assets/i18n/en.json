@@ -709,7 +709,7 @@
         "link": "https://davidmartinezros.com/Angular9/component-divs-project/",
         "video": "qNqkQNnZ7tM",
         "videoImg": "https://i.ytimg.com/vi/qNqkQNnZ7tM/hqdefault.jpg",
-        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications <a href='https://angular.io/' target='_blank'>Angular 2</a>.",
+        "html": "This project is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> div components </b> loaded from a json file with title, content and styles. <br/> <br/> These divs are <b> draggable </b> and <b> dropables </b> and you can use them with the <b> app-div-node </b> component in other applications <a href='https://angular.io/' target='_blank'>Angular</a>.",
         "repositori": "https://github.com/davidmartinezros/component-divs-project2"
         },
         {
@@ -754,7 +754,7 @@
         "link": "https://davidmartinezros.com/Angular9/components-animations-project",
         "video": "hI7a4HskMIw",
         "videoImg": "https://i.ytimg.com/vi/hI7a4HskMIw/hqdefault.jpg",
-        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in <a href='https://angular.io/' target='_blank'>Angular 2</a> web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
+        "html": "This example is developed with <a href='https://github.com/angular/angular-cli/blob/master/README.md' target='_blank'> Angular-Cli </a>. <br/> <br/> Show some <b> animations in html components </b> that you can use in <a href='https://angular.io/' target='_blank'>Angular</a> web pages. <br/> <br/> The code that inspired my project is <a href = 'https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>.",
         "repositori": "https://github.com/davidmartinezros/components-animations-project2"
         },
         {
