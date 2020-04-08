@@ -369,9 +369,24 @@
     "projects":
     [
         {
+        "id": 39,
+        "visible": true,
+        "nom": "app-components-animations-template-con-angular",
+        "titol": "Componente app-components-animations-template con Angular",
+        "tema": "Angular",
+        "tipus": "Component",
+        "data": "04/08/2020",
+        "estat": "TRABAJANDO",
+        "link": "https://davidmartinezros.com/Angular9/components-animations-project/",
+        "video": "o_SDKxsJqrg",
+        "videoImg": "https://i.ytimg.com/vi/o_SDKxsJqrg/hqdefault.jpg",
+        "html": "Component <b>app-components-animations-template</b> que, usando las tecnologías <b>Angular</b> y <b>Angular-cli</b>, genera una animación sobre un texto o una imagen, según queramos.<br/><br/>Está publicado en <a href='https://www.npmjs.com/package/app-component-animation-template' target='_blank'>https://www.npmjs.com/package/app-component-animation-template</a>.",    
+        "repositori": "https://github.com/davidmartinezros/components-animations-project2"
+        },
+        {
         "id": 38,
         "visible": true,
-        "nom": "app-draggable-portlets-template",
+        "nom": "app-draggable-portlets-template-con-angular",
         "titol": "Componente app-draggable-portlets-template con Angular",
         "tema": "Angular",
         "tipus": "Component",
@@ -744,7 +759,7 @@
         },
         {
         "id": 9,
-        "visible": true,
+        "visible": false,
         "nom": "componente-animaciones-texto-html-angular",
         "titol": "Componente: animaciones texto html con Angular",
         "tema": "Angular",
