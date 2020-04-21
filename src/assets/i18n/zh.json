@@ -174,12 +174,12 @@
             ]
         }
     ],
-    "TitleIndex": "作品集 - 全栈开发人员 | Angular，Java，Javascript, Python, Unity",
+    "TitleIndex": "作品集 - 全栈开发人员 | Angular, Java, React, Javascript, Python, Unity",
     "SubtitleIndex1": "作品集 - ",
     "SubtitleIndex2": " | 全栈开发人员",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "全栈Web开发人员，前端，后端，大卫，马丁内斯，罗斯，投资组合，2020年，软件，工程师，巴塞罗那，西班牙，技术，堆栈，角度，Java，Python，JavaScript，Unity",
-    "TagDescriptionIndex": "投资组合。 看我的项目。 全栈Web开发人员。 前端和后端Web开发人员。 技术堆栈：Angular，Java，JavaScript，Python，Unity。",
+    "TagKeywordsIndex": "全栈Web开发人员，前端，后端，大卫，马丁内斯，罗斯，投资组合，2020，软件，工程师，巴塞罗那，西班牙，技术，堆栈，角度，Java，react，python，javascript，unity",
+    "TagDescriptionIndex": "投资组合。 看我的项目。 全栈Web开发人员。 前端和后端Web开发人员。 技术堆栈：Angular，Java，React，JavaScript，Python，Unity。",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "项目组合全栈开发人员软件工程师",
     "TitleSection1": "关于我",
@@ -369,6 +369,19 @@
     "projects":
     [
         {
+        "id": 40,
+        "visible": true,
+        "nom": "天气-应用程式-与-reactjs",
+        "titol": "使用Reactjs的Project Weather App",
+        "tema": "Reactjs",
+        "tipus": "Project",
+        "data": "04/21/2020",
+        "estat": "FINALIZADO",
+        "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
+        "html": "在实现<a href='https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol/' target='_blank'>当然 通过Udemy，从Reactjs + Redux + ES6</a>开始，我设法完成了我的第一个Reactjs项目。 <br/> <br/>该应用程序可以预测一系列城市的天气，您可以看到几天和几小时的详细信息。",    
+        "repositori": "https://github.com/davidmartinezros/WeatherApp_Udemy"
+        },
+        {
         "id": 39,
         "visible": true,
         "nom": "app-components-animations-template-与-angular",
@@ -520,7 +533,7 @@
         },
         {
         "id": 28,
-        "visible": true,
+        "visible": false,
         "nom": "流体仿真的Navier-Stokes的javascript",
         "titol": "使用Javascript的Navier Stokes方程的流体模拟项目",
         "tema": "Javascript",

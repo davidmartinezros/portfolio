@@ -89,6 +89,7 @@
     border-right: 3px solid rgb(45, 45, 45);
     border-top: 3px solid rgb(45, 45, 45);
 }
+
 .ribbon-angular span {
     color: white;
     background: #e62a39;
@@ -103,6 +104,22 @@
     border-right: 3px solid #c1bbbf;
     border-top: 3px solid #c1bbbf;
 }
+
+.ribbon-reactjs span {
+    color: #222222;
+    background: #7cdff8;
+}
+
+.ribbon-reactjs span::before {
+    border-left: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}
+
+.ribbon-reactjs span::after {
+    border-right: 3px solid #c1bbbf;
+    border-top: 3px solid #c1bbbf;
+}
+
 .ribbon-unity span {
     color: black;
     background: white;

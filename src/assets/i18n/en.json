@@ -174,12 +174,12 @@
             ]
         }
     ],
-    "TitleIndex": "Portfolio - Full Stack Web Developer | Angular, Java, Javascript, Python, Unity",
+    "TitleIndex": "Portfolio - Full Stack Web Developer | Angular, Java, React, Javascript, Python, Unity",
     "SubtitleIndex1": "Portfolio - ",
     "SubtitleIndex2": " | Full Stack Web Developer",
     "TagAuthorIndex": "David Martinez Ros",
-    "TagKeywordsIndex": "full stack web developer, front-end, back-end, david, martinez, ros, portfolio, 2020, software, engineer, barcelona, spain, tech, stack, angular, java, python, javascript, unity",
-    "TagDescriptionIndex": "Portfolio. See my projects. Full Stack Web Developer. Front-end & Back-end Web Developer. Tech stack: Angular, Java, JavaScript, Python, Unity.",
+    "TagKeywordsIndex": "full stack web developer, front-end, back-end, david, martinez, ros, portfolio, 2020, software, engineer, barcelona, spain, tech, stack, angular, java, react, python, javascript, unity",
+    "TagDescriptionIndex": "Portfolio. See my projects. Full Stack Web Developer. Front-end & Back-end Web Developer. Tech stack: Angular, Java, React, JavaScript, Python, Unity.",
     "TagImageIndex": "assets/images/icon.png",
     "UrlMain": "portfolio-full-stack-developer-software-engineer",
     "TitleSection1": "About me",
@@ -369,6 +369,19 @@
     "projects":
     [
         {
+        "id": 40,
+        "visible": true,
+        "nom": "weather-app-with-reactjs",
+        "titol": "Project Weather App with Reactjs",
+        "tema": "Reactjs",
+        "tipus": "Project",
+        "data": "04/21/2020",
+        "estat": "FINALIZADO",
+        "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
+        "html": "In the realization of a <a href='https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol/' target='_blank'>course From Reactjs + Redux + ES6</a> through Udemy, I have managed to do my first Reactjs project. <br/> <br/> Application that predicts the weather in a series of cities and you can see the detail for days and hours.",    
+        "repositori": "https://github.com/davidmartinezros/WeatherApp_Udemy"
+        },
+        {
         "id": 39,
         "visible": true,
         "nom": "app-components-animations-template-with-angular",
@@ -520,7 +533,7 @@
         },
         {
         "id": 28,
-        "visible": true,
+        "visible": false,
         "nom": "fluid-simulation-navier-stokes-javascript",
         "titol": "Fluid simulation project with the Navier Stokes equation with Javascript",
         "tema": "Javascript",

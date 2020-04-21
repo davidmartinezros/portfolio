@@ -44,6 +44,8 @@ declare function eraseCookie(name): any;
         let style = "";
         if(this.project.tema == "Angular") {
             style = "ribbon ribbon-angular";
+        } else if(this.project.tema == "Reactjs") {
+            style = "ribbon ribbon-reactjs";
         } else if(this.project.tema == "Ionic") {
             style = "ribbon ribbon-ionic";
         } else if(this.project.tema == "Java") {
