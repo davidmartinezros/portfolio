@@ -378,6 +378,8 @@
         "data": "04/21/2020",
         "estat": "FINALIZADO",
         "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
+        "video": "YqSDWeCELm0",
+        "videoImg": "https://i.ytimg.com/vi/YqSDWeCELm0/hqdefault.jpg",
         "html": "在实现<a href='https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol/' target='_blank'>当然 通过Udemy，从Reactjs + Redux + ES6</a>开始，我设法完成了我的第一个Reactjs项目。 <br/> <br/>该应用程序可以预测一系列城市的天气，您可以看到几天和几小时的详细信息。",    
         "repositori": "https://github.com/davidmartinezros/WeatherApp_Udemy"
         },

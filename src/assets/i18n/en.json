@@ -378,6 +378,8 @@
         "data": "04/21/2020",
         "estat": "FINALIZADO",
         "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
+        "video": "YqSDWeCELm0",
+        "videoImg": "https://i.ytimg.com/vi/YqSDWeCELm0/hqdefault.jpg",
         "html": "In the realization of a <a href='https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol/' target='_blank'>course From Reactjs + Redux + ES6</a> through Udemy, I have managed to do my first Reactjs project. <br/> <br/> Application that predicts the weather in a series of cities and you can see the detail for days and hours.",    
         "repositori": "https://github.com/davidmartinezros/WeatherApp_Udemy"
         },
