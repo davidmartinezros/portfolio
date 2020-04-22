@@ -87,6 +87,7 @@ declare function readCookie(name): any;
             this.isAll = false;
             this.isBest20 = false;
             this.isAngular = true;
+            this.isReactjs = false;
             this.isJava = false;
             this.isJavascript = false;
             this.isUnity = false;
