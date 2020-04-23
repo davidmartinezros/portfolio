@@ -43,6 +43,10 @@
                     "value": "4.6"
                 },
                 {
+                    "theme": "Reactjs",
+                    "value": "2.6"
+                },
+                {
                     "theme": "Ionic",
                     "value": "1"
                 },
