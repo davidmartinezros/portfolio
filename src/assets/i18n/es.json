@@ -373,6 +373,21 @@
     "projects":
     [
         {
+        "id": 41,
+        "visible": true,
+        "nom": "fondo-pantalla-con-rectangles-javascript",
+        "titol": "Proyecto Fondo de pantalla con Rectángulos con Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "04/25/2020",
+        "estat": "FINALIZADO",
+        "link": "https://davidmartinezros.com/Javascript/background-with-rectangles-javascript/",
+        "video": "iub1CvcsQb8",
+        "videoImg": "https://i.ytimg.com/vi/iub1CvcsQb8/hqdefault.jpg",
+        "html": "Este proyecto es un fondo de pantalla con rectángulos de tamaños aleatorios con colores y sombreado, realizado únicamente con Javascript.",    
+        "repositori": "https://github.com/davidmartinezros/background-with-rectangles-javascript"
+        },
+        {
         "id": 40,
         "visible": true,
         "nom": "weather-app-con-reactjs",
@@ -449,7 +464,7 @@
         },
         {
         "id": 35,
-        "visible": true,
+        "visible": false,
         "nom": "portlets-arrastrables-con-angular",
         "titol": "Proyecto Portlets arrastrables con Angular",
         "tema": "Angular",

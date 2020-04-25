@@ -373,6 +373,21 @@
     "projects":
     [
         {
+        "id": 41,
+        "visible": true,
+        "nom": "background-with-rectangles-javascript",
+        "titol": "Proyecto Background with Rectangles with Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "04/25/2020",
+        "estat": "FINISHED",
+        "link": "https://davidmartinezros.com/Javascript/background-with-rectangles-javascript/",
+        "video": "iub1CvcsQb8",
+        "videoImg": "https://i.ytimg.com/vi/iub1CvcsQb8/hqdefault.jpg",
+        "html": "This project is a wallpaper with randomly sized rectangles with colors and shading, made only with Javascript.",    
+        "repositori": "https://github.com/davidmartinezros/background-with-rectangles-javascript"
+        },
+        {
         "id": 40,
         "visible": true,
         "nom": "weather-app-with-reactjs",
@@ -380,7 +395,7 @@
         "tema": "Reactjs",
         "tipus": "Project",
         "data": "04/21/2020",
-        "estat": "FINALIZADO",
+        "estat": "FINISHED",
         "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
         "video": "YqSDWeCELm0",
         "videoImg": "https://i.ytimg.com/vi/YqSDWeCELm0/hqdefault.jpg",
@@ -395,7 +410,7 @@
         "tema": "Angular",
         "tipus": "Component",
         "data": "04/08/2020",
-        "estat": "TRABAJANDO",
+        "estat": "WORKING",
         "link": "https://davidmartinezros.com/Angular9/components-animations-project/",
         "video": "o_SDKxsJqrg",
         "videoImg": "https://i.ytimg.com/vi/o_SDKxsJqrg/hqdefault.jpg",
@@ -449,7 +464,7 @@
         },
         {
         "id": 35,
-        "visible": true,
+        "visible": false,
         "nom": "draggable-portlets-with-angular",
         "titol": "Draggable Portlets project with Angular",
         "tema": "Angular",

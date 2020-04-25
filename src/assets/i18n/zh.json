@@ -373,6 +373,21 @@
     "projects":
     [
         {
+        "id": 41,
+        "visible": true,
+        "nom": "背景-与-矩形-javascript",
+        "titol": "Proyecto背景与矩形用Javascript",
+        "tema": "Javascript",
+        "tipus": "Project",
+        "data": "04/25/2020",
+        "estat": "整理",
+        "link": "https://davidmartinezros.com/Javascript/background-with-rectangles-javascript/",
+        "video": "iub1CvcsQb8",
+        "videoImg": "https://i.ytimg.com/vi/iub1CvcsQb8/hqdefault.jpg",
+        "html": "该项目是一个墙纸，具有随机大小的带有颜色和阴影的矩形，仅使用Javascript制作。",    
+        "repositori": "https://github.com/davidmartinezros/background-with-rectangles-javascript"
+        },
+        {
         "id": 40,
         "visible": true,
         "nom": "天气-应用程式-与-reactjs",
@@ -380,7 +395,7 @@
         "tema": "Reactjs",
         "tipus": "Project",
         "data": "04/21/2020",
-        "estat": "FINALIZADO",
+        "estat": "整理",
         "link": "https://davidmartinezros.com/Reactjs/WeatherApp_Udemy/",
         "video": "YqSDWeCELm0",
         "videoImg": "https://i.ytimg.com/vi/YqSDWeCELm0/hqdefault.jpg",
@@ -449,7 +464,7 @@
         },
         {
         "id": 35,
-        "visible": true,
+        "visible": false,
         "nom": "可拖动的-Portlet-与-Angular-的",
         "titol": "可拖动的Portlets项目使用Angular",
         "tema": "Angular",
