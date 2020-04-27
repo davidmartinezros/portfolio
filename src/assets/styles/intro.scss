@@ -1,78 +1,80 @@
 .engine-wrapper{
+  background-color: #222929;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+  #renderCanvas {
     background-color: #222929;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
-  
-    #renderCanvas {
-      background-color: #222929;
-      height: 100%;
-      width: 100%;
-      touch-action: none;
-    }
-  
-    #renderCanvas:focus {
-      outline: none;
-    }
-  }
-  
-  .ui-container {
-    position: absolute;
-    bottom:15%;
+    height: 100%;
     width: 100%;
-  }
-
-  .ui-wrapper {
-    width:80%;
-    margin: 0 auto;
-    text-align: center;
-    border:1px solid white;
-    background-color: rgba(33, 33, 33, 0.5);
-    padding:20px;
     touch-action: none;
-  
-    * {
-      z-index: 10;
-    }
-  }
- 
-  .ui-wrapper-footer {
-   margin: 0 auto;
-   text-align: center;
-   padding: 10px;
-   font-size: .75em;
-   touch-action: none;
-
-   * {
-     z-index: 10;
-   }
-  }
- 
-  a.entra {
-   padding: 6px 5px;
-   background-color: #313131;
-   color: #ccc !important;
-   border-width: 1px 1px 2px 1px;
-   border-style: solid;
-   border-color: #222;
-   border-radius: 3px;
-   text-transform: uppercase;
-   font-family: "Lato", Calibri, Arial, sans-serif;
-   font-weight: 700;
-   font-size: 1.5em;
-   line-height: 1em;
-   box-shadow: 1px 1px 0 rgba(0,0,0,.25);
-   margin: 3px;
-   margin-bottom: 20px;
-   opacity: 1;
-   cursor: pointer;
-   position: relative;
-   overflow: hidden;
   }
 
-  a.entra:hover, a.entrar:visited, a.entrar:active {
-    border-color: orange;
+  #renderCanvas:focus {
+    outline: none;
   }
+}
+
+.ui-container {
+  position: absolute;
+  bottom:15%;
+  width: 100%;
+}
+
+.ui-wrapper {
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+  border:1px solid white;
+  background-color: rgba(33, 33, 33, 0.5);
+  padding:20px;
+  touch-action: none;
+
+  * {
+    z-index: 10;
+  }
+}
+
+.ui-wrapper-footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  font-size: .75em;
+  touch-action: none;
+
+  * {
+    z-index: 10;
+  }
+}
+
+a.entra {
+  padding: 6px 5px;
+  background-color: #313131;
+  color: #ccc !important;
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+  border-color: #222;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: "Lato", Calibri, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1em;
+  box-shadow: 1px 2px 0 rgba(255,255,255,.25);
+  margin: 3px;
+  margin-bottom: 20px;
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+a.entra:hover, a.entrar:visited, a.entrar:active {
+  box-shadow: 1px 2px 0 orange;
+  border-color: orange;
+  color: white !important;
+}
