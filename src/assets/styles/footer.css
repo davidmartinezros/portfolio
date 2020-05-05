@@ -44,6 +44,11 @@ footer a:hover {
   text-decoration: none;
 }
 
+.copyrights, .contact-text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .rights-text, .contact-text {
   font-family: "Lato", Calibri, Arial, sans-serif;
   color: #788699;
