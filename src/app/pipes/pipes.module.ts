@@ -5,6 +5,7 @@ import { SafeStylePipe } from './safe.style.pipe';
 import { SafeUrlPipe } from './safe.url.pipe';
 import { KeysArrayPipe } from './keys.array.pipe';
 import { FilterProjectPipe } from './filter.project';
+import { RandomPipe } from './random.pipe';
 
 @NgModule({
   imports: [
@@ -15,14 +16,16 @@ import { FilterProjectPipe } from './filter.project';
     SafeStylePipe,
     SafeHtmlPipe,
     KeysArrayPipe,
-    FilterProjectPipe
+    FilterProjectPipe,
+    RandomPipe
   ],
   exports: [
     SafeUrlPipe,
     SafeStylePipe,
     SafeHtmlPipe,
     KeysArrayPipe,
-    FilterProjectPipe
+    FilterProjectPipe,
+    RandomPipe
   ]
 })
 export class PipesModule { }

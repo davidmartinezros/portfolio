@@ -200,11 +200,26 @@
     "Section1Text2": "我有14年以上的專業經驗和6年的大學培訓經歷，曾經學習計算機工程和多媒體工程.",
     "Section1Text3": "我曾参加过巴塞罗那领先公司的重大项目，如: <a href='https://www.upf.edu/' target='_blank'>Universitat Pompeu Fabra</a>，<a href = 'https://web.gencat.cat/ca/inici' target ='_blank'>Generalitat de Catalunya</a>，<a href ='http://www.diba.cat/en' target='_blank'>Diputació de Barcelona</a>，<a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banc de Sabadell</a>和<a href ='http://www.grifols.es/es/web/spain/our_company' target ='_blank'>Grifols</a>等等.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>你需要項目幫助嗎?</a>",
-    "Section1Text5": "如果您在维基中寻找<b class ='job-highlight'>创造力</b>的定义, 您会发现它是:",
-    "Section1Text6": "\"<i class='job-highlight'> ...产生新思想或新概念的能力, 思想与已知概念之间的新关联, 这些通常会产生原创的解决方案...</i> \"",
+    "Section1Text5": [
+        "如果您在维基中寻找<b class ='job-highlight'>创造力</b>的定义, 您会发现它是:",
+        "如果要在Wiki中查找<b class ='job-highlight'>职位调适</b>的定义，您将看到它是:",
+        "如果要在Wiki中查找<b class ='job-highlight'>项目</b>的定义，您将看到它是:",
+        "如果您在Wiki中寻找<b class ='job-highlight'>合作</b>的定义，您将看到它是:"
+    ],
+    "Section1Text6": [
+        "\"<i class='job-highlight'> ...产生新思想或新概念的能力, 思想与已知概念之间的新关联, 这些通常会产生原创的解决方案...</i> \"",
+        "\" <i class='job-highlight'>... 工作适应是面对各种变化的一种，在面对不可预见的事件并以敏捷的方式提供解决方案时，工人具有灵活性 ...</i> \"",
+        "\" <i class='job-highlight'>... 项目是为创建独特的产品，服务或结果而进行的临时工作。 从这些概念可以明显看出，项目的原因是要在预算，先前确定的质量和先前定义的时间段所施加的限制内实现特定的结果或目标 ...</i> \"",
+        "\" <i class='job-highlight'>... 它是一种基于个人自组织社区的产品和服务生产方式。 在这样的社区中，许多人的工作被协调以达到共同的结果 ...</i> \""
+    ],
     "Section1Text7.1": "我建议",
     "Section1Text7.2": "主意",
-    "Section1Text7.3": "使用工程来查找原始解决方案",
+    "Section1Text7.3": [
+        "使用工程来查找原始解决方案",
+        "使用工程技术来适应最终解决方案",
+        "使用工程学来完成客观的解决方案",
+        "使用工程技术共同开发联合解决方案"
+    ],
     "Section1Text8": "我所有的經驗和高水平的創造力使我成為一位多才多藝，積極主動，獨具個性的決定性人物. 我不怕複雜的挑戰，相反，我對解決謎題充滿激情.",
     "Section1Text9": "<a href='mailto:davidnezan@gmail.com' target='_blank'>联系并制定我的问题!</a>",
     "Section2Text1": "後端",

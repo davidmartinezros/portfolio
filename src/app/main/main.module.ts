@@ -14,6 +14,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { FormModule } from "../form/form.module";
 import { IntroComponent } from "../intro/intro.component";
 import { TemplateWebComponent } from "../template-web/template-web.component";
+import { PipesModule } from "../pipes/pipes.module";
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { TemplateWebComponent } from "../template-web/template-web.component";
       ExperienceModule,
       CarouselModule,
       KnowledgeModule,
-      FormModule
+      FormModule,
+      PipesModule
     ],
     providers: [ AuthService, AngularFireDatabase, ProjectFirebaseService ],
     exports: [ MainComponent ],

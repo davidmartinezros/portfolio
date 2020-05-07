@@ -200,11 +200,26 @@
     "Section1Text2": "Cuento con más de 14 años de experiencia profesional y 6 años de formación universitaria, donde he cursado ingeniería informática e ingeniería multimedia.",
     "Section1Text3": "He participado en grandes proyectos de empresas líderes en Barcelona, como son: la <a href='https://www.upf.edu/' target='_blank'>Universidad Pompeu Fabra</a>, la <a href='https://web.gencat.cat/ca/inici' target='_blank'>Generalitat de Catalunya</a>, la <a href='http://www.diba.cat/es' target='_blank'>Diputació de Barcelona</a>, el <a href='https://www.bancsabadell.com/cs/Satellite/SabAtl/' target='_blank'>Banc de Sabadell</a> y <a href='http://www.grifols.es/es/web/spain/our_company' target='_blank'>Grifols</a>, entre muchos otros.",
     "Section1Text4": "<a href='mailto:davidnezan@gmail.com' target='_blank'>¿Necesitas ayuda para tu proyecto?</a>",
-    "Section1Text5": "Si buscas la definición de <b class='job-highlight'>creatividad</b> en la wiki, verás que es:",
-    "Section1Text6": "\" <i class='job-highlight'>... la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ...</i> \"",
+    "Section1Text5": [
+        "Si buscas la definición de <b class='job-highlight'>creatividad</b> en la wiki, verás que es:",
+        "Si buscas la definición de <b class='job-highlight'>adaptación laboral</b> en la wiki, verás que es:",
+        "Si buscas la definición de <b class='job-highlight'>proyecto</b> en la wiki, verás que es:",
+        "Si buscas la definición de <b class='job-highlight'>colaboración</b> en la wiki, verás que es:"
+    ],
+    "Section1Text6": [
+        "\" <i class='job-highlight'>... la capacidad de generar nuevas ideas o conceptos, de nuevas asociaciones entre ideas y conceptos conocidos, que habitualmente producen soluciones originales ...</i> \"",
+        "\" <i class='job-highlight'>... la adaptación laboral es aquel en el cual se afrontan todo tipo de cambios, existe la flexibilidad por parte del trabajador a la hora de hacer frente a imprevistos y aportar de manera ágil soluciones ...</i> \"",
+        "\" <i class='job-highlight'>... un proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único. De estos conceptos, se evidencia que la razón de un proyecto es alcanzar resultados o metas específicas dentro de los límites que imponen un presupuesto, calidades establecidas préviamente, y un lapso de tiempo previamente definido ...</i> \"",
+        "\" <i class='job-highlight'>... es una forma de producir bienes y servicios que se basa en comunidades de individuos autoorganizadas. En tales comunidades, el trabajo de muchas personas se coordina hacia un resultado compartido ...</i> \""
+    ],
     "Section1Text7.1": "Propongo:",
     "Section1Text7.2": "Idea",
-    "Section1Text7.3": "usar la ingeniería para encontrar la solución original",
+    "Section1Text7.3": [
+        "usar la ingeniería para encontrar la solución original",
+        "usar la ingeniería para adaptarse a la solución final",
+        "usar la ingeniería para lograr completar la solución objetivo",
+        "usar la ingeniería para colaborar en una solución conjunta"
+    ],
     "Section1Text8": "Toda mi experiencia y mis altos niveles de creatividad me hacen ser una persona versátil, proactiva, original y resolutiva. No temo los retos complejos, todo lo contrario, me apasiona resolver acertijos.",
     "Section1Text9": "<a href='mailto:davidnezan@gmail.com' target='_blank'>¡Contacta conmigo y formúlame el problema!</a>",
     "Section2Text1": "Back-end",
