@@ -6,6 +6,7 @@ import { SafeUrlPipe } from './safe.url.pipe';
 import { KeysArrayPipe } from './keys.array.pipe';
 import { FilterProjectPipe } from './filter.project';
 import { RandomPipe } from './random.pipe';
+import { DecodeUrlPipe } from './decode.url.pipe';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { RandomPipe } from './random.pipe';
     SafeHtmlPipe,
     KeysArrayPipe,
     FilterProjectPipe,
-    RandomPipe
+    RandomPipe,
+    DecodeUrlPipe
   ],
   exports: [
     SafeUrlPipe,
@@ -25,7 +27,8 @@ import { RandomPipe } from './random.pipe';
     SafeHtmlPipe,
     KeysArrayPipe,
     FilterProjectPipe,
-    RandomPipe
+    RandomPipe,
+    DecodeUrlPipe
   ]
 })
 export class PipesModule { }

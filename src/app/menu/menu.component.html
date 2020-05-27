@@ -1,6 +1,6 @@
 <nav class="nav navbar navbar-dark navbar-expand-md ml-auto fixed-top">
 	<div class="container barra-menu">
-		<span class="navbar-brand" href="#" routerLink="main">
+		<span class="navbar-brand">
 			<span class="blinker">_</span>
 			<span class="text"></span>
 		</span>
@@ -12,8 +12,8 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsingNavbar2">
+			<hr class="style-three d-block d-sm-none">
 			<ul class="navbar-nav ml-auto">
-				<hr class="style-three d-block d-sm-none">
 				<li class="nav-item">
 					<a class="menu nav-link" (click)="onClickSection()" [routerLink]="ruta" fragment="section1">{{ 'TitleSection1' | translate }}</a>
 				</li>
@@ -39,9 +39,8 @@
 						<option *ngFor="let l of languages | keys" [value]="languages[l].value">{{languages[l].text}}</option>
 					</select>
 				</li>
-				<hr class="style-three d-block d-sm-none">
 				<li class="nav-item">
-					<a class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a href="#" class="menu nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
@@ -54,6 +53,7 @@
 					<app-music></app-music>
 				</li>
 			</ul>
+			<hr class="style-three d-block d-sm-none">
 		</div>
 	</div>
 </nav>

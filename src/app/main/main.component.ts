@@ -12,7 +12,7 @@ import { ExperienceComponent } from '../experience/experience.component';
 
 export class MainComponent {
 
-    private randomNumber: number = Math.floor(Math.random() * 4);
+    public randomNumber: number = Math.floor(Math.random() * 4);
 
     public static updateStuff: Subject<any> = new Subject();
 
